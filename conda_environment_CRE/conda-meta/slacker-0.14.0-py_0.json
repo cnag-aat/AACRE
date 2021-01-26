@@ -1,0 +1,105 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python",
+    "requests"
+  ],
+  "extracted_package_dir": "/home/devel/jgomez/.conda/pkgs/slacker-0.14.0-py_0",
+  "features": "",
+  "files": [
+    "lib/python3.6/site-packages/slacker-0.14.0.dist-info/INSTALLER",
+    "lib/python3.6/site-packages/slacker-0.14.0.dist-info/METADATA",
+    "lib/python3.6/site-packages/slacker-0.14.0.dist-info/RECORD",
+    "lib/python3.6/site-packages/slacker-0.14.0.dist-info/WHEEL",
+    "lib/python3.6/site-packages/slacker-0.14.0.dist-info/top_level.txt",
+    "lib/python3.6/site-packages/slacker/__init__.py",
+    "lib/python3.6/site-packages/slacker/utilities.py",
+    "lib/python3.6/site-packages/slacker/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/slacker/__pycache__/utilities.cpython-36.pyc"
+  ],
+  "fn": "slacker-0.14.0-py_0.tar.bz2",
+  "license": "Apache-2.0",
+  "license_family": "Apache",
+  "link": {
+    "source": "/home/devel/jgomez/.conda/pkgs/slacker-0.14.0-py_0",
+    "type": 1
+  },
+  "md5": "ea6b3b3b8babd487cdbcccb7f42c2ccf",
+  "name": "slacker",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/devel/jgomez/.conda/pkgs/slacker-0.14.0-py_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/slacker-0.14.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/slacker-0.14.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "352028681fe774cec72d2cbec533ee6a2e199c1f62246888194a6f52890d0a58",
+        "sha256_in_prefix": "352028681fe774cec72d2cbec533ee6a2e199c1f62246888194a6f52890d0a58",
+        "size_in_bytes": 2972
+      },
+      {
+        "_path": "site-packages/slacker-0.14.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "8b94a8eb954b206677e392074729ff05a8c31f984e664cc24da08cfb34597ad1",
+        "sha256_in_prefix": "8b94a8eb954b206677e392074729ff05a8c31f984e664cc24da08cfb34597ad1",
+        "size_in_bytes": 598
+      },
+      {
+        "_path": "site-packages/slacker-0.14.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "09b51d2d3a83dfee3359e99ff37ae047fdbf302e13797c3da97c2b5ed7b9c38c",
+        "sha256_in_prefix": "09b51d2d3a83dfee3359e99ff37ae047fdbf302e13797c3da97c2b5ed7b9c38c",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/slacker-0.14.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "7b88e2be5dfbb24d256b438806cbf60c40f23d3c0a42204309829f2ca06119be",
+        "sha256_in_prefix": "7b88e2be5dfbb24d256b438806cbf60c40f23d3c0a42204309829f2ca06119be",
+        "size_in_bytes": 8
+      },
+      {
+        "_path": "site-packages/slacker/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "3e2f121bc5acf1141ab7477aee4b9187268af78a7ad37e7665836ec8056c51b9",
+        "sha256_in_prefix": "3e2f121bc5acf1141ab7477aee4b9187268af78a7ad37e7665836ec8056c51b9",
+        "size_in_bytes": 42863
+      },
+      {
+        "_path": "site-packages/slacker/utilities.py",
+        "path_type": "hardlink",
+        "sha256": "ead76ced0fcd71d20e6faa9643fada794d491f33046875ef55371759cdedb2ce",
+        "sha256_in_prefix": "ead76ced0fcd71d20e6faa9643fada794d491f33046875ef55371759cdedb2ce",
+        "size_in_bytes": 383
+      },
+      {
+        "_path": "lib/python3.6/site-packages/slacker/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/slacker/__pycache__/utilities.cpython-36.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "538123085acedfca171b979eab88674c0fa2ffc9879ff62fe8c57484f8743940",
+  "size": 15628,
+  "subdir": "noarch",
+  "timestamp": 1582919104532,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/slacker-0.14.0-py_0.tar.bz2",
+  "version": "0.14.0"
+}

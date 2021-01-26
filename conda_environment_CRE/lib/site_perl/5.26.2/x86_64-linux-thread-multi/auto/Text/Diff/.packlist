@@ -1,0 +1,6 @@
+/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE/lib/site_perl/5.26.2/Text/Diff.pm relocate_as=../../../../Text/Diff.pm
+/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE/lib/site_perl/5.26.2/Text/Diff/Config.pm relocate_as=../../../../Text/Diff/Config.pm
+/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE/lib/site_perl/5.26.2/Text/Diff/Table.pm relocate_as=../../../../Text/Diff/Table.pm
+/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE/man/man3/Text::Diff.3 relocate_as=../../../../../../../man/man3/Text::Diff.3
+/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE/man/man3/Text::Diff::Config.3 relocate_as=../../../../../../../man/man3/Text::Diff::Config.3
+/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE/man/man3/Text::Diff::Table.3 relocate_as=../../../../../../../man/man3/Text::Diff::Table.3

@@ -1,0 +1,56 @@
+{
+  "build": "hed695b0_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/bioconda/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=7.5.0",
+    "zlib >=1.2.11,<1.3.0a0"
+  ],
+  "extracted_package_dir": "/home/devel/jgomez/.conda/pkgs/miniasm-0.3_r179-hed695b0_1",
+  "features": "",
+  "files": [
+    "bin/miniasm",
+    "bin/minidot"
+  ],
+  "fn": "miniasm-0.3_r179-hed695b0_1.tar.bz2",
+  "license": "MIT",
+  "link": {
+    "source": "/home/devel/jgomez/.conda/pkgs/miniasm-0.3_r179-hed695b0_1",
+    "type": 1
+  },
+  "md5": "475ab0fe8afb1e88e3af1f9e231b6fc7",
+  "name": "miniasm",
+  "package_tarball_full_path": "/home/devel/jgomez/.conda/pkgs/miniasm-0.3_r179-hed695b0_1.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/miniasm",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/miniasm_1594679084578/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "787e2a7650fceb606e0dee765e48a4f3b6f5ac3e9feb8e10a7550dcdf2e9f2ec",
+        "sha256_in_prefix": "c8493d0f85b6908455061192f196247451e9f0cd96454880e7e888ebca05bb99",
+        "size_in_bytes": 228392
+      },
+      {
+        "_path": "bin/minidot",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/miniasm_1594679084578/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "dfb03c427505da5dc712e28251e5f46e3d09724874a3544525ca7cf952944881",
+        "sha256_in_prefix": "0871032b173b5180dfa969bf3f7e8fa0f090730b68931c7553205ce3df077701",
+        "size_in_bytes": 105344
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "cf2a4279a3c78a6d76ed6c59cd4887bbc8446aa8d0b6bc8225d031b34624b5a5",
+  "size": 118365,
+  "subdir": "linux-64",
+  "timestamp": 1594679198043,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/linux-64/miniasm-0.3_r179-hed695b0_1.tar.bz2",
+  "version": "0.3_r179"
+}

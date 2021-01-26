@@ -1,0 +1,599 @@
+{
+  "build": "py36he9cec78_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "graphviz >=2.40.1,<3.0a0",
+    "libgcc-ng >=9.3.0",
+    "python >=3.6,<3.7.0a0",
+    "python_abi 3.6.* *_cp36m"
+  ],
+  "extracted_package_dir": "/home/devel/jgomez/.conda/pkgs/pygraphviz-1.6-py36he9cec78_1",
+  "features": "",
+  "files": [
+    "lib/python3.6/site-packages/pygraphviz-1.6.dist-info/INSTALLER",
+    "lib/python3.6/site-packages/pygraphviz-1.6.dist-info/LICENSE",
+    "lib/python3.6/site-packages/pygraphviz-1.6.dist-info/METADATA",
+    "lib/python3.6/site-packages/pygraphviz-1.6.dist-info/RECORD",
+    "lib/python3.6/site-packages/pygraphviz-1.6.dist-info/REQUESTED",
+    "lib/python3.6/site-packages/pygraphviz-1.6.dist-info/WHEEL",
+    "lib/python3.6/site-packages/pygraphviz-1.6.dist-info/direct_url.json",
+    "lib/python3.6/site-packages/pygraphviz-1.6.dist-info/top_level.txt",
+    "lib/python3.6/site-packages/pygraphviz/__init__.py",
+    "lib/python3.6/site-packages/pygraphviz/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/pygraphviz/__pycache__/agraph.cpython-36.pyc",
+    "lib/python3.6/site-packages/pygraphviz/__pycache__/graphviz.cpython-36.pyc",
+    "lib/python3.6/site-packages/pygraphviz/__pycache__/release.cpython-36.pyc",
+    "lib/python3.6/site-packages/pygraphviz/__pycache__/version.cpython-36.pyc",
+    "lib/python3.6/site-packages/pygraphviz/_graphviz.cpython-36m-x86_64-linux-gnu.so",
+    "lib/python3.6/site-packages/pygraphviz/agraph.py",
+    "lib/python3.6/site-packages/pygraphviz/graphviz.i",
+    "lib/python3.6/site-packages/pygraphviz/graphviz.py",
+    "lib/python3.6/site-packages/pygraphviz/graphviz_wrap.c",
+    "lib/python3.6/site-packages/pygraphviz/release.py",
+    "lib/python3.6/site-packages/pygraphviz/tests/__init__.py",
+    "lib/python3.6/site-packages/pygraphviz/tests/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/pygraphviz/tests/__pycache__/test.cpython-36.pyc",
+    "lib/python3.6/site-packages/pygraphviz/tests/__pycache__/test_attribute_defaults.cpython-36.pyc",
+    "lib/python3.6/site-packages/pygraphviz/tests/__pycache__/test_attributes.cpython-36.pyc",
+    "lib/python3.6/site-packages/pygraphviz/tests/__pycache__/test_clear.cpython-36.pyc",
+    "lib/python3.6/site-packages/pygraphviz/tests/__pycache__/test_close.cpython-36.pyc",
+    "lib/python3.6/site-packages/pygraphviz/tests/__pycache__/test_drawing.cpython-36.pyc",
+    "lib/python3.6/site-packages/pygraphviz/tests/__pycache__/test_edge_attributes.cpython-36.pyc",
+    "lib/python3.6/site-packages/pygraphviz/tests/__pycache__/test_graph.cpython-36.pyc",
+    "lib/python3.6/site-packages/pygraphviz/tests/__pycache__/test_html.cpython-36.pyc",
+    "lib/python3.6/site-packages/pygraphviz/tests/__pycache__/test_layout.cpython-36.pyc",
+    "lib/python3.6/site-packages/pygraphviz/tests/__pycache__/test_node_attributes.cpython-36.pyc",
+    "lib/python3.6/site-packages/pygraphviz/tests/__pycache__/test_readwrite.cpython-36.pyc",
+    "lib/python3.6/site-packages/pygraphviz/tests/__pycache__/test_setup.cpython-36.pyc",
+    "lib/python3.6/site-packages/pygraphviz/tests/__pycache__/test_string.cpython-36.pyc",
+    "lib/python3.6/site-packages/pygraphviz/tests/__pycache__/test_subgraph.cpython-36.pyc",
+    "lib/python3.6/site-packages/pygraphviz/tests/__pycache__/test_unicode.cpython-36.pyc",
+    "lib/python3.6/site-packages/pygraphviz/tests/test.py",
+    "lib/python3.6/site-packages/pygraphviz/tests/test_attribute_defaults.py",
+    "lib/python3.6/site-packages/pygraphviz/tests/test_attributes.py",
+    "lib/python3.6/site-packages/pygraphviz/tests/test_clear.py",
+    "lib/python3.6/site-packages/pygraphviz/tests/test_close.py",
+    "lib/python3.6/site-packages/pygraphviz/tests/test_drawing.py",
+    "lib/python3.6/site-packages/pygraphviz/tests/test_edge_attributes.py",
+    "lib/python3.6/site-packages/pygraphviz/tests/test_graph.py",
+    "lib/python3.6/site-packages/pygraphviz/tests/test_html.py",
+    "lib/python3.6/site-packages/pygraphviz/tests/test_layout.py",
+    "lib/python3.6/site-packages/pygraphviz/tests/test_node_attributes.py",
+    "lib/python3.6/site-packages/pygraphviz/tests/test_readwrite.py",
+    "lib/python3.6/site-packages/pygraphviz/tests/test_setup.py",
+    "lib/python3.6/site-packages/pygraphviz/tests/test_string.py",
+    "lib/python3.6/site-packages/pygraphviz/tests/test_subgraph.py",
+    "lib/python3.6/site-packages/pygraphviz/tests/test_unicode.py",
+    "lib/python3.6/site-packages/pygraphviz/version.py",
+    "share/doc/pygraphviz-1.6/INSTALL.txt",
+    "share/doc/pygraphviz-1.6/examples/__pycache__/attributes.cpython-36.pyc",
+    "share/doc/pygraphviz-1.6/examples/__pycache__/django_simple.cpython-36.pyc",
+    "share/doc/pygraphviz-1.6/examples/__pycache__/miles.cpython-36.pyc",
+    "share/doc/pygraphviz-1.6/examples/__pycache__/simple.cpython-36.pyc",
+    "share/doc/pygraphviz-1.6/examples/__pycache__/star.cpython-36.pyc",
+    "share/doc/pygraphviz-1.6/examples/__pycache__/subgraph.cpython-36.pyc",
+    "share/doc/pygraphviz-1.6/examples/__pycache__/utf8_encoding.cpython-36.pyc",
+    "share/doc/pygraphviz-1.6/examples/attributes.py",
+    "share/doc/pygraphviz-1.6/examples/django_simple.py",
+    "share/doc/pygraphviz-1.6/examples/miles.py",
+    "share/doc/pygraphviz-1.6/examples/simple.py",
+    "share/doc/pygraphviz-1.6/examples/star.py",
+    "share/doc/pygraphviz-1.6/examples/subgraph.py",
+    "share/doc/pygraphviz-1.6/examples/utf8_encoding.py"
+  ],
+  "fn": "pygraphviz-1.6-py36he9cec78_1.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/home/devel/jgomez/.conda/pkgs/pygraphviz-1.6-py36he9cec78_1",
+    "type": 1
+  },
+  "md5": "ef80160865705f5b134f7a6f2d74dd1a",
+  "name": "pygraphviz",
+  "package_tarball_full_path": "/home/devel/jgomez/.conda/pkgs/pygraphviz-1.6-py36he9cec78_1.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.6/site-packages/pygraphviz-1.6.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pygraphviz-1.6.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "c9f1aba45941fb3879d1cae3eea04641ed053fd5a552997fcfacf0bebcffe927",
+        "sha256_in_prefix": "c9f1aba45941fb3879d1cae3eea04641ed053fd5a552997fcfacf0bebcffe927",
+        "size_in_bytes": 1621
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pygraphviz-1.6.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "954219c46ed7ccb1f683e6c550fe49b4ca6c78af8f05d97e9c77e0e91b569037",
+        "sha256_in_prefix": "954219c46ed7ccb1f683e6c550fe49b4ca6c78af8f05d97e9c77e0e91b569037",
+        "size_in_bytes": 1611
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pygraphviz-1.6.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "81eed79c7daea36ac59695be8847899b094ec62d4abe605f77024e045c2a049c",
+        "sha256_in_prefix": "81eed79c7daea36ac59695be8847899b094ec62d4abe605f77024e045c2a049c",
+        "size_in_bytes": 5611
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pygraphviz-1.6.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pygraphviz-1.6.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "e6600d5f7f77cf78bbb9c1adce415e780496875431a3f757a1b4deb731964435",
+        "sha256_in_prefix": "e6600d5f7f77cf78bbb9c1adce415e780496875431a3f757a1b4deb731964435",
+        "size_in_bytes": 104
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pygraphviz-1.6.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "e2f9ccf5444cff9cd6c047a9edb5f2ecee6d39eae7035220a16a82cff26123a8",
+        "sha256_in_prefix": "e2f9ccf5444cff9cd6c047a9edb5f2ecee6d39eae7035220a16a82cff26123a8",
+        "size_in_bytes": 106
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pygraphviz-1.6.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "265fde6d20b70e07531dfc796ae07ca7a9d15cc69eb4dca5488928fcee2bab1d",
+        "sha256_in_prefix": "265fde6d20b70e07531dfc796ae07ca7a9d15cc69eb4dca5488928fcee2bab1d",
+        "size_in_bytes": 11
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pygraphviz/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "dd75a136a30b997ad65afcc9721e1bd44074e8c3ee884b78cb8af3921a83e1a3",
+        "sha256_in_prefix": "dd75a136a30b997ad65afcc9721e1bd44074e8c3ee884b78cb8af3921a83e1a3",
+        "size_in_bytes": 1602
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pygraphviz/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "a4d6c2dd13c574af576c036c5782fff7cbb3af6792a7b53ba124c18a99248587",
+        "sha256_in_prefix": "a4d6c2dd13c574af576c036c5782fff7cbb3af6792a7b53ba124c18a99248587",
+        "size_in_bytes": 1080
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pygraphviz/__pycache__/agraph.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "b03e83c3607ad1876cddb9c712992b22c8821b2e0c3ad905f5349bff59645a73",
+        "sha256_in_prefix": "b03e83c3607ad1876cddb9c712992b22c8821b2e0c3ad905f5349bff59645a73",
+        "size_in_bytes": 51027
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pygraphviz/__pycache__/graphviz.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "a70d303b1281d97899605e6425426859c135ec27f65b0a02ded012c94ca94686",
+        "sha256_in_prefix": "a70d303b1281d97899605e6425426859c135ec27f65b0a02ded012c94ca94686",
+        "size_in_bytes": 9204
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pygraphviz/__pycache__/release.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "5479a0219b61acc36d58f9ae1ff71480838fb57dd5f1ffe10f1a12223ba7c40e",
+        "sha256_in_prefix": "5479a0219b61acc36d58f9ae1ff71480838fb57dd5f1ffe10f1a12223ba7c40e",
+        "size_in_bytes": 3095
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pygraphviz/__pycache__/version.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "58a7cd77e286cdbfbfd1d6281d8145f4694c4205914539a3395970a64f0da478",
+        "sha256_in_prefix": "58a7cd77e286cdbfbfd1d6281d8145f4694c4205914539a3395970a64f0da478",
+        "size_in_bytes": 338
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pygraphviz/_graphviz.cpython-36m-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "3a96ff661e1146179c85720ea3d0d76784793a220ff7357fea8601f0ca40ed48",
+        "sha256_in_prefix": "3a96ff661e1146179c85720ea3d0d76784793a220ff7357fea8601f0ca40ed48",
+        "size_in_bytes": 79648
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pygraphviz/agraph.py",
+        "path_type": "hardlink",
+        "sha256": "5a3e40dee21380d41259afa651bd0a2d3c84d1cb1f83efd5749307b4be191cd0",
+        "sha256_in_prefix": "5a3e40dee21380d41259afa651bd0a2d3c84d1cb1f83efd5749307b4be191cd0",
+        "size_in_bytes": 61026
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pygraphviz/graphviz.i",
+        "path_type": "hardlink",
+        "sha256": "b5c046d040dc60d55261783f216da5b9422614c0aa3c13ab3bfac814bad05f25",
+        "sha256_in_prefix": "b5c046d040dc60d55261783f216da5b9422614c0aa3c13ab3bfac814bad05f25",
+        "size_in_bytes": 7784
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pygraphviz/graphviz.py",
+        "path_type": "hardlink",
+        "sha256": "c588caf602ef75e1e20416f6e36ca9ad4d5a3e7597c5fb15951d9de5295ae1fa",
+        "sha256_in_prefix": "c588caf602ef75e1e20416f6e36ca9ad4d5a3e7597c5fb15951d9de5295ae1fa",
+        "size_in_bytes": 6557
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pygraphviz/graphviz_wrap.c",
+        "path_type": "hardlink",
+        "sha256": "0ac1387da1258ac4f1ba01775f4ebbc0bfb9feb16d4bc9ced688398385682fea",
+        "sha256_in_prefix": "0ac1387da1258ac4f1ba01775f4ebbc0bfb9feb16d4bc9ced688398385682fea",
+        "size_in_bytes": 181556
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pygraphviz/release.py",
+        "path_type": "hardlink",
+        "sha256": "3b89679e102f37b723fe7c322d090cae244db584a599b6dcb651bc2abfd6ad89",
+        "sha256_in_prefix": "3b89679e102f37b723fe7c322d090cae244db584a599b6dcb651bc2abfd6ad89",
+        "size_in_bytes": 3898
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pygraphviz/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pygraphviz/tests/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "89517c91e9d938ba2fd43b66ad1c126ef3add53f05cb31821cbe3e539a4148ca",
+        "sha256_in_prefix": "89517c91e9d938ba2fd43b66ad1c126ef3add53f05cb31821cbe3e539a4148ca",
+        "size_in_bytes": 139
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pygraphviz/tests/__pycache__/test.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "5b6c7c855436a6922c22109b6dec1ad704820b50d1245b29aab4d9addd75ec81",
+        "sha256_in_prefix": "5b6c7c855436a6922c22109b6dec1ad704820b50d1245b29aab4d9addd75ec81",
+        "size_in_bytes": 1168
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pygraphviz/tests/__pycache__/test_attribute_defaults.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "48981ec60a78a4824dd54a86eb4e55b02286527daaaf9af1933ee121a2ecf2ef",
+        "sha256_in_prefix": "48981ec60a78a4824dd54a86eb4e55b02286527daaaf9af1933ee121a2ecf2ef",
+        "size_in_bytes": 2550
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pygraphviz/tests/__pycache__/test_attributes.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "d149d53e32136439b12771418533d32a5c87ff662bc401121458117573728539",
+        "sha256_in_prefix": "d149d53e32136439b12771418533d32a5c87ff662bc401121458117573728539",
+        "size_in_bytes": 200
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pygraphviz/tests/__pycache__/test_clear.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "a98fdfa5c50d273485a3998d20cff47ed10f0548e3932a6ac2a5aabef390cd2e",
+        "sha256_in_prefix": "a98fdfa5c50d273485a3998d20cff47ed10f0548e3932a6ac2a5aabef390cd2e",
+        "size_in_bytes": 1063
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pygraphviz/tests/__pycache__/test_close.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "04411a37c6686898a5143ebb2da3c70c30b9e535cc6227dd67bf611a9b58f078",
+        "sha256_in_prefix": "04411a37c6686898a5143ebb2da3c70c30b9e535cc6227dd67bf611a9b58f078",
+        "size_in_bytes": 573
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pygraphviz/tests/__pycache__/test_drawing.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "c42c4936191938177ad1d2f748e0c42bd5cadf1e71dc52673360aeb2cb641ddc",
+        "sha256_in_prefix": "c42c4936191938177ad1d2f748e0c42bd5cadf1e71dc52673360aeb2cb641ddc",
+        "size_in_bytes": 649
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pygraphviz/tests/__pycache__/test_edge_attributes.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "eab2e58f5f3b321fdc6478991e9fa90406195dc173f8f62d911d910c5495cdfc",
+        "sha256_in_prefix": "eab2e58f5f3b321fdc6478991e9fa90406195dc173f8f62d911d910c5495cdfc",
+        "size_in_bytes": 2471
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pygraphviz/tests/__pycache__/test_graph.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "3198900e68c9471a0e251a186a97a6fb1dc9ec5ff4e19c71393acef0a3078f79",
+        "sha256_in_prefix": "3198900e68c9471a0e251a186a97a6fb1dc9ec5ff4e19c71393acef0a3078f79",
+        "size_in_bytes": 14357
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pygraphviz/tests/__pycache__/test_html.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "96c436007bd56c2d74ca671e4bfe6d59282a7ba88084559dd7e70cc71c20bb80",
+        "sha256_in_prefix": "96c436007bd56c2d74ca671e4bfe6d59282a7ba88084559dd7e70cc71c20bb80",
+        "size_in_bytes": 2585
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pygraphviz/tests/__pycache__/test_layout.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "093aa0c52114393eb4eaf7704f21b6e6f0190146d39bb62e76b6fc52a927f169",
+        "sha256_in_prefix": "093aa0c52114393eb4eaf7704f21b6e6f0190146d39bb62e76b6fc52a927f169",
+        "size_in_bytes": 607
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pygraphviz/tests/__pycache__/test_node_attributes.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "130d3f6eb09b1a8b3a7791b9c076a242b0ee7dc8cc92d8be12690b2431858501",
+        "sha256_in_prefix": "130d3f6eb09b1a8b3a7791b9c076a242b0ee7dc8cc92d8be12690b2431858501",
+        "size_in_bytes": 1858
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pygraphviz/tests/__pycache__/test_readwrite.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "1ffb6e63d7ad3152a73429cc663749e7bceee2f278132220e21afeb773a31d9b",
+        "sha256_in_prefix": "1ffb6e63d7ad3152a73429cc663749e7bceee2f278132220e21afeb773a31d9b",
+        "size_in_bytes": 1229
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pygraphviz/tests/__pycache__/test_setup.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "f735d1df4b1f6fd5196dca8e3dd43a933525f592ff01e9f8d8158cedb8938244",
+        "sha256_in_prefix": "f735d1df4b1f6fd5196dca8e3dd43a933525f592ff01e9f8d8158cedb8938244",
+        "size_in_bytes": 1444
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pygraphviz/tests/__pycache__/test_string.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "df42de39117a02254318191e90218c885a8014b45a00ad6f05543a0762823a9c",
+        "sha256_in_prefix": "df42de39117a02254318191e90218c885a8014b45a00ad6f05543a0762823a9c",
+        "size_in_bytes": 1647
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pygraphviz/tests/__pycache__/test_subgraph.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "fae9976ab684ce04d4443933115c0d3cce785ec043f3ca976bdd21a57d83f479",
+        "sha256_in_prefix": "fae9976ab684ce04d4443933115c0d3cce785ec043f3ca976bdd21a57d83f479",
+        "size_in_bytes": 1553
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pygraphviz/tests/__pycache__/test_unicode.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "8a1a7c52d9674cde0d58775f3f3baab857b7dbf135ff60b11c3440919d7945c1",
+        "sha256_in_prefix": "8a1a7c52d9674cde0d58775f3f3baab857b7dbf135ff60b11c3440919d7945c1",
+        "size_in_bytes": 1375
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pygraphviz/tests/test.py",
+        "path_type": "hardlink",
+        "sha256": "2196e03db10c857ff5873b598b9cef9529a6e5207fac76c0344d2412725cc00b",
+        "sha256_in_prefix": "2196e03db10c857ff5873b598b9cef9529a6e5207fac76c0344d2412725cc00b",
+        "size_in_bytes": 1094
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pygraphviz/tests/test_attribute_defaults.py",
+        "path_type": "hardlink",
+        "sha256": "dea2724682b43a48cb374c23f04f40aa308f1be764e8c7e8cc6c818cacba330e",
+        "sha256_in_prefix": "dea2724682b43a48cb374c23f04f40aa308f1be764e8c7e8cc6c818cacba330e",
+        "size_in_bytes": 2952
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pygraphviz/tests/test_attributes.py",
+        "path_type": "hardlink",
+        "sha256": "2db98405d4310f9dc50d73b2c5a7c229d15e370fc60d1f30483ebed4c9b24b3c",
+        "sha256_in_prefix": "2db98405d4310f9dc50d73b2c5a7c229d15e370fc60d1f30483ebed4c9b24b3c",
+        "size_in_bytes": 50
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pygraphviz/tests/test_clear.py",
+        "path_type": "hardlink",
+        "sha256": "8fd9e936683d153cd33ac65c4fa71a222843f16d6ae804532fca63d015cd7eec",
+        "sha256_in_prefix": "8fd9e936683d153cd33ac65c4fa71a222843f16d6ae804532fca63d015cd7eec",
+        "size_in_bytes": 919
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pygraphviz/tests/test_close.py",
+        "path_type": "hardlink",
+        "sha256": "ae941780ca891e50eec93c655fee05595035aa774be1804e68fd2ffb325abbd8",
+        "sha256_in_prefix": "ae941780ca891e50eec93c655fee05595035aa774be1804e68fd2ffb325abbd8",
+        "size_in_bytes": 318
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pygraphviz/tests/test_drawing.py",
+        "path_type": "hardlink",
+        "sha256": "2833f2257826a3f0f5ef5b3f0d10550702da032a75b1d453f7e4f698b7255589",
+        "sha256_in_prefix": "2833f2257826a3f0f5ef5b3f0d10550702da032a75b1d453f7e4f698b7255589",
+        "size_in_bytes": 637
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pygraphviz/tests/test_edge_attributes.py",
+        "path_type": "hardlink",
+        "sha256": "1ff8d9ea91f33f3744987898ff487f217101dfb982171a2833560e890ca7a019",
+        "sha256_in_prefix": "1ff8d9ea91f33f3744987898ff487f217101dfb982171a2833560e890ca7a019",
+        "size_in_bytes": 2146
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pygraphviz/tests/test_graph.py",
+        "path_type": "hardlink",
+        "sha256": "5e22f9aa2901598a4f8a7f745af99e90bcb0a7fa930114d06a6a621bbff59548",
+        "sha256_in_prefix": "5e22f9aa2901598a4f8a7f745af99e90bcb0a7fa930114d06a6a621bbff59548",
+        "size_in_bytes": 11994
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pygraphviz/tests/test_html.py",
+        "path_type": "hardlink",
+        "sha256": "d7e8c60d81bf34528720aa14d2e23dd27675f65efaa472fda248ffdfa0f3f319",
+        "sha256_in_prefix": "d7e8c60d81bf34528720aa14d2e23dd27675f65efaa472fda248ffdfa0f3f319",
+        "size_in_bytes": 2311
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pygraphviz/tests/test_layout.py",
+        "path_type": "hardlink",
+        "sha256": "5ca3cee3b90326da2e0835285bfc99eb9ab1a7c7e366ec1844301fc12047ebc6",
+        "sha256_in_prefix": "5ca3cee3b90326da2e0835285bfc99eb9ab1a7c7e366ec1844301fc12047ebc6",
+        "size_in_bytes": 234
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pygraphviz/tests/test_node_attributes.py",
+        "path_type": "hardlink",
+        "sha256": "da227f7010cb35735948ef276109889215d7b29e98893fee9462a3e1edca0234",
+        "sha256_in_prefix": "da227f7010cb35735948ef276109889215d7b29e98893fee9462a3e1edca0234",
+        "size_in_bytes": 1664
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pygraphviz/tests/test_readwrite.py",
+        "path_type": "hardlink",
+        "sha256": "04e2f790ba7431b35f53cc9e098bfd757be9ad3659542c730b651f31c711a5f6",
+        "sha256_in_prefix": "04e2f790ba7431b35f53cc9e098bfd757be9ad3659542c730b651f31c711a5f6",
+        "size_in_bytes": 1193
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pygraphviz/tests/test_setup.py",
+        "path_type": "hardlink",
+        "sha256": "cf75560ff94cab5b20c8db3c216b9d825cfc07e9a9451d8f5267c04786c1a780",
+        "sha256_in_prefix": "cf75560ff94cab5b20c8db3c216b9d825cfc07e9a9451d8f5267c04786c1a780",
+        "size_in_bytes": 1139
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pygraphviz/tests/test_string.py",
+        "path_type": "hardlink",
+        "sha256": "1597170946a0ebd6fac3c80e576924a225e6098f24e8cb57ade34059b9392bc7",
+        "sha256_in_prefix": "1597170946a0ebd6fac3c80e576924a225e6098f24e8cb57ade34059b9392bc7",
+        "size_in_bytes": 1061
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pygraphviz/tests/test_subgraph.py",
+        "path_type": "hardlink",
+        "sha256": "96a2cdf44d19c4ef805ac5ece90f61c85c6e8316d55efe0bcf3415f744ff9f9c",
+        "sha256_in_prefix": "96a2cdf44d19c4ef805ac5ece90f61c85c6e8316d55efe0bcf3415f744ff9f9c",
+        "size_in_bytes": 1120
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pygraphviz/tests/test_unicode.py",
+        "path_type": "hardlink",
+        "sha256": "5ef56e37234d528561038f6f50ed12e7c22a6009f14af891da4bf61115000b03",
+        "sha256_in_prefix": "5ef56e37234d528561038f6f50ed12e7c22a6009f14af891da4bf61115000b03",
+        "size_in_bytes": 1085
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pygraphviz/version.py",
+        "path_type": "hardlink",
+        "sha256": "644d99cab186e2dd29e1abecda4ff39ef551f3c16bcab73601df0999229d97dd",
+        "sha256_in_prefix": "644d99cab186e2dd29e1abecda4ff39ef551f3c16bcab73601df0999229d97dd",
+        "size_in_bytes": 195
+      },
+      {
+        "_path": "share/doc/pygraphviz-1.6/INSTALL.txt",
+        "path_type": "hardlink",
+        "sha256": "ea95d41004985eaa42199ad3dfa45a32b8b8c537944d8c56699cae788b859cf3",
+        "sha256_in_prefix": "ea95d41004985eaa42199ad3dfa45a32b8b8c537944d8c56699cae788b859cf3",
+        "size_in_bytes": 3080
+      },
+      {
+        "_path": "share/doc/pygraphviz-1.6/examples/__pycache__/attributes.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "22a782fddbbc05312b0d1d87e4533cf38cfe7874fb02e3506661d93e2a755c50",
+        "sha256_in_prefix": "22a782fddbbc05312b0d1d87e4533cf38cfe7874fb02e3506661d93e2a755c50",
+        "size_in_bytes": 551
+      },
+      {
+        "_path": "share/doc/pygraphviz-1.6/examples/__pycache__/django_simple.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "0390ba211ab66f5f87b73c7606f55a4896efdabb52c680b2cb892660dd7ab098",
+        "sha256_in_prefix": "0390ba211ab66f5f87b73c7606f55a4896efdabb52c680b2cb892660dd7ab098",
+        "size_in_bytes": 1026
+      },
+      {
+        "_path": "share/doc/pygraphviz-1.6/examples/__pycache__/miles.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "59e7a730711d9de01e3890a923d89ad374f6adebe38dccc337d54c6f6161910c",
+        "sha256_in_prefix": "59e7a730711d9de01e3890a923d89ad374f6adebe38dccc337d54c6f6161910c",
+        "size_in_bytes": 2557
+      },
+      {
+        "_path": "share/doc/pygraphviz-1.6/examples/__pycache__/simple.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "6af22012493a546a1a14fb02bc91d9384b631803ccaba3beab39592783e010c3",
+        "sha256_in_prefix": "6af22012493a546a1a14fb02bc91d9384b631803ccaba3beab39592783e010c3",
+        "size_in_bytes": 555
+      },
+      {
+        "_path": "share/doc/pygraphviz-1.6/examples/__pycache__/star.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "75dc6ee783f17ee39b0a53bfe90fce441807c14d3363e881df5187a440a6b4d6",
+        "sha256_in_prefix": "75dc6ee783f17ee39b0a53bfe90fce441807c14d3363e881df5187a440a6b4d6",
+        "size_in_bytes": 799
+      },
+      {
+        "_path": "share/doc/pygraphviz-1.6/examples/__pycache__/subgraph.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "834591773285cd404c09a20a7546d28a8783d724a27d6333bf1b6f7a97e87a0a",
+        "sha256_in_prefix": "834591773285cd404c09a20a7546d28a8783d724a27d6333bf1b6f7a97e87a0a",
+        "size_in_bytes": 437
+      },
+      {
+        "_path": "share/doc/pygraphviz-1.6/examples/__pycache__/utf8_encoding.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "88a0dae47231d679adc9367df18c15aefacb74359e0f02386f0d2d880b75697f",
+        "sha256_in_prefix": "88a0dae47231d679adc9367df18c15aefacb74359e0f02386f0d2d880b75697f",
+        "size_in_bytes": 622
+      },
+      {
+        "_path": "share/doc/pygraphviz-1.6/examples/attributes.py",
+        "path_type": "hardlink",
+        "sha256": "040b133c045f91cf42c57052a995fd0a9f6b2902be33e7dd2fc98f4ba4e3d2d5",
+        "sha256_in_prefix": "040b133c045f91cf42c57052a995fd0a9f6b2902be33e7dd2fc98f4ba4e3d2d5",
+        "size_in_bytes": 602
+      },
+      {
+        "_path": "share/doc/pygraphviz-1.6/examples/django_simple.py",
+        "path_type": "hardlink",
+        "sha256": "5f2acd2e5893fd93137ab88c116bb95eeee9d929caa37c3aaea1813216999973",
+        "sha256_in_prefix": "5f2acd2e5893fd93137ab88c116bb95eeee9d929caa37c3aaea1813216999973",
+        "size_in_bytes": 1236
+      },
+      {
+        "_path": "share/doc/pygraphviz-1.6/examples/miles.py",
+        "path_type": "hardlink",
+        "sha256": "d6da5f060fb3c8ca2138dddf86e810527fad0d9dae843a834d0415b95f9e81a6",
+        "sha256_in_prefix": "d6da5f060fb3c8ca2138dddf86e810527fad0d9dae843a834d0415b95f9e81a6",
+        "size_in_bytes": 3081
+      },
+      {
+        "_path": "share/doc/pygraphviz-1.6/examples/simple.py",
+        "path_type": "hardlink",
+        "sha256": "30731d14ab1c27b8a4dcaf6bc17d003f55b3d88f21f3b56df403c112c86e7f6c",
+        "sha256_in_prefix": "30731d14ab1c27b8a4dcaf6bc17d003f55b3d88f21f3b56df403c112c86e7f6c",
+        "size_in_bytes": 755
+      },
+      {
+        "_path": "share/doc/pygraphviz-1.6/examples/star.py",
+        "path_type": "hardlink",
+        "sha256": "760765334804277d3d7d990e3fbed8c50fd15b497d3352ab39def712d6f8f0ba",
+        "sha256_in_prefix": "760765334804277d3d7d990e3fbed8c50fd15b497d3352ab39def712d6f8f0ba",
+        "size_in_bytes": 1014
+      },
+      {
+        "_path": "share/doc/pygraphviz-1.6/examples/subgraph.py",
+        "path_type": "hardlink",
+        "sha256": "c82d32766f12f3afd07b58889dd40e23e34b2c752b8cba97aa9f2ff0be396673",
+        "sha256_in_prefix": "c82d32766f12f3afd07b58889dd40e23e34b2c752b8cba97aa9f2ff0be396673",
+        "size_in_bytes": 377
+      },
+      {
+        "_path": "share/doc/pygraphviz-1.6/examples/utf8_encoding.py",
+        "path_type": "hardlink",
+        "sha256": "d6469e4fdd21055834b4698a680a854d7d16196b677a5b14f66236fbb4d99840",
+        "sha256_in_prefix": "d6469e4fdd21055834b4698a680a854d7d16196b677a5b14f66236fbb4d99840",
+        "size_in_bytes": 801
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "fa931111c4ed3e48db89a1756a166b5b381200202fc8069b9020b34b8947565e",
+  "size": 118502,
+  "subdir": "linux-64",
+  "timestamp": 1610720213088,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pygraphviz-1.6-py36he9cec78_1.tar.bz2",
+  "version": "1.6"
+}

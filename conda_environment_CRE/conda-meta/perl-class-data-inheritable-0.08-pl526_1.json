@@ -1,0 +1,71 @@
+{
+  "build": "pl526_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/bioconda/linux-64",
+  "constrains": [],
+  "depends": [
+    "perl >=5.26.2,<5.27.0a0"
+  ],
+  "extracted_package_dir": "/home/devel/jgomez/.conda/pkgs/perl-class-data-inheritable-0.08-pl526_1",
+  "features": "",
+  "files": [
+    "lib/5.26.2/x86_64-linux-thread-multi/perllocal.pod",
+    "lib/site_perl/5.26.2/Class/Data/Inheritable.pm",
+    "lib/site_perl/5.26.2/x86_64-linux-thread-multi/auto/Class/Data/Inheritable/.packlist",
+    "man/man3/Class::Data::Inheritable.3"
+  ],
+  "fn": "perl-class-data-inheritable-0.08-pl526_1.tar.bz2",
+  "license": "perl_5",
+  "link": {
+    "source": "/home/devel/jgomez/.conda/pkgs/perl-class-data-inheritable-0.08-pl526_1",
+    "type": 1
+  },
+  "md5": "e14ddc69cf2040a5e6578639a3cd4aa4",
+  "name": "perl-class-data-inheritable",
+  "package_tarball_full_path": "/home/devel/jgomez/.conda/pkgs/perl-class-data-inheritable-0.08-pl526_1.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/5.26.2/x86_64-linux-thread-multi/perllocal.pod",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "44bb8d664a2a41b1b6b163759126719fa354013d602afaf726e57b435d5bce0f",
+        "sha256_in_prefix": "bdda5b6fc6a21a1287e07558a08c2138dda7e44df73be10ecb8404f5fc517d11",
+        "size_in_bytes": 279
+      },
+      {
+        "_path": "lib/site_perl/5.26.2/Class/Data/Inheritable.pm",
+        "path_type": "hardlink",
+        "sha256": "0d50f734651fd4fb71984916b631f541261d086c611465946d33acad8528f41a",
+        "sha256_in_prefix": "0d50f734651fd4fb71984916b631f541261d086c611465946d33acad8528f41a",
+        "size_in_bytes": 4067
+      },
+      {
+        "_path": "lib/site_perl/5.26.2/x86_64-linux-thread-multi/auto/Class/Data/Inheritable/.packlist",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "bb571e7e0c3f892e77c10b46bf55ddc36d4aa5120ab92eb4f3c845974b2ce494",
+        "sha256_in_prefix": "665a300ff6a6abb2254132351eb5c2fad6e235976ac41338f89683cf5af01346",
+        "size_in_bytes": 274
+      },
+      {
+        "_path": "man/man3/Class::Data::Inheritable.3",
+        "path_type": "hardlink",
+        "sha256": "3b2b8ca3bcb115df4539233cf59c4c0f1b49349460bbb78779988714eba36c1f",
+        "sha256_in_prefix": "3b2b8ca3bcb115df4539233cf59c4c0f1b49349460bbb78779988714eba36c1f",
+        "size_in_bytes": 6064
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "5b893d090a34c46c17021bff2aacaecd425b6f09c96b1e9dbd303540f1b895cb",
+  "size": 7659,
+  "subdir": "linux-64",
+  "timestamp": 1530986347188,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/linux-64/perl-class-data-inheritable-0.08-pl526_1.tar.bz2",
+  "version": "0.08"
+}

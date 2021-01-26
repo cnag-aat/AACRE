@@ -1,0 +1,71 @@
+{
+  "build": "hed695b0_7",
+  "build_number": 7,
+  "channel": "https://conda.anaconda.org/bioconda/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=7.3.0",
+    "perl",
+    "zlib >=1.2.11,<1.3.0a0"
+  ],
+  "extracted_package_dir": "/home/devel/jgomez/.conda/pkgs/bwa-0.7.17-hed695b0_7",
+  "features": "",
+  "files": [
+    "bin/bwa",
+    "bin/qualfa2fq.pl",
+    "bin/xa2multi.pl",
+    "share/man/man1/bwa.1"
+  ],
+  "fn": "bwa-0.7.17-hed695b0_7.tar.bz2",
+  "license": "GPL3",
+  "link": {
+    "source": "/home/devel/jgomez/.conda/pkgs/bwa-0.7.17-hed695b0_7",
+    "type": 1
+  },
+  "md5": "6d49095f6313e395d6cee66d32259f1b",
+  "name": "bwa",
+  "package_tarball_full_path": "/home/devel/jgomez/.conda/pkgs/bwa-0.7.17-hed695b0_7.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/bwa",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/bwa_1576767020612/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+        "sha256": "064dce6a68b9df023a2f39af07400a736bddb2a154e03c09e9e06c5f8ffa322f",
+        "sha256_in_prefix": "da540ed552191a2544fc6b3a30d297ebaaa3f0889052d6bdb6f87ea927b6d757",
+        "size_in_bytes": 1362456
+      },
+      {
+        "_path": "bin/qualfa2fq.pl",
+        "path_type": "hardlink",
+        "sha256": "c4611242e729b28eb246c5911c849ffb41bc4d263ee5db11d3586d70354c1435",
+        "sha256_in_prefix": "c4611242e729b28eb246c5911c849ffb41bc4d263ee5db11d3586d70354c1435",
+        "size_in_bytes": 617
+      },
+      {
+        "_path": "bin/xa2multi.pl",
+        "path_type": "hardlink",
+        "sha256": "d699482d3ae30a0e6f16c245ecae37a4cb7213bdbe38c9bb0e722c15cd079c33",
+        "sha256_in_prefix": "d699482d3ae30a0e6f16c245ecae37a4cb7213bdbe38c9bb0e722c15cd079c33",
+        "size_in_bytes": 731
+      },
+      {
+        "_path": "share/man/man1/bwa.1",
+        "path_type": "hardlink",
+        "sha256": "e9416a2de3214ecdabc0cf928246233304a40494338805b73ceef9ceffb3dc94",
+        "sha256_in_prefix": "e9416a2de3214ecdabc0cf928246233304a40494338805b73ceef9ceffb3dc94",
+        "size_in_bytes": 27406
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "ab5f3bdbc542d69bd1033133c4f42e667d605988e97cd974c0837d6df94180ed",
+  "size": 535987,
+  "subdir": "linux-64",
+  "timestamp": 1576767109213,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/linux-64/bwa-0.7.17-hed695b0_7.tar.bz2",
+  "version": "0.7.17"
+}

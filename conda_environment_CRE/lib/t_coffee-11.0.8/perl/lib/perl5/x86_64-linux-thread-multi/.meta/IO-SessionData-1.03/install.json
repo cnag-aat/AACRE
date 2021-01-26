@@ -1,0 +1,1 @@
+{"version":"1.03","pathname":"P/PH/PHRED/IO-SessionData-1.03.tar.gz","dist":"IO-SessionData-1.03","target":"IO::SessionData","provides":{"IO::SessionSet":{"file":"IO/SessionSet.pm"},"IO::SessionData":{"file":"IO/SessionData.pm","version":"1.03"}},"name":"IO::SessionData"}

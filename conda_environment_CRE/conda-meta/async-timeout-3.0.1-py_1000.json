@@ -1,0 +1,107 @@
+{
+  "build": "py_1000",
+  "build_number": 1000,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.5.3"
+  ],
+  "extracted_package_dir": "/home/devel/jgomez/.conda/pkgs/async-timeout-3.0.1-py_1000",
+  "features": "",
+  "files": [
+    "lib/python3.6/site-packages/async_timeout-3.0.1.dist-info/INSTALLER",
+    "lib/python3.6/site-packages/async_timeout-3.0.1.dist-info/LICENSE",
+    "lib/python3.6/site-packages/async_timeout-3.0.1.dist-info/METADATA",
+    "lib/python3.6/site-packages/async_timeout-3.0.1.dist-info/RECORD",
+    "lib/python3.6/site-packages/async_timeout-3.0.1.dist-info/WHEEL",
+    "lib/python3.6/site-packages/async_timeout-3.0.1.dist-info/top_level.txt",
+    "lib/python3.6/site-packages/async_timeout/__init__.py",
+    "lib/python3.6/site-packages/async_timeout/py.typed",
+    "lib/python3.6/site-packages/async_timeout/__pycache__/__init__.cpython-36.pyc"
+  ],
+  "fn": "async-timeout-3.0.1-py_1000.tar.bz2",
+  "license": "Apache-2.0",
+  "license_family": "Apache",
+  "link": {
+    "source": "/home/devel/jgomez/.conda/pkgs/async-timeout-3.0.1-py_1000",
+    "type": 1
+  },
+  "md5": "8b11024b2762a07aaa07d2743231a41b",
+  "name": "async-timeout",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/devel/jgomez/.conda/pkgs/async-timeout-3.0.1-py_1000.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/async_timeout-3.0.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+        "sha256_in_prefix": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+        "size_in_bytes": 4
+      },
+      {
+        "_path": "site-packages/async_timeout-3.0.1.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+        "sha256_in_prefix": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+        "size_in_bytes": 11357
+      },
+      {
+        "_path": "site-packages/async_timeout-3.0.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "ff707227c2f4f9c539c16bbbe7f465f27d1991b482816d797cc02efc3cf04e6d",
+        "sha256_in_prefix": "ff707227c2f4f9c539c16bbbe7f465f27d1991b482816d797cc02efc3cf04e6d",
+        "size_in_bytes": 4013
+      },
+      {
+        "_path": "site-packages/async_timeout-3.0.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "d0694d5b54628584d4c895653efb071ad8f9aaba814955845a392f7943dc490c",
+        "sha256_in_prefix": "d0694d5b54628584d4c895653efb071ad8f9aaba814955845a392f7943dc490c",
+        "size_in_bytes": 730
+      },
+      {
+        "_path": "site-packages/async_timeout-3.0.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "1fe13934cc363946d383e69437b71918af88964e09471bbbe3969f18ddabb8ad",
+        "sha256_in_prefix": "1fe13934cc363946d383e69437b71918af88964e09471bbbe3969f18ddabb8ad",
+        "size_in_bytes": 93
+      },
+      {
+        "_path": "site-packages/async_timeout-3.0.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "f683387bb4f0abc883ffbfd0dcccf413a18f201eaf26f445a3e501c1442d0435",
+        "sha256_in_prefix": "f683387bb4f0abc883ffbfd0dcccf413a18f201eaf26f445a3e501c1442d0435",
+        "size_in_bytes": 14
+      },
+      {
+        "_path": "site-packages/async_timeout/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "986bd63a846a2ed49c114de49b3aad4d21fb110b07beef338601f13935c29fb7",
+        "sha256_in_prefix": "986bd63a846a2ed49c114de49b3aad4d21fb110b07beef338601f13935c29fb7",
+        "size_in_bytes": 3654
+      },
+      {
+        "_path": "site-packages/async_timeout/py.typed",
+        "path_type": "hardlink",
+        "sha256": "f4b24fed0274a31618ac1b665ee162af331b4b70fdff74f3f9ddedc94b4da745",
+        "sha256_in_prefix": "f4b24fed0274a31618ac1b665ee162af331b4b70fdff74f3f9ddedc94b4da745",
+        "size_in_bytes": 11
+      },
+      {
+        "_path": "lib/python3.6/site-packages/async_timeout/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "a75ea30a49aefa0ce3e9dc1678ef8d2c1b35a3c17979c2a7c3911b6466735d70",
+  "size": 11510,
+  "subdir": "noarch",
+  "timestamp": 1541967111278,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/async-timeout-3.0.1-py_1000.tar.bz2",
+  "version": "3.0.1"
+}

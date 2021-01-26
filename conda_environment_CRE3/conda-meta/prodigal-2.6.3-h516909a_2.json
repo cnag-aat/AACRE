@@ -1,0 +1,43 @@
+{
+  "build": "h516909a_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/bioconda/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=7.3.0"
+  ],
+  "extracted_package_dir": "/home/devel/jgomez/.conda/pkgs/prodigal-2.6.3-h516909a_2",
+  "features": "",
+  "files": [
+    "bin/prodigal"
+  ],
+  "fn": "prodigal-2.6.3-h516909a_2.tar.bz2",
+  "license": "GPL v3",
+  "link": {
+    "source": "/home/devel/jgomez/.conda/pkgs/prodigal-2.6.3-h516909a_2",
+    "type": 1
+  },
+  "md5": "96d5aa2d9910bf82f7b5dcf335c6eac2",
+  "name": "prodigal",
+  "package_tarball_full_path": "/home/devel/jgomez/.conda/pkgs/prodigal-2.6.3-h516909a_2.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/prodigal",
+        "path_type": "hardlink",
+        "sha256": "18cf8c74514f51ed94ede11a443db488790baa2e03ac50e5a34908fcc798062b",
+        "sha256_in_prefix": "18cf8c74514f51ed94ede11a443db488790baa2e03ac50e5a34908fcc798062b",
+        "size_in_bytes": 12154792
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "78ec4d7952e19b1628fd7a9edd43e19bd8500637ac54686fe7b41e432a3595da",
+  "size": 795468,
+  "subdir": "linux-64",
+  "timestamp": 1572219508755,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/linux-64/prodigal-2.6.3-h516909a_2.tar.bz2",
+  "version": "2.6.3"
+}

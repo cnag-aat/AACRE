@@ -1,0 +1,11 @@
+prefix=/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: FFTW
+Description: fast Fourier transform library
+Version: 3.3.9
+Libs: -L${libdir} -lfftw3l 
+Libs.private: -lm
+Cflags: -I${includedir}

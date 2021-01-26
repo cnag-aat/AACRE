@@ -1,0 +1,3 @@
+[console_scripts]
+pauvre = pauvre.pauvre_main:main
+

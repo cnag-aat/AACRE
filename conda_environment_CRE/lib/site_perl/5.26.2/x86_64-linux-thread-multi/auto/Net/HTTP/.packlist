@@ -1,0 +1,8 @@
+/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE/lib/site_perl/5.26.2/Net/HTTP.pm relocate_as=../../../../Net/HTTP.pm
+/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE/lib/site_perl/5.26.2/Net/HTTP/Methods.pm relocate_as=../../../../Net/HTTP/Methods.pm
+/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE/lib/site_perl/5.26.2/Net/HTTP/NB.pm relocate_as=../../../../Net/HTTP/NB.pm
+/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE/lib/site_perl/5.26.2/Net/HTTPS.pm relocate_as=../../../../Net/HTTPS.pm
+/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE/man/man3/Net::HTTP.3 relocate_as=../../../../../../../man/man3/Net::HTTP.3
+/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE/man/man3/Net::HTTP::Methods.3 relocate_as=../../../../../../../man/man3/Net::HTTP::Methods.3
+/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE/man/man3/Net::HTTP::NB.3 relocate_as=../../../../../../../man/man3/Net::HTTP::NB.3
+/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE/man/man3/Net::HTTPS.3 relocate_as=../../../../../../../man/man3/Net::HTTPS.3

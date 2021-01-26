@@ -1,0 +1,105 @@
+{
+  "build": "h516909a_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/bioconda/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=7.5.0"
+  ],
+  "extracted_package_dir": "/home/devel/jgomez/.conda/pkgs/tidyp-1.04-h516909a_2",
+  "features": "",
+  "files": [
+    "bin/tidyp",
+    "include/tidyp/buffio.h",
+    "include/tidyp/platform.h",
+    "include/tidyp/tidyp.h",
+    "include/tidyp/tidypenum.h",
+    "lib/libtidyp-1.04.so.0",
+    "lib/libtidyp-1.04.so.0.0.0",
+    "lib/libtidyp.a",
+    "lib/libtidyp.so"
+  ],
+  "fn": "tidyp-1.04-h516909a_2.tar.bz2",
+  "license": "BSD-like",
+  "link": {
+    "source": "/home/devel/jgomez/.conda/pkgs/tidyp-1.04-h516909a_2",
+    "type": 1
+  },
+  "md5": "e7a9afe22a4e0bc51a97291c7051044d",
+  "name": "tidyp",
+  "package_tarball_full_path": "/home/devel/jgomez/.conda/pkgs/tidyp-1.04-h516909a_2.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/tidyp",
+        "path_type": "hardlink",
+        "sha256": "9feb43b4c538c1a077a5017efd7e9dc360c0cf773ea8d7b69b0e11f31b0e439c",
+        "sha256_in_prefix": "9feb43b4c538c1a077a5017efd7e9dc360c0cf773ea8d7b69b0e11f31b0e439c",
+        "size_in_bytes": 44696
+      },
+      {
+        "_path": "include/tidyp/buffio.h",
+        "path_type": "hardlink",
+        "sha256": "4b9aad9fd659cf147f294f9d040c92daedd61c45d4b996504c71709deb453294",
+        "sha256_in_prefix": "4b9aad9fd659cf147f294f9d040c92daedd61c45d4b996504c71709deb453294",
+        "size_in_bytes": 3547
+      },
+      {
+        "_path": "include/tidyp/platform.h",
+        "path_type": "hardlink",
+        "sha256": "a1dbc307989004a1b459e0979dd34a2765e5bba8eea21fec36ee31a7207fa795",
+        "sha256_in_prefix": "a1dbc307989004a1b459e0979dd34a2765e5bba8eea21fec36ee31a7207fa795",
+        "size_in_bytes": 15230
+      },
+      {
+        "_path": "include/tidyp/tidyp.h",
+        "path_type": "hardlink",
+        "sha256": "098d5d27eb436d0bf3b60a640925d26650241e708116660dc54b19ab0fa34ec0",
+        "sha256_in_prefix": "098d5d27eb436d0bf3b60a640925d26650241e708116660dc54b19ab0fa34ec0",
+        "size_in_bytes": 42224
+      },
+      {
+        "_path": "include/tidyp/tidypenum.h",
+        "path_type": "hardlink",
+        "sha256": "637d1668bfea1ca3190db48212e85a5c2f64c6c46d2550ca461d188580f661ed",
+        "sha256_in_prefix": "637d1668bfea1ca3190db48212e85a5c2f64c6c46d2550ca461d188580f661ed",
+        "size_in_bytes": 24062
+      },
+      {
+        "_path": "lib/libtidyp-1.04.so.0",
+        "path_type": "softlink",
+        "sha256": "92fa345fdf22591952e47dae7cfaf30c83cda7e02c38019292a761c536b95252",
+        "size_in_bytes": 443536
+      },
+      {
+        "_path": "lib/libtidyp-1.04.so.0.0.0",
+        "path_type": "hardlink",
+        "sha256": "92fa345fdf22591952e47dae7cfaf30c83cda7e02c38019292a761c536b95252",
+        "sha256_in_prefix": "92fa345fdf22591952e47dae7cfaf30c83cda7e02c38019292a761c536b95252",
+        "size_in_bytes": 443536
+      },
+      {
+        "_path": "lib/libtidyp.a",
+        "path_type": "hardlink",
+        "sha256": "69f937c9d437c1bed8c44988755eb84b5827c77cc209527f9fc949122a1e9b6e",
+        "sha256_in_prefix": "69f937c9d437c1bed8c44988755eb84b5827c77cc209527f9fc949122a1e9b6e",
+        "size_in_bytes": 698036
+      },
+      {
+        "_path": "lib/libtidyp.so",
+        "path_type": "softlink",
+        "sha256": "92fa345fdf22591952e47dae7cfaf30c83cda7e02c38019292a761c536b95252",
+        "size_in_bytes": 443536
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "9e37855bb583a1a78eef0b48f56a20af1fe9b2ba17af25b20206588ace8149ad",
+  "size": 292609,
+  "subdir": "linux-64",
+  "timestamp": 1597312541232,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/linux-64/tidyp-1.04-h516909a_2.tar.bz2",
+  "version": "1.04"
+}

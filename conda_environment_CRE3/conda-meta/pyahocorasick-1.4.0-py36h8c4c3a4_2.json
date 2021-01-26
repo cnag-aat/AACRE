@@ -1,0 +1,78 @@
+{
+  "build": "py36h8c4c3a4_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=7.5.0",
+    "python >=3.6,<3.7.0a0",
+    "python_abi 3.6.* *_cp36m"
+  ],
+  "extracted_package_dir": "/home/devel/jgomez/.conda/pkgs/pyahocorasick-1.4.0-py36h8c4c3a4_2",
+  "features": "",
+  "files": [
+    "lib/python3.6/site-packages/ahocorasick.cpython-36m-x86_64-linux-gnu.so",
+    "lib/python3.6/site-packages/pyahocorasick-1.4.0-py3.6.egg-info/PKG-INFO",
+    "lib/python3.6/site-packages/pyahocorasick-1.4.0-py3.6.egg-info/SOURCES.txt",
+    "lib/python3.6/site-packages/pyahocorasick-1.4.0-py3.6.egg-info/dependency_links.txt",
+    "lib/python3.6/site-packages/pyahocorasick-1.4.0-py3.6.egg-info/top_level.txt"
+  ],
+  "fn": "pyahocorasick-1.4.0-py36h8c4c3a4_2.tar.bz2",
+  "license": "BSD 3-clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/home/devel/jgomez/.conda/pkgs/pyahocorasick-1.4.0-py36h8c4c3a4_2",
+    "type": 1
+  },
+  "md5": "f630d7078d6f0743e0611efd5cd3d0e2",
+  "name": "pyahocorasick",
+  "package_tarball_full_path": "/home/devel/jgomez/.conda/pkgs/pyahocorasick-1.4.0-py36h8c4c3a4_2.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.6/site-packages/ahocorasick.cpython-36m-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "e0346708a7f5b5cacdbdde126cf7c55a2b8f70b39c45e783796010eacdc2cc96",
+        "sha256_in_prefix": "e0346708a7f5b5cacdbdde126cf7c55a2b8f70b39c45e783796010eacdc2cc96",
+        "size_in_bytes": 71536
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pyahocorasick-1.4.0-py3.6.egg-info/PKG-INFO",
+        "path_type": "hardlink",
+        "sha256": "eb250b5df47715de2ada72262a14b2c78151a933a680f66f2258176a68f2eb95",
+        "sha256_in_prefix": "eb250b5df47715de2ada72262a14b2c78151a933a680f66f2258176a68f2eb95",
+        "size_in_bytes": 14946
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pyahocorasick-1.4.0-py3.6.egg-info/SOURCES.txt",
+        "path_type": "hardlink",
+        "sha256": "4d01dca05cdbd0c36d3b75c55bb0364e47d58ac376b6e9bc510709aea663bae2",
+        "sha256_in_prefix": "4d01dca05cdbd0c36d3b75c55bb0364e47d58ac376b6e9bc510709aea663bae2",
+        "size_in_bytes": 7203
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pyahocorasick-1.4.0-py3.6.egg-info/dependency_links.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pyahocorasick-1.4.0-py3.6.egg-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "59b8771c190fb5dafcd0c1e7e0f4fc10325d021e595873b3a42c86ef2b978cdd",
+        "sha256_in_prefix": "59b8771c190fb5dafcd0c1e7e0f4fc10325d021e595873b3a42c86ef2b978cdd",
+        "size_in_bytes": 12
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "6079d99d30994332753e03974f72dc8f8702a9458a69c3c2eaa3cc1997f38589",
+  "size": 36241,
+  "subdir": "linux-64",
+  "timestamp": 1602591061086,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pyahocorasick-1.4.0-py36h8c4c3a4_2.tar.bz2",
+  "version": "1.4.0"
+}

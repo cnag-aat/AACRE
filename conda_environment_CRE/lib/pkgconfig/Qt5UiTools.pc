@@ -1,0 +1,14 @@
+prefix=/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include/qt
+
+
+Name: Qt5 UiTools
+Description: Qt UiTools module
+Version: 5.12.9
+Libs: -L${libdir} -lQt5UiTools 
+Libs.private: -L/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE/lib -L/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE/x86_64-conda-linux-gnu/sysroot/usr/lib64 /home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE/lib/libQt5Widgets.so /home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE/lib/libQt5Gui.so /home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE/lib/libQt5Core.so -lpthread /home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE/lib/libQt5Widgets.so /home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE/lib/libQt5Gui.so /home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE/lib/libQt5Core.so /home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib64/libGL.so   
+Cflags: -DQT_UITOOLS_LIB -I${includedir}/QtUiTools -I${includedir}
+Requires: Qt5Core Qt5Gui Qt5Widgets
+

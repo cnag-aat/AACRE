@@ -1,0 +1,2 @@
+/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE3/lib/site_perl/5.26.2/HTTP/Negotiate.pm relocate_as=../../../../HTTP/Negotiate.pm
+/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE3/man/man3/HTTP::Negotiate.3 relocate_as=../../../../../../../man/man3/HTTP::Negotiate.3

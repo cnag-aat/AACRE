@@ -1,0 +1,606 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/bioconda/noarch",
+  "constrains": [],
+  "depends": [
+    "bamtools 2.5.1.*",
+    "bedtools >=2.28.0",
+    "biopython 1.72.*",
+    "blast 2.9.0.*",
+    "bowtie2 >=2.3.4.3",
+    "bwa >=0.7.17",
+    "diamond 0.8.36.*",
+    "filetype >=1.0.0",
+    "kma >=1.2.26",
+    "matplotlib-base >=2.1.2",
+    "oligoarrayaux 3.8.*",
+    "pandas >=0.15.0",
+    "prodigal 2.6.3.*",
+    "pyahocorasick >=1.1.7",
+    "pyfaidx >=0.5.4.1",
+    "python >=3.5,<3.7",
+    "samtools 1.9.*",
+    "seaborn >=0.8.1",
+    "six >=1.7.0",
+    "zlib >=1.2.11,<1.3.0a0"
+  ],
+  "extracted_package_dir": "/home/devel/jgomez/.conda/pkgs/rgi-5.1.1-py_0",
+  "features": "",
+  "files": [
+    "bin/rgi",
+    "lib/python3.6/site-packages/RGI-5.1.1.dist-info/INSTALLER",
+    "lib/python3.6/site-packages/RGI-5.1.1.dist-info/LICENSE",
+    "lib/python3.6/site-packages/RGI-5.1.1.dist-info/METADATA",
+    "lib/python3.6/site-packages/RGI-5.1.1.dist-info/RECORD",
+    "lib/python3.6/site-packages/RGI-5.1.1.dist-info/WHEEL",
+    "lib/python3.6/site-packages/RGI-5.1.1.dist-info/direct_url.json",
+    "lib/python3.6/site-packages/RGI-5.1.1.dist-info/top_level.txt",
+    "lib/python3.6/site-packages/app/Analyser.py",
+    "lib/python3.6/site-packages/app/BWT.py",
+    "lib/python3.6/site-packages/app/Baits.py",
+    "lib/python3.6/site-packages/app/Base.py",
+    "lib/python3.6/site-packages/app/Blast.py",
+    "lib/python3.6/site-packages/app/ConvertRGIJsonToTSV.py",
+    "lib/python3.6/site-packages/app/Database.py",
+    "lib/python3.6/site-packages/app/Diamond.py",
+    "lib/python3.6/site-packages/app/Filter.py",
+    "lib/python3.6/site-packages/app/Galaxy.py",
+    "lib/python3.6/site-packages/app/Heatmap.py",
+    "lib/python3.6/site-packages/app/HomologModel.py",
+    "lib/python3.6/site-packages/app/MainBase.py",
+    "lib/python3.6/site-packages/app/ORF.py",
+    "lib/python3.6/site-packages/app/Output.py",
+    "lib/python3.6/site-packages/app/OverexpressionModel.py",
+    "lib/python3.6/site-packages/app/Parser.py",
+    "lib/python3.6/site-packages/app/RGI.py",
+    "lib/python3.6/site-packages/app/RrnaModel.py",
+    "lib/python3.6/site-packages/app/VariantModel.py",
+    "lib/python3.6/site-packages/app/__init__.py",
+    "lib/python3.6/site-packages/app/_data/__init__.py",
+    "lib/python3.6/site-packages/app/_data/card.json",
+    "lib/python3.6/site-packages/app/_data/loaded_databases.json",
+    "lib/python3.6/site-packages/app/_db/__init__.py",
+    "lib/python3.6/site-packages/app/baits_annotation.py",
+    "lib/python3.6/site-packages/app/build_kmer_sets.py",
+    "lib/python3.6/site-packages/app/card_annotation.py",
+    "lib/python3.6/site-packages/app/clean.py",
+    "lib/python3.6/site-packages/app/convert_card_json_to_gff3.py",
+    "lib/python3.6/site-packages/app/diff/blast-diamond-comparison.py",
+    "lib/python3.6/site-packages/app/filepaths.py",
+    "lib/python3.6/site-packages/app/kmer_query.py",
+    "lib/python3.6/site-packages/app/load.py",
+    "lib/python3.6/site-packages/app/make_kmer_json.py",
+    "lib/python3.6/site-packages/app/remove_duplicates.py",
+    "lib/python3.6/site-packages/app/settings.py",
+    "lib/python3.6/site-packages/app/wildcard_annotation.py",
+    "lib/python3.6/site-packages/app/__pycache__/Analyser.cpython-36.pyc",
+    "lib/python3.6/site-packages/app/__pycache__/BWT.cpython-36.pyc",
+    "lib/python3.6/site-packages/app/__pycache__/Baits.cpython-36.pyc",
+    "lib/python3.6/site-packages/app/__pycache__/Base.cpython-36.pyc",
+    "lib/python3.6/site-packages/app/__pycache__/Blast.cpython-36.pyc",
+    "lib/python3.6/site-packages/app/__pycache__/ConvertRGIJsonToTSV.cpython-36.pyc",
+    "lib/python3.6/site-packages/app/__pycache__/Database.cpython-36.pyc",
+    "lib/python3.6/site-packages/app/__pycache__/Diamond.cpython-36.pyc",
+    "lib/python3.6/site-packages/app/__pycache__/Filter.cpython-36.pyc",
+    "lib/python3.6/site-packages/app/__pycache__/Galaxy.cpython-36.pyc",
+    "lib/python3.6/site-packages/app/__pycache__/Heatmap.cpython-36.pyc",
+    "lib/python3.6/site-packages/app/__pycache__/HomologModel.cpython-36.pyc",
+    "lib/python3.6/site-packages/app/__pycache__/MainBase.cpython-36.pyc",
+    "lib/python3.6/site-packages/app/__pycache__/ORF.cpython-36.pyc",
+    "lib/python3.6/site-packages/app/__pycache__/Output.cpython-36.pyc",
+    "lib/python3.6/site-packages/app/__pycache__/OverexpressionModel.cpython-36.pyc",
+    "lib/python3.6/site-packages/app/__pycache__/Parser.cpython-36.pyc",
+    "lib/python3.6/site-packages/app/__pycache__/RGI.cpython-36.pyc",
+    "lib/python3.6/site-packages/app/__pycache__/RrnaModel.cpython-36.pyc",
+    "lib/python3.6/site-packages/app/__pycache__/VariantModel.cpython-36.pyc",
+    "lib/python3.6/site-packages/app/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/app/_data/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/app/_db/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/app/__pycache__/baits_annotation.cpython-36.pyc",
+    "lib/python3.6/site-packages/app/__pycache__/build_kmer_sets.cpython-36.pyc",
+    "lib/python3.6/site-packages/app/__pycache__/card_annotation.cpython-36.pyc",
+    "lib/python3.6/site-packages/app/__pycache__/clean.cpython-36.pyc",
+    "lib/python3.6/site-packages/app/__pycache__/convert_card_json_to_gff3.cpython-36.pyc",
+    "lib/python3.6/site-packages/app/diff/__pycache__/blast-diamond-comparison.cpython-36.pyc",
+    "lib/python3.6/site-packages/app/__pycache__/filepaths.cpython-36.pyc",
+    "lib/python3.6/site-packages/app/__pycache__/kmer_query.cpython-36.pyc",
+    "lib/python3.6/site-packages/app/__pycache__/load.cpython-36.pyc",
+    "lib/python3.6/site-packages/app/__pycache__/make_kmer_json.cpython-36.pyc",
+    "lib/python3.6/site-packages/app/__pycache__/remove_duplicates.cpython-36.pyc",
+    "lib/python3.6/site-packages/app/__pycache__/settings.cpython-36.pyc",
+    "lib/python3.6/site-packages/app/__pycache__/wildcard_annotation.cpython-36.pyc"
+  ],
+  "fn": "rgi-5.1.1-py_0.tar.bz2",
+  "license": "https://card.mcmaster.ca/about",
+  "link": {
+    "source": "/home/devel/jgomez/.conda/pkgs/rgi-5.1.1-py_0",
+    "type": 1
+  },
+  "md5": "7499922cc6acdc686f6f9452e885dbab",
+  "name": "rgi",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/devel/jgomez/.conda/pkgs/rgi-5.1.1-py_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "python-scripts/rgi",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/rgi_1592790657441/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+        "sha256": "f89863c1f3da7cdda970ccd4975152b1c79ae761ded73be62e236126f402db21",
+        "sha256_in_prefix": "fb62235fbf8465bbd3e88c99d145be246ffb1f5e109003fb3de05142b2725916",
+        "size_in_bytes": 315
+      },
+      {
+        "_path": "site-packages/RGI-5.1.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/RGI-5.1.1.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "0c0e53e578da2018bae1210355b52b7b3e1db6324b5acbc4c966a5f736316384",
+        "sha256_in_prefix": "0c0e53e578da2018bae1210355b52b7b3e1db6324b5acbc4c966a5f736316384",
+        "size_in_bytes": 6034
+      },
+      {
+        "_path": "site-packages/RGI-5.1.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "0058a680d393cf04c7fbae3718af5fc9a0639dd7e1de53295935b426fabeab18",
+        "sha256_in_prefix": "0058a680d393cf04c7fbae3718af5fc9a0639dd7e1de53295935b426fabeab18",
+        "size_in_bytes": 970
+      },
+      {
+        "_path": "site-packages/RGI-5.1.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "127174b8313b37d76cbb497410c7aa5991a896bd9fa8790bf2481829827668a2",
+        "sha256_in_prefix": "127174b8313b37d76cbb497410c7aa5991a896bd9fa8790bf2481829827668a2",
+        "size_in_bytes": 4971
+      },
+      {
+        "_path": "site-packages/RGI-5.1.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "8389ccb3b77e5e5f7ec42f57a2f52bb031c65edf854f4135ed8aa8f760c47ef6",
+        "sha256_in_prefix": "8389ccb3b77e5e5f7ec42f57a2f52bb031c65edf854f4135ed8aa8f760c47ef6",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/RGI-5.1.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "d2a902819ee0d783cd5a0c0410d0021e054979df1df60a8e035f1764043bdccf",
+        "sha256_in_prefix": "d2a902819ee0d783cd5a0c0410d0021e054979df1df60a8e035f1764043bdccf",
+        "size_in_bytes": 77
+      },
+      {
+        "_path": "site-packages/RGI-5.1.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "8a8f60ecb09b7e64c6d5214a8043865e608507db8c3f61f995eae6d078875901",
+        "sha256_in_prefix": "8a8f60ecb09b7e64c6d5214a8043865e608507db8c3f61f995eae6d078875901",
+        "size_in_bytes": 4
+      },
+      {
+        "_path": "site-packages/app/Analyser.py",
+        "path_type": "hardlink",
+        "sha256": "ff956f7d234092fe1b69248811aa0f01455145e664fbfdd04dbcfa8bedfd34ab",
+        "sha256_in_prefix": "ff956f7d234092fe1b69248811aa0f01455145e664fbfdd04dbcfa8bedfd34ab",
+        "size_in_bytes": 922
+      },
+      {
+        "_path": "site-packages/app/BWT.py",
+        "path_type": "hardlink",
+        "sha256": "c80fb085475b5a518d54a4f75d64772f4d92d76578983a03d841fbd88e9de19e",
+        "sha256_in_prefix": "c80fb085475b5a518d54a4f75d64772f4d92d76578983a03d841fbd88e9de19e",
+        "size_in_bytes": 62210
+      },
+      {
+        "_path": "site-packages/app/Baits.py",
+        "path_type": "hardlink",
+        "sha256": "3661029343af57a3a9469bbc18fdf38fccb3d1586b7392426891b3999d73f2ab",
+        "sha256_in_prefix": "3661029343af57a3a9469bbc18fdf38fccb3d1586b7392426891b3999d73f2ab",
+        "size_in_bytes": 3604
+      },
+      {
+        "_path": "site-packages/app/Base.py",
+        "path_type": "hardlink",
+        "sha256": "3613175795e31950c1d97d2120cfdc3a4b8fe3b08989efe6cf6cb6c5664b5aad",
+        "sha256_in_prefix": "3613175795e31950c1d97d2120cfdc3a4b8fe3b08989efe6cf6cb6c5664b5aad",
+        "size_in_bytes": 24540
+      },
+      {
+        "_path": "site-packages/app/Blast.py",
+        "path_type": "hardlink",
+        "sha256": "f69c8b8c617adc42658a932b334bf248f9578559876d029e3f7f1b094c5941d2",
+        "sha256_in_prefix": "f69c8b8c617adc42658a932b334bf248f9578559876d029e3f7f1b094c5941d2",
+        "size_in_bytes": 1861
+      },
+      {
+        "_path": "site-packages/app/ConvertRGIJsonToTSV.py",
+        "path_type": "hardlink",
+        "sha256": "87fcce1b873d9f55111979f19d6c9ac4539777f8c4b2d40f58a1d07be3e9f07b",
+        "sha256_in_prefix": "87fcce1b873d9f55111979f19d6c9ac4539777f8c4b2d40f58a1d07be3e9f07b",
+        "size_in_bytes": 15231
+      },
+      {
+        "_path": "site-packages/app/Database.py",
+        "path_type": "hardlink",
+        "sha256": "8a13289682a280f65273488511595a853e39d564d983152478a71176d7372a1e",
+        "sha256_in_prefix": "8a13289682a280f65273488511595a853e39d564d983152478a71176d7372a1e",
+        "size_in_bytes": 9538
+      },
+      {
+        "_path": "site-packages/app/Diamond.py",
+        "path_type": "hardlink",
+        "sha256": "4e4fe5fe934c20a3d9c980921eeca8a29f4ae21b269e6b5c13508a370e330e8e",
+        "sha256_in_prefix": "4e4fe5fe934c20a3d9c980921eeca8a29f4ae21b269e6b5c13508a370e330e8e",
+        "size_in_bytes": 1729
+      },
+      {
+        "_path": "site-packages/app/Filter.py",
+        "path_type": "hardlink",
+        "sha256": "2eb464ec2f8451a05f85ce00bcc6fb950c688b9b117420800678a42ad052eace",
+        "sha256_in_prefix": "2eb464ec2f8451a05f85ce00bcc6fb950c688b9b117420800678a42ad052eace",
+        "size_in_bytes": 7079
+      },
+      {
+        "_path": "site-packages/app/Galaxy.py",
+        "path_type": "hardlink",
+        "sha256": "341cc5e8314626231e9853b7f6ddab5092efd7e86fff05a0c8f276bfe1ac7372",
+        "sha256_in_prefix": "341cc5e8314626231e9853b7f6ddab5092efd7e86fff05a0c8f276bfe1ac7372",
+        "size_in_bytes": 1718
+      },
+      {
+        "_path": "site-packages/app/Heatmap.py",
+        "path_type": "hardlink",
+        "sha256": "7d65b3c91029d33483c8a6086dcce12175c62b2ef807bdd456f8a9cb9dac3a59",
+        "sha256_in_prefix": "7d65b3c91029d33483c8a6086dcce12175c62b2ef807bdd456f8a9cb9dac3a59",
+        "size_in_bytes": 44030
+      },
+      {
+        "_path": "site-packages/app/HomologModel.py",
+        "path_type": "hardlink",
+        "sha256": "38ae5f3864d1bed9da4773104462ecd4c493180a29b2b5996cddbd16f0216918",
+        "sha256_in_prefix": "38ae5f3864d1bed9da4773104462ecd4c493180a29b2b5996cddbd16f0216918",
+        "size_in_bytes": 15649
+      },
+      {
+        "_path": "site-packages/app/MainBase.py",
+        "path_type": "hardlink",
+        "sha256": "f5d23c582957ad4f78ad1aff27813c4abd1858af6dff42e361205ac3e338d271",
+        "sha256_in_prefix": "f5d23c582957ad4f78ad1aff27813c4abd1858af6dff42e361205ac3e338d271",
+        "size_in_bytes": 20437
+      },
+      {
+        "_path": "site-packages/app/ORF.py",
+        "path_type": "hardlink",
+        "sha256": "292064800e00835fdf36b50486fc6b72242e8044252a8e2476d4325be99070b8",
+        "sha256_in_prefix": "292064800e00835fdf36b50486fc6b72242e8044252a8e2476d4325be99070b8",
+        "size_in_bytes": 8444
+      },
+      {
+        "_path": "site-packages/app/Output.py",
+        "path_type": "hardlink",
+        "sha256": "815c7f8c49a35596cb21e8001393e2db39786032e889ef3bee3f460e176b5470",
+        "sha256_in_prefix": "815c7f8c49a35596cb21e8001393e2db39786032e889ef3bee3f460e176b5470",
+        "size_in_bytes": 8292
+      },
+      {
+        "_path": "site-packages/app/OverexpressionModel.py",
+        "path_type": "hardlink",
+        "sha256": "f42bb23bb19d791f5f672ab9612d06b40ce773a9f6f713644cfa9de16b7282c7",
+        "sha256_in_prefix": "f42bb23bb19d791f5f672ab9612d06b40ce773a9f6f713644cfa9de16b7282c7",
+        "size_in_bytes": 20728
+      },
+      {
+        "_path": "site-packages/app/Parser.py",
+        "path_type": "hardlink",
+        "sha256": "a540cb0084bdf420abccbd10839f1ed6b32af1ce58647d298a08beb4237726ed",
+        "sha256_in_prefix": "a540cb0084bdf420abccbd10839f1ed6b32af1ce58647d298a08beb4237726ed",
+        "size_in_bytes": 15001
+      },
+      {
+        "_path": "site-packages/app/RGI.py",
+        "path_type": "hardlink",
+        "sha256": "bb3cb2615b1cc34126de15997ef48dd45fa838e2af8d67423ff3b0c08bbd61e3",
+        "sha256_in_prefix": "bb3cb2615b1cc34126de15997ef48dd45fa838e2af8d67423ff3b0c08bbd61e3",
+        "size_in_bytes": 10431
+      },
+      {
+        "_path": "site-packages/app/RrnaModel.py",
+        "path_type": "hardlink",
+        "sha256": "aca9e9d56757953b3ba138be7ac5b02813031868795e6f25dfa78f84eef52992",
+        "sha256_in_prefix": "aca9e9d56757953b3ba138be7ac5b02813031868795e6f25dfa78f84eef52992",
+        "size_in_bytes": 10588
+      },
+      {
+        "_path": "site-packages/app/VariantModel.py",
+        "path_type": "hardlink",
+        "sha256": "54e0341955c7cc2c85069c1063c0ed919100853785b04802c37183a226f5e8d7",
+        "sha256_in_prefix": "54e0341955c7cc2c85069c1063c0ed919100853785b04802c37183a226f5e8d7",
+        "size_in_bytes": 14137
+      },
+      {
+        "_path": "site-packages/app/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/app/_data/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/app/_data/card.json",
+        "path_type": "hardlink",
+        "sha256": "05e2ffb40513b8040f69b0d90f035ecb4dbf06068e4e521d73745bf7cb811607",
+        "sha256_in_prefix": "05e2ffb40513b8040f69b0d90f035ecb4dbf06068e4e521d73745bf7cb811607",
+        "size_in_bytes": 19979236
+      },
+      {
+        "_path": "site-packages/app/_data/loaded_databases.json",
+        "path_type": "hardlink",
+        "sha256": "57aa503a5c972d27ed217002a57fac3db1ba968678437e4a8e4c111d00401fba",
+        "sha256_in_prefix": "57aa503a5c972d27ed217002a57fac3db1ba968678437e4a8e4c111d00401fba",
+        "size_in_bytes": 121
+      },
+      {
+        "_path": "site-packages/app/_db/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "334359b90efed75da5f0ada1d5e6b256f4a6bd0aee7eb39c0f90182a021ffc8b",
+        "sha256_in_prefix": "334359b90efed75da5f0ada1d5e6b256f4a6bd0aee7eb39c0f90182a021ffc8b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "site-packages/app/baits_annotation.py",
+        "path_type": "hardlink",
+        "sha256": "6dcbbc4cadad919a99aacd78e749f7c9ce0b5a5a1829ead3b2e8e9e338608da6",
+        "sha256_in_prefix": "6dcbbc4cadad919a99aacd78e749f7c9ce0b5a5a1829ead3b2e8e9e338608da6",
+        "size_in_bytes": 1034
+      },
+      {
+        "_path": "site-packages/app/build_kmer_sets.py",
+        "path_type": "hardlink",
+        "sha256": "3a2e311d97a575562940750b6e94ab1d3f6d138e27fe691e5b5bb396b3da763b",
+        "sha256_in_prefix": "3a2e311d97a575562940750b6e94ab1d3f6d138e27fe691e5b5bb396b3da763b",
+        "size_in_bytes": 14061
+      },
+      {
+        "_path": "site-packages/app/card_annotation.py",
+        "path_type": "hardlink",
+        "sha256": "ede36a4a0ec1ddbd6b9a18d463fe9f3e13cbd934eacbad195bd7448ee226dee1",
+        "sha256_in_prefix": "ede36a4a0ec1ddbd6b9a18d463fe9f3e13cbd934eacbad195bd7448ee226dee1",
+        "size_in_bytes": 3633
+      },
+      {
+        "_path": "site-packages/app/clean.py",
+        "path_type": "hardlink",
+        "sha256": "d8509c4dbf5db15e27fde568232e89d8b24a2fd24a9538984d97e05373100122",
+        "sha256_in_prefix": "d8509c4dbf5db15e27fde568232e89d8b24a2fd24a9538984d97e05373100122",
+        "size_in_bytes": 2704
+      },
+      {
+        "_path": "site-packages/app/convert_card_json_to_gff3.py",
+        "path_type": "hardlink",
+        "sha256": "3627af0a3976da2218f2aec3fe05cef04f602c07d5f178fd04266b6982affdca",
+        "sha256_in_prefix": "3627af0a3976da2218f2aec3fe05cef04f602c07d5f178fd04266b6982affdca",
+        "size_in_bytes": 2403
+      },
+      {
+        "_path": "site-packages/app/diff/blast-diamond-comparison.py",
+        "path_type": "hardlink",
+        "sha256": "29219c4362f67be6ce88d66ecaa823d9d82d30f8a27a6987b3f1d3bb6ce6738b",
+        "sha256_in_prefix": "29219c4362f67be6ce88d66ecaa823d9d82d30f8a27a6987b3f1d3bb6ce6738b",
+        "size_in_bytes": 1697
+      },
+      {
+        "_path": "site-packages/app/filepaths.py",
+        "path_type": "hardlink",
+        "sha256": "de3ac1c8a9a64986fd75d4f5a69575d68f9d4e73cf1f197247311973f64772f5",
+        "sha256_in_prefix": "de3ac1c8a9a64986fd75d4f5a69575d68f9d4e73cf1f197247311973f64772f5",
+        "size_in_bytes": 368
+      },
+      {
+        "_path": "site-packages/app/kmer_query.py",
+        "path_type": "hardlink",
+        "sha256": "1cb0b7177bbd9ed9d64f8ab3ae9afbb056f938e7dd48925237c38cf49e99d969",
+        "sha256_in_prefix": "1cb0b7177bbd9ed9d64f8ab3ae9afbb056f938e7dd48925237c38cf49e99d969",
+        "size_in_bytes": 62851
+      },
+      {
+        "_path": "site-packages/app/load.py",
+        "path_type": "hardlink",
+        "sha256": "78b39826c5603e37c03eb69f1952912c94cfa7e43c50764b0d72d0080bf1b1b1",
+        "sha256_in_prefix": "78b39826c5603e37c03eb69f1952912c94cfa7e43c50764b0d72d0080bf1b1b1",
+        "size_in_bytes": 9309
+      },
+      {
+        "_path": "site-packages/app/make_kmer_json.py",
+        "path_type": "hardlink",
+        "sha256": "a29dfc064cd37c28c08702e1b2dfda40de0ffe1561febe46296db55f2ed793a9",
+        "sha256_in_prefix": "a29dfc064cd37c28c08702e1b2dfda40de0ffe1561febe46296db55f2ed793a9",
+        "size_in_bytes": 10170
+      },
+      {
+        "_path": "site-packages/app/remove_duplicates.py",
+        "path_type": "hardlink",
+        "sha256": "10dd432c11a1a3a4cd65fdd9bdff8af16c1684fb5d38a0d59e95d0fd94cd5d5c",
+        "sha256_in_prefix": "10dd432c11a1a3a4cd65fdd9bdff8af16c1684fb5d38a0d59e95d0fd94cd5d5c",
+        "size_in_bytes": 4085
+      },
+      {
+        "_path": "site-packages/app/settings.py",
+        "path_type": "hardlink",
+        "sha256": "f3e7aaf0520b7a1aa9c9a80c37a89c2f11123bdd3240cc5e5d63407fe52a0c53",
+        "sha256_in_prefix": "f3e7aaf0520b7a1aa9c9a80c37a89c2f11123bdd3240cc5e5d63407fe52a0c53",
+        "size_in_bytes": 2311
+      },
+      {
+        "_path": "site-packages/app/wildcard_annotation.py",
+        "path_type": "hardlink",
+        "sha256": "77586e4c51ac2388c8b939c8e3ff9790e28f4ac31fcec13a752903fbb1fa7f6d",
+        "sha256_in_prefix": "77586e4c51ac2388c8b939c8e3ff9790e28f4ac31fcec13a752903fbb1fa7f6d",
+        "size_in_bytes": 3192
+      },
+      {
+        "_path": "lib/python3.6/site-packages/app/__pycache__/Analyser.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/app/__pycache__/BWT.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/app/__pycache__/Baits.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/app/__pycache__/Base.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/app/__pycache__/Blast.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/app/__pycache__/ConvertRGIJsonToTSV.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/app/__pycache__/Database.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/app/__pycache__/Diamond.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/app/__pycache__/Filter.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/app/__pycache__/Galaxy.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/app/__pycache__/Heatmap.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/app/__pycache__/HomologModel.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/app/__pycache__/MainBase.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/app/__pycache__/ORF.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/app/__pycache__/Output.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/app/__pycache__/OverexpressionModel.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/app/__pycache__/Parser.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/app/__pycache__/RGI.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/app/__pycache__/RrnaModel.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/app/__pycache__/VariantModel.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/app/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/app/_data/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/app/_db/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/app/__pycache__/baits_annotation.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/app/__pycache__/build_kmer_sets.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/app/__pycache__/card_annotation.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/app/__pycache__/clean.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/app/__pycache__/convert_card_json_to_gff3.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/app/diff/__pycache__/blast-diamond-comparison.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/app/__pycache__/filepaths.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/app/__pycache__/kmer_query.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/app/__pycache__/load.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/app/__pycache__/make_kmer_json.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/app/__pycache__/remove_duplicates.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/app/__pycache__/settings.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/app/__pycache__/wildcard_annotation.cpython-36.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "rgi=5.1.1",
+  "sha256": "f41506ccefe110a363a7b775ce439c2f595bb99f662743fc16d7580fe1b9c022",
+  "size": 1858279,
+  "subdir": "noarch",
+  "timestamp": 1592790860213,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/noarch/rgi-5.1.1-py_0.tar.bz2",
+  "version": "5.1.1"
+}

@@ -1,0 +1,64 @@
+{
+  "build": "pl526_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/bioconda/noarch",
+  "constrains": [],
+  "depends": [
+    "clustalw",
+    "perl >=5.26.2,<5.26.3.0a0",
+    "perl-base",
+    "perl-bioperl-run"
+  ],
+  "extracted_package_dir": "/home/devel/jgomez/.conda/pkgs/perl-bio-tools-run-alignment-clustalw-1.7.4-pl526_1",
+  "features": "",
+  "files": [
+    "lib/site_perl/5.26.2/Bio/Tools/Run/Alignment/Clustalw.pm",
+    "lib/site_perl/5.26.2/x86_64-linux-thread-multi/auto/Bio/Tools/Run/Alignment/Clustalw/.packlist",
+    "man/man3/Bio::Tools::Run::Alignment::Clustalw.3"
+  ],
+  "fn": "perl-bio-tools-run-alignment-clustalw-1.7.4-pl526_1.tar.bz2",
+  "license": "perl_5",
+  "link": {
+    "source": "/home/devel/jgomez/.conda/pkgs/perl-bio-tools-run-alignment-clustalw-1.7.4-pl526_1",
+    "type": 1
+  },
+  "md5": "ed40aea3bead264ea48ba2faf88d1106",
+  "name": "perl-bio-tools-run-alignment-clustalw",
+  "noarch": "generic",
+  "package_tarball_full_path": "/home/devel/jgomez/.conda/pkgs/perl-bio-tools-run-alignment-clustalw-1.7.4-pl526_1.tar.bz2",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/site_perl/5.26.2/Bio/Tools/Run/Alignment/Clustalw.pm",
+        "path_type": "hardlink",
+        "sha256": "069564a8886cc4e98cd6f7ed732c1109d6cb627c7b6ada18153e42fcd77f44dc",
+        "sha256_in_prefix": "069564a8886cc4e98cd6f7ed732c1109d6cb627c7b6ada18153e42fcd77f44dc",
+        "size_in_bytes": 41133
+      },
+      {
+        "_path": "lib/site_perl/5.26.2/x86_64-linux-thread-multi/auto/Bio/Tools/Run/Alignment/Clustalw/.packlist",
+        "path_type": "hardlink",
+        "sha256": "131b2b8a2fbcf575f6f915fd67a3254e2b72ad6386b626e85932baab06a01e24",
+        "sha256_in_prefix": "131b2b8a2fbcf575f6f915fd67a3254e2b72ad6386b626e85932baab06a01e24",
+        "size_in_bytes": 776
+      },
+      {
+        "_path": "man/man3/Bio::Tools::Run::Alignment::Clustalw.3",
+        "path_type": "hardlink",
+        "sha256": "b6ebe6bee859d89b5b045e3e44d5586849f6f7680435fa7ca3f1b6dab72a8a88",
+        "sha256_in_prefix": "b6ebe6bee859d89b5b045e3e44d5586849f6f7680435fa7ca3f1b6dab72a8a88",
+        "size_in_bytes": 33366
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "9d695a1f5a6ffe05e492539da8d6a33d745037d11050371253203a6a8d4a22a9",
+  "size": 24199,
+  "subdir": "noarch",
+  "timestamp": 1572190544203,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/noarch/perl-bio-tools-run-alignment-clustalw-1.7.4-pl526_1.tar.bz2",
+  "version": "1.7.4"
+}

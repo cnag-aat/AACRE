@@ -1,0 +1,10 @@
+prefix=/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include/nspr
+
+Name: NSPR
+Description: The Netscape Portable Runtime
+Version: 4.29.0
+Libs: -L${exec_prefix}/lib -lplds4 -lplc4 -lnspr4
+Cflags: -I${prefix}/include/nspr

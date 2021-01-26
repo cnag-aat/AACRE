@@ -1,0 +1,4 @@
+/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE/lib/site_perl/5.26.2/x86_64-linux-thread-multi/IPC/ShareLite.pm relocate_as=../../../IPC/ShareLite.pm
+/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE/lib/site_perl/5.26.2/x86_64-linux-thread-multi/auto/IPC/ShareLite/ShareLite.so relocate_as=ShareLite.so
+/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE/lib/site_perl/5.26.2/x86_64-linux-thread-multi/auto/IPC/ShareLite/autosplit.ix relocate_as=autosplit.ix
+/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE/man/man3/IPC::ShareLite.3 relocate_as=../../../../../../../man/man3/IPC::ShareLite.3

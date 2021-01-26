@@ -1,0 +1,11 @@
+/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE3/bin/ptar relocate_as=../../../../../../../bin/ptar
+/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE3/bin/ptardiff relocate_as=../../../../../../../bin/ptardiff
+/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE3/bin/ptargrep relocate_as=../../../../../../../bin/ptargrep
+/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE3/lib/site_perl/5.26.2/Archive/Tar.pm relocate_as=../../../../Archive/Tar.pm
+/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE3/lib/site_perl/5.26.2/Archive/Tar/Constant.pm relocate_as=../../../../Archive/Tar/Constant.pm
+/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE3/lib/site_perl/5.26.2/Archive/Tar/File.pm relocate_as=../../../../Archive/Tar/File.pm
+/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE3/man/man1/ptar.1 relocate_as=../../../../../../../man/man1/ptar.1
+/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE3/man/man1/ptardiff.1 relocate_as=../../../../../../../man/man1/ptardiff.1
+/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE3/man/man1/ptargrep.1 relocate_as=../../../../../../../man/man1/ptargrep.1
+/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE3/man/man3/Archive::Tar.3 relocate_as=../../../../../../../man/man3/Archive::Tar.3
+/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE3/man/man3/Archive::Tar::File.3 relocate_as=../../../../../../../man/man3/Archive::Tar::File.3

@@ -1,0 +1,118 @@
+{
+  "build": "py36h9f0ad1d_1001",
+  "build_number": 1001,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "aiohttp",
+    "python >=3.6,<3.7.0a0",
+    "python_abi 3.6.* *_cp36m",
+    "six"
+  ],
+  "extracted_package_dir": "/home/devel/jgomez/.conda/pkgs/aioeasywebdav-2.4.0-py36h9f0ad1d_1001",
+  "features": "",
+  "files": [
+    "lib/python3.6/site-packages/aioeasywebdav-2.4.0-py3.6.egg-info/PKG-INFO",
+    "lib/python3.6/site-packages/aioeasywebdav-2.4.0-py3.6.egg-info/SOURCES.txt",
+    "lib/python3.6/site-packages/aioeasywebdav-2.4.0-py3.6.egg-info/dependency_links.txt",
+    "lib/python3.6/site-packages/aioeasywebdav-2.4.0-py3.6.egg-info/entry_points.txt",
+    "lib/python3.6/site-packages/aioeasywebdav-2.4.0-py3.6.egg-info/requires.txt",
+    "lib/python3.6/site-packages/aioeasywebdav-2.4.0-py3.6.egg-info/top_level.txt",
+    "lib/python3.6/site-packages/aioeasywebdav/__init__.py",
+    "lib/python3.6/site-packages/aioeasywebdav/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/aioeasywebdav/__pycache__/client.cpython-36.pyc",
+    "lib/python3.6/site-packages/aioeasywebdav/client.py"
+  ],
+  "fn": "aioeasywebdav-2.4.0-py36h9f0ad1d_1001.tar.bz2",
+  "license": "ISC",
+  "link": {
+    "source": "/home/devel/jgomez/.conda/pkgs/aioeasywebdav-2.4.0-py36h9f0ad1d_1001",
+    "type": 1
+  },
+  "md5": "53c2b8e49de557b10efb5869f237a8b6",
+  "name": "aioeasywebdav",
+  "package_tarball_full_path": "/home/devel/jgomez/.conda/pkgs/aioeasywebdav-2.4.0-py36h9f0ad1d_1001.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.6/site-packages/aioeasywebdav-2.4.0-py3.6.egg-info/PKG-INFO",
+        "path_type": "hardlink",
+        "sha256": "8f803d8323f9d8e3e7649a423fb4309936048e1b72394332d7653fe42e97a0f4",
+        "sha256_in_prefix": "8f803d8323f9d8e3e7649a423fb4309936048e1b72394332d7653fe42e97a0f4",
+        "size_in_bytes": 4303
+      },
+      {
+        "_path": "lib/python3.6/site-packages/aioeasywebdav-2.4.0-py3.6.egg-info/SOURCES.txt",
+        "path_type": "hardlink",
+        "sha256": "1ebc6b5460e14965fccac842c40ec85a3134a5a7bd5b5a6869386d6bcec8274b",
+        "sha256_in_prefix": "1ebc6b5460e14965fccac842c40ec85a3134a5a7bd5b5a6869386d6bcec8274b",
+        "size_in_bytes": 397
+      },
+      {
+        "_path": "lib/python3.6/site-packages/aioeasywebdav-2.4.0-py3.6.egg-info/dependency_links.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python3.6/site-packages/aioeasywebdav-2.4.0-py3.6.egg-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "7aa1a74c7b4454c6307d7564d59f4c842f0ed8df30baa01baf4962b0b9ab931b",
+        "sha256_in_prefix": "7aa1a74c7b4454c6307d7564d59f4c842f0ed8df30baa01baf4962b0b9ab931b",
+        "size_in_bytes": 20
+      },
+      {
+        "_path": "lib/python3.6/site-packages/aioeasywebdav-2.4.0-py3.6.egg-info/requires.txt",
+        "path_type": "hardlink",
+        "sha256": "62fe608aec3128ba677e38e7b79f8c07cf796747c4a76fa5342571c97e566e9d",
+        "sha256_in_prefix": "62fe608aec3128ba677e38e7b79f8c07cf796747c4a76fa5342571c97e566e9d",
+        "size_in_bytes": 27
+      },
+      {
+        "_path": "lib/python3.6/site-packages/aioeasywebdav-2.4.0-py3.6.egg-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "956f86b50d4f615fe3044234e5bf8f73a6b8f6ad667c2765ab0efb871e3fec8b",
+        "sha256_in_prefix": "956f86b50d4f615fe3044234e5bf8f73a6b8f6ad667c2765ab0efb871e3fec8b",
+        "size_in_bytes": 14
+      },
+      {
+        "_path": "lib/python3.6/site-packages/aioeasywebdav/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "64ed4015567ca012aa44afacced2a174025ef360963cbb5ef359bd804a742f5c",
+        "sha256_in_prefix": "64ed4015567ca012aa44afacced2a174025ef360963cbb5ef359bd804a742f5c",
+        "size_in_bytes": 188
+      },
+      {
+        "_path": "lib/python3.6/site-packages/aioeasywebdav/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "70ba3f99c2ec4bf0db38f21ef7c5a1edb0e789069c8dea89be25d6a10f693911",
+        "sha256_in_prefix": "70ba3f99c2ec4bf0db38f21ef7c5a1edb0e789069c8dea89be25d6a10f693911",
+        "size_in_bytes": 369
+      },
+      {
+        "_path": "lib/python3.6/site-packages/aioeasywebdav/__pycache__/client.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "a8f80842ef7affab378db7e184f88b0266c36d13c03798ef0a55c83a86019553",
+        "sha256_in_prefix": "a8f80842ef7affab378db7e184f88b0266c36d13c03798ef0a55c83a86019553",
+        "size_in_bytes": 16045
+      },
+      {
+        "_path": "lib/python3.6/site-packages/aioeasywebdav/client.py",
+        "path_type": "hardlink",
+        "sha256": "7718f87a85dae8fb7d0e838a1e9e93ef936d082dbe4e915cb3652d24c7369dd7",
+        "sha256_in_prefix": "7718f87a85dae8fb7d0e838a1e9e93ef936d082dbe4e915cb3652d24c7369dd7",
+        "size_in_bytes": 19531
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "014f64a7553d57101aab17cefe4d1e712bb587894a89cda730e9c121ad3a3358",
+  "size": 18347,
+  "subdir": "linux-64",
+  "timestamp": 1602594546454,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/aioeasywebdav-2.4.0-py36h9f0ad1d_1001.tar.bz2",
+  "version": "2.4.0"
+}

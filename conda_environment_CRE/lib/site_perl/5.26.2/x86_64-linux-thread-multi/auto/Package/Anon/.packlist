@@ -1,0 +1,3 @@
+/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE/lib/site_perl/5.26.2/x86_64-linux-thread-multi/Package/Anon.pm relocate_as=../../../Package/Anon.pm
+/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE/lib/site_perl/5.26.2/x86_64-linux-thread-multi/auto/Package/Anon/Anon.so relocate_as=Anon.so
+/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE/man/man3/Package::Anon.3 relocate_as=../../../../../../../man/man3/Package::Anon.3

@@ -1,0 +1,107 @@
+{
+  "build": "py_1002",
+  "build_number": 1002,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3"
+  ],
+  "extracted_package_dir": "/home/devel/jgomez/.conda/pkgs/ratelimiter-1.2.0-py_1002",
+  "features": "",
+  "files": [
+    "lib/python3.6/site-packages/ratelimiter-1.2.0.dist-info/INSTALLER",
+    "lib/python3.6/site-packages/ratelimiter-1.2.0.dist-info/METADATA",
+    "lib/python3.6/site-packages/ratelimiter-1.2.0.dist-info/RECORD",
+    "lib/python3.6/site-packages/ratelimiter-1.2.0.dist-info/REQUESTED",
+    "lib/python3.6/site-packages/ratelimiter-1.2.0.dist-info/WHEEL",
+    "lib/python3.6/site-packages/ratelimiter-1.2.0.dist-info/direct_url.json",
+    "lib/python3.6/site-packages/ratelimiter-1.2.0.dist-info/top_level.txt",
+    "lib/python3.6/site-packages/ratelimiter.py",
+    "lib/python3.6/site-packages/__pycache__/ratelimiter.cpython-36.pyc"
+  ],
+  "fn": "ratelimiter-1.2.0-py_1002.tar.bz2",
+  "license": "Apache-2.0",
+  "license_family": "APACHE",
+  "link": {
+    "source": "/home/devel/jgomez/.conda/pkgs/ratelimiter-1.2.0-py_1002",
+    "type": 1
+  },
+  "md5": "a3326f1950c9a8e52a4b5817ba607caa",
+  "name": "ratelimiter",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/devel/jgomez/.conda/pkgs/ratelimiter-1.2.0-py_1002.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/ratelimiter-1.2.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/ratelimiter-1.2.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "95ac6b9286a9c8c58c427af771d9dfdd4c1938fefe70e49568886dd9a39370fd",
+        "sha256_in_prefix": "95ac6b9286a9c8c58c427af771d9dfdd4c1938fefe70e49568886dd9a39370fd",
+        "size_in_bytes": 3951
+      },
+      {
+        "_path": "site-packages/ratelimiter-1.2.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "e407ec2121e6838517087d6b5e2b65de251a5ae6387ff01e045875d5bfaba2f5",
+        "sha256_in_prefix": "e407ec2121e6838517087d6b5e2b65de251a5ae6387ff01e045875d5bfaba2f5",
+        "size_in_bytes": 716
+      },
+      {
+        "_path": "site-packages/ratelimiter-1.2.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/ratelimiter-1.2.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "11546323af45e6a5639bf620a9c4d73e74c0bf705f494af4595007b923f75e8a",
+        "sha256_in_prefix": "11546323af45e6a5639bf620a9c4d73e74c0bf705f494af4595007b923f75e8a",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/ratelimiter-1.2.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "12966f1989e72ead870c1b1e6bd127e83cb66ed2e312fdd7fb08828e805dc321",
+        "sha256_in_prefix": "12966f1989e72ead870c1b1e6bd127e83cb66ed2e312fdd7fb08828e805dc321",
+        "size_in_bytes": 107
+      },
+      {
+        "_path": "site-packages/ratelimiter-1.2.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "91379171042a9b57c6a87349c470b0501f54cdb4c85040fce77e7ede957a467c",
+        "sha256_in_prefix": "91379171042a9b57c6a87349c470b0501f54cdb4c85040fce77e7ede957a467c",
+        "size_in_bytes": 12
+      },
+      {
+        "_path": "site-packages/ratelimiter.py",
+        "path_type": "hardlink",
+        "sha256": "299e5ec657602d2caeaae8d98b7ff9aa175a58c601beb9948ebd56830cd8c630",
+        "sha256_in_prefix": "299e5ec657602d2caeaae8d98b7ff9aa175a58c601beb9948ebd56830cd8c630",
+        "size_in_bytes": 4775
+      },
+      {
+        "_path": "lib/python3.6/site-packages/__pycache__/ratelimiter.cpython-36.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "7e2b11143013756d8b444a1fbd16580312e409ea3211a8124ec53af98887c4dc",
+  "size": 11912,
+  "subdir": "noarch",
+  "timestamp": 1602593534199,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/ratelimiter-1.2.0-py_1002.tar.bz2",
+  "version": "1.2.0"
+}

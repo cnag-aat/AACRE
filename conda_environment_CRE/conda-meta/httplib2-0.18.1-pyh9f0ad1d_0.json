@@ -1,0 +1,154 @@
+{
+  "build": "pyh9f0ad1d_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python"
+  ],
+  "extracted_package_dir": "/home/devel/jgomez/.conda/pkgs/httplib2-0.18.1-pyh9f0ad1d_0",
+  "features": "",
+  "files": [
+    "lib/python3.6/site-packages/httplib2-0.18.1.dist-info/INSTALLER",
+    "lib/python3.6/site-packages/httplib2-0.18.1.dist-info/LICENSE",
+    "lib/python3.6/site-packages/httplib2-0.18.1.dist-info/METADATA",
+    "lib/python3.6/site-packages/httplib2-0.18.1.dist-info/RECORD",
+    "lib/python3.6/site-packages/httplib2-0.18.1.dist-info/WHEEL",
+    "lib/python3.6/site-packages/httplib2-0.18.1.dist-info/direct_url.json",
+    "lib/python3.6/site-packages/httplib2-0.18.1.dist-info/top_level.txt",
+    "lib/python3.6/site-packages/httplib2/__init__.py",
+    "lib/python3.6/site-packages/httplib2/cacerts.txt",
+    "lib/python3.6/site-packages/httplib2/certs.py",
+    "lib/python3.6/site-packages/httplib2/iri2uri.py",
+    "lib/python3.6/site-packages/httplib2/socks.py",
+    "lib/python3.6/site-packages/httplib2/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/httplib2/__pycache__/certs.cpython-36.pyc",
+    "lib/python3.6/site-packages/httplib2/__pycache__/iri2uri.cpython-36.pyc",
+    "lib/python3.6/site-packages/httplib2/__pycache__/socks.cpython-36.pyc"
+  ],
+  "fn": "httplib2-0.18.1-pyh9f0ad1d_0.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/home/devel/jgomez/.conda/pkgs/httplib2-0.18.1-pyh9f0ad1d_0",
+    "type": 1
+  },
+  "md5": "5b9bb0b3723ba5773f1950aa0152f030",
+  "name": "httplib2",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/devel/jgomez/.conda/pkgs/httplib2-0.18.1-pyh9f0ad1d_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/httplib2-0.18.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/httplib2-0.18.1.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "589eec38f72df2be203711d3b8cbece9b908c5e7ff00bc3cab7f63bae9e366b4",
+        "sha256_in_prefix": "589eec38f72df2be203711d3b8cbece9b908c5e7ff00bc3cab7f63bae9e366b4",
+        "size_in_bytes": 1086
+      },
+      {
+        "_path": "site-packages/httplib2-0.18.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "0ddb4e8158a432c6e78709c10f36f1fc08c9712dd57fa42542ff1629a02c1d4f",
+        "sha256_in_prefix": "0ddb4e8158a432c6e78709c10f36f1fc08c9712dd57fa42542ff1629a02c1d4f",
+        "size_in_bytes": 2197
+      },
+      {
+        "_path": "site-packages/httplib2-0.18.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "d44e4255d26889336c4f5f7ca047737e4369c7cba338bddb88edafa0db711842",
+        "sha256_in_prefix": "d44e4255d26889336c4f5f7ca047737e4369c7cba338bddb88edafa0db711842",
+        "size_in_bytes": 1159
+      },
+      {
+        "_path": "site-packages/httplib2-0.18.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "8389ccb3b77e5e5f7ec42f57a2f52bb031c65edf854f4135ed8aa8f760c47ef6",
+        "sha256_in_prefix": "8389ccb3b77e5e5f7ec42f57a2f52bb031c65edf854f4135ed8aa8f760c47ef6",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/httplib2-0.18.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "f8e699e81818fdf4b886dd9c1d003f9e30d68353331a3b1237be21ca84d8cb52",
+        "sha256_in_prefix": "f8e699e81818fdf4b886dd9c1d003f9e30d68353331a3b1237be21ca84d8cb52",
+        "size_in_bytes": 104
+      },
+      {
+        "_path": "site-packages/httplib2-0.18.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "04463c0a12b06a05169aef71f3237d24e6c9a5928d7960abd44fac20409be7a2",
+        "sha256_in_prefix": "04463c0a12b06a05169aef71f3237d24e6c9a5928d7960abd44fac20409be7a2",
+        "size_in_bytes": 9
+      },
+      {
+        "_path": "site-packages/httplib2/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "782de21d502c42d9b9393ac042348ee4f0c2abf7b8f40835b928461e1a041ab0",
+        "sha256_in_prefix": "782de21d502c42d9b9393ac042348ee4f0c2abf7b8f40835b928461e1a041ab0",
+        "size_in_bytes": 76134
+      },
+      {
+        "_path": "site-packages/httplib2/cacerts.txt",
+        "path_type": "hardlink",
+        "sha256": "010c9a7558e9d6c1081b4c8888c27cda5e7686994fa37a1d248c93492fec38dc",
+        "sha256_in_prefix": "010c9a7558e9d6c1081b4c8888c27cda5e7686994fa37a1d248c93492fec38dc",
+        "size_in_bytes": 135547
+      },
+      {
+        "_path": "site-packages/httplib2/certs.py",
+        "path_type": "hardlink",
+        "sha256": "82e85f8cc3610dd2891326016f96722f154ee6ad48ed8fcffb8046f0c9e2064f",
+        "sha256_in_prefix": "82e85f8cc3610dd2891326016f96722f154ee6ad48ed8fcffb8046f0c9e2064f",
+        "size_in_bytes": 971
+      },
+      {
+        "_path": "site-packages/httplib2/iri2uri.py",
+        "path_type": "hardlink",
+        "sha256": "3e1233133791e82ef797ba62c2b34026556f95682cab1b494e515e5e0ce7cd0a",
+        "sha256_in_prefix": "3e1233133791e82ef797ba62c2b34026556f95682cab1b494e515e5e0ce7cd0a",
+        "size_in_bytes": 4153
+      },
+      {
+        "_path": "site-packages/httplib2/socks.py",
+        "path_type": "hardlink",
+        "sha256": "a1a7843a74f6ae44cd9bac279f40927615b355a56c8679e400a88fe24c4acf37",
+        "sha256_in_prefix": "a1a7843a74f6ae44cd9bac279f40927615b355a56c8679e400a88fe24c4acf37",
+        "size_in_bytes": 19701
+      },
+      {
+        "_path": "lib/python3.6/site-packages/httplib2/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/httplib2/__pycache__/certs.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/httplib2/__pycache__/iri2uri.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/httplib2/__pycache__/socks.cpython-36.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "588e8044c58633bce00c06c82b1ea5b7eff0b651f3185474bd84cd810f2748d2",
+  "size": 95993,
+  "subdir": "noarch",
+  "timestamp": 1590007889893,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/httplib2-0.18.1-pyh9f0ad1d_0.tar.bz2",
+  "version": "0.18.1"
+}

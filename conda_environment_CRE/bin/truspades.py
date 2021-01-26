@@ -1,0 +1,1 @@
+../share/spades-3.13.0-0/bin/truspades.py

@@ -1,0 +1,63 @@
+{
+  "build": "pl526_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/bioconda/noarch",
+  "constrains": [],
+  "depends": [
+    "perl >=5.26.2,<5.26.3.0a0",
+    "perl-bioperl-run",
+    "t_coffee"
+  ],
+  "extracted_package_dir": "/home/devel/jgomez/.conda/pkgs/perl-bio-tools-run-alignment-tcoffee-1.7.4-pl526_2",
+  "features": "",
+  "files": [
+    "lib/site_perl/5.26.2/Bio/Tools/Run/Alignment/TCoffee.pm",
+    "lib/site_perl/5.26.2/x86_64-linux-thread-multi/auto/Bio/Tools/Run/Alignment/TCoffee/.packlist",
+    "man/man3/Bio::Tools::Run::Alignment::TCoffee.3"
+  ],
+  "fn": "perl-bio-tools-run-alignment-tcoffee-1.7.4-pl526_2.tar.bz2",
+  "license": "perl_5",
+  "link": {
+    "source": "/home/devel/jgomez/.conda/pkgs/perl-bio-tools-run-alignment-tcoffee-1.7.4-pl526_2",
+    "type": 1
+  },
+  "md5": "5e9030386200bfab93071b6ada0155e6",
+  "name": "perl-bio-tools-run-alignment-tcoffee",
+  "noarch": "generic",
+  "package_tarball_full_path": "/home/devel/jgomez/.conda/pkgs/perl-bio-tools-run-alignment-tcoffee-1.7.4-pl526_2.tar.bz2",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/site_perl/5.26.2/Bio/Tools/Run/Alignment/TCoffee.pm",
+        "path_type": "hardlink",
+        "sha256": "3c5da98a3a9b5dda1ee387a54df3972634fe725b0a4f11076ce73d817798ba2c",
+        "sha256_in_prefix": "3c5da98a3a9b5dda1ee387a54df3972634fe725b0a4f11076ce73d817798ba2c",
+        "size_in_bytes": 39380
+      },
+      {
+        "_path": "lib/site_perl/5.26.2/x86_64-linux-thread-multi/auto/Bio/Tools/Run/Alignment/TCoffee/.packlist",
+        "path_type": "hardlink",
+        "sha256": "35e511530cb646eae0b0f620320fc9ad2ee0489750ed2fa8622bbb66d3364ec3",
+        "sha256_in_prefix": "35e511530cb646eae0b0f620320fc9ad2ee0489750ed2fa8622bbb66d3364ec3",
+        "size_in_bytes": 772
+      },
+      {
+        "_path": "man/man3/Bio::Tools::Run::Alignment::TCoffee.3",
+        "path_type": "hardlink",
+        "sha256": "d49b1d3d2cce2fb852a85345ab0bb3491db184a27a5469f759b383000ca77c69",
+        "sha256_in_prefix": "d49b1d3d2cce2fb852a85345ab0bb3491db184a27a5469f759b383000ca77c69",
+        "size_in_bytes": 29301
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "db6158527bf850809dc5269f934967ad6b437e6a3990577220b064581bf1f590",
+  "size": 23424,
+  "subdir": "noarch",
+  "timestamp": 1572260386016,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/noarch/perl-bio-tools-run-alignment-tcoffee-1.7.4-pl526_2.tar.bz2",
+  "version": "1.7.4"
+}

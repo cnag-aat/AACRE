@@ -1,0 +1,263 @@
+{
+  "arch": "x86_64",
+  "build": "py36pl526he941832_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/bioconda/label/cf201901/linux-64",
+  "constrains": [],
+  "depends": [
+    "libstdcxx-ng >=4.9",
+    "perl >=5.26.2,<5.27.0a0",
+    "python >=3.6,<3.7.0a0",
+    "zlib >=1.2.11,<1.3.0a0"
+  ],
+  "extracted_package_dir": "/home/devel/jgomez/.conda/pkgs/centrifuge-1.0.4_beta-py36pl526he941832_2",
+  "features": "",
+  "files": [
+    "bin/centrifuge",
+    "bin/centrifuge-BuildSharedSequence.pl",
+    "bin/centrifuge-RemoveEmptySequence.pl",
+    "bin/centrifuge-RemoveN.pl",
+    "bin/centrifuge-build",
+    "bin/centrifuge-build-bin",
+    "bin/centrifuge-class",
+    "bin/centrifuge-compress.pl",
+    "bin/centrifuge-download",
+    "bin/centrifuge-inspect",
+    "bin/centrifuge-inspect-bin",
+    "bin/centrifuge-kreport",
+    "bin/centrifuge-sort-nt.pl",
+    "bin/centrifuge_evaluate.py",
+    "bin/centrifuge_simulate_reads.py",
+    "share/centrifuge/doc/README",
+    "share/centrifuge/doc/add.css",
+    "share/centrifuge/doc/faq.shtml",
+    "share/centrifuge/doc/footer.inc.html",
+    "share/centrifuge/doc/index.shtml",
+    "share/centrifuge/doc/manual.html",
+    "share/centrifuge/doc/manual.inc.html",
+    "share/centrifuge/doc/manual.inc.html.old",
+    "share/centrifuge/doc/manual.shtml",
+    "share/centrifuge/doc/sidebar.inc.shtml",
+    "share/centrifuge/doc/strip_markdown.pl",
+    "share/centrifuge/doc/style.css",
+    "share/centrifuge/indices/Makefile"
+  ],
+  "fn": "centrifuge-1.0.4_beta-py36pl526he941832_2.tar.bz2",
+  "license": "GPL3",
+  "link": {
+    "source": "/home/devel/jgomez/.conda/pkgs/centrifuge-1.0.4_beta-py36pl526he941832_2",
+    "type": 1
+  },
+  "md5": "d768fb24080af6beabef0a02957e717b",
+  "name": "centrifuge",
+  "package_tarball_full_path": "/home/devel/jgomez/.conda/pkgs/centrifuge-1.0.4_beta-py36pl526he941832_2.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/centrifuge",
+        "path_type": "hardlink",
+        "sha256": "4a086dc1500cebcb92cdf1348cf5ce66134a99abb7b992ebe983b8150130bc4f",
+        "sha256_in_prefix": "4a086dc1500cebcb92cdf1348cf5ce66134a99abb7b992ebe983b8150130bc4f",
+        "size_in_bytes": 25440
+      },
+      {
+        "_path": "bin/centrifuge-BuildSharedSequence.pl",
+        "path_type": "hardlink",
+        "sha256": "6db0d677889c9d27c0ac72d9bcd2b3bdd9542a3f3a869407c40c9b737706eba9",
+        "sha256_in_prefix": "6db0d677889c9d27c0ac72d9bcd2b3bdd9542a3f3a869407c40c9b737706eba9",
+        "size_in_bytes": 12330
+      },
+      {
+        "_path": "bin/centrifuge-RemoveEmptySequence.pl",
+        "path_type": "hardlink",
+        "sha256": "0060304319f3ec4a1acc4febde4331fe1bf6a59a3528ffab6c2ee22184eccbf2",
+        "sha256_in_prefix": "0060304319f3ec4a1acc4febde4331fe1bf6a59a3528ffab6c2ee22184eccbf2",
+        "size_in_bytes": 411
+      },
+      {
+        "_path": "bin/centrifuge-RemoveN.pl",
+        "path_type": "hardlink",
+        "sha256": "e5e9c08a9ce4d7051051b49edc72bed43aa4cc385a3ef21cf74ca7c2458beb75",
+        "sha256_in_prefix": "e5e9c08a9ce4d7051051b49edc72bed43aa4cc385a3ef21cf74ca7c2458beb75",
+        "size_in_bytes": 1011
+      },
+      {
+        "_path": "bin/centrifuge-build",
+        "path_type": "hardlink",
+        "sha256": "d3eb5c11eb944c311e77c3c9559c02a35a29b2182bff76d8cd11311740c481ca",
+        "sha256_in_prefix": "d3eb5c11eb944c311e77c3c9559c02a35a29b2182bff76d8cd11311740c481ca",
+        "size_in_bytes": 2315
+      },
+      {
+        "_path": "bin/centrifuge-build-bin",
+        "path_type": "hardlink",
+        "sha256": "e42d21ee822429ecb2d2bd5666aa04df107cb5a97d27e1506a8e12c82cc308bb",
+        "sha256_in_prefix": "e42d21ee822429ecb2d2bd5666aa04df107cb5a97d27e1506a8e12c82cc308bb",
+        "size_in_bytes": 3745387
+      },
+      {
+        "_path": "bin/centrifuge-class",
+        "path_type": "hardlink",
+        "sha256": "c0463d1880e7f1de31baa2f2ed077b3bb84434ecef4774c9cfc5f949c9d4aabe",
+        "sha256_in_prefix": "c0463d1880e7f1de31baa2f2ed077b3bb84434ecef4774c9cfc5f949c9d4aabe",
+        "size_in_bytes": 5523416
+      },
+      {
+        "_path": "bin/centrifuge-compress.pl",
+        "path_type": "hardlink",
+        "sha256": "39d5503defc6c5c8986ac64c6059351e25739d6cdd3dc3d6cfe326df20e0d10b",
+        "sha256_in_prefix": "39d5503defc6c5c8986ac64c6059351e25739d6cdd3dc3d6cfe326df20e0d10b",
+        "size_in_bytes": 13309
+      },
+      {
+        "_path": "bin/centrifuge-download",
+        "path_type": "hardlink",
+        "sha256": "d6332bb60a8070de20fa04e31d8c6522811465dd84804a6e71b7e62d65e51c48",
+        "sha256_in_prefix": "d6332bb60a8070de20fa04e31d8c6522811465dd84804a6e71b7e62d65e51c48",
+        "size_in_bytes": 12954
+      },
+      {
+        "_path": "bin/centrifuge-inspect",
+        "path_type": "hardlink",
+        "sha256": "cd521b5472f3b6898d54c741b35184a28065b06fb72a962527df9eb4a5f96717",
+        "sha256_in_prefix": "cd521b5472f3b6898d54c741b35184a28065b06fb72a962527df9eb4a5f96717",
+        "size_in_bytes": 1871
+      },
+      {
+        "_path": "bin/centrifuge-inspect-bin",
+        "path_type": "hardlink",
+        "sha256": "c060be3ab1f7fe5eb2082825acafd201a95b20dcd30d9d9aa5f8df0bbb5945a0",
+        "sha256_in_prefix": "c060be3ab1f7fe5eb2082825acafd201a95b20dcd30d9d9aa5f8df0bbb5945a0",
+        "size_in_bytes": 3076204
+      },
+      {
+        "_path": "bin/centrifuge-kreport",
+        "path_type": "hardlink",
+        "sha256": "f5ab456a4090aa05bef8e6dca7cf7dd7700f3002d7cb8b0a16d55a6c195dcab5",
+        "sha256_in_prefix": "f5ab456a4090aa05bef8e6dca7cf7dd7700f3002d7cb8b0a16d55a6c195dcab5",
+        "size_in_bytes": 6706
+      },
+      {
+        "_path": "bin/centrifuge-sort-nt.pl",
+        "path_type": "hardlink",
+        "sha256": "2a9541f05505ff41788c5d059619faf48983216398a61235f888b77ee5d5c78c",
+        "sha256_in_prefix": "2a9541f05505ff41788c5d059619faf48983216398a61235f888b77ee5d5c78c",
+        "size_in_bytes": 3219
+      },
+      {
+        "_path": "bin/centrifuge_evaluate.py",
+        "path_type": "hardlink",
+        "sha256": "172f5f63d29ac49d057acaf7c25b6d500a84e1e531df6b0515c128aedd68f50b",
+        "sha256_in_prefix": "172f5f63d29ac49d057acaf7c25b6d500a84e1e531df6b0515c128aedd68f50b",
+        "size_in_bytes": 23049
+      },
+      {
+        "_path": "bin/centrifuge_simulate_reads.py",
+        "path_type": "hardlink",
+        "sha256": "a01e8fbae83098a4e29fb4f68bfbc3b11798912e2394ad9c3f67c01506d34f38",
+        "sha256_in_prefix": "a01e8fbae83098a4e29fb4f68bfbc3b11798912e2394ad9c3f67c01506d34f38",
+        "size_in_bytes": 32261
+      },
+      {
+        "_path": "share/centrifuge/doc/README",
+        "path_type": "hardlink",
+        "sha256": "fc3d9a09a2c3d079cb5021dbde7bd4abb7aab9c2218b7c8859db26e215bf9082",
+        "sha256_in_prefix": "fc3d9a09a2c3d079cb5021dbde7bd4abb7aab9c2218b7c8859db26e215bf9082",
+        "size_in_bytes": 151
+      },
+      {
+        "_path": "share/centrifuge/doc/add.css",
+        "path_type": "hardlink",
+        "sha256": "0362057723d1b15a5e2c6871d511f7dce9e895b6438fd6670f111490f601fb1e",
+        "sha256_in_prefix": "0362057723d1b15a5e2c6871d511f7dce9e895b6438fd6670f111490f601fb1e",
+        "size_in_bytes": 1234
+      },
+      {
+        "_path": "share/centrifuge/doc/faq.shtml",
+        "path_type": "hardlink",
+        "sha256": "cf866d3848f8554b0fb75c66f4e3e81bfc4b0020cb2cf61c29af7729d327b828",
+        "sha256_in_prefix": "cf866d3848f8554b0fb75c66f4e3e81bfc4b0020cb2cf61c29af7729d327b828",
+        "size_in_bytes": 1158
+      },
+      {
+        "_path": "share/centrifuge/doc/footer.inc.html",
+        "path_type": "hardlink",
+        "sha256": "b1a6c80f1f34336b9d03687c1c9edc7adf6c797462b9e308531e42d7258dc442",
+        "sha256_in_prefix": "b1a6c80f1f34336b9d03687c1c9edc7adf6c797462b9e308531e42d7258dc442",
+        "size_in_bytes": 423
+      },
+      {
+        "_path": "share/centrifuge/doc/index.shtml",
+        "path_type": "hardlink",
+        "sha256": "c7ffdb5376cf28a449b7614d79a34f4a47472b41447b74638b7898331912fb51",
+        "sha256_in_prefix": "c7ffdb5376cf28a449b7614d79a34f4a47472b41447b74638b7898331912fb51",
+        "size_in_bytes": 5451
+      },
+      {
+        "_path": "share/centrifuge/doc/manual.html",
+        "path_type": "hardlink",
+        "sha256": "11286af7b3eed5c7e574ef53f506095bd7a4ed6d312578384e3eba0136ce1006",
+        "sha256_in_prefix": "11286af7b3eed5c7e574ef53f506095bd7a4ed6d312578384e3eba0136ce1006",
+        "size_in_bytes": 84288
+      },
+      {
+        "_path": "share/centrifuge/doc/manual.inc.html",
+        "path_type": "hardlink",
+        "sha256": "28f8af137742df15af2444c0f26208725f922b0cdb33fce1fad1006fb8b2073a",
+        "sha256_in_prefix": "28f8af137742df15af2444c0f26208725f922b0cdb33fce1fad1006fb8b2073a",
+        "size_in_bytes": 63632
+      },
+      {
+        "_path": "share/centrifuge/doc/manual.inc.html.old",
+        "path_type": "hardlink",
+        "sha256": "53d9c64d301c2f13af101a675a47b29ac3f1258ce3a3d20af4b17400e246b8d0",
+        "sha256_in_prefix": "53d9c64d301c2f13af101a675a47b29ac3f1258ce3a3d20af4b17400e246b8d0",
+        "size_in_bytes": 82391
+      },
+      {
+        "_path": "share/centrifuge/doc/manual.shtml",
+        "path_type": "hardlink",
+        "sha256": "2af8ab2749f5eaf6ce7ca68c5b7242bb76ee0a28b9503d042f1bed4ed679fae5",
+        "sha256_in_prefix": "2af8ab2749f5eaf6ce7ca68c5b7242bb76ee0a28b9503d042f1bed4ed679fae5",
+        "size_in_bytes": 1068
+      },
+      {
+        "_path": "share/centrifuge/doc/sidebar.inc.shtml",
+        "path_type": "hardlink",
+        "sha256": "c413b552bb1a63a70547a3e56a8632955778f34d39ba23243f36339f0a5e2bf0",
+        "sha256_in_prefix": "c413b552bb1a63a70547a3e56a8632955778f34d39ba23243f36339f0a5e2bf0",
+        "size_in_bytes": 4629
+      },
+      {
+        "_path": "share/centrifuge/doc/strip_markdown.pl",
+        "path_type": "hardlink",
+        "sha256": "fff21a25888a702ad207d58416f9e90315ae119bacbee054bfd78c2d6482f2b7",
+        "sha256_in_prefix": "fff21a25888a702ad207d58416f9e90315ae119bacbee054bfd78c2d6482f2b7",
+        "size_in_bytes": 778
+      },
+      {
+        "_path": "share/centrifuge/doc/style.css",
+        "path_type": "hardlink",
+        "sha256": "7545947bd5084eb388a014f26f84c353827ca0d1b2a4ec8b1afa04fb95a0ce0b",
+        "sha256_in_prefix": "7545947bd5084eb388a014f26f84c353827ca0d1b2a4ec8b1afa04fb95a0ce0b",
+        "size_in_bytes": 7942
+      },
+      {
+        "_path": "share/centrifuge/indices/Makefile",
+        "path_type": "hardlink",
+        "sha256": "4a80a45b3f64b53f4d7ec9550d315b9d45f0feb32904c3f21ff872717d4168df",
+        "sha256_in_prefix": "4a80a45b3f64b53f4d7ec9550d315b9d45f0feb32904c3f21ff872717d4168df",
+        "size_in_bytes": 12887
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "centrifuge",
+  "size": 4047138,
+  "subdir": "linux-64",
+  "timestamp": 1530716515228,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/label/cf201901/linux-64/centrifuge-1.0.4_beta-py36pl526he941832_2.tar.bz2",
+  "version": "1.0.4_beta"
+}

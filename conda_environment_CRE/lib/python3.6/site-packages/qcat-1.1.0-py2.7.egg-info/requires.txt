@@ -1,0 +1,7 @@
+biopython
+parasail
+six
+pyyaml
+
+[DOCS]
+sphinx>=1.3.1

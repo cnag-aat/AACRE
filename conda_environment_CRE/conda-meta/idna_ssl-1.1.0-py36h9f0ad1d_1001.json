@@ -1,0 +1,118 @@
+{
+  "build": "py36h9f0ad1d_1001",
+  "build_number": 1001,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "idna >=2",
+    "python >=3.6,<3.7.0a0",
+    "python_abi 3.6.* *_cp36m"
+  ],
+  "extracted_package_dir": "/home/devel/jgomez/.conda/pkgs/idna_ssl-1.1.0-py36h9f0ad1d_1001",
+  "features": "",
+  "files": [
+    "lib/python3.6/site-packages/__pycache__/idna_ssl.cpython-36.pyc",
+    "lib/python3.6/site-packages/idna_ssl-1.1.0.dist-info/INSTALLER",
+    "lib/python3.6/site-packages/idna_ssl-1.1.0.dist-info/LICENSE",
+    "lib/python3.6/site-packages/idna_ssl-1.1.0.dist-info/METADATA",
+    "lib/python3.6/site-packages/idna_ssl-1.1.0.dist-info/RECORD",
+    "lib/python3.6/site-packages/idna_ssl-1.1.0.dist-info/REQUESTED",
+    "lib/python3.6/site-packages/idna_ssl-1.1.0.dist-info/WHEEL",
+    "lib/python3.6/site-packages/idna_ssl-1.1.0.dist-info/direct_url.json",
+    "lib/python3.6/site-packages/idna_ssl-1.1.0.dist-info/top_level.txt",
+    "lib/python3.6/site-packages/idna_ssl.py"
+  ],
+  "fn": "idna_ssl-1.1.0-py36h9f0ad1d_1001.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/home/devel/jgomez/.conda/pkgs/idna_ssl-1.1.0-py36h9f0ad1d_1001",
+    "type": 1
+  },
+  "md5": "5a5bf3a0361aff32b956488184709faf",
+  "name": "idna_ssl",
+  "package_tarball_full_path": "/home/devel/jgomez/.conda/pkgs/idna_ssl-1.1.0-py36h9f0ad1d_1001.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.6/site-packages/__pycache__/idna_ssl.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "bbb0f7bd10f496211adca8121a44aa47e376d06c86ea553b6b49ddc1da41509c",
+        "sha256_in_prefix": "bbb0f7bd10f496211adca8121a44aa47e376d06c86ea553b6b49ddc1da41509c",
+        "size_in_bytes": 937
+      },
+      {
+        "_path": "lib/python3.6/site-packages/idna_ssl-1.1.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.6/site-packages/idna_ssl-1.1.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "beddf3a80aaaa71ebd6765b13bc680bd0450bb81191249cc889539523f9404ec",
+        "sha256_in_prefix": "beddf3a80aaaa71ebd6765b13bc680bd0450bb81191249cc889539523f9404ec",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "lib/python3.6/site-packages/idna_ssl-1.1.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "8fd8c554d04044b7ad7f386ad32d1718e7f976577da414d1a75bd76e2262988c",
+        "sha256_in_prefix": "8fd8c554d04044b7ad7f386ad32d1718e7f976577da414d1a75bd76e2262988c",
+        "size_in_bytes": 2349
+      },
+      {
+        "_path": "lib/python3.6/site-packages/idna_ssl-1.1.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "771b6742004050b47908ca57b7106ebfd9de7a0448fcf9dd193bf01a0a6a7444",
+        "sha256_in_prefix": "771b6742004050b47908ca57b7106ebfd9de7a0448fcf9dd193bf01a0a6a7444",
+        "size_in_bytes": 777
+      },
+      {
+        "_path": "lib/python3.6/site-packages/idna_ssl-1.1.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.6/site-packages/idna_ssl-1.1.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "11546323af45e6a5639bf620a9c4d73e74c0bf705f494af4595007b923f75e8a",
+        "sha256_in_prefix": "11546323af45e6a5639bf620a9c4d73e74c0bf705f494af4595007b923f75e8a",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "lib/python3.6/site-packages/idna_ssl-1.1.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "983a2e68ba6f23c9ba1cc835c7d4c1556763842502d28475e7dece8ff8865ca3",
+        "sha256_in_prefix": "983a2e68ba6f23c9ba1cc835c7d4c1556763842502d28475e7dece8ff8865ca3",
+        "size_in_bytes": 104
+      },
+      {
+        "_path": "lib/python3.6/site-packages/idna_ssl-1.1.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "1dd12ef1f5f77a4db325db2c3549054595496ef5eda814eac29a216d67958721",
+        "sha256_in_prefix": "1dd12ef1f5f77a4db325db2c3549054595496ef5eda814eac29a216d67958721",
+        "size_in_bytes": 9
+      },
+      {
+        "_path": "lib/python3.6/site-packages/idna_ssl.py",
+        "path_type": "hardlink",
+        "sha256": "4434f856d4f1222658afa55ad7aac9a4a8a45d372489074fc150540bf5f24467",
+        "sha256_in_prefix": "4434f856d4f1222658afa55ad7aac9a4a8a45d372489074fc150540bf5f24467",
+        "size_in_bytes": 779
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "ecfca16d484658a4da9ee1518d52536cd3bada0bc9db1bb1f35031f9a499aa15",
+  "size": 7376,
+  "subdir": "linux-64",
+  "timestamp": 1602585892500,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/idna_ssl-1.1.0-py36h9f0ad1d_1001.tar.bz2",
+  "version": "1.1.0"
+}

@@ -1,0 +1,55 @@
+{
+   "abstract" : "SAX2 XML Writer",
+   "author" : [
+      "Robin Berjon <robin@knowscape.com>",
+      "Chris Prather <chris@prather.org>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Dist::Zilla version 6.010, CPAN::Meta::Converter version 2.150005, CPAN::Meta::Converter version 2.150010",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "XML-SAX-Writer",
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "Test::More" : "0.40"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "0"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Encode" : "2.12",
+            "XML::Filter::BufferText" : "1.00",
+            "XML::NamespaceSupport" : "1.00",
+            "XML::SAX::Exception" : "1.01",
+            "perl" : "5.005000"
+         }
+      },
+      "test" : {
+         "requires" : {
+            "File::Spec" : "0",
+            "IO::Handle" : "0",
+            "IPC::Open3" : "0",
+            "Test::More" : "0.40"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "homepage" : "https://github.com/perigrin/xml-sax-writer",
+      "repository" : {
+         "url" : "https://github.com/perigrin/xml-sax-writer.git"
+      }
+   },
+   "version" : "0.57",
+   "x_serialization_backend" : "JSON::PP version 2.27400_02"
+}

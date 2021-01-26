@@ -1,0 +1,48 @@
+{
+  "build": "0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/bioconda/noarch",
+  "constrains": [],
+  "depends": [
+    "cutadapt",
+    "fastqc",
+    "perl"
+  ],
+  "extracted_package_dir": "/home/devel/jgomez/.conda/pkgs/trim-galore-0.6.6-0",
+  "features": "",
+  "files": [
+    "bin/trim_galore"
+  ],
+  "fn": "trim-galore-0.6.6-0.tar.bz2",
+  "license": "GPL",
+  "license_family": "GPL",
+  "link": {
+    "source": "/home/devel/jgomez/.conda/pkgs/trim-galore-0.6.6-0",
+    "type": 1
+  },
+  "md5": "a635529106bc7c08715a4153951934f8",
+  "name": "trim-galore",
+  "noarch": "generic",
+  "package_tarball_full_path": "/home/devel/jgomez/.conda/pkgs/trim-galore-0.6.6-0.tar.bz2",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/trim_galore",
+        "path_type": "hardlink",
+        "sha256": "1daeaf15bfa6778299e8a2381af8c6598de9de824f41f1c52da59d396a4d7a06",
+        "sha256_in_prefix": "1daeaf15bfa6778299e8a2381af8c6598de9de824f41f1c52da59d396a4d7a06",
+        "size_in_bytes": 134956
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "trim-galore",
+  "sha256": "48acfbba06ec4003b0d1b59968dbc4fe3a02651de92e78342b262b44f7628c2b",
+  "size": 43070,
+  "subdir": "noarch",
+  "timestamp": 1599290206569,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/noarch/trim-galore-0.6.6-0.tar.bz2",
+  "version": "0.6.6"
+}

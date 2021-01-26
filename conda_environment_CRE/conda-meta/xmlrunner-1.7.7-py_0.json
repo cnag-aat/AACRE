@@ -1,0 +1,115 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python"
+  ],
+  "extracted_package_dir": "/home/devel/jgomez/.conda/pkgs/xmlrunner-1.7.7-py_0",
+  "features": "",
+  "files": [
+    "lib/python3.6/site-packages/xmlrunner-1.7.7-py3.6.egg-info/PKG-INFO",
+    "lib/python3.6/site-packages/xmlrunner-1.7.7-py3.6.egg-info/SOURCES.txt",
+    "lib/python3.6/site-packages/xmlrunner-1.7.7-py3.6.egg-info/dependency_links.txt",
+    "lib/python3.6/site-packages/xmlrunner-1.7.7-py3.6.egg-info/top_level.txt",
+    "lib/python3.6/site-packages/xmlrunner-1.7.7-py3.6.egg-info/zip-safe",
+    "lib/python3.6/site-packages/xmlrunner/__init__.py",
+    "lib/python3.6/site-packages/xmlrunner/version.py",
+    "lib/python3.6/site-packages/xmlrunner/xmlrunner.py",
+    "lib/python3.6/site-packages/xmlrunner/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/xmlrunner/__pycache__/version.cpython-36.pyc",
+    "lib/python3.6/site-packages/xmlrunner/__pycache__/xmlrunner.cpython-36.pyc"
+  ],
+  "fn": "xmlrunner-1.7.7-py_0.tar.bz2",
+  "license": "LGPL-3.0",
+  "link": {
+    "source": "/home/devel/jgomez/.conda/pkgs/xmlrunner-1.7.7-py_0",
+    "type": 1
+  },
+  "md5": "6339b06d00ea3d14eadf4fcb411715c2",
+  "name": "xmlrunner",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/devel/jgomez/.conda/pkgs/xmlrunner-1.7.7-py_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/xmlrunner-1.7.7-py3.6.egg-info/PKG-INFO",
+        "path_type": "hardlink",
+        "sha256": "a4f8f2f461fd78b902279cfaeda540401b2c7086b1aa5a6d7ec0919375502d06",
+        "sha256_in_prefix": "a4f8f2f461fd78b902279cfaeda540401b2c7086b1aa5a6d7ec0919375502d06",
+        "size_in_bytes": 941
+      },
+      {
+        "_path": "site-packages/xmlrunner-1.7.7-py3.6.egg-info/SOURCES.txt",
+        "path_type": "hardlink",
+        "sha256": "9fbac421e5e0a9fb563ec773bdd268b4962d644f2345c041ba7831825deeb8f6",
+        "sha256_in_prefix": "9fbac421e5e0a9fb563ec773bdd268b4962d644f2345c041ba7831825deeb8f6",
+        "size_in_bytes": 244
+      },
+      {
+        "_path": "site-packages/xmlrunner-1.7.7-py3.6.egg-info/dependency_links.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "site-packages/xmlrunner-1.7.7-py3.6.egg-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "db608f1e2e1f656b8f7d3b8e2be17b250a81fde10f4ccd7b5e6ddb331f3748f3",
+        "sha256_in_prefix": "db608f1e2e1f656b8f7d3b8e2be17b250a81fde10f4ccd7b5e6ddb331f3748f3",
+        "size_in_bytes": 10
+      },
+      {
+        "_path": "site-packages/xmlrunner-1.7.7-py3.6.egg-info/zip-safe",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "site-packages/xmlrunner/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "404c65fd0899e6b897deed92ff2594875bc7407cc514e44615ddb273e02885fd",
+        "sha256_in_prefix": "404c65fd0899e6b897deed92ff2594875bc7407cc514e44615ddb273e02885fd",
+        "size_in_bytes": 84
+      },
+      {
+        "_path": "site-packages/xmlrunner/version.py",
+        "path_type": "hardlink",
+        "sha256": "a3b4bd1499295625ff5dc39507e9f939bb7666c46fe57a1d62f2d87bb8eece5c",
+        "sha256_in_prefix": "a3b4bd1499295625ff5dc39507e9f939bb7666c46fe57a1d62f2d87bb8eece5c",
+        "size_in_bytes": 397
+      },
+      {
+        "_path": "site-packages/xmlrunner/xmlrunner.py",
+        "path_type": "hardlink",
+        "sha256": "31c426e64410c8270f3dc7c1aad48d2f7c7be7a5f6787da48bd0f627c4a56094",
+        "sha256_in_prefix": "31c426e64410c8270f3dc7c1aad48d2f7c7be7a5f6787da48bd0f627c4a56094",
+        "size_in_bytes": 15610
+      },
+      {
+        "_path": "lib/python3.6/site-packages/xmlrunner/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/xmlrunner/__pycache__/version.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/xmlrunner/__pycache__/xmlrunner.cpython-36.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "33d09389ba8523c45761ca5886c45b26f3901809c6d5ee3687e834cb79457606",
+  "size": 11275,
+  "subdir": "noarch",
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/xmlrunner-1.7.7-py_0.tar.bz2",
+  "version": "1.7.7"
+}

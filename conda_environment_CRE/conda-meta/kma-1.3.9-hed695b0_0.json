@@ -1,0 +1,76 @@
+{
+  "build": "hed695b0_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/bioconda/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=7.5.0",
+    "zlib >=1.2.11,<1.3.0a0"
+  ],
+  "extracted_package_dir": "/home/devel/jgomez/.conda/pkgs/kma-1.3.9-hed695b0_0",
+  "features": "",
+  "files": [
+    "bin/kma",
+    "bin/kma_index",
+    "bin/kma_shm",
+    "bin/kma_update",
+    "doc/kma/README.md"
+  ],
+  "fn": "kma-1.3.9-hed695b0_0.tar.bz2",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "/home/devel/jgomez/.conda/pkgs/kma-1.3.9-hed695b0_0",
+    "type": 1
+  },
+  "md5": "2884e8c185f2379e75397e47c8d2fbb3",
+  "name": "kma",
+  "package_tarball_full_path": "/home/devel/jgomez/.conda/pkgs/kma-1.3.9-hed695b0_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/kma",
+        "path_type": "hardlink",
+        "sha256": "f83d8f4129cb8bb79b3f5af32b1fe756186c7b6205dd7038456fd482cc947ddf",
+        "sha256_in_prefix": "f83d8f4129cb8bb79b3f5af32b1fe756186c7b6205dd7038456fd482cc947ddf",
+        "size_in_bytes": 417960
+      },
+      {
+        "_path": "bin/kma_index",
+        "path_type": "hardlink",
+        "sha256": "0438193c7081a8d4d6373c862e39cc841d2030eff1836e2a0d1b4ab0ed891413",
+        "sha256_in_prefix": "0438193c7081a8d4d6373c862e39cc841d2030eff1836e2a0d1b4ab0ed891413",
+        "size_in_bytes": 83432
+      },
+      {
+        "_path": "bin/kma_shm",
+        "path_type": "hardlink",
+        "sha256": "bce4458f1b47c9101f3159c6a36dc4bdb0fee759820a761cbb9d930cab8167d7",
+        "sha256_in_prefix": "bce4458f1b47c9101f3159c6a36dc4bdb0fee759820a761cbb9d930cab8167d7",
+        "size_in_bytes": 22224
+      },
+      {
+        "_path": "bin/kma_update",
+        "path_type": "hardlink",
+        "sha256": "de0feb678a1f9722063be42860b22f520d4877dac40464687b609cbef09ed434",
+        "sha256_in_prefix": "de0feb678a1f9722063be42860b22f520d4877dac40464687b609cbef09ed434",
+        "size_in_bytes": 22288
+      },
+      {
+        "_path": "doc/kma/README.md",
+        "path_type": "hardlink",
+        "sha256": "d03cde79a4db222f5330848c900e72a7c3ddc838d359892a6e6564438b3de841",
+        "sha256_in_prefix": "d03cde79a4db222f5330848c900e72a7c3ddc838d359892a6e6564438b3de841",
+        "size_in_bytes": 6820
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "kma",
+  "sha256": "88a6eba927fb66ed8a79c9e130864a611e1b812440577e4a939510792ce6cf79",
+  "size": 231711,
+  "subdir": "linux-64",
+  "timestamp": 1607001675103,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/linux-64/kma-1.3.9-hed695b0_0.tar.bz2",
+  "version": "1.3.9"
+}

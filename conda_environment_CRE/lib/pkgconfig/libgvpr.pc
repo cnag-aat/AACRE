@@ -1,0 +1,11 @@
+prefix=/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include/graphviz
+
+Name: libgvpr
+Description: The GVPR library
+Version: 2.42.3
+Libs: -L${libdir} -lgvpr -lcgraph -lcdt
+Cflags: -I${includedir}
+

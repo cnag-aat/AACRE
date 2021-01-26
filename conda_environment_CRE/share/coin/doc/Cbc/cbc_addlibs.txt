@@ -1,0 +1,1 @@
+-L/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE/lib -lCbcSolver -lCbc -lpthread -lrt -lCgl -lOsiClp -lClpSolver -lClp -lOsi -lCoinUtils -llapack -lblas -lm

@@ -1,0 +1,63 @@
+{
+  "build": "h14c3975_1002",
+  "build_number": 1002,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=7.3.0",
+    "xorg-xextproto"
+  ],
+  "extracted_package_dir": "/home/devel/jgomez/.conda/pkgs/xorg-fixesproto-5.0-h14c3975_1002",
+  "features": "",
+  "files": [
+    "include/X11/extensions/xfixesproto.h",
+    "include/X11/extensions/xfixeswire.h",
+    "lib/pkgconfig/fixesproto.pc"
+  ],
+  "fn": "xorg-fixesproto-5.0-h14c3975_1002.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/home/devel/jgomez/.conda/pkgs/xorg-fixesproto-5.0-h14c3975_1002",
+    "type": 1
+  },
+  "md5": "fea3177a42ebe15b15a3e877d0088497",
+  "name": "xorg-fixesproto",
+  "package_tarball_full_path": "/home/devel/jgomez/.conda/pkgs/xorg-fixesproto-5.0-h14c3975_1002.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "include/X11/extensions/xfixesproto.h",
+        "path_type": "hardlink",
+        "sha256": "9c16d981a7b2c0310a7ab144518fbee96a7175bb59e3c282a10b334d37c2e78a",
+        "sha256_in_prefix": "9c16d981a7b2c0310a7ab144518fbee96a7175bb59e3c282a10b334d37c2e78a",
+        "size_in_bytes": 13430
+      },
+      {
+        "_path": "include/X11/extensions/xfixeswire.h",
+        "path_type": "hardlink",
+        "sha256": "63baa4419d9b4a7fc2466bf5bdd2c4543dc99ed2693d4173491891623c777628",
+        "sha256_in_prefix": "63baa4419d9b4a7fc2466bf5bdd2c4543dc99ed2693d4173491891623c777628",
+        "size_in_bytes": 5396
+      },
+      {
+        "_path": "lib/pkgconfig/fixesproto.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "e9c32d48b5b207ca709b90459f4a5f645ea5e8833bedd60705e1febc76f5b12d",
+        "sha256_in_prefix": "7ae2be1cf480fdf80c96eaa3b8a59d71dcafb9642b3100d526da6e4f266b0f50",
+        "size_in_bytes": 243
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "1899758fe80d359718cf995e14bfbf4bbfb431556c92efcd0551312bc866c150",
+  "size": 8203,
+  "subdir": "linux-64",
+  "timestamp": 1537059052694,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/xorg-fixesproto-5.0-h14c3975_1002.tar.bz2",
+  "version": "5.0"
+}

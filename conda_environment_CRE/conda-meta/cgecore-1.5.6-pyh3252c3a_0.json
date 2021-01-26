@@ -1,0 +1,267 @@
+{
+  "build": "pyh3252c3a_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/bioconda/noarch",
+  "constrains": [],
+  "depends": [
+    "biopython",
+    "python"
+  ],
+  "extracted_package_dir": "/home/devel/jgomez/.conda/pkgs/cgecore-1.5.6-pyh3252c3a_0",
+  "features": "",
+  "files": [
+    "lib/python3.6/site-packages/cgecore-1.5.6.dist-info/INSTALLER",
+    "lib/python3.6/site-packages/cgecore-1.5.6.dist-info/METADATA",
+    "lib/python3.6/site-packages/cgecore-1.5.6.dist-info/RECORD",
+    "lib/python3.6/site-packages/cgecore-1.5.6.dist-info/REQUESTED",
+    "lib/python3.6/site-packages/cgecore-1.5.6.dist-info/WHEEL",
+    "lib/python3.6/site-packages/cgecore-1.5.6.dist-info/direct_url.json",
+    "lib/python3.6/site-packages/cgecore-1.5.6.dist-info/top_level.txt",
+    "lib/python3.6/site-packages/cgecore/__init__.py",
+    "lib/python3.6/site-packages/cgecore/alignment.py",
+    "lib/python3.6/site-packages/cgecore/argumentparsing.py",
+    "lib/python3.6/site-packages/cgecore/blaster/__init__.py",
+    "lib/python3.6/site-packages/cgecore/blaster/blaster.py",
+    "lib/python3.6/site-packages/cgecore/blaster/run_blaster.py",
+    "lib/python3.6/site-packages/cgecore/cgefinder.py",
+    "lib/python3.6/site-packages/cgecore/cmdline.py",
+    "lib/python3.6/site-packages/cgecore/organisminfo/__init__.py",
+    "lib/python3.6/site-packages/cgecore/organisminfo/gram_neg.txt",
+    "lib/python3.6/site-packages/cgecore/organisminfo/gram_pos.txt",
+    "lib/python3.6/site-packages/cgecore/organisminfo/gramstain.py",
+    "lib/python3.6/site-packages/cgecore/organisminfo/species.py",
+    "lib/python3.6/site-packages/cgecore/utility.py",
+    "lib/python3.6/site-packages/cgecore/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/cgecore/__pycache__/alignment.cpython-36.pyc",
+    "lib/python3.6/site-packages/cgecore/__pycache__/argumentparsing.cpython-36.pyc",
+    "lib/python3.6/site-packages/cgecore/blaster/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/cgecore/blaster/__pycache__/blaster.cpython-36.pyc",
+    "lib/python3.6/site-packages/cgecore/blaster/__pycache__/run_blaster.cpython-36.pyc",
+    "lib/python3.6/site-packages/cgecore/__pycache__/cgefinder.cpython-36.pyc",
+    "lib/python3.6/site-packages/cgecore/__pycache__/cmdline.cpython-36.pyc",
+    "lib/python3.6/site-packages/cgecore/organisminfo/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/cgecore/organisminfo/__pycache__/gramstain.cpython-36.pyc",
+    "lib/python3.6/site-packages/cgecore/organisminfo/__pycache__/species.cpython-36.pyc",
+    "lib/python3.6/site-packages/cgecore/__pycache__/utility.cpython-36.pyc"
+  ],
+  "fn": "cgecore-1.5.6-pyh3252c3a_0.tar.bz2",
+  "license": "Apache-2.0",
+  "license_family": "Apache",
+  "link": {
+    "source": "/home/devel/jgomez/.conda/pkgs/cgecore-1.5.6-pyh3252c3a_0",
+    "type": 1
+  },
+  "md5": "5671d81bddfc5e522cc0b762268d100f",
+  "name": "cgecore",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/devel/jgomez/.conda/pkgs/cgecore-1.5.6-pyh3252c3a_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/cgecore-1.5.6.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/cgecore-1.5.6.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "b423b115ccf8fbd6521869479f6b1a6f03ee73e2f688e1f71416b6fb04cf93c2",
+        "sha256_in_prefix": "b423b115ccf8fbd6521869479f6b1a6f03ee73e2f688e1f71416b6fb04cf93c2",
+        "size_in_bytes": 977
+      },
+      {
+        "_path": "site-packages/cgecore-1.5.6.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "787ab92d0d23f8c92764b395cef8c087d0499219b141b1c6dfef429c29fb9116",
+        "sha256_in_prefix": "787ab92d0d23f8c92764b395cef8c087d0499219b141b1c6dfef429c29fb9116",
+        "size_in_bytes": 2383
+      },
+      {
+        "_path": "site-packages/cgecore-1.5.6.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/cgecore-1.5.6.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "11546323af45e6a5639bf620a9c4d73e74c0bf705f494af4595007b923f75e8a",
+        "sha256_in_prefix": "11546323af45e6a5639bf620a9c4d73e74c0bf705f494af4595007b923f75e8a",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/cgecore-1.5.6.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "1b648cafbd20ed16c33803889981809d816a7bfd8dd7e56e893ce3cd207c89ac",
+        "sha256_in_prefix": "1b648cafbd20ed16c33803889981809d816a7bfd8dd7e56e893ce3cd207c89ac",
+        "size_in_bytes": 81
+      },
+      {
+        "_path": "site-packages/cgecore-1.5.6.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "740a0de314f8431db2f4ad5a6ebdb791c6ea560010db40a8253fcab90d61e485",
+        "sha256_in_prefix": "740a0de314f8431db2f4ad5a6ebdb791c6ea560010db40a8253fcab90d61e485",
+        "size_in_bytes": 8
+      },
+      {
+        "_path": "site-packages/cgecore/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "b4c90d52f8a59881957c640ddf1c64122d5722ac8eae6d13f5174665834c190b",
+        "sha256_in_prefix": "b4c90d52f8a59881957c640ddf1c64122d5722ac8eae6d13f5174665834c190b",
+        "size_in_bytes": 736
+      },
+      {
+        "_path": "site-packages/cgecore/alignment.py",
+        "path_type": "hardlink",
+        "sha256": "4198ea8c15028fed1643fcadf4807e0f9b9de614c2484be970c793dd0bded422",
+        "sha256_in_prefix": "4198ea8c15028fed1643fcadf4807e0f9b9de614c2484be970c793dd0bded422",
+        "size_in_bytes": 23387
+      },
+      {
+        "_path": "site-packages/cgecore/argumentparsing.py",
+        "path_type": "hardlink",
+        "sha256": "9a74434b7490c4df2fc21c34bc70743c33fd0b242694b153267532a6882565fc",
+        "sha256_in_prefix": "9a74434b7490c4df2fc21c34bc70743c33fd0b242694b153267532a6882565fc",
+        "size_in_bytes": 3986
+      },
+      {
+        "_path": "site-packages/cgecore/blaster/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "8d1c53b2656bd2d8d547358e6bc3476d3355e523c16a7ec2b22ed2e6659d4581",
+        "sha256_in_prefix": "8d1c53b2656bd2d8d547358e6bc3476d3355e523c16a7ec2b22ed2e6659d4581",
+        "size_in_bytes": 29
+      },
+      {
+        "_path": "site-packages/cgecore/blaster/blaster.py",
+        "path_type": "hardlink",
+        "sha256": "0fb5d36ef64e663b818d62b46dbe530d1f7f71aa91f1fe4b8e67ff4a6aced7e9",
+        "sha256_in_prefix": "0fb5d36ef64e663b818d62b46dbe530d1f7f71aa91f1fe4b8e67ff4a6aced7e9",
+        "size_in_bytes": 28089
+      },
+      {
+        "_path": "site-packages/cgecore/blaster/run_blaster.py",
+        "path_type": "hardlink",
+        "sha256": "eebb6e4628df6731a086931c2d0a28c0604b73d7c965aa5d76d90052f21d9dac",
+        "sha256_in_prefix": "eebb6e4628df6731a086931c2d0a28c0604b73d7c965aa5d76d90052f21d9dac",
+        "size_in_bytes": 6700
+      },
+      {
+        "_path": "site-packages/cgecore/cgefinder.py",
+        "path_type": "hardlink",
+        "sha256": "a9009b6d8dc5b3264a8673aa7949fae7a93de1081d0632a2f2fc10236dcba309",
+        "sha256_in_prefix": "a9009b6d8dc5b3264a8673aa7949fae7a93de1081d0632a2f2fc10236dcba309",
+        "size_in_bytes": 11027
+      },
+      {
+        "_path": "site-packages/cgecore/cmdline.py",
+        "path_type": "hardlink",
+        "sha256": "4e6cde06698195ef388dc224316cbfb378190715a3451e98b7b0f68d99a133b6",
+        "sha256_in_prefix": "4e6cde06698195ef388dc224316cbfb378190715a3451e98b7b0f68d99a133b6",
+        "size_in_bytes": 22861
+      },
+      {
+        "_path": "site-packages/cgecore/organisminfo/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/cgecore/organisminfo/gram_neg.txt",
+        "path_type": "hardlink",
+        "sha256": "1cf4f76ed2a4268ab93cdeef31fe3604c446f279d44b15ad546a8dcf7794f75b",
+        "sha256_in_prefix": "1cf4f76ed2a4268ab93cdeef31fe3604c446f279d44b15ad546a8dcf7794f75b",
+        "size_in_bytes": 1690
+      },
+      {
+        "_path": "site-packages/cgecore/organisminfo/gram_pos.txt",
+        "path_type": "hardlink",
+        "sha256": "8c016ca6346bf725df5f2df17558ed83cd17fd581acfca3fa6bbf673255467c4",
+        "sha256_in_prefix": "8c016ca6346bf725df5f2df17558ed83cd17fd581acfca3fa6bbf673255467c4",
+        "size_in_bytes": 1091
+      },
+      {
+        "_path": "site-packages/cgecore/organisminfo/gramstain.py",
+        "path_type": "hardlink",
+        "sha256": "f1c48ee29cb5d41d2fc29ce66b12bbd95c097a234eeac890713430114a5da717",
+        "sha256_in_prefix": "f1c48ee29cb5d41d2fc29ce66b12bbd95c097a234eeac890713430114a5da717",
+        "size_in_bytes": 905
+      },
+      {
+        "_path": "site-packages/cgecore/organisminfo/species.py",
+        "path_type": "hardlink",
+        "sha256": "760adda1b7d9d52abb20d83e3666e77dac9fed8f371d1c15b3843837706b3292",
+        "sha256_in_prefix": "760adda1b7d9d52abb20d83e3666e77dac9fed8f371d1c15b3843837706b3292",
+        "size_in_bytes": 3011
+      },
+      {
+        "_path": "site-packages/cgecore/utility.py",
+        "path_type": "hardlink",
+        "sha256": "4917537de0f3be4b460468f1685eff470cc09846fbf79db96acc579a34daffda",
+        "sha256_in_prefix": "4917537de0f3be4b460468f1685eff470cc09846fbf79db96acc579a34daffda",
+        "size_in_bytes": 22796
+      },
+      {
+        "_path": "lib/python3.6/site-packages/cgecore/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/cgecore/__pycache__/alignment.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/cgecore/__pycache__/argumentparsing.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/cgecore/blaster/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/cgecore/blaster/__pycache__/blaster.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/cgecore/blaster/__pycache__/run_blaster.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/cgecore/__pycache__/cgefinder.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/cgecore/__pycache__/cmdline.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/cgecore/organisminfo/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/cgecore/organisminfo/__pycache__/gramstain.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/cgecore/organisminfo/__pycache__/species.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/cgecore/__pycache__/utility.cpython-36.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "cgecore",
+  "sha256": "46e1ecc84fef6fa630db478bf84b3d4aceb49e54f60620df4a8739820c0f023b",
+  "size": 34995,
+  "subdir": "noarch",
+  "timestamp": 1604319243196,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/noarch/cgecore-1.5.6-pyh3252c3a_0.tar.bz2",
+  "version": "1.5.6"
+}

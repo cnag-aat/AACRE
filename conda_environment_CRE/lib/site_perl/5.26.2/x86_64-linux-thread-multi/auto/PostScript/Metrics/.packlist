@@ -1,0 +1,8 @@
+/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE/lib/site_perl/5.26.2/PostScript/Document.pm relocate_as=../../../../PostScript/Document.pm
+/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE/lib/site_perl/5.26.2/PostScript/Elements.pm relocate_as=../../../../PostScript/Elements.pm
+/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE/lib/site_perl/5.26.2/PostScript/Metrics.pm relocate_as=../../../../PostScript/Metrics.pm
+/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE/lib/site_perl/5.26.2/PostScript/TextBlock.pm relocate_as=../../../../PostScript/TextBlock.pm
+/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE/lib/site_perl/5.26.2/PostScript/example.pl relocate_as=../../../../PostScript/example.pl
+/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE/man/man3/PostScript::Elements.3 relocate_as=../../../../../../../man/man3/PostScript::Elements.3
+/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE/man/man3/PostScript::Metrics.3 relocate_as=../../../../../../../man/man3/PostScript::Metrics.3
+/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE/man/man3/PostScript::TextBlock.3 relocate_as=../../../../../../../man/man3/PostScript::TextBlock.3

@@ -1,0 +1,585 @@
+{
+  "build": "pyh864c0ab_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/bioconda/noarch",
+  "constrains": [],
+  "depends": [
+    "biopython",
+    "mappy",
+    "pandas",
+    "parasail-python",
+    "pysam",
+    "python",
+    "pyyaml",
+    "six"
+  ],
+  "extracted_package_dir": "/home/devel/jgomez/.conda/pkgs/qcat-1.1.0-pyh864c0ab_1",
+  "features": "",
+  "files": [
+    "bin/qcat",
+    "bin/qcat-eval",
+    "bin/qcat-eval-truth",
+    "bin/qcat-roc",
+    "lib/python3.6/site-packages/qcat-1.1.0-py2.7.egg-info/PKG-INFO",
+    "lib/python3.6/site-packages/qcat-1.1.0-py2.7.egg-info/SOURCES.txt",
+    "lib/python3.6/site-packages/qcat-1.1.0-py2.7.egg-info/dependency_links.txt",
+    "lib/python3.6/site-packages/qcat-1.1.0-py2.7.egg-info/entry_points.txt",
+    "lib/python3.6/site-packages/qcat-1.1.0-py2.7.egg-info/requires.txt",
+    "lib/python3.6/site-packages/qcat-1.1.0-py2.7.egg-info/top_level.txt",
+    "lib/python3.6/site-packages/qcat/__init__.py",
+    "lib/python3.6/site-packages/qcat/adapters.py",
+    "lib/python3.6/site-packages/qcat/calibration.py",
+    "lib/python3.6/site-packages/qcat/cli.py",
+    "lib/python3.6/site-packages/qcat/config.py",
+    "lib/python3.6/site-packages/qcat/eval.py",
+    "lib/python3.6/site-packages/qcat/eval_full.py",
+    "lib/python3.6/site-packages/qcat/eval_roc.py",
+    "lib/python3.6/site-packages/qcat/layout.py",
+    "lib/python3.6/site-packages/qcat/resources/kits/DUAL_3p.yml",
+    "lib/python3.6/site-packages/qcat/resources/kits/DUAL_5p.yml",
+    "lib/python3.6/site-packages/qcat/resources/kits/NBD104_3p.yml",
+    "lib/python3.6/site-packages/qcat/resources/kits/NBD104_5p.yml",
+    "lib/python3.6/site-packages/qcat/resources/kits/NBD104_NBD114_3p.yml",
+    "lib/python3.6/site-packages/qcat/resources/kits/NBD104_NBD114_5p.yml",
+    "lib/python3.6/site-packages/qcat/resources/kits/NBD114_3p.yml",
+    "lib/python3.6/site-packages/qcat/resources/kits/NBD114_5p.yml",
+    "lib/python3.6/site-packages/qcat/resources/kits/PBC001_3p.yml",
+    "lib/python3.6/site-packages/qcat/resources/kits/PBC001_5p.yml",
+    "lib/python3.6/site-packages/qcat/resources/kits/PBC096_3p.yml",
+    "lib/python3.6/site-packages/qcat/resources/kits/PBC096_5p.yml",
+    "lib/python3.6/site-packages/qcat/resources/kits/PBK004_LWB001_3p.yml",
+    "lib/python3.6/site-packages/qcat/resources/kits/PBK004_LWB001_5p.yml",
+    "lib/python3.6/site-packages/qcat/resources/kits/RAB201_3p.yml",
+    "lib/python3.6/site-packages/qcat/resources/kits/RAB201_5p_a.yml",
+    "lib/python3.6/site-packages/qcat/resources/kits/RAB201_5p_c.yml",
+    "lib/python3.6/site-packages/qcat/resources/kits/RAB204_RAB214_3p.yml",
+    "lib/python3.6/site-packages/qcat/resources/kits/RAB204_RAB214_5p_a.yml",
+    "lib/python3.6/site-packages/qcat/resources/kits/RAB204_RAB214_5p_c.yml",
+    "lib/python3.6/site-packages/qcat/resources/kits/RAB214_3p.yml",
+    "lib/python3.6/site-packages/qcat/resources/kits/RAB214_5p_a.yml",
+    "lib/python3.6/site-packages/qcat/resources/kits/RAB214_5p_c.yml",
+    "lib/python3.6/site-packages/qcat/resources/kits/RBK001.yml",
+    "lib/python3.6/site-packages/qcat/resources/kits/RBK004.yml",
+    "lib/python3.6/site-packages/qcat/resources/kits/RPB004_RLB001.yml",
+    "lib/python3.6/site-packages/qcat/resources/kits/VMK001.yml",
+    "lib/python3.6/site-packages/qcat/resources/kits/simple_extended.yml",
+    "lib/python3.6/site-packages/qcat/resources/kits/simple_standard.yml",
+    "lib/python3.6/site-packages/qcat/scanner.py",
+    "lib/python3.6/site-packages/qcat/scanner_base.py",
+    "lib/python3.6/site-packages/qcat/scanner_brill.py",
+    "lib/python3.6/site-packages/qcat/scanner_dual.py",
+    "lib/python3.6/site-packages/qcat/scanner_epi2me.py",
+    "lib/python3.6/site-packages/qcat/scanner_guppy.py",
+    "lib/python3.6/site-packages/qcat/scanner_simple.py",
+    "lib/python3.6/site-packages/qcat/utils.py",
+    "lib/python3.6/site-packages/qcat/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/qcat/__pycache__/adapters.cpython-36.pyc",
+    "lib/python3.6/site-packages/qcat/__pycache__/calibration.cpython-36.pyc",
+    "lib/python3.6/site-packages/qcat/__pycache__/cli.cpython-36.pyc",
+    "lib/python3.6/site-packages/qcat/__pycache__/config.cpython-36.pyc",
+    "lib/python3.6/site-packages/qcat/__pycache__/eval.cpython-36.pyc",
+    "lib/python3.6/site-packages/qcat/__pycache__/eval_full.cpython-36.pyc",
+    "lib/python3.6/site-packages/qcat/__pycache__/eval_roc.cpython-36.pyc",
+    "lib/python3.6/site-packages/qcat/__pycache__/layout.cpython-36.pyc",
+    "lib/python3.6/site-packages/qcat/__pycache__/scanner.cpython-36.pyc",
+    "lib/python3.6/site-packages/qcat/__pycache__/scanner_base.cpython-36.pyc",
+    "lib/python3.6/site-packages/qcat/__pycache__/scanner_brill.cpython-36.pyc",
+    "lib/python3.6/site-packages/qcat/__pycache__/scanner_dual.cpython-36.pyc",
+    "lib/python3.6/site-packages/qcat/__pycache__/scanner_epi2me.cpython-36.pyc",
+    "lib/python3.6/site-packages/qcat/__pycache__/scanner_guppy.cpython-36.pyc",
+    "lib/python3.6/site-packages/qcat/__pycache__/scanner_simple.cpython-36.pyc",
+    "lib/python3.6/site-packages/qcat/__pycache__/utils.cpython-36.pyc"
+  ],
+  "fn": "qcat-1.1.0-pyh864c0ab_1.tar.bz2",
+  "license": "Mozilla Public License Version 2.0",
+  "link": {
+    "source": "/home/devel/jgomez/.conda/pkgs/qcat-1.1.0-pyh864c0ab_1",
+    "type": 1
+  },
+  "md5": "4ab6ec1850dac036fe48b45a3240baff",
+  "name": "qcat",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/devel/jgomez/.conda/pkgs/qcat-1.1.0-pyh864c0ab_1.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "python-scripts/qcat",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/qcat_1595737960792/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol",
+        "sha256": "c9e4f3d4a4b778cf60d86adf0cf0c239525dd6ebfa2068db2a256c5082e73601",
+        "sha256_in_prefix": "038a7a9f160c7c66dbcbb32a7023f6a4bef2758a002dd047d7d51dbbf69f77a6",
+        "size_in_bytes": 617
+      },
+      {
+        "_path": "python-scripts/qcat-eval",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/qcat_1595737960792/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol",
+        "sha256": "0c809a93b099b5efb3defcfd5081043a8a2679647940804b03a2767c0fa14197",
+        "sha256_in_prefix": "480fb76cf8c6bd4b7af720517d453f5c202cdc53eb9572afb64b6ce88647de0c",
+        "size_in_bytes": 627
+      },
+      {
+        "_path": "python-scripts/qcat-eval-truth",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/qcat_1595737960792/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol",
+        "sha256": "49f86765f2fc8ea54f9862fd65315994e5bd9e86cca7361950246919c7c8815c",
+        "sha256_in_prefix": "f4d1a7ff63bfabe7ab3a4d85fc4b3c9d874a8e3e237ad1a883208db996fef4c3",
+        "size_in_bytes": 639
+      },
+      {
+        "_path": "python-scripts/qcat-roc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/qcat_1595737960792/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol",
+        "sha256": "bfbdcd47ccf3addb1069d512753866f5d00ac248503a31f5f58cbb9f4d633e6c",
+        "sha256_in_prefix": "329087bc46084d214497e5a3dea2170be1e5dacfb88e2740ee60f7daae717112",
+        "size_in_bytes": 625
+      },
+      {
+        "_path": "site-packages/qcat-1.1.0-py2.7.egg-info/PKG-INFO",
+        "path_type": "hardlink",
+        "sha256": "9fb5d88f1412e203060ef99891c9d58aef52939ab427d6b91c4ed2c9a16e1c1a",
+        "sha256_in_prefix": "9fb5d88f1412e203060ef99891c9d58aef52939ab427d6b91c4ed2c9a16e1c1a",
+        "size_in_bytes": 394
+      },
+      {
+        "_path": "site-packages/qcat-1.1.0-py2.7.egg-info/SOURCES.txt",
+        "path_type": "hardlink",
+        "sha256": "b0a29ab746d506a41331862e9f3af5d5a9a4eb7623285ffdb3275a6169db1f85",
+        "sha256_in_prefix": "b0a29ab746d506a41331862e9f3af5d5a9a4eb7623285ffdb3275a6169db1f85",
+        "size_in_bytes": 1554
+      },
+      {
+        "_path": "site-packages/qcat-1.1.0-py2.7.egg-info/dependency_links.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "site-packages/qcat-1.1.0-py2.7.egg-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "2b4781d63042ec67b44774ca7d6f18083b6c4c304cce7a5008f41dfa67e7d0b9",
+        "sha256_in_prefix": "2b4781d63042ec67b44774ca7d6f18083b6c4c304cce7a5008f41dfa67e7d0b9",
+        "size_in_bytes": 135
+      },
+      {
+        "_path": "site-packages/qcat-1.1.0-py2.7.egg-info/requires.txt",
+        "path_type": "hardlink",
+        "sha256": "6f2e37768ff47e4db479eb894d14caa4e31accf9757531870622670c8f62ad2b",
+        "sha256_in_prefix": "6f2e37768ff47e4db479eb894d14caa4e31accf9757531870622670c8f62ad2b",
+        "size_in_bytes": 52
+      },
+      {
+        "_path": "site-packages/qcat-1.1.0-py2.7.egg-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "0a1f4fa5b1be31ba7882a31aefc0964900d9b0942eeaefe1161057d82786ff32",
+        "sha256_in_prefix": "0a1f4fa5b1be31ba7882a31aefc0964900d9b0942eeaefe1161057d82786ff32",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/qcat/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "814aa0e864f721162548c5c671d2f9bd8e534b773d4bbb7de13022c2ab54aa17",
+        "sha256_in_prefix": "814aa0e864f721162548c5c671d2f9bd8e534b773d4bbb7de13022c2ab54aa17",
+        "size_in_bytes": 85
+      },
+      {
+        "_path": "site-packages/qcat/adapters.py",
+        "path_type": "hardlink",
+        "sha256": "dd9d85dea4b190f6a5de0a04fec71788163b8a0559fbfca40585b6c3934e8316",
+        "sha256_in_prefix": "dd9d85dea4b190f6a5de0a04fec71788163b8a0559fbfca40585b6c3934e8316",
+        "size_in_bytes": 4617
+      },
+      {
+        "_path": "site-packages/qcat/calibration.py",
+        "path_type": "hardlink",
+        "sha256": "23d24d56e95c537ed92d83e01b0d88440d16ac8bd2e41cdaf831c53eb1dfe000",
+        "sha256_in_prefix": "23d24d56e95c537ed92d83e01b0d88440d16ac8bd2e41cdaf831c53eb1dfe000",
+        "size_in_bytes": 1561
+      },
+      {
+        "_path": "site-packages/qcat/cli.py",
+        "path_type": "hardlink",
+        "sha256": "578a1172f64372017a2aeee92701593624eb0be652e3d1df811e8cc5cd64730c",
+        "sha256_in_prefix": "578a1172f64372017a2aeee92701593624eb0be652e3d1df811e8cc5cd64730c",
+        "size_in_bytes": 21935
+      },
+      {
+        "_path": "site-packages/qcat/config.py",
+        "path_type": "hardlink",
+        "sha256": "68ae822c06bb09fe693e6688e0cd6b7e9182c04c175c39f1f69ca5324a4a6c21",
+        "sha256_in_prefix": "68ae822c06bb09fe693e6688e0cd6b7e9182c04c175c39f1f69ca5324a4a6c21",
+        "size_in_bytes": 7557
+      },
+      {
+        "_path": "site-packages/qcat/eval.py",
+        "path_type": "hardlink",
+        "sha256": "ac1a2e3a91a07340f43710d47601a4411023f95fd3086b2f3b357ad4efa56bd0",
+        "sha256_in_prefix": "ac1a2e3a91a07340f43710d47601a4411023f95fd3086b2f3b357ad4efa56bd0",
+        "size_in_bytes": 5614
+      },
+      {
+        "_path": "site-packages/qcat/eval_full.py",
+        "path_type": "hardlink",
+        "sha256": "c90921d086e8185aedc3aa254017fba98bd85c3107f5cd4d03780b5ff683376b",
+        "sha256_in_prefix": "c90921d086e8185aedc3aa254017fba98bd85c3107f5cd4d03780b5ff683376b",
+        "size_in_bytes": 7079
+      },
+      {
+        "_path": "site-packages/qcat/eval_roc.py",
+        "path_type": "hardlink",
+        "sha256": "224f4536d0f5a5fd52b7adb7b09fedf13030feafc9c60bae5a4ba359f7bda287",
+        "sha256_in_prefix": "224f4536d0f5a5fd52b7adb7b09fedf13030feafc9c60bae5a4ba359f7bda287",
+        "size_in_bytes": 3211
+      },
+      {
+        "_path": "site-packages/qcat/layout.py",
+        "path_type": "hardlink",
+        "sha256": "305f89da2ebb797fd721aa9d540499607689dca2982e3c53507e8232ee2432e7",
+        "sha256_in_prefix": "305f89da2ebb797fd721aa9d540499607689dca2982e3c53507e8232ee2432e7",
+        "size_in_bytes": 8615
+      },
+      {
+        "_path": "site-packages/qcat/resources/kits/DUAL_3p.yml",
+        "path_type": "hardlink",
+        "sha256": "49315de951df1735ff24d7cc290e4773660a53b25d4dee54a3fb7535e79e784e",
+        "sha256_in_prefix": "49315de951df1735ff24d7cc290e4773660a53b25d4dee54a3fb7535e79e784e",
+        "size_in_bytes": 10162
+      },
+      {
+        "_path": "site-packages/qcat/resources/kits/DUAL_5p.yml",
+        "path_type": "hardlink",
+        "sha256": "cf9f52a8fb84463e800239e3db7f49eab0bafb2dca345c3dbecee23e19bc6c3b",
+        "sha256_in_prefix": "cf9f52a8fb84463e800239e3db7f49eab0bafb2dca345c3dbecee23e19bc6c3b",
+        "size_in_bytes": 10176
+      },
+      {
+        "_path": "site-packages/qcat/resources/kits/NBD104_3p.yml",
+        "path_type": "hardlink",
+        "sha256": "e932803fe60abcd3353d5c664a5c6305a32a94bb9412b51bcbb7b0d77ba6dbc6",
+        "sha256_in_prefix": "e932803fe60abcd3353d5c664a5c6305a32a94bb9412b51bcbb7b0d77ba6dbc6",
+        "size_in_bytes": 2395
+      },
+      {
+        "_path": "site-packages/qcat/resources/kits/NBD104_5p.yml",
+        "path_type": "hardlink",
+        "sha256": "0f17195ed143331df0c6c8bc24b36e7dfa7ff8b4c15028aae27a920a3449420a",
+        "sha256_in_prefix": "0f17195ed143331df0c6c8bc24b36e7dfa7ff8b4c15028aae27a920a3449420a",
+        "size_in_bytes": 2251
+      },
+      {
+        "_path": "site-packages/qcat/resources/kits/NBD104_NBD114_3p.yml",
+        "path_type": "hardlink",
+        "sha256": "a802452652d9993ca809e06b91bd55967a4677ec482ae39eaf86046f827157ce",
+        "sha256_in_prefix": "a802452652d9993ca809e06b91bd55967a4677ec482ae39eaf86046f827157ce",
+        "size_in_bytes": 2299
+      },
+      {
+        "_path": "site-packages/qcat/resources/kits/NBD104_NBD114_5p.yml",
+        "path_type": "hardlink",
+        "sha256": "1f6bc761b5613d29491bc7cf4ea991ee1424c004a984311f7069029712e14837",
+        "sha256_in_prefix": "1f6bc761b5613d29491bc7cf4ea991ee1424c004a984311f7069029712e14837",
+        "size_in_bytes": 2214
+      },
+      {
+        "_path": "site-packages/qcat/resources/kits/NBD114_3p.yml",
+        "path_type": "hardlink",
+        "sha256": "ee130a91331000ae5657687976faa59dfd946b355bdd9b3f58193cf4d006e762",
+        "sha256_in_prefix": "ee130a91331000ae5657687976faa59dfd946b355bdd9b3f58193cf4d006e762",
+        "size_in_bytes": 1234
+      },
+      {
+        "_path": "site-packages/qcat/resources/kits/NBD114_5p.yml",
+        "path_type": "hardlink",
+        "sha256": "9346e535a143dc679e421fd1e93fae91f61b847d9bdfedb19bcc03e1286ea3e5",
+        "sha256_in_prefix": "9346e535a143dc679e421fd1e93fae91f61b847d9bdfedb19bcc03e1286ea3e5",
+        "size_in_bytes": 1149
+      },
+      {
+        "_path": "site-packages/qcat/resources/kits/PBC001_3p.yml",
+        "path_type": "hardlink",
+        "sha256": "55f3736cdc1a51e3076249200264aaf512802f1ed09b5779507cf4bcb5aa0a07",
+        "sha256_in_prefix": "55f3736cdc1a51e3076249200264aaf512802f1ed09b5779507cf4bcb5aa0a07",
+        "size_in_bytes": 1262
+      },
+      {
+        "_path": "site-packages/qcat/resources/kits/PBC001_5p.yml",
+        "path_type": "hardlink",
+        "sha256": "84dade74c603ef185ab794bb8bb7f2fd01b45169e0ccb3baa31954c1ab49a5f5",
+        "sha256_in_prefix": "84dade74c603ef185ab794bb8bb7f2fd01b45169e0ccb3baa31954c1ab49a5f5",
+        "size_in_bytes": 1261
+      },
+      {
+        "_path": "site-packages/qcat/resources/kits/PBC096_3p.yml",
+        "path_type": "hardlink",
+        "sha256": "9f00ddcd0ff0d9b12338e98880b7995d1f9d49174275545b904cec091ce520b4",
+        "sha256_in_prefix": "9f00ddcd0ff0d9b12338e98880b7995d1f9d49174275545b904cec091ce520b4",
+        "size_in_bytes": 8352
+      },
+      {
+        "_path": "site-packages/qcat/resources/kits/PBC096_5p.yml",
+        "path_type": "hardlink",
+        "sha256": "e5d8a921a67d6b590dacce699ae41d5fd627d8e995c8527550421bb94deb87fd",
+        "sha256_in_prefix": "e5d8a921a67d6b590dacce699ae41d5fd627d8e995c8527550421bb94deb87fd",
+        "size_in_bytes": 8351
+      },
+      {
+        "_path": "site-packages/qcat/resources/kits/PBK004_LWB001_3p.yml",
+        "path_type": "hardlink",
+        "sha256": "f2811a7beead513f3b32af73c7a2fc13b18c82ea0b434218ad8622a9867d44f8",
+        "sha256_in_prefix": "f2811a7beead513f3b32af73c7a2fc13b18c82ea0b434218ad8622a9867d44f8",
+        "size_in_bytes": 1283
+      },
+      {
+        "_path": "site-packages/qcat/resources/kits/PBK004_LWB001_5p.yml",
+        "path_type": "hardlink",
+        "sha256": "a8903fa7f09b632ec1197b393a653444f7ced35f5c6389db79131a82563c459e",
+        "sha256_in_prefix": "a8903fa7f09b632ec1197b393a653444f7ced35f5c6389db79131a82563c459e",
+        "size_in_bytes": 1283
+      },
+      {
+        "_path": "site-packages/qcat/resources/kits/RAB201_3p.yml",
+        "path_type": "hardlink",
+        "sha256": "4a14f535c551fecfaaa99caf4305c48ea814f08aa8f1d0ae6882fffc027f5773",
+        "sha256_in_prefix": "4a14f535c551fecfaaa99caf4305c48ea814f08aa8f1d0ae6882fffc027f5773",
+        "size_in_bytes": 2190
+      },
+      {
+        "_path": "site-packages/qcat/resources/kits/RAB201_5p_a.yml",
+        "path_type": "hardlink",
+        "sha256": "1c31209c52e91df34cc4c42cfbfb8a4a1eac1b526c9f715feda24580ae8f7610",
+        "sha256_in_prefix": "1c31209c52e91df34cc4c42cfbfb8a4a1eac1b526c9f715feda24580ae8f7610",
+        "size_in_bytes": 2190
+      },
+      {
+        "_path": "site-packages/qcat/resources/kits/RAB201_5p_c.yml",
+        "path_type": "hardlink",
+        "sha256": "0a68fc3f83e7503ed26256a3edf2a9d5c91aac00556d8903521067097799b271",
+        "sha256_in_prefix": "0a68fc3f83e7503ed26256a3edf2a9d5c91aac00556d8903521067097799b271",
+        "size_in_bytes": 2190
+      },
+      {
+        "_path": "site-packages/qcat/resources/kits/RAB204_RAB214_3p.yml",
+        "path_type": "hardlink",
+        "sha256": "8e2230475ccc8acef87e65b8d25a8283c4d901fa5992f13e92f23396f3ca8b55",
+        "sha256_in_prefix": "8e2230475ccc8acef87e65b8d25a8283c4d901fa5992f13e92f23396f3ca8b55",
+        "size_in_bytes": 3960
+      },
+      {
+        "_path": "site-packages/qcat/resources/kits/RAB204_RAB214_5p_a.yml",
+        "path_type": "hardlink",
+        "sha256": "a4ddc5d9257bb0d6ba2cffe9fd92cf4abf2bc5c12993edd8d2ea0f28701cdf2e",
+        "sha256_in_prefix": "a4ddc5d9257bb0d6ba2cffe9fd92cf4abf2bc5c12993edd8d2ea0f28701cdf2e",
+        "size_in_bytes": 3960
+      },
+      {
+        "_path": "site-packages/qcat/resources/kits/RAB204_RAB214_5p_c.yml",
+        "path_type": "hardlink",
+        "sha256": "06e71dc0d66a3f9c5c28c88d0b308b3382e144ae215362f5cf9b3ecc28e21056",
+        "sha256_in_prefix": "06e71dc0d66a3f9c5c28c88d0b308b3382e144ae215362f5cf9b3ecc28e21056",
+        "size_in_bytes": 3960
+      },
+      {
+        "_path": "site-packages/qcat/resources/kits/RAB214_3p.yml",
+        "path_type": "hardlink",
+        "sha256": "4f48a0e6a17fa34e4c82f76d676fcfdf8c4645849f25bbfcbd74ef008a79b68e",
+        "sha256_in_prefix": "4f48a0e6a17fa34e4c82f76d676fcfdf8c4645849f25bbfcbd74ef008a79b68e",
+        "size_in_bytes": 2088
+      },
+      {
+        "_path": "site-packages/qcat/resources/kits/RAB214_5p_a.yml",
+        "path_type": "hardlink",
+        "sha256": "0d51b618f4ad59d0ce5ccc5e0bea09238015064b33663680bc3697eda49fd48d",
+        "sha256_in_prefix": "0d51b618f4ad59d0ce5ccc5e0bea09238015064b33663680bc3697eda49fd48d",
+        "size_in_bytes": 2087
+      },
+      {
+        "_path": "site-packages/qcat/resources/kits/RAB214_5p_c.yml",
+        "path_type": "hardlink",
+        "sha256": "09c01c7f37988a50cdd27b8b0f79db53449da67e2159a0025c220eda23395fb1",
+        "sha256_in_prefix": "09c01c7f37988a50cdd27b8b0f79db53449da67e2159a0025c220eda23395fb1",
+        "size_in_bytes": 2087
+      },
+      {
+        "_path": "site-packages/qcat/resources/kits/RBK001.yml",
+        "path_type": "hardlink",
+        "sha256": "7f26b94341108553a4ee3f293086f6d2bf210eb1b144aef02cb5494a2d5705be",
+        "sha256_in_prefix": "7f26b94341108553a4ee3f293086f6d2bf210eb1b144aef02cb5494a2d5705be",
+        "size_in_bytes": 1346
+      },
+      {
+        "_path": "site-packages/qcat/resources/kits/RBK004.yml",
+        "path_type": "hardlink",
+        "sha256": "c8c1fc0a3be06e991254e6151451633297cb68350aaaa90b2a9ed47d19afe2d9",
+        "sha256_in_prefix": "c8c1fc0a3be06e991254e6151451633297cb68350aaaa90b2a9ed47d19afe2d9",
+        "size_in_bytes": 1199
+      },
+      {
+        "_path": "site-packages/qcat/resources/kits/RPB004_RLB001.yml",
+        "path_type": "hardlink",
+        "sha256": "fa1f4e9c43dad64178bcbf64627adb67a7fbe4489bf3fc691ee3ea5324cb726c",
+        "sha256_in_prefix": "fa1f4e9c43dad64178bcbf64627adb67a7fbe4489bf3fc691ee3ea5324cb726c",
+        "size_in_bytes": 1308
+      },
+      {
+        "_path": "site-packages/qcat/resources/kits/VMK001.yml",
+        "path_type": "hardlink",
+        "sha256": "55d2aa8a3f96363a9194bf51e7ad90973f9096fd6cd88b87a33e4cebd5cdd4a7",
+        "sha256_in_prefix": "55d2aa8a3f96363a9194bf51e7ad90973f9096fd6cd88b87a33e4cebd5cdd4a7",
+        "size_in_bytes": 568
+      },
+      {
+        "_path": "site-packages/qcat/resources/kits/simple_extended.yml",
+        "path_type": "hardlink",
+        "sha256": "741fbab6fb4057e3d48e52f9b9d6350de099a2d737a35e545e9d6b11629f188d",
+        "sha256_in_prefix": "741fbab6fb4057e3d48e52f9b9d6350de099a2d737a35e545e9d6b11629f188d",
+        "size_in_bytes": 9995
+      },
+      {
+        "_path": "site-packages/qcat/resources/kits/simple_standard.yml",
+        "path_type": "hardlink",
+        "sha256": "6a09a550984f06a6686047f164e1b28e4024c4d13083188539f3e7f33022c826",
+        "sha256_in_prefix": "6a09a550984f06a6686047f164e1b28e4024c4d13083188539f3e7f33022c826",
+        "size_in_bytes": 2028
+      },
+      {
+        "_path": "site-packages/qcat/scanner.py",
+        "path_type": "hardlink",
+        "sha256": "0b8dbff5cb78bd6c9edefc753218d283064dc376ebeb90383f41e5f8b90a33da",
+        "sha256_in_prefix": "0b8dbff5cb78bd6c9edefc753218d283064dc376ebeb90383f41e5f8b90a33da",
+        "size_in_bytes": 3945
+      },
+      {
+        "_path": "site-packages/qcat/scanner_base.py",
+        "path_type": "hardlink",
+        "sha256": "123f34469268d27e80453348586260ea9562164fcefedbc8fdc3250f20974c09",
+        "sha256_in_prefix": "123f34469268d27e80453348586260ea9562164fcefedbc8fdc3250f20974c09",
+        "size_in_bytes": 26730
+      },
+      {
+        "_path": "site-packages/qcat/scanner_brill.py",
+        "path_type": "hardlink",
+        "sha256": "9666ce40fa3126f9317e44fd7da0572fc39163bf7f627f601106b42dd83f37f1",
+        "sha256_in_prefix": "9666ce40fa3126f9317e44fd7da0572fc39163bf7f627f601106b42dd83f37f1",
+        "size_in_bytes": 4482
+      },
+      {
+        "_path": "site-packages/qcat/scanner_dual.py",
+        "path_type": "hardlink",
+        "sha256": "1188c46df46ef3c600b4044659980195d39a700304b0e934ad782edeecfc6d09",
+        "sha256_in_prefix": "1188c46df46ef3c600b4044659980195d39a700304b0e934ad782edeecfc6d09",
+        "size_in_bytes": 5912
+      },
+      {
+        "_path": "site-packages/qcat/scanner_epi2me.py",
+        "path_type": "hardlink",
+        "sha256": "df1887eb94404c4d176a5549c0e34ec8401496e02f860dec63c55266ae03badd",
+        "sha256_in_prefix": "df1887eb94404c4d176a5549c0e34ec8401496e02f860dec63c55266ae03badd",
+        "size_in_bytes": 6037
+      },
+      {
+        "_path": "site-packages/qcat/scanner_guppy.py",
+        "path_type": "hardlink",
+        "sha256": "d028ea46a8ddfe5648058e4742f9d7270e4c2d07818a14213eefa135a6291408",
+        "sha256_in_prefix": "d028ea46a8ddfe5648058e4742f9d7270e4c2d07818a14213eefa135a6291408",
+        "size_in_bytes": 4536
+      },
+      {
+        "_path": "site-packages/qcat/scanner_simple.py",
+        "path_type": "hardlink",
+        "sha256": "826b446635a81c278096bddfdb2ffad3dc870e4c996cb06ec325fdb602202d95",
+        "sha256_in_prefix": "826b446635a81c278096bddfdb2ffad3dc870e4c996cb06ec325fdb602202d95",
+        "size_in_bytes": 3816
+      },
+      {
+        "_path": "site-packages/qcat/utils.py",
+        "path_type": "hardlink",
+        "sha256": "c50a5445bd07b8b168a4bc1cd2d9cbac2ba86092131508a9616dbefe50d8ad94",
+        "sha256_in_prefix": "c50a5445bd07b8b168a4bc1cd2d9cbac2ba86092131508a9616dbefe50d8ad94",
+        "size_in_bytes": 1027
+      },
+      {
+        "_path": "lib/python3.6/site-packages/qcat/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/qcat/__pycache__/adapters.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/qcat/__pycache__/calibration.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/qcat/__pycache__/cli.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/qcat/__pycache__/config.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/qcat/__pycache__/eval.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/qcat/__pycache__/eval_full.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/qcat/__pycache__/eval_roc.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/qcat/__pycache__/layout.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/qcat/__pycache__/scanner.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/qcat/__pycache__/scanner_base.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/qcat/__pycache__/scanner_brill.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/qcat/__pycache__/scanner_dual.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/qcat/__pycache__/scanner_epi2me.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/qcat/__pycache__/scanner_guppy.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/qcat/__pycache__/scanner_simple.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/qcat/__pycache__/utils.cpython-36.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "38e15c8611463ce01afecb7e775474df910d8186212d0e9d2a850ca9a3f8ac5d",
+  "size": 40091,
+  "subdir": "noarch",
+  "timestamp": 1595738086410,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/noarch/qcat-1.1.0-pyh864c0ab_1.tar.bz2",
+  "version": "1.1.0"
+}

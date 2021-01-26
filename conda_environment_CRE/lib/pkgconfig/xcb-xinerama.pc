@@ -1,0 +1,11 @@
+prefix=/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: XCB Xinerama
+Description: XCB Xinerama Extension
+Version: 1.13
+Requires.private: xcb
+Libs: -L${libdir} -lxcb-xinerama
+Cflags: -I${includedir}

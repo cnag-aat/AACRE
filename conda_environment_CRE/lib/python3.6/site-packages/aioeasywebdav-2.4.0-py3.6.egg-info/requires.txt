@@ -1,0 +1,3 @@
+aiohttp
+six
+setuptools_scm

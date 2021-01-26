@@ -1,0 +1,11 @@
+prefix=/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libwebp
+Description: Library for the WebP graphics format
+Version: 1.1.0
+Cflags: -I${includedir}
+Libs: -L${libdir} -lwebp
+Libs.private: -lm -pthread 

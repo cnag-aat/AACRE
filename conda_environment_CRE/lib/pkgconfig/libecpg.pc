@@ -1,0 +1,9 @@
+Name: libecpg
+Description: PostgreSQL libecpg library
+Url: http://www.postgresql.org/
+Version: 12.3
+Requires: 
+Requires.private: libpq libpgtypes
+Cflags: -I/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE/include
+Libs: -L/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE/lib -lecpg
+Libs.private: -L/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE/lib -lm

@@ -1,0 +1,12 @@
+prefix=/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE
+exec_prefix=/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: alsa
+Description: Advanced Linux Sound Architecture (ALSA) - Library
+Version: 1.2.3
+Requires: 
+Libs: -L${libdir} -lasound
+Libs.private: -lm -ldl -lpthread -lrt
+Cflags: -I${includedir}

@@ -1,0 +1,118 @@
+{
+  "build": "3",
+  "build_number": 3,
+  "channel": "https://conda.anaconda.org/bioconda/noarch",
+  "constrains": [],
+  "depends": [
+    "bedtools",
+    "hmmer >=3.1b",
+    "perl"
+  ],
+  "extracted_package_dir": "/home/devel/jgomez/.conda/pkgs/barrnap-0.9-3",
+  "features": "",
+  "files": [
+    "bin/barrnap",
+    "lib/barrnap/LICENSE",
+    "lib/barrnap/LICENSE.Rfam",
+    "lib/barrnap/LICENSE.SILVA",
+    "lib/barrnap/README.md",
+    "lib/barrnap/bin/barrnap",
+    "lib/barrnap/db/arc.hmm",
+    "lib/barrnap/db/bac.hmm",
+    "lib/barrnap/db/euk.hmm",
+    "lib/barrnap/db/mito.hmm"
+  ],
+  "fn": "barrnap-0.9-3.tar.bz2",
+  "license": "GPLv3",
+  "link": {
+    "source": "/home/devel/jgomez/.conda/pkgs/barrnap-0.9-3",
+    "type": 1
+  },
+  "md5": "5c7398cb11ee2266b4c4b636833def82",
+  "name": "barrnap",
+  "noarch": "generic",
+  "package_tarball_full_path": "/home/devel/jgomez/.conda/pkgs/barrnap-0.9-3.tar.bz2",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/barrnap",
+        "path_type": "softlink",
+        "sha256": "814ac7f05063d19046fa29801f5d660b6b220a033cc7d0db625af1afee40202b",
+        "size_in_bytes": 9232
+      },
+      {
+        "_path": "lib/barrnap/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "b702289d434b8486f46fec4753b131f9a3ab426ddfba2d498e69c4661e4d1e38",
+        "sha256_in_prefix": "b702289d434b8486f46fec4753b131f9a3ab426ddfba2d498e69c4661e4d1e38",
+        "size_in_bytes": 35142
+      },
+      {
+        "_path": "lib/barrnap/LICENSE.Rfam",
+        "path_type": "hardlink",
+        "sha256": "1fb11a3c4045d52a4bc01b49e53ddcb273d16db07f6897650b73e8380c09147e",
+        "sha256_in_prefix": "1fb11a3c4045d52a4bc01b49e53ddcb273d16db07f6897650b73e8380c09147e",
+        "size_in_bytes": 480
+      },
+      {
+        "_path": "lib/barrnap/LICENSE.SILVA",
+        "path_type": "hardlink",
+        "sha256": "63f2de483fe71052cbf6551cae9b663f71349ff85b2e54fedb42807a17fe8a06",
+        "sha256_in_prefix": "63f2de483fe71052cbf6551cae9b663f71349ff85b2e54fedb42807a17fe8a06",
+        "size_in_bytes": 1758
+      },
+      {
+        "_path": "lib/barrnap/README.md",
+        "path_type": "hardlink",
+        "sha256": "2df0396ff4353f55885e49d191758903abf677071b4c279064f95d7f885afcb9",
+        "sha256_in_prefix": "2df0396ff4353f55885e49d191758903abf677071b4c279064f95d7f885afcb9",
+        "size_in_bytes": 6171
+      },
+      {
+        "_path": "lib/barrnap/bin/barrnap",
+        "path_type": "hardlink",
+        "sha256": "814ac7f05063d19046fa29801f5d660b6b220a033cc7d0db625af1afee40202b",
+        "sha256_in_prefix": "814ac7f05063d19046fa29801f5d660b6b220a033cc7d0db625af1afee40202b",
+        "size_in_bytes": 9232
+      },
+      {
+        "_path": "lib/barrnap/db/arc.hmm",
+        "path_type": "hardlink",
+        "sha256": "6dcb820258e918270e8a989d20a860cb5747de26f9f6480f79df079761bcb285",
+        "sha256_in_prefix": "6dcb820258e918270e8a989d20a860cb5747de26f9f6480f79df079761bcb285",
+        "size_in_bytes": 839378
+      },
+      {
+        "_path": "lib/barrnap/db/bac.hmm",
+        "path_type": "hardlink",
+        "sha256": "63e4093feeb24c6fb96f768df91ca9360210ed523af6151baaab4f2095e07bc3",
+        "sha256_in_prefix": "63e4093feeb24c6fb96f768df91ca9360210ed523af6151baaab4f2095e07bc3",
+        "size_in_bytes": 808656
+      },
+      {
+        "_path": "lib/barrnap/db/euk.hmm",
+        "path_type": "hardlink",
+        "sha256": "1bcb7ce8bdb194bba0010e263d5dd7b73a2af86f8880968254995efcecf82a7e",
+        "sha256_in_prefix": "1bcb7ce8bdb194bba0010e263d5dd7b73a2af86f8880968254995efcecf82a7e",
+        "size_in_bytes": 1038507
+      },
+      {
+        "_path": "lib/barrnap/db/mito.hmm",
+        "path_type": "hardlink",
+        "sha256": "cf70583c8d0a54c7343b8426503a107509cb37bb883bdea8901efa1e25ce8e01",
+        "sha256_in_prefix": "cf70583c8d0a54c7343b8426503a107509cb37bb883bdea8901efa1e25ce8e01",
+        "size_in_bytes": 456264
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "5851170bf3fdcc5a49a397ab5c8431ce88f609c947932cab93b1ed79f495f75c",
+  "size": 569178,
+  "subdir": "noarch",
+  "timestamp": 1572112328334,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/noarch/barrnap-0.9-3.tar.bz2",
+  "version": "0.9"
+}

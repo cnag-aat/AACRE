@@ -1,0 +1,6 @@
+/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE3/lib/site_perl/5.26.2/HTTP/Cookies.pm relocate_as=../../../../HTTP/Cookies.pm
+/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE3/lib/site_perl/5.26.2/HTTP/Cookies/Microsoft.pm relocate_as=../../../../HTTP/Cookies/Microsoft.pm
+/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE3/lib/site_perl/5.26.2/HTTP/Cookies/Netscape.pm relocate_as=../../../../HTTP/Cookies/Netscape.pm
+/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE3/man/man3/HTTP::Cookies.3 relocate_as=../../../../../../../man/man3/HTTP::Cookies.3
+/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE3/man/man3/HTTP::Cookies::Microsoft.3 relocate_as=../../../../../../../man/man3/HTTP::Cookies::Microsoft.3
+/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE3/man/man3/HTTP::Cookies::Netscape.3 relocate_as=../../../../../../../man/man3/HTTP::Cookies::Netscape.3

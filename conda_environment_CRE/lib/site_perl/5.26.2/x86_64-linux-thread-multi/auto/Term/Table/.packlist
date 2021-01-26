@@ -1,0 +1,13 @@
+/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE/lib/site_perl/5.26.2/Term/Table.pm relocate_as=../../../../Term/Table.pm
+/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE/lib/site_perl/5.26.2/Term/Table/Cell.pm relocate_as=../../../../Term/Table/Cell.pm
+/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE/lib/site_perl/5.26.2/Term/Table/CellStack.pm relocate_as=../../../../Term/Table/CellStack.pm
+/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE/lib/site_perl/5.26.2/Term/Table/HashBase.pm relocate_as=../../../../Term/Table/HashBase.pm
+/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE/lib/site_perl/5.26.2/Term/Table/LineBreak.pm relocate_as=../../../../Term/Table/LineBreak.pm
+/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE/lib/site_perl/5.26.2/Term/Table/Spacer.pm relocate_as=../../../../Term/Table/Spacer.pm
+/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE/lib/site_perl/5.26.2/Term/Table/Util.pm relocate_as=../../../../Term/Table/Util.pm
+/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE/man/man3/Term::Table.3 relocate_as=../../../../../../../man/man3/Term::Table.3
+/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE/man/man3/Term::Table::Cell.3 relocate_as=../../../../../../../man/man3/Term::Table::Cell.3
+/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE/man/man3/Term::Table::CellStack.3 relocate_as=../../../../../../../man/man3/Term::Table::CellStack.3
+/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE/man/man3/Term::Table::HashBase.3 relocate_as=../../../../../../../man/man3/Term::Table::HashBase.3
+/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE/man/man3/Term::Table::LineBreak.3 relocate_as=../../../../../../../man/man3/Term::Table::LineBreak.3
+/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE/man/man3/Term::Table::Util.3 relocate_as=../../../../../../../man/man3/Term::Table::Util.3

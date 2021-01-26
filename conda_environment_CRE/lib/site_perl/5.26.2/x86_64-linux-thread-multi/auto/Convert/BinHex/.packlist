@@ -1,0 +1,6 @@
+/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE/bin/binhex.pl relocate_as=../../../../../../../bin/binhex.pl
+/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE/bin/debinhex.pl relocate_as=../../../../../../../bin/debinhex.pl
+/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE/lib/site_perl/5.26.2/Convert/BinHex.pm relocate_as=../../../../Convert/BinHex.pm
+/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE/man/man1/binhex.pl.1 relocate_as=../../../../../../../man/man1/binhex.pl.1
+/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE/man/man1/debinhex.pl.1 relocate_as=../../../../../../../man/man1/debinhex.pl.1
+/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE/man/man3/Convert::BinHex.3 relocate_as=../../../../../../../man/man3/Convert::BinHex.3

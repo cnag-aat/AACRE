@@ -1,0 +1,7 @@
+/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE/bin/ccconfig relocate_as=../../../../../../../../bin/ccconfig
+/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE/lib/site_perl/5.26.2/x86_64-linux-thread-multi/Convert/Binary/C.pm relocate_as=../../../../Convert/Binary/C.pm
+/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE/lib/site_perl/5.26.2/x86_64-linux-thread-multi/Convert/Binary/C/Cached.pm relocate_as=../../../../Convert/Binary/C/Cached.pm
+/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE/lib/site_perl/5.26.2/x86_64-linux-thread-multi/auto/Convert/Binary/C/C.so relocate_as=C.so
+/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE/man/man1/ccconfig.1 relocate_as=../../../../../../../../man/man1/ccconfig.1
+/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE/man/man3/Convert::Binary::C.3 relocate_as=../../../../../../../../man/man3/Convert::Binary::C.3
+/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE/man/man3/Convert::Binary::C::Cached.3 relocate_as=../../../../../../../../man/man3/Convert::Binary::C::Cached.3

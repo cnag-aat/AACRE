@@ -1,0 +1,70 @@
+{
+  "build": "h516909a_1002",
+  "build_number": 1002,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=7.3.0"
+  ],
+  "extracted_package_dir": "/home/devel/jgomez/.conda/pkgs/xorg-recordproto-1.14.2-h516909a_1002",
+  "features": "",
+  "files": [
+    "include/X11/extensions/recordconst.h",
+    "include/X11/extensions/recordproto.h",
+    "include/X11/extensions/recordstr.h",
+    "lib/pkgconfig/recordproto.pc"
+  ],
+  "fn": "xorg-recordproto-1.14.2-h516909a_1002.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/home/devel/jgomez/.conda/pkgs/xorg-recordproto-1.14.2-h516909a_1002",
+    "type": 1
+  },
+  "md5": "a6898c39de3508fac0e068353f50d75e",
+  "name": "xorg-recordproto",
+  "package_tarball_full_path": "/home/devel/jgomez/.conda/pkgs/xorg-recordproto-1.14.2-h516909a_1002.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "include/X11/extensions/recordconst.h",
+        "path_type": "hardlink",
+        "sha256": "26c25d30e1e38ca7b3d91c9f79b72b4e084e50d81bc3a248494177dde285fd86",
+        "sha256_in_prefix": "26c25d30e1e38ca7b3d91c9f79b72b4e084e50d81bc3a248494177dde285fd86",
+        "size_in_bytes": 2071
+      },
+      {
+        "_path": "include/X11/extensions/recordproto.h",
+        "path_type": "hardlink",
+        "sha256": "209e35a06960112db6d656c406515ee9b2092a2eed57bec5908bb108b09f5c28",
+        "sha256_in_prefix": "209e35a06960112db6d656c406515ee9b2092a2eed57bec5908bb108b09f5c28",
+        "size_in_bytes": 7893
+      },
+      {
+        "_path": "include/X11/extensions/recordstr.h",
+        "path_type": "hardlink",
+        "sha256": "5c503dc572b8ff89c9f7734175db253af35d3b70da7ff3a1592ddd2e095846cb",
+        "sha256_in_prefix": "5c503dc572b8ff89c9f7734175db253af35d3b70da7ff3a1592ddd2e095846cb",
+        "size_in_bytes": 258
+      },
+      {
+        "_path": "lib/pkgconfig/recordproto.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "e4d47fabb18afae2d8cafc1cde971a0164217203b5a68aee16d99936409013bf",
+        "sha256_in_prefix": "3f06b04140f0539f5b60ba2fb0fe0488d55c8f8e32041a31e59465f0ed620190",
+        "size_in_bytes": 215
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "a9f727dec7e2461305821523640b91b421db77da580559ad7fd5ce1293c39c6c",
+  "size": 7638,
+  "subdir": "linux-64",
+  "timestamp": 1572462693257,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/xorg-recordproto-1.14.2-h516909a_1002.tar.bz2",
+  "version": "1.14.2"
+}

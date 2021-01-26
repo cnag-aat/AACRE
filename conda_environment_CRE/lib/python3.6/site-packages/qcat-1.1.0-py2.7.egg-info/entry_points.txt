@@ -1,0 +1,6 @@
+[console_scripts]
+qcat = qcat.cli:main
+qcat-eval = qcat.eval:main
+qcat-eval-truth = qcat.eval_full:main
+qcat-roc = qcat.eval_roc:main
+

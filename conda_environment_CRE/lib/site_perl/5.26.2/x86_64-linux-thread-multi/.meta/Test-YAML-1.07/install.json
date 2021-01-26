@@ -1,0 +1,1 @@
+{"dist":"Test-YAML-1.07","name":"Test::YAML","pathname":"T/TI/TINITA/Test-YAML-1.07.tar.gz","target":"Test::YAML","version":"1.07","provides":{"Test::YAML::Filter":{"version":"1.07","file":"lib/Test/YAML.pm"},"Test::YAML":{"file":"lib/Test/YAML.pm","version":"1.07"}}}

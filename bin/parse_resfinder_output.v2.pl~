@@ -1,0 +1,19 @@
+#!/usr/bin/perl
+
+#Author: Jessica Gomez-Garrido, CNAG-CRG.
+#Contact email: jessica.gomez@cnag.crg.eu
+use strict;
+use warnings;
+
+my $file = $ARGV[0];
+open IN, "<", "$file";
+while (<IN>){
+  chomp;
+  next if ($_ =~ m/^Resistance/);
+  my @line = split /\t/, $_;
+  my $p = "$line[5]\tresfinder\tblock\t";
+  my @coords = split /\./, $line[6];
+  $p .= "$coords[0]\t$coords[2]\t";
+  print "$p\n";
+  
+}

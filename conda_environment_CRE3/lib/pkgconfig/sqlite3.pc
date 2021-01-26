@@ -1,0 +1,13 @@
+# Package Information for pkg-config
+
+prefix=/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE3
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: SQLite
+Description: SQL database engine
+Version: 3.32.3
+Libs: -L${libdir} -lsqlite3
+Libs.private: -lm -ldl -lpthread 
+Cflags: -I${includedir}

@@ -1,0 +1,119 @@
+{
+  "build": "h516909a_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/bioconda/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=7.5.0",
+    "libidn11",
+    "zlib"
+  ],
+  "extracted_package_dir": "/home/devel/jgomez/.conda/pkgs/tbl2asn-forever-25.7.2f-h516909a_0",
+  "features": "",
+  "files": [
+    "bin/faketime",
+    "bin/fix-sqn-date",
+    "bin/real-tbl2asn",
+    "bin/tbl2asn",
+    "bin/tbl2asn-test",
+    "lib/faketime/libfaketime.so.1",
+    "lib/faketime/libfaketimeMT.so.1",
+    "share/doc/faketime/NEWS",
+    "share/doc/faketime/README",
+    "share/man/man1/faketime.1.gz"
+  ],
+  "fn": "tbl2asn-forever-25.7.2f-h516909a_0.tar.bz2",
+  "license": "Public Domain",
+  "link": {
+    "source": "/home/devel/jgomez/.conda/pkgs/tbl2asn-forever-25.7.2f-h516909a_0",
+    "type": 1
+  },
+  "md5": "73946ee2d1e85344058f1e995ac1c1a8",
+  "name": "tbl2asn-forever",
+  "package_tarball_full_path": "/home/devel/jgomez/.conda/pkgs/tbl2asn-forever-25.7.2f-h516909a_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/faketime",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/tbl2asn-forever_1598538899544/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256": "293a940f10c34036d7734971207ab3e02eb68d22258e55e202bf4714ab915ddc",
+        "sha256_in_prefix": "e58a2fbf4a7fe7436708a7c103aa68078f71c7caf8492d8bcef9a48db423cf3b",
+        "size_in_bytes": 22760
+      },
+      {
+        "_path": "bin/fix-sqn-date",
+        "path_type": "hardlink",
+        "sha256": "2b4c5db9ba18175853f7f975c50ff9cff84ab854d4c0f453fddd952ad0a8b9d2",
+        "sha256_in_prefix": "2b4c5db9ba18175853f7f975c50ff9cff84ab854d4c0f453fddd952ad0a8b9d2",
+        "size_in_bytes": 1862
+      },
+      {
+        "_path": "bin/real-tbl2asn",
+        "path_type": "hardlink",
+        "sha256": "ccc7416b30e8821dc7149f54077fd95269255f6c8500b0cecdda79df83412b43",
+        "sha256_in_prefix": "ccc7416b30e8821dc7149f54077fd95269255f6c8500b0cecdda79df83412b43",
+        "size_in_bytes": 15656909
+      },
+      {
+        "_path": "bin/tbl2asn",
+        "path_type": "hardlink",
+        "sha256": "2037aba93e4003d48ec608ed53bbba578cadf96b1df1e3f2cbf4b6ba35334530",
+        "sha256_in_prefix": "2037aba93e4003d48ec608ed53bbba578cadf96b1df1e3f2cbf4b6ba35334530",
+        "size_in_bytes": 1517
+      },
+      {
+        "_path": "bin/tbl2asn-test",
+        "path_type": "hardlink",
+        "sha256": "2db7d47decc0ee430ff4cdff5aa5eab985bcbf99f0e2e45a6967c6dbbb9ebe8e",
+        "sha256_in_prefix": "2db7d47decc0ee430ff4cdff5aa5eab985bcbf99f0e2e45a6967c6dbbb9ebe8e",
+        "size_in_bytes": 207
+      },
+      {
+        "_path": "lib/faketime/libfaketime.so.1",
+        "path_type": "hardlink",
+        "sha256": "bd12d6bcefd854fa33398aa31cc69234e612df03a95b88e8bb0adf1de86e10e8",
+        "sha256_in_prefix": "bd12d6bcefd854fa33398aa31cc69234e612df03a95b88e8bb0adf1de86e10e8",
+        "size_in_bytes": 61128
+      },
+      {
+        "_path": "lib/faketime/libfaketimeMT.so.1",
+        "path_type": "hardlink",
+        "sha256": "96cb964abb3af87ed42ab3b0a908d3161f5867bfe23e4abe104d8e9303d1f4a9",
+        "sha256_in_prefix": "96cb964abb3af87ed42ab3b0a908d3161f5867bfe23e4abe104d8e9303d1f4a9",
+        "size_in_bytes": 61536
+      },
+      {
+        "_path": "share/doc/faketime/NEWS",
+        "path_type": "hardlink",
+        "sha256": "3d73c8f5990bc41dad48b90ac4dc2bf34e0523830338389623ad8de47609bed5",
+        "sha256_in_prefix": "3d73c8f5990bc41dad48b90ac4dc2bf34e0523830338389623ad8de47609bed5",
+        "size_in_bytes": 8041
+      },
+      {
+        "_path": "share/doc/faketime/README",
+        "path_type": "hardlink",
+        "sha256": "af1344bc00a6943be0fd106197a394c0d72b99e002a3876967d131aab2dab70c",
+        "sha256_in_prefix": "af1344bc00a6943be0fd106197a394c0d72b99e002a3876967d131aab2dab70c",
+        "size_in_bytes": 27921
+      },
+      {
+        "_path": "share/man/man1/faketime.1.gz",
+        "path_type": "hardlink",
+        "sha256": "81b02d692055a32b7117697ffb51ee4e87eb46e2a2ecef9d03316bbed6d83874",
+        "sha256_in_prefix": "81b02d692055a32b7117697ffb51ee4e87eb46e2a2ecef9d03316bbed6d83874",
+        "size_in_bytes": 2758
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "38cbf915014fe279ec9afbd0e6725a497938240be3a9befaaae69ef233683cae",
+  "size": 4517667,
+  "subdir": "linux-64",
+  "timestamp": 1598539063377,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/linux-64/tbl2asn-forever-25.7.2f-h516909a_0.tar.bz2",
+  "version": "25.7.2f"
+}

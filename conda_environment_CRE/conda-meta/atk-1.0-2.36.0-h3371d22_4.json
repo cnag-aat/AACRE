@@ -1,0 +1,1160 @@
+{
+  "build": "h3371d22_4",
+  "build_number": 4,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [
+    "atk-1.0 2.36.0"
+  ],
+  "depends": [
+    "libgcc-ng >=9.3.0",
+    "libglib >=2.64.6,<3.0a0",
+    "libstdcxx-ng >=9.3.0"
+  ],
+  "extracted_package_dir": "/home/devel/jgomez/.conda/pkgs/atk-1.0-2.36.0-h3371d22_4",
+  "features": "",
+  "files": [
+    "include/atk-1.0/atk/atk-enum-types.h",
+    "include/atk-1.0/atk/atk.h",
+    "include/atk-1.0/atk/atkaction.h",
+    "include/atk-1.0/atk/atkcomponent.h",
+    "include/atk-1.0/atk/atkdocument.h",
+    "include/atk-1.0/atk/atkeditabletext.h",
+    "include/atk-1.0/atk/atkgobjectaccessible.h",
+    "include/atk-1.0/atk/atkhyperlink.h",
+    "include/atk-1.0/atk/atkhyperlinkimpl.h",
+    "include/atk-1.0/atk/atkhypertext.h",
+    "include/atk-1.0/atk/atkimage.h",
+    "include/atk-1.0/atk/atkmisc.h",
+    "include/atk-1.0/atk/atknoopobject.h",
+    "include/atk-1.0/atk/atknoopobjectfactory.h",
+    "include/atk-1.0/atk/atkobject.h",
+    "include/atk-1.0/atk/atkobjectfactory.h",
+    "include/atk-1.0/atk/atkplug.h",
+    "include/atk-1.0/atk/atkrange.h",
+    "include/atk-1.0/atk/atkregistry.h",
+    "include/atk-1.0/atk/atkrelation.h",
+    "include/atk-1.0/atk/atkrelationset.h",
+    "include/atk-1.0/atk/atkrelationtype.h",
+    "include/atk-1.0/atk/atkselection.h",
+    "include/atk-1.0/atk/atksocket.h",
+    "include/atk-1.0/atk/atkstate.h",
+    "include/atk-1.0/atk/atkstateset.h",
+    "include/atk-1.0/atk/atkstreamablecontent.h",
+    "include/atk-1.0/atk/atktable.h",
+    "include/atk-1.0/atk/atktablecell.h",
+    "include/atk-1.0/atk/atktext.h",
+    "include/atk-1.0/atk/atkutil.h",
+    "include/atk-1.0/atk/atkvalue.h",
+    "include/atk-1.0/atk/atkversion.h",
+    "include/atk-1.0/atk/atkwindow.h",
+    "lib/girepository-1.0/Atk-1.0.typelib",
+    "lib/libatk-1.0.so",
+    "lib/libatk-1.0.so.0",
+    "lib/libatk-1.0.so.0.23609.1",
+    "lib/pkgconfig/atk.pc",
+    "share/gir-1.0/Atk-1.0.gir",
+    "share/locale/af/LC_MESSAGES/atk10.mo",
+    "share/locale/am/LC_MESSAGES/atk10.mo",
+    "share/locale/an/LC_MESSAGES/atk10.mo",
+    "share/locale/ar/LC_MESSAGES/atk10.mo",
+    "share/locale/as/LC_MESSAGES/atk10.mo",
+    "share/locale/ast/LC_MESSAGES/atk10.mo",
+    "share/locale/az/LC_MESSAGES/atk10.mo",
+    "share/locale/be/LC_MESSAGES/atk10.mo",
+    "share/locale/be@latin/LC_MESSAGES/atk10.mo",
+    "share/locale/bg/LC_MESSAGES/atk10.mo",
+    "share/locale/bn/LC_MESSAGES/atk10.mo",
+    "share/locale/bn_IN/LC_MESSAGES/atk10.mo",
+    "share/locale/bs/LC_MESSAGES/atk10.mo",
+    "share/locale/ca/LC_MESSAGES/atk10.mo",
+    "share/locale/ca@valencia/LC_MESSAGES/atk10.mo",
+    "share/locale/ckb/LC_MESSAGES/atk10.mo",
+    "share/locale/cs/LC_MESSAGES/atk10.mo",
+    "share/locale/cy/LC_MESSAGES/atk10.mo",
+    "share/locale/da/LC_MESSAGES/atk10.mo",
+    "share/locale/de/LC_MESSAGES/atk10.mo",
+    "share/locale/dz/LC_MESSAGES/atk10.mo",
+    "share/locale/el/LC_MESSAGES/atk10.mo",
+    "share/locale/en@shaw/LC_MESSAGES/atk10.mo",
+    "share/locale/en_CA/LC_MESSAGES/atk10.mo",
+    "share/locale/en_GB/LC_MESSAGES/atk10.mo",
+    "share/locale/eo/LC_MESSAGES/atk10.mo",
+    "share/locale/es/LC_MESSAGES/atk10.mo",
+    "share/locale/et/LC_MESSAGES/atk10.mo",
+    "share/locale/eu/LC_MESSAGES/atk10.mo",
+    "share/locale/fa/LC_MESSAGES/atk10.mo",
+    "share/locale/fi/LC_MESSAGES/atk10.mo",
+    "share/locale/fr/LC_MESSAGES/atk10.mo",
+    "share/locale/fur/LC_MESSAGES/atk10.mo",
+    "share/locale/ga/LC_MESSAGES/atk10.mo",
+    "share/locale/gd/LC_MESSAGES/atk10.mo",
+    "share/locale/gl/LC_MESSAGES/atk10.mo",
+    "share/locale/gu/LC_MESSAGES/atk10.mo",
+    "share/locale/he/LC_MESSAGES/atk10.mo",
+    "share/locale/hi/LC_MESSAGES/atk10.mo",
+    "share/locale/hr/LC_MESSAGES/atk10.mo",
+    "share/locale/hu/LC_MESSAGES/atk10.mo",
+    "share/locale/hy/LC_MESSAGES/atk10.mo",
+    "share/locale/id/LC_MESSAGES/atk10.mo",
+    "share/locale/is/LC_MESSAGES/atk10.mo",
+    "share/locale/it/LC_MESSAGES/atk10.mo",
+    "share/locale/ja/LC_MESSAGES/atk10.mo",
+    "share/locale/ka/LC_MESSAGES/atk10.mo",
+    "share/locale/kk/LC_MESSAGES/atk10.mo",
+    "share/locale/km/LC_MESSAGES/atk10.mo",
+    "share/locale/kn/LC_MESSAGES/atk10.mo",
+    "share/locale/ko/LC_MESSAGES/atk10.mo",
+    "share/locale/ku/LC_MESSAGES/atk10.mo",
+    "share/locale/li/LC_MESSAGES/atk10.mo",
+    "share/locale/lt/LC_MESSAGES/atk10.mo",
+    "share/locale/lv/LC_MESSAGES/atk10.mo",
+    "share/locale/mai/LC_MESSAGES/atk10.mo",
+    "share/locale/mk/LC_MESSAGES/atk10.mo",
+    "share/locale/ml/LC_MESSAGES/atk10.mo",
+    "share/locale/mn/LC_MESSAGES/atk10.mo",
+    "share/locale/mr/LC_MESSAGES/atk10.mo",
+    "share/locale/ms/LC_MESSAGES/atk10.mo",
+    "share/locale/nb/LC_MESSAGES/atk10.mo",
+    "share/locale/ne/LC_MESSAGES/atk10.mo",
+    "share/locale/nl/LC_MESSAGES/atk10.mo",
+    "share/locale/nn/LC_MESSAGES/atk10.mo",
+    "share/locale/oc/LC_MESSAGES/atk10.mo",
+    "share/locale/or/LC_MESSAGES/atk10.mo",
+    "share/locale/pa/LC_MESSAGES/atk10.mo",
+    "share/locale/pl/LC_MESSAGES/atk10.mo",
+    "share/locale/ps/LC_MESSAGES/atk10.mo",
+    "share/locale/pt/LC_MESSAGES/atk10.mo",
+    "share/locale/pt_BR/LC_MESSAGES/atk10.mo",
+    "share/locale/ro/LC_MESSAGES/atk10.mo",
+    "share/locale/ru/LC_MESSAGES/atk10.mo",
+    "share/locale/rw/LC_MESSAGES/atk10.mo",
+    "share/locale/si/LC_MESSAGES/atk10.mo",
+    "share/locale/sk/LC_MESSAGES/atk10.mo",
+    "share/locale/sl/LC_MESSAGES/atk10.mo",
+    "share/locale/sq/LC_MESSAGES/atk10.mo",
+    "share/locale/sr/LC_MESSAGES/atk10.mo",
+    "share/locale/sr@ije/LC_MESSAGES/atk10.mo",
+    "share/locale/sr@latin/LC_MESSAGES/atk10.mo",
+    "share/locale/sv/LC_MESSAGES/atk10.mo",
+    "share/locale/ta/LC_MESSAGES/atk10.mo",
+    "share/locale/te/LC_MESSAGES/atk10.mo",
+    "share/locale/tg/LC_MESSAGES/atk10.mo",
+    "share/locale/th/LC_MESSAGES/atk10.mo",
+    "share/locale/tk/LC_MESSAGES/atk10.mo",
+    "share/locale/tr/LC_MESSAGES/atk10.mo",
+    "share/locale/tt/LC_MESSAGES/atk10.mo",
+    "share/locale/ug/LC_MESSAGES/atk10.mo",
+    "share/locale/uk/LC_MESSAGES/atk10.mo",
+    "share/locale/vi/LC_MESSAGES/atk10.mo",
+    "share/locale/wa/LC_MESSAGES/atk10.mo",
+    "share/locale/xh/LC_MESSAGES/atk10.mo",
+    "share/locale/yi/LC_MESSAGES/atk10.mo",
+    "share/locale/zh_CN/LC_MESSAGES/atk10.mo",
+    "share/locale/zh_HK/LC_MESSAGES/atk10.mo",
+    "share/locale/zh_TW/LC_MESSAGES/atk10.mo",
+    "share/locale/zu/LC_MESSAGES/atk10.mo"
+  ],
+  "fn": "atk-1.0-2.36.0-h3371d22_4.tar.bz2",
+  "license": "LGPL-2.0-or-later",
+  "license_family": "LGPL",
+  "link": {
+    "source": "/home/devel/jgomez/.conda/pkgs/atk-1.0-2.36.0-h3371d22_4",
+    "type": 1
+  },
+  "md5": "661e1ed5d92552785d9f8c781ce68685",
+  "name": "atk-1.0",
+  "package_tarball_full_path": "/home/devel/jgomez/.conda/pkgs/atk-1.0-2.36.0-h3371d22_4.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "include/atk-1.0/atk/atk-enum-types.h",
+        "path_type": "hardlink",
+        "sha256": "62a027b6db50fb72244f7e14d05d708b02d7e08a9035ed3161f63667d1f9ed1e",
+        "sha256_in_prefix": "62a027b6db50fb72244f7e14d05d708b02d7e08a9035ed3161f63667d1f9ed1e",
+        "size_in_bytes": 2469
+      },
+      {
+        "_path": "include/atk-1.0/atk/atk.h",
+        "path_type": "hardlink",
+        "sha256": "0a53e47b962cf0ba9c4319a1ee1ad343ca94a2e9ce93d1d9e8d25438496317a4",
+        "sha256_in_prefix": "0a53e47b962cf0ba9c4319a1ee1ad343ca94a2e9ce93d1d9e8d25438496317a4",
+        "size_in_bytes": 1908
+      },
+      {
+        "_path": "include/atk-1.0/atk/atkaction.h",
+        "path_type": "hardlink",
+        "sha256": "3cd195bdf073217e63217f4a3a867e3c3afd03b10d2a91ec9cbaca91db25c696",
+        "sha256_in_prefix": "3cd195bdf073217e63217f4a3a867e3c3afd03b10d2a91ec9cbaca91db25c696",
+        "size_in_bytes": 4954
+      },
+      {
+        "_path": "include/atk-1.0/atk/atkcomponent.h",
+        "path_type": "hardlink",
+        "sha256": "904a167af0a81fcbe6e2b71b3a57e680cc7218336fa21688799b114e6e0d6dbe",
+        "sha256_in_prefix": "904a167af0a81fcbe6e2b71b3a57e680cc7218336fa21688799b114e6e0d6dbe",
+        "size_in_bytes": 14031
+      },
+      {
+        "_path": "include/atk-1.0/atk/atkdocument.h",
+        "path_type": "hardlink",
+        "sha256": "bd9e3040eed56109b1d24b315f88bc530829a1c7d0e432e0fbfac3e763b0a29c",
+        "sha256_in_prefix": "bd9e3040eed56109b1d24b315f88bc530829a1c7d0e432e0fbfac3e763b0a29c",
+        "size_in_bytes": 4976
+      },
+      {
+        "_path": "include/atk-1.0/atk/atkeditabletext.h",
+        "path_type": "hardlink",
+        "sha256": "9f17f49db0bdf2464adae7f02fb34a7157c8aff7cbcf69a991ebf1ed3207dece",
+        "sha256_in_prefix": "9f17f49db0bdf2464adae7f02fb34a7157c8aff7cbcf69a991ebf1ed3207dece",
+        "size_in_bytes": 4957
+      },
+      {
+        "_path": "include/atk-1.0/atk/atkgobjectaccessible.h",
+        "path_type": "hardlink",
+        "sha256": "16f31f16a36fbe5c2108a3e8c9e8b110192903fedd9de8acf8c24836a928ff40",
+        "sha256_in_prefix": "16f31f16a36fbe5c2108a3e8c9e8b110192903fedd9de8acf8c24836a928ff40",
+        "size_in_bytes": 2610
+      },
+      {
+        "_path": "include/atk-1.0/atk/atkhyperlink.h",
+        "path_type": "hardlink",
+        "sha256": "2d8613516a18b8e317ffbe6b90077a9abcfaa2a8f4f21a7ae1900d7e32f8b99f",
+        "sha256_in_prefix": "2d8613516a18b8e317ffbe6b90077a9abcfaa2a8f4f21a7ae1900d7e32f8b99f",
+        "size_in_bytes": 4157
+      },
+      {
+        "_path": "include/atk-1.0/atk/atkhyperlinkimpl.h",
+        "path_type": "hardlink",
+        "sha256": "d41ef016991cb81327634780972464177198f868ebfd33dd46c579c535edec04",
+        "sha256_in_prefix": "d41ef016991cb81327634780972464177198f868ebfd33dd46c579c535edec04",
+        "size_in_bytes": 2448
+      },
+      {
+        "_path": "include/atk-1.0/atk/atkhypertext.h",
+        "path_type": "hardlink",
+        "sha256": "312440e74a8b28afb460e3ee0a296aa7e1d7df65b1a630e014c5bf46d9624d3b",
+        "sha256_in_prefix": "312440e74a8b28afb460e3ee0a296aa7e1d7df65b1a630e014c5bf46d9624d3b",
+        "size_in_bytes": 2943
+      },
+      {
+        "_path": "include/atk-1.0/atk/atkimage.h",
+        "path_type": "hardlink",
+        "sha256": "637242cb065309f3601326abce0d5e4e39b801dfe159831a35b0284e48817e8c",
+        "sha256_in_prefix": "637242cb065309f3601326abce0d5e4e39b801dfe159831a35b0284e48817e8c",
+        "size_in_bytes": 3630
+      },
+      {
+        "_path": "include/atk-1.0/atk/atkmisc.h",
+        "path_type": "hardlink",
+        "sha256": "7349f045c7f1905ed1a1a97384b4bf4178b46eb12d7d63d1cea198e987721c56",
+        "sha256_in_prefix": "7349f045c7f1905ed1a1a97384b4bf4178b46eb12d7d63d1cea198e987721c56",
+        "size_in_bytes": 3635
+      },
+      {
+        "_path": "include/atk-1.0/atk/atknoopobject.h",
+        "path_type": "hardlink",
+        "sha256": "5cd09688177b26d4f29d74d6ba39177889bd6c108c1e0117811900555197c851",
+        "sha256_in_prefix": "5cd09688177b26d4f29d74d6ba39177889bd6c108c1e0117811900555197c851",
+        "size_in_bytes": 2174
+      },
+      {
+        "_path": "include/atk-1.0/atk/atknoopobjectfactory.h",
+        "path_type": "hardlink",
+        "sha256": "b4c62c219ad79186b814022d1ddb75514624d8bd1fbc4de1614fbe250bb3a138",
+        "sha256_in_prefix": "b4c62c219ad79186b814022d1ddb75514624d8bd1fbc4de1614fbe250bb3a138",
+        "size_in_bytes": 2376
+      },
+      {
+        "_path": "include/atk-1.0/atk/atkobject.h",
+        "path_type": "hardlink",
+        "sha256": "97ba71160a7b3f3dad0144d76cb71d6cbc33acada25e276ff52143d15b57f8ca",
+        "sha256_in_prefix": "97ba71160a7b3f3dad0144d76cb71d6cbc33acada25e276ff52143d15b57f8ca",
+        "size_in_bytes": 40484
+      },
+      {
+        "_path": "include/atk-1.0/atk/atkobjectfactory.h",
+        "path_type": "hardlink",
+        "sha256": "2f5cbba23ecc1266f82b743b2311e08f431e1597f3b6c6ad10c98f6b11de43ca",
+        "sha256_in_prefix": "2f5cbba23ecc1266f82b743b2311e08f431e1597f3b6c6ad10c98f6b11de43ca",
+        "size_in_bytes": 2720
+      },
+      {
+        "_path": "include/atk-1.0/atk/atkplug.h",
+        "path_type": "hardlink",
+        "sha256": "d818c8c3533b0ba823a1ea8f22923b363bab500eca60019fd7cfa6fe9f2a9155",
+        "sha256_in_prefix": "d818c8c3533b0ba823a1ea8f22923b363bab500eca60019fd7cfa6fe9f2a9155",
+        "size_in_bytes": 2215
+      },
+      {
+        "_path": "include/atk-1.0/atk/atkrange.h",
+        "path_type": "hardlink",
+        "sha256": "5072be5f888ec0bea6653c3fd2700f319b1866bafde33cb18cd7e42767b4c7d9",
+        "sha256_in_prefix": "5072be5f888ec0bea6653c3fd2700f319b1866bafde33cb18cd7e42767b4c7d9",
+        "size_in_bytes": 1982
+      },
+      {
+        "_path": "include/atk-1.0/atk/atkregistry.h",
+        "path_type": "hardlink",
+        "sha256": "4569037b16de5bb3eef63319580f171d891b30f8e0e530d0b90a3aa3924f8b3a",
+        "sha256_in_prefix": "4569037b16de5bb3eef63319580f171d891b30f8e0e530d0b90a3aa3924f8b3a",
+        "size_in_bytes": 2699
+      },
+      {
+        "_path": "include/atk-1.0/atk/atkrelation.h",
+        "path_type": "hardlink",
+        "sha256": "5b0c3c5800131801501ed86bd6d4ec5918b676829717dc953c3da0e7c4ef4331",
+        "sha256_in_prefix": "5b0c3c5800131801501ed86bd6d4ec5918b676829717dc953c3da0e7c4ef4331",
+        "size_in_bytes": 3726
+      },
+      {
+        "_path": "include/atk-1.0/atk/atkrelationset.h",
+        "path_type": "hardlink",
+        "sha256": "0f5d2655eb78304cc7e00acf555c26c9f4a263e9ab3afe29004c9e445e90b08b",
+        "sha256_in_prefix": "0f5d2655eb78304cc7e00acf555c26c9f4a263e9ab3afe29004c9e445e90b08b",
+        "size_in_bytes": 3790
+      },
+      {
+        "_path": "include/atk-1.0/atk/atkrelationtype.h",
+        "path_type": "hardlink",
+        "sha256": "d50959f17e9c588a7165ecb6873ff55607b1d8420b405155d0168e4f4a5b481c",
+        "sha256_in_prefix": "d50959f17e9c588a7165ecb6873ff55607b1d8420b405155d0168e4f4a5b481c",
+        "size_in_bytes": 6226
+      },
+      {
+        "_path": "include/atk-1.0/atk/atkselection.h",
+        "path_type": "hardlink",
+        "sha256": "1a9fba16e5d0764d569b994daaa249bb4ecded37cea1d6b2331c2b2527428efa",
+        "sha256_in_prefix": "1a9fba16e5d0764d569b994daaa249bb4ecded37cea1d6b2331c2b2527428efa",
+        "size_in_bytes": 3917
+      },
+      {
+        "_path": "include/atk-1.0/atk/atksocket.h",
+        "path_type": "hardlink",
+        "sha256": "d325fd74c6f9abb5aae5c78b65d5d55c40af725ed36c5094e5017ceb0203b773",
+        "sha256_in_prefix": "d325fd74c6f9abb5aae5c78b65d5d55c40af725ed36c5094e5017ceb0203b773",
+        "size_in_bytes": 2348
+      },
+      {
+        "_path": "include/atk-1.0/atk/atkstate.h",
+        "path_type": "hardlink",
+        "sha256": "d0fa643cccc91356f279fe01804861961410df9504a959a44acc94700629a2e2",
+        "sha256_in_prefix": "d0fa643cccc91356f279fe01804861961410df9504a959a44acc94700629a2e2",
+        "size_in_bytes": 14417
+      },
+      {
+        "_path": "include/atk-1.0/atk/atkstateset.h",
+        "path_type": "hardlink",
+        "sha256": "1f28171a2e8428bd1e5330b3ee75e22677f9469f36389c3d7c6ef01d7e831e18",
+        "sha256_in_prefix": "1f28171a2e8428bd1e5330b3ee75e22677f9469f36389c3d7c6ef01d7e831e18",
+        "size_in_bytes": 3749
+      },
+      {
+        "_path": "include/atk-1.0/atk/atkstreamablecontent.h",
+        "path_type": "hardlink",
+        "sha256": "9f76a6b0ddf72c5206ff15883f13aa8dfe4a4b287b701e905a5296b69aecaee4",
+        "sha256_in_prefix": "9f76a6b0ddf72c5206ff15883f13aa8dfe4a4b287b701e905a5296b69aecaee4",
+        "size_in_bytes": 4856
+      },
+      {
+        "_path": "include/atk-1.0/atk/atktable.h",
+        "path_type": "hardlink",
+        "sha256": "f93f805170379e9c9862c3618b17240ff4377ddc227189b10645f3cec8fed0e3",
+        "sha256_in_prefix": "f93f805170379e9c9862c3618b17240ff4377ddc227189b10645f3cec8fed0e3",
+        "size_in_bytes": 12805
+      },
+      {
+        "_path": "include/atk-1.0/atk/atktablecell.h",
+        "path_type": "hardlink",
+        "sha256": "f42ad06942ab8de981cce500ebef6beebfd4329748fafd6abb375e6185e3409f",
+        "sha256_in_prefix": "f42ad06942ab8de981cce500ebef6beebfd4329748fafd6abb375e6185e3409f",
+        "size_in_bytes": 4671
+      },
+      {
+        "_path": "include/atk-1.0/atk/atktext.h",
+        "path_type": "hardlink",
+        "sha256": "bdf23f6e387b3fdf4846585bc9b7232109b96aeb0bad30e099ddfad89f244fae",
+        "sha256_in_prefix": "bdf23f6e387b3fdf4846585bc9b7232109b96aeb0bad30e099ddfad89f244fae",
+        "size_in_bytes": 24342
+      },
+      {
+        "_path": "include/atk-1.0/atk/atkutil.h",
+        "path_type": "hardlink",
+        "sha256": "08a2713c8bc6501819d08c60767be0e14b5becd62734e388531605b5390eeb02",
+        "sha256_in_prefix": "08a2713c8bc6501819d08c60767be0e14b5becd62734e388531605b5390eeb02",
+        "size_in_bytes": 14675
+      },
+      {
+        "_path": "include/atk-1.0/atk/atkvalue.h",
+        "path_type": "hardlink",
+        "sha256": "9bcfaa33bdb21f4765349f9a2139c912e103156cacb3f42c88321761e1734eb1",
+        "sha256_in_prefix": "9bcfaa33bdb21f4765349f9a2139c912e103156cacb3f42c88321761e1734eb1",
+        "size_in_bytes": 6182
+      },
+      {
+        "_path": "include/atk-1.0/atk/atkversion.h",
+        "path_type": "hardlink",
+        "sha256": "840baeb80939bbb84e80bec9adbc3abc1f6c4daf717461b13b9ae056c54411fc",
+        "sha256_in_prefix": "840baeb80939bbb84e80bec9adbc3abc1f6c4daf717461b13b9ae056c54411fc",
+        "size_in_bytes": 13870
+      },
+      {
+        "_path": "include/atk-1.0/atk/atkwindow.h",
+        "path_type": "hardlink",
+        "sha256": "9265e1b7054af8fb8dd0566b52c734f67083cdbff98c2f2ffa4ed0359a349c0f",
+        "sha256_in_prefix": "9265e1b7054af8fb8dd0566b52c734f67083cdbff98c2f2ffa4ed0359a349c0f",
+        "size_in_bytes": 1821
+      },
+      {
+        "_path": "lib/girepository-1.0/Atk-1.0.typelib",
+        "path_type": "hardlink",
+        "sha256": "63c1b4eb17da5f7882c5063a6ffa54957901b4983fa9fdbff4c806a16d102fbb",
+        "sha256_in_prefix": "63c1b4eb17da5f7882c5063a6ffa54957901b4983fa9fdbff4c806a16d102fbb",
+        "size_in_bytes": 74264
+      },
+      {
+        "_path": "lib/libatk-1.0.so",
+        "path_type": "softlink",
+        "sha256": "82f1adeb318d1464e5e4dc72b2a56847bfb454d211bc18d9f64331a853f551dd",
+        "size_in_bytes": 884560
+      },
+      {
+        "_path": "lib/libatk-1.0.so.0",
+        "path_type": "softlink",
+        "sha256": "82f1adeb318d1464e5e4dc72b2a56847bfb454d211bc18d9f64331a853f551dd",
+        "size_in_bytes": 884560
+      },
+      {
+        "_path": "lib/libatk-1.0.so.0.23609.1",
+        "path_type": "hardlink",
+        "sha256": "82f1adeb318d1464e5e4dc72b2a56847bfb454d211bc18d9f64331a853f551dd",
+        "sha256_in_prefix": "82f1adeb318d1464e5e4dc72b2a56847bfb454d211bc18d9f64331a853f551dd",
+        "size_in_bytes": 884560
+      },
+      {
+        "_path": "lib/pkgconfig/atk.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/atk_1607444251737/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256": "6f1f00cbd7895f8cbe6ec3c5966fea0469c62bea1ec2ec399040b88e2c2a8a7d",
+        "sha256_in_prefix": "776e4e13927e3ded3581b6918e4bf8f79a8c91c41d0d3e0bc036e350a2e3f467",
+        "size_in_bytes": 489
+      },
+      {
+        "_path": "share/gir-1.0/Atk-1.0.gir",
+        "path_type": "hardlink",
+        "sha256": "6c5648638450c44c7d672c218c9e4f2280442e9a374090d0139d10010c343fe3",
+        "sha256_in_prefix": "6c5648638450c44c7d672c218c9e4f2280442e9a374090d0139d10010c343fe3",
+        "size_in_bytes": 1081322
+      },
+      {
+        "_path": "share/locale/af/LC_MESSAGES/atk10.mo",
+        "path_type": "hardlink",
+        "sha256": "5277d8ebe14982c443d831e75de7c41e4b9d5383e7c37b8dabed09148bec0080",
+        "sha256_in_prefix": "5277d8ebe14982c443d831e75de7c41e4b9d5383e7c37b8dabed09148bec0080",
+        "size_in_bytes": 7091
+      },
+      {
+        "_path": "share/locale/am/LC_MESSAGES/atk10.mo",
+        "path_type": "hardlink",
+        "sha256": "85c3f93a8473e6b8e8d698af6e548e09b60befddb84007496d0d9b4732e14860",
+        "sha256_in_prefix": "85c3f93a8473e6b8e8d698af6e548e09b60befddb84007496d0d9b4732e14860",
+        "size_in_bytes": 1426
+      },
+      {
+        "_path": "share/locale/an/LC_MESSAGES/atk10.mo",
+        "path_type": "hardlink",
+        "sha256": "b39e218e581c80275345866af92643dc8dfd4cc95ddc99d08cf85f5882b43fe1",
+        "sha256_in_prefix": "b39e218e581c80275345866af92643dc8dfd4cc95ddc99d08cf85f5882b43fe1",
+        "size_in_bytes": 10687
+      },
+      {
+        "_path": "share/locale/ar/LC_MESSAGES/atk10.mo",
+        "path_type": "hardlink",
+        "sha256": "7e9acce1d65212455d12d174eed7a4eee47abfc831fe2af3acc3346430cc6dd2",
+        "sha256_in_prefix": "7e9acce1d65212455d12d174eed7a4eee47abfc831fe2af3acc3346430cc6dd2",
+        "size_in_bytes": 9378
+      },
+      {
+        "_path": "share/locale/as/LC_MESSAGES/atk10.mo",
+        "path_type": "hardlink",
+        "sha256": "e69ab7dbbb266a23405ac23a6963f5a95dde48110484777ea679ee8b21907734",
+        "sha256_in_prefix": "e69ab7dbbb266a23405ac23a6963f5a95dde48110484777ea679ee8b21907734",
+        "size_in_bytes": 13943
+      },
+      {
+        "_path": "share/locale/ast/LC_MESSAGES/atk10.mo",
+        "path_type": "hardlink",
+        "sha256": "6450d214f3132225a92300b7a4b4b3fce3c15b4e89e88846e887a3595bcb311c",
+        "sha256_in_prefix": "6450d214f3132225a92300b7a4b4b3fce3c15b4e89e88846e887a3595bcb311c",
+        "size_in_bytes": 9330
+      },
+      {
+        "_path": "share/locale/az/LC_MESSAGES/atk10.mo",
+        "path_type": "hardlink",
+        "sha256": "4ee028b58ce07b16dccb74b02af4e07d67685515bf9396e9ea795d286a329338",
+        "sha256_in_prefix": "4ee028b58ce07b16dccb74b02af4e07d67685515bf9396e9ea795d286a329338",
+        "size_in_bytes": 8168
+      },
+      {
+        "_path": "share/locale/be/LC_MESSAGES/atk10.mo",
+        "path_type": "hardlink",
+        "sha256": "f2ebf33f0a67ecc7c6d3611a08434f69d258e8fa0cc475f22f0a32b0a95f80be",
+        "sha256_in_prefix": "f2ebf33f0a67ecc7c6d3611a08434f69d258e8fa0cc475f22f0a32b0a95f80be",
+        "size_in_bytes": 13215
+      },
+      {
+        "_path": "share/locale/be@latin/LC_MESSAGES/atk10.mo",
+        "path_type": "hardlink",
+        "sha256": "5fc15fe32112b4a3b65ed6d92ff65f57d3383af55ef15e9b4055c288e20b11ec",
+        "sha256_in_prefix": "5fc15fe32112b4a3b65ed6d92ff65f57d3383af55ef15e9b4055c288e20b11ec",
+        "size_in_bytes": 8656
+      },
+      {
+        "_path": "share/locale/bg/LC_MESSAGES/atk10.mo",
+        "path_type": "hardlink",
+        "sha256": "99fe797b7c6eb46517856b36c2680e022b760b4ff531f1afddf0ce9f1723db33",
+        "sha256_in_prefix": "99fe797b7c6eb46517856b36c2680e022b760b4ff531f1afddf0ce9f1723db33",
+        "size_in_bytes": 13158
+      },
+      {
+        "_path": "share/locale/bn/LC_MESSAGES/atk10.mo",
+        "path_type": "hardlink",
+        "sha256": "e7e6f6bbcee177deccc140c0256a58fef0bdbc83c2fd466e2fec9105f5288667",
+        "sha256_in_prefix": "e7e6f6bbcee177deccc140c0256a58fef0bdbc83c2fd466e2fec9105f5288667",
+        "size_in_bytes": 12237
+      },
+      {
+        "_path": "share/locale/bn_IN/LC_MESSAGES/atk10.mo",
+        "path_type": "hardlink",
+        "sha256": "7d64e043ab053ed6bc940a8e78fb737c70f75aa08ea28bb562fca965ef846e07",
+        "sha256_in_prefix": "7d64e043ab053ed6bc940a8e78fb737c70f75aa08ea28bb562fca965ef846e07",
+        "size_in_bytes": 13606
+      },
+      {
+        "_path": "share/locale/bs/LC_MESSAGES/atk10.mo",
+        "path_type": "hardlink",
+        "sha256": "a830ae68c4d6a58fd763076ec3ba6b22fe5f17e5313964c9378332ac3fb0205a",
+        "sha256_in_prefix": "a830ae68c4d6a58fd763076ec3ba6b22fe5f17e5313964c9378332ac3fb0205a",
+        "size_in_bytes": 10134
+      },
+      {
+        "_path": "share/locale/ca/LC_MESSAGES/atk10.mo",
+        "path_type": "hardlink",
+        "sha256": "cadf83fd07e9fb796ab0617174653d52ca2c5ed7faf11a7bc8384ecbbaddb931",
+        "sha256_in_prefix": "cadf83fd07e9fb796ab0617174653d52ca2c5ed7faf11a7bc8384ecbbaddb931",
+        "size_in_bytes": 10655
+      },
+      {
+        "_path": "share/locale/ca@valencia/LC_MESSAGES/atk10.mo",
+        "path_type": "hardlink",
+        "sha256": "c2182e58f53307a8ab6a4e4a5d1cf518550e41ba814cb6ce20504a62e998fd45",
+        "sha256_in_prefix": "c2182e58f53307a8ab6a4e4a5d1cf518550e41ba814cb6ce20504a62e998fd45",
+        "size_in_bytes": 10660
+      },
+      {
+        "_path": "share/locale/ckb/LC_MESSAGES/atk10.mo",
+        "path_type": "hardlink",
+        "sha256": "362bd24134bcac174864c93a4c75c926256e60cdaab5c47dc2d6796ce50a915c",
+        "sha256_in_prefix": "362bd24134bcac174864c93a4c75c926256e60cdaab5c47dc2d6796ce50a915c",
+        "size_in_bytes": 6895
+      },
+      {
+        "_path": "share/locale/cs/LC_MESSAGES/atk10.mo",
+        "path_type": "hardlink",
+        "sha256": "4ce0c6d761953b04122024716d02c7b00885012cbcdbf8a084c835f8e3fe83d2",
+        "sha256_in_prefix": "4ce0c6d761953b04122024716d02c7b00885012cbcdbf8a084c835f8e3fe83d2",
+        "size_in_bytes": 10628
+      },
+      {
+        "_path": "share/locale/cy/LC_MESSAGES/atk10.mo",
+        "path_type": "hardlink",
+        "sha256": "fe670d600e09fbb8d00c1acb9a8773a1f1ff165858d3e0e17ff69de451ad37e5",
+        "sha256_in_prefix": "fe670d600e09fbb8d00c1acb9a8773a1f1ff165858d3e0e17ff69de451ad37e5",
+        "size_in_bytes": 8145
+      },
+      {
+        "_path": "share/locale/da/LC_MESSAGES/atk10.mo",
+        "path_type": "hardlink",
+        "sha256": "aa8316e4d313b0993f8e3ec9788a46c5f2e3dcad77213da49e9678eaab36c688",
+        "sha256_in_prefix": "aa8316e4d313b0993f8e3ec9788a46c5f2e3dcad77213da49e9678eaab36c688",
+        "size_in_bytes": 10135
+      },
+      {
+        "_path": "share/locale/de/LC_MESSAGES/atk10.mo",
+        "path_type": "hardlink",
+        "sha256": "d30df7d8f0b6896a79e65e376f5180530d57cdc89b2ba3f98649d5bd96a9ac55",
+        "sha256_in_prefix": "d30df7d8f0b6896a79e65e376f5180530d57cdc89b2ba3f98649d5bd96a9ac55",
+        "size_in_bytes": 10520
+      },
+      {
+        "_path": "share/locale/dz/LC_MESSAGES/atk10.mo",
+        "path_type": "hardlink",
+        "sha256": "194d2dab91b28a6e3143ed2858f16d6317ded34755d52d0c3f3d7c90cf908cc7",
+        "sha256_in_prefix": "194d2dab91b28a6e3143ed2858f16d6317ded34755d52d0c3f3d7c90cf908cc7",
+        "size_in_bytes": 15579
+      },
+      {
+        "_path": "share/locale/el/LC_MESSAGES/atk10.mo",
+        "path_type": "hardlink",
+        "sha256": "c46af59d5b4e639a82f20807262cdac1c92ee976e7965938ffe29e8e16c558fa",
+        "sha256_in_prefix": "c46af59d5b4e639a82f20807262cdac1c92ee976e7965938ffe29e8e16c558fa",
+        "size_in_bytes": 13826
+      },
+      {
+        "_path": "share/locale/en@shaw/LC_MESSAGES/atk10.mo",
+        "path_type": "hardlink",
+        "sha256": "8af848060fc356eb2a34d4cbdd7d3d6ca708c8665798a6ec013f4f82fe1a10d8",
+        "sha256_in_prefix": "8af848060fc356eb2a34d4cbdd7d3d6ca708c8665798a6ec013f4f82fe1a10d8",
+        "size_in_bytes": 12670
+      },
+      {
+        "_path": "share/locale/en_CA/LC_MESSAGES/atk10.mo",
+        "path_type": "hardlink",
+        "sha256": "c5f5001539ff81eab7bf6cbcd997153040578375255b746cc93d244e890b058f",
+        "sha256_in_prefix": "c5f5001539ff81eab7bf6cbcd997153040578375255b746cc93d244e890b058f",
+        "size_in_bytes": 7779
+      },
+      {
+        "_path": "share/locale/en_GB/LC_MESSAGES/atk10.mo",
+        "path_type": "hardlink",
+        "sha256": "fb63ef5c40cf1e332dad4e296a86b822ca2ef9785244fc818391ad55acd0590c",
+        "sha256_in_prefix": "fb63ef5c40cf1e332dad4e296a86b822ca2ef9785244fc818391ad55acd0590c",
+        "size_in_bytes": 9907
+      },
+      {
+        "_path": "share/locale/eo/LC_MESSAGES/atk10.mo",
+        "path_type": "hardlink",
+        "sha256": "eeb71f46eb1ce7f28cfc931d911abdc9497eab508b0091e68323619af5fe5fdc",
+        "sha256_in_prefix": "eeb71f46eb1ce7f28cfc931d911abdc9497eab508b0091e68323619af5fe5fdc",
+        "size_in_bytes": 9566
+      },
+      {
+        "_path": "share/locale/es/LC_MESSAGES/atk10.mo",
+        "path_type": "hardlink",
+        "sha256": "b40118a505e04e3f29802658d87956ecf182b1504eeffa693bfd72295f6ce437",
+        "sha256_in_prefix": "b40118a505e04e3f29802658d87956ecf182b1504eeffa693bfd72295f6ce437",
+        "size_in_bytes": 10733
+      },
+      {
+        "_path": "share/locale/et/LC_MESSAGES/atk10.mo",
+        "path_type": "hardlink",
+        "sha256": "d922586953eef25374f2f9cd3f6b5f034ff914c4f73fe156e62f5825455e9732",
+        "sha256_in_prefix": "d922586953eef25374f2f9cd3f6b5f034ff914c4f73fe156e62f5825455e9732",
+        "size_in_bytes": 8713
+      },
+      {
+        "_path": "share/locale/eu/LC_MESSAGES/atk10.mo",
+        "path_type": "hardlink",
+        "sha256": "3b7fe1824cf31dc6900118438585b4453c3e50b6404ca23f19f5e5e99a141ad4",
+        "sha256_in_prefix": "3b7fe1824cf31dc6900118438585b4453c3e50b6404ca23f19f5e5e99a141ad4",
+        "size_in_bytes": 10526
+      },
+      {
+        "_path": "share/locale/fa/LC_MESSAGES/atk10.mo",
+        "path_type": "hardlink",
+        "sha256": "80df489f20fba09ef0e0c45ab2601cc7f058368b9251ae2d6e9371ef8256f621",
+        "sha256_in_prefix": "80df489f20fba09ef0e0c45ab2601cc7f058368b9251ae2d6e9371ef8256f621",
+        "size_in_bytes": 10486
+      },
+      {
+        "_path": "share/locale/fi/LC_MESSAGES/atk10.mo",
+        "path_type": "hardlink",
+        "sha256": "4c006a507d52cb66aa5ce5261c893ae6a92e63ec7179c1f61a4d130600f610f7",
+        "sha256_in_prefix": "4c006a507d52cb66aa5ce5261c893ae6a92e63ec7179c1f61a4d130600f610f7",
+        "size_in_bytes": 9778
+      },
+      {
+        "_path": "share/locale/fr/LC_MESSAGES/atk10.mo",
+        "path_type": "hardlink",
+        "sha256": "f46353511474813c48ba7b53d72417db7d827ba3565821a930d1bff9db54491d",
+        "sha256_in_prefix": "f46353511474813c48ba7b53d72417db7d827ba3565821a930d1bff9db54491d",
+        "size_in_bytes": 10747
+      },
+      {
+        "_path": "share/locale/fur/LC_MESSAGES/atk10.mo",
+        "path_type": "hardlink",
+        "sha256": "fee5cf1c20b0361d0919777bf327441a2c09feb15036130a36f7e76e9d55a895",
+        "sha256_in_prefix": "fee5cf1c20b0361d0919777bf327441a2c09feb15036130a36f7e76e9d55a895",
+        "size_in_bytes": 10445
+      },
+      {
+        "_path": "share/locale/ga/LC_MESSAGES/atk10.mo",
+        "path_type": "hardlink",
+        "sha256": "4305b364b69613b55d6d845c1933b7bb52f80b09d44b980ae651c09f531f3eef",
+        "sha256_in_prefix": "4305b364b69613b55d6d845c1933b7bb52f80b09d44b980ae651c09f531f3eef",
+        "size_in_bytes": 1304
+      },
+      {
+        "_path": "share/locale/gd/LC_MESSAGES/atk10.mo",
+        "path_type": "hardlink",
+        "sha256": "0945f5950d86ac1eca7f2826f06a0ec4d04250b6041ddbc08084a1e239146802",
+        "sha256_in_prefix": "0945f5950d86ac1eca7f2826f06a0ec4d04250b6041ddbc08084a1e239146802",
+        "size_in_bytes": 11014
+      },
+      {
+        "_path": "share/locale/gl/LC_MESSAGES/atk10.mo",
+        "path_type": "hardlink",
+        "sha256": "d5c2bbdae93ff4e6073106ecd00d25066dd2419ee4aa01e549875782040e386e",
+        "sha256_in_prefix": "d5c2bbdae93ff4e6073106ecd00d25066dd2419ee4aa01e549875782040e386e",
+        "size_in_bytes": 10552
+      },
+      {
+        "_path": "share/locale/gu/LC_MESSAGES/atk10.mo",
+        "path_type": "hardlink",
+        "sha256": "a9cf051d0fc4a370b6712b61dd952c2a1a492f2c867db2afc0fad618b10a767b",
+        "sha256_in_prefix": "a9cf051d0fc4a370b6712b61dd952c2a1a492f2c867db2afc0fad618b10a767b",
+        "size_in_bytes": 13684
+      },
+      {
+        "_path": "share/locale/he/LC_MESSAGES/atk10.mo",
+        "path_type": "hardlink",
+        "sha256": "603c13df9656efd580b7a0da99e370f7d0f1949ba9460de4f0dab371c4de6e28",
+        "sha256_in_prefix": "603c13df9656efd580b7a0da99e370f7d0f1949ba9460de4f0dab371c4de6e28",
+        "size_in_bytes": 9871
+      },
+      {
+        "_path": "share/locale/hi/LC_MESSAGES/atk10.mo",
+        "path_type": "hardlink",
+        "sha256": "0aab4e670479c9b0783c1e72d9f0ed270d4a9434acc74e81423318673dd08d35",
+        "sha256_in_prefix": "0aab4e670479c9b0783c1e72d9f0ed270d4a9434acc74e81423318673dd08d35",
+        "size_in_bytes": 12902
+      },
+      {
+        "_path": "share/locale/hr/LC_MESSAGES/atk10.mo",
+        "path_type": "hardlink",
+        "sha256": "351c4d72afc738966ff71a50ebc4ce7c71ce6c2023cb687e8747eb34593d565d",
+        "sha256_in_prefix": "351c4d72afc738966ff71a50ebc4ce7c71ce6c2023cb687e8747eb34593d565d",
+        "size_in_bytes": 10264
+      },
+      {
+        "_path": "share/locale/hu/LC_MESSAGES/atk10.mo",
+        "path_type": "hardlink",
+        "sha256": "55a50f3d5b3f837b1c8f6a4c85807fb77e8b3a903c2bd2aeae5f9bd4c0138423",
+        "sha256_in_prefix": "55a50f3d5b3f837b1c8f6a4c85807fb77e8b3a903c2bd2aeae5f9bd4c0138423",
+        "size_in_bytes": 10571
+      },
+      {
+        "_path": "share/locale/hy/LC_MESSAGES/atk10.mo",
+        "path_type": "hardlink",
+        "sha256": "b3ba58d59e9b2a89e504cc66893fc209a5eeb0c6debb9e39a14ae8e46d8806c1",
+        "sha256_in_prefix": "b3ba58d59e9b2a89e504cc66893fc209a5eeb0c6debb9e39a14ae8e46d8806c1",
+        "size_in_bytes": 10950
+      },
+      {
+        "_path": "share/locale/id/LC_MESSAGES/atk10.mo",
+        "path_type": "hardlink",
+        "sha256": "dd37969789329f8ac4eebbb184da619f4c27707a4143cf0787945ce599d1b27b",
+        "sha256_in_prefix": "dd37969789329f8ac4eebbb184da619f4c27707a4143cf0787945ce599d1b27b",
+        "size_in_bytes": 10022
+      },
+      {
+        "_path": "share/locale/is/LC_MESSAGES/atk10.mo",
+        "path_type": "hardlink",
+        "sha256": "f29920424e07f072b6b2cf8aaec0f875c8f32863a34e81aa4b1e9c484019f8fb",
+        "sha256_in_prefix": "f29920424e07f072b6b2cf8aaec0f875c8f32863a34e81aa4b1e9c484019f8fb",
+        "size_in_bytes": 1553
+      },
+      {
+        "_path": "share/locale/it/LC_MESSAGES/atk10.mo",
+        "path_type": "hardlink",
+        "sha256": "21850c4817c6a7d24b9be092161156f8d50b099993d34ff99df550487e05f2b1",
+        "sha256_in_prefix": "21850c4817c6a7d24b9be092161156f8d50b099993d34ff99df550487e05f2b1",
+        "size_in_bytes": 10825
+      },
+      {
+        "_path": "share/locale/ja/LC_MESSAGES/atk10.mo",
+        "path_type": "hardlink",
+        "sha256": "9b68abf7ae39248ffe4e8e4f0a6c9b745dd4ac2216d2007234711b502676fbc2",
+        "sha256_in_prefix": "9b68abf7ae39248ffe4e8e4f0a6c9b745dd4ac2216d2007234711b502676fbc2",
+        "size_in_bytes": 10325
+      },
+      {
+        "_path": "share/locale/ka/LC_MESSAGES/atk10.mo",
+        "path_type": "hardlink",
+        "sha256": "b1bf8e1c9874620b95ba651a3fabdbe9b83ff226b34020088963a57ff3418bcc",
+        "sha256_in_prefix": "b1bf8e1c9874620b95ba651a3fabdbe9b83ff226b34020088963a57ff3418bcc",
+        "size_in_bytes": 12625
+      },
+      {
+        "_path": "share/locale/kk/LC_MESSAGES/atk10.mo",
+        "path_type": "hardlink",
+        "sha256": "7ab5b1fcd3a03a6374e6e29f37f82a78e420526588ab8a215a8f1bd5c5666568",
+        "sha256_in_prefix": "7ab5b1fcd3a03a6374e6e29f37f82a78e420526588ab8a215a8f1bd5c5666568",
+        "size_in_bytes": 3113
+      },
+      {
+        "_path": "share/locale/km/LC_MESSAGES/atk10.mo",
+        "path_type": "hardlink",
+        "sha256": "d9ab0a54f4aab64542fde65ff4f5ce00399efac4b22e83937a493ca51af0606d",
+        "sha256_in_prefix": "d9ab0a54f4aab64542fde65ff4f5ce00399efac4b22e83937a493ca51af0606d",
+        "size_in_bytes": 15201
+      },
+      {
+        "_path": "share/locale/kn/LC_MESSAGES/atk10.mo",
+        "path_type": "hardlink",
+        "sha256": "cd719d0d7a2796e80c7e4aa55960150787fc1b4d59ba0d9860c80fae35723fc2",
+        "sha256_in_prefix": "cd719d0d7a2796e80c7e4aa55960150787fc1b4d59ba0d9860c80fae35723fc2",
+        "size_in_bytes": 13786
+      },
+      {
+        "_path": "share/locale/ko/LC_MESSAGES/atk10.mo",
+        "path_type": "hardlink",
+        "sha256": "e4edb2a8cfd93f97899b9b51cabeab7b7f005a1bfa044edc0300b531d8ca6787",
+        "sha256_in_prefix": "e4edb2a8cfd93f97899b9b51cabeab7b7f005a1bfa044edc0300b531d8ca6787",
+        "size_in_bytes": 10235
+      },
+      {
+        "_path": "share/locale/ku/LC_MESSAGES/atk10.mo",
+        "path_type": "hardlink",
+        "sha256": "dcc77d141650ce94767bff70496d02d3a99b3b2cded7ca8d0b391e020a8005ea",
+        "sha256_in_prefix": "dcc77d141650ce94767bff70496d02d3a99b3b2cded7ca8d0b391e020a8005ea",
+        "size_in_bytes": 7949
+      },
+      {
+        "_path": "share/locale/li/LC_MESSAGES/atk10.mo",
+        "path_type": "hardlink",
+        "sha256": "f50c782dda26640fd48f0c74e9ac43edac3ea94a37efdd8612b2ff6e76bdff14",
+        "sha256_in_prefix": "f50c782dda26640fd48f0c74e9ac43edac3ea94a37efdd8612b2ff6e76bdff14",
+        "size_in_bytes": 1501
+      },
+      {
+        "_path": "share/locale/lt/LC_MESSAGES/atk10.mo",
+        "path_type": "hardlink",
+        "sha256": "beafe0931193026ee345018e7ec76fd93d99cfd4e4d1d0a4587ca154b475c64b",
+        "sha256_in_prefix": "beafe0931193026ee345018e7ec76fd93d99cfd4e4d1d0a4587ca154b475c64b",
+        "size_in_bytes": 10760
+      },
+      {
+        "_path": "share/locale/lv/LC_MESSAGES/atk10.mo",
+        "path_type": "hardlink",
+        "sha256": "de95a74321c6da4872b24bde273e4bb6a502b16a13adbe366fcc517c880b0e57",
+        "sha256_in_prefix": "de95a74321c6da4872b24bde273e4bb6a502b16a13adbe366fcc517c880b0e57",
+        "size_in_bytes": 10485
+      },
+      {
+        "_path": "share/locale/mai/LC_MESSAGES/atk10.mo",
+        "path_type": "hardlink",
+        "sha256": "e45644f8bb4073b5a05c96fbec651fcc73d97530378507646d45f0739a8d929f",
+        "sha256_in_prefix": "e45644f8bb4073b5a05c96fbec651fcc73d97530378507646d45f0739a8d929f",
+        "size_in_bytes": 11713
+      },
+      {
+        "_path": "share/locale/mk/LC_MESSAGES/atk10.mo",
+        "path_type": "hardlink",
+        "sha256": "5dc6be16e9cae2e78685fc5579070c3a9409326760e371390ab88fba495d049b",
+        "sha256_in_prefix": "5dc6be16e9cae2e78685fc5579070c3a9409326760e371390ab88fba495d049b",
+        "size_in_bytes": 10695
+      },
+      {
+        "_path": "share/locale/ml/LC_MESSAGES/atk10.mo",
+        "path_type": "hardlink",
+        "sha256": "252e01aa8566e79c58b4eff44be7d1c17b10afa3a600c71512125bd4cf88138c",
+        "sha256_in_prefix": "252e01aa8566e79c58b4eff44be7d1c17b10afa3a600c71512125bd4cf88138c",
+        "size_in_bytes": 14032
+      },
+      {
+        "_path": "share/locale/mn/LC_MESSAGES/atk10.mo",
+        "path_type": "hardlink",
+        "sha256": "09519842e96f83b27f811e93ea19d545847dc42dd48e995cb4d434936548b62b",
+        "sha256_in_prefix": "09519842e96f83b27f811e93ea19d545847dc42dd48e995cb4d434936548b62b",
+        "size_in_bytes": 10151
+      },
+      {
+        "_path": "share/locale/mr/LC_MESSAGES/atk10.mo",
+        "path_type": "hardlink",
+        "sha256": "4350d1c7602b5d9658e20f70632a9473b1ab5620c3df20f0db8b7d847b482e59",
+        "sha256_in_prefix": "4350d1c7602b5d9658e20f70632a9473b1ab5620c3df20f0db8b7d847b482e59",
+        "size_in_bytes": 11828
+      },
+      {
+        "_path": "share/locale/ms/LC_MESSAGES/atk10.mo",
+        "path_type": "hardlink",
+        "sha256": "904749c1510c2c42d954f2276363dc20177783bb8565cc464932fa97afb77e0a",
+        "sha256_in_prefix": "904749c1510c2c42d954f2276363dc20177783bb8565cc464932fa97afb77e0a",
+        "size_in_bytes": 10148
+      },
+      {
+        "_path": "share/locale/nb/LC_MESSAGES/atk10.mo",
+        "path_type": "hardlink",
+        "sha256": "83f1293ef3402e65094287875ee20302888ca83cc7cb5368e16617bf8fa6bb9b",
+        "sha256_in_prefix": "83f1293ef3402e65094287875ee20302888ca83cc7cb5368e16617bf8fa6bb9b",
+        "size_in_bytes": 9962
+      },
+      {
+        "_path": "share/locale/ne/LC_MESSAGES/atk10.mo",
+        "path_type": "hardlink",
+        "sha256": "594baa979ee2b73ab381a85d091c16470126117079c8aa99a1346cc32d905666",
+        "sha256_in_prefix": "594baa979ee2b73ab381a85d091c16470126117079c8aa99a1346cc32d905666",
+        "size_in_bytes": 14712
+      },
+      {
+        "_path": "share/locale/nl/LC_MESSAGES/atk10.mo",
+        "path_type": "hardlink",
+        "sha256": "60984315447b2d3c6af7b23414b0fb12095d5dadff9e23664fc1548d8e9f5644",
+        "sha256_in_prefix": "60984315447b2d3c6af7b23414b0fb12095d5dadff9e23664fc1548d8e9f5644",
+        "size_in_bytes": 10127
+      },
+      {
+        "_path": "share/locale/nn/LC_MESSAGES/atk10.mo",
+        "path_type": "hardlink",
+        "sha256": "90fe6a2e67cdbe8556b2b4117fe0aa1df7c9cc7f445d56602b2696827aa06e2a",
+        "sha256_in_prefix": "90fe6a2e67cdbe8556b2b4117fe0aa1df7c9cc7f445d56602b2696827aa06e2a",
+        "size_in_bytes": 8857
+      },
+      {
+        "_path": "share/locale/oc/LC_MESSAGES/atk10.mo",
+        "path_type": "hardlink",
+        "sha256": "f4330926b725d90fc23e1d28b34138786dcce1ed9cc2b168ee4be8d4e03df9a8",
+        "sha256_in_prefix": "f4330926b725d90fc23e1d28b34138786dcce1ed9cc2b168ee4be8d4e03df9a8",
+        "size_in_bytes": 10774
+      },
+      {
+        "_path": "share/locale/or/LC_MESSAGES/atk10.mo",
+        "path_type": "hardlink",
+        "sha256": "e4a4dcda08d1e0e5221b1ab2872fab87eb1ebe811b5b337f9ca20012d80e29e3",
+        "sha256_in_prefix": "e4a4dcda08d1e0e5221b1ab2872fab87eb1ebe811b5b337f9ca20012d80e29e3",
+        "size_in_bytes": 12527
+      },
+      {
+        "_path": "share/locale/pa/LC_MESSAGES/atk10.mo",
+        "path_type": "hardlink",
+        "sha256": "b9dca6199f4a3c1ab99b916fbc4dc63166e938ec289c21e7cdffda6e0e599751",
+        "sha256_in_prefix": "b9dca6199f4a3c1ab99b916fbc4dc63166e938ec289c21e7cdffda6e0e599751",
+        "size_in_bytes": 13562
+      },
+      {
+        "_path": "share/locale/pl/LC_MESSAGES/atk10.mo",
+        "path_type": "hardlink",
+        "sha256": "78419c00dafb4c2e7eedf46dc0747e35b1bef2ad21e3efa467c824d656027e2a",
+        "sha256_in_prefix": "78419c00dafb4c2e7eedf46dc0747e35b1bef2ad21e3efa467c824d656027e2a",
+        "size_in_bytes": 10494
+      },
+      {
+        "_path": "share/locale/ps/LC_MESSAGES/atk10.mo",
+        "path_type": "hardlink",
+        "sha256": "bc97840bb1c010242b7d37a12f8ca368764d80acbd13df67c8d0d503ce2ed6bb",
+        "sha256_in_prefix": "bc97840bb1c010242b7d37a12f8ca368764d80acbd13df67c8d0d503ce2ed6bb",
+        "size_in_bytes": 9363
+      },
+      {
+        "_path": "share/locale/pt/LC_MESSAGES/atk10.mo",
+        "path_type": "hardlink",
+        "sha256": "24403095dd376583e38f18edff503af6d7974f0e3065dd3ebd52d79f7c70e8fc",
+        "sha256_in_prefix": "24403095dd376583e38f18edff503af6d7974f0e3065dd3ebd52d79f7c70e8fc",
+        "size_in_bytes": 10671
+      },
+      {
+        "_path": "share/locale/pt_BR/LC_MESSAGES/atk10.mo",
+        "path_type": "hardlink",
+        "sha256": "d1588920b57de372fa6d1102425fd220a9345dbb314f8ca3a0a741e9fc398607",
+        "sha256_in_prefix": "d1588920b57de372fa6d1102425fd220a9345dbb314f8ca3a0a741e9fc398607",
+        "size_in_bytes": 10535
+      },
+      {
+        "_path": "share/locale/ro/LC_MESSAGES/atk10.mo",
+        "path_type": "hardlink",
+        "sha256": "4b85a9037be2adb2c48b44573025649c9534c646e98a2db1f0ffb8733a92ca5a",
+        "sha256_in_prefix": "4b85a9037be2adb2c48b44573025649c9534c646e98a2db1f0ffb8733a92ca5a",
+        "size_in_bytes": 10315
+      },
+      {
+        "_path": "share/locale/ru/LC_MESSAGES/atk10.mo",
+        "path_type": "hardlink",
+        "sha256": "a5c5b5eeed3bcd3ef518984b22f2c71c21f502047dc88fa4d4d1e9381f2a6c2c",
+        "sha256_in_prefix": "a5c5b5eeed3bcd3ef518984b22f2c71c21f502047dc88fa4d4d1e9381f2a6c2c",
+        "size_in_bytes": 13625
+      },
+      {
+        "_path": "share/locale/rw/LC_MESSAGES/atk10.mo",
+        "path_type": "hardlink",
+        "sha256": "2fedf2168643f0436298b5e9b2ecffef4284ae5ce8117893ae28f8978be0c70f",
+        "sha256_in_prefix": "2fedf2168643f0436298b5e9b2ecffef4284ae5ce8117893ae28f8978be0c70f",
+        "size_in_bytes": 602
+      },
+      {
+        "_path": "share/locale/si/LC_MESSAGES/atk10.mo",
+        "path_type": "hardlink",
+        "sha256": "8f5e9163b792072e2885def108269bc4691e1acaddfbdc2958a878b259249d0f",
+        "sha256_in_prefix": "8f5e9163b792072e2885def108269bc4691e1acaddfbdc2958a878b259249d0f",
+        "size_in_bytes": 2048
+      },
+      {
+        "_path": "share/locale/sk/LC_MESSAGES/atk10.mo",
+        "path_type": "hardlink",
+        "sha256": "f341f4cd35de625e048b5a256eda60e30570a39f9f71997c112c2ade378f82ca",
+        "sha256_in_prefix": "f341f4cd35de625e048b5a256eda60e30570a39f9f71997c112c2ade378f82ca",
+        "size_in_bytes": 10402
+      },
+      {
+        "_path": "share/locale/sl/LC_MESSAGES/atk10.mo",
+        "path_type": "hardlink",
+        "sha256": "4b37249bac116e0e6a3ac648307ed37db2e945fa79b3738bc3b3c725e1e6e8a0",
+        "sha256_in_prefix": "4b37249bac116e0e6a3ac648307ed37db2e945fa79b3738bc3b3c725e1e6e8a0",
+        "size_in_bytes": 10374
+      },
+      {
+        "_path": "share/locale/sq/LC_MESSAGES/atk10.mo",
+        "path_type": "hardlink",
+        "sha256": "6431d3931325912c8f3f1b2bf1e98110e01066b5295c6ebe3ca6bf90a47c4a6b",
+        "sha256_in_prefix": "6431d3931325912c8f3f1b2bf1e98110e01066b5295c6ebe3ca6bf90a47c4a6b",
+        "size_in_bytes": 8767
+      },
+      {
+        "_path": "share/locale/sr/LC_MESSAGES/atk10.mo",
+        "path_type": "hardlink",
+        "sha256": "00ff6bb7f2fa19fefdfc413173cc9fb46c3755a5f04bd9cad154891d40963193",
+        "sha256_in_prefix": "00ff6bb7f2fa19fefdfc413173cc9fb46c3755a5f04bd9cad154891d40963193",
+        "size_in_bytes": 12766
+      },
+      {
+        "_path": "share/locale/sr@ije/LC_MESSAGES/atk10.mo",
+        "path_type": "hardlink",
+        "sha256": "53fca7cbe076b82e3fcca2fa2ea0bb220ec7e007deecc4d10caa2d84d28a3d6c",
+        "sha256_in_prefix": "53fca7cbe076b82e3fcca2fa2ea0bb220ec7e007deecc4d10caa2d84d28a3d6c",
+        "size_in_bytes": 9621
+      },
+      {
+        "_path": "share/locale/sr@latin/LC_MESSAGES/atk10.mo",
+        "path_type": "hardlink",
+        "sha256": "09568781d70636dcb79ea156f66c235d524992229020c6bb26d5a5b23bc85e5f",
+        "sha256_in_prefix": "09568781d70636dcb79ea156f66c235d524992229020c6bb26d5a5b23bc85e5f",
+        "size_in_bytes": 10321
+      },
+      {
+        "_path": "share/locale/sv/LC_MESSAGES/atk10.mo",
+        "path_type": "hardlink",
+        "sha256": "269f5abd5acb4146fcac0f4f5f3da743830c706f85bee6d9981c24238af49418",
+        "sha256_in_prefix": "269f5abd5acb4146fcac0f4f5f3da743830c706f85bee6d9981c24238af49418",
+        "size_in_bytes": 10061
+      },
+      {
+        "_path": "share/locale/ta/LC_MESSAGES/atk10.mo",
+        "path_type": "hardlink",
+        "sha256": "fd86b43303452eae2e167b295f2ff0770fb16592e1dab33ed5c2eeb5cdc6df8a",
+        "sha256_in_prefix": "fd86b43303452eae2e167b295f2ff0770fb16592e1dab33ed5c2eeb5cdc6df8a",
+        "size_in_bytes": 13680
+      },
+      {
+        "_path": "share/locale/te/LC_MESSAGES/atk10.mo",
+        "path_type": "hardlink",
+        "sha256": "e8b4be723495d041aa64cc3bc3ff06eadd46ebf2a3bb156670a0b3d8a4900d50",
+        "sha256_in_prefix": "e8b4be723495d041aa64cc3bc3ff06eadd46ebf2a3bb156670a0b3d8a4900d50",
+        "size_in_bytes": 12971
+      },
+      {
+        "_path": "share/locale/tg/LC_MESSAGES/atk10.mo",
+        "path_type": "hardlink",
+        "sha256": "102c2bbdb76435dedf7e29f4705020eb158b02af78cad5fab9a9316ceab11ed0",
+        "sha256_in_prefix": "102c2bbdb76435dedf7e29f4705020eb158b02af78cad5fab9a9316ceab11ed0",
+        "size_in_bytes": 2356
+      },
+      {
+        "_path": "share/locale/th/LC_MESSAGES/atk10.mo",
+        "path_type": "hardlink",
+        "sha256": "9a3582f26ba3d26fc5dba85e041e191b8ed2dabdf6930612614ecee41625754a",
+        "sha256_in_prefix": "9a3582f26ba3d26fc5dba85e041e191b8ed2dabdf6930612614ecee41625754a",
+        "size_in_bytes": 13618
+      },
+      {
+        "_path": "share/locale/tk/LC_MESSAGES/atk10.mo",
+        "path_type": "hardlink",
+        "sha256": "6fb25e37a1086bee09bebb7451c36961de0208f1a1aeb227b168b5b768c85aeb",
+        "sha256_in_prefix": "6fb25e37a1086bee09bebb7451c36961de0208f1a1aeb227b168b5b768c85aeb",
+        "size_in_bytes": 7515
+      },
+      {
+        "_path": "share/locale/tr/LC_MESSAGES/atk10.mo",
+        "path_type": "hardlink",
+        "sha256": "7bd362a4a015b1c36b839afa62945e613b4bcaa3efbfbc06382b87929795436f",
+        "sha256_in_prefix": "7bd362a4a015b1c36b839afa62945e613b4bcaa3efbfbc06382b87929795436f",
+        "size_in_bytes": 10386
+      },
+      {
+        "_path": "share/locale/tt/LC_MESSAGES/atk10.mo",
+        "path_type": "hardlink",
+        "sha256": "55f2a9baa9794214f47a466913b724c3fd63bc92d27ebe2814a4461d06074ce3",
+        "sha256_in_prefix": "55f2a9baa9794214f47a466913b724c3fd63bc92d27ebe2814a4461d06074ce3",
+        "size_in_bytes": 7945
+      },
+      {
+        "_path": "share/locale/ug/LC_MESSAGES/atk10.mo",
+        "path_type": "hardlink",
+        "sha256": "8d61d48f0777e42fa938286e12744dac0cfefee24f057dcc63e94138076eb206",
+        "sha256_in_prefix": "8d61d48f0777e42fa938286e12744dac0cfefee24f057dcc63e94138076eb206",
+        "size_in_bytes": 11367
+      },
+      {
+        "_path": "share/locale/uk/LC_MESSAGES/atk10.mo",
+        "path_type": "hardlink",
+        "sha256": "f71651c153f146e8e0b4de608604055b083615b27896a9e511429e8f4f7298a1",
+        "sha256_in_prefix": "f71651c153f146e8e0b4de608604055b083615b27896a9e511429e8f4f7298a1",
+        "size_in_bytes": 13284
+      },
+      {
+        "_path": "share/locale/vi/LC_MESSAGES/atk10.mo",
+        "path_type": "hardlink",
+        "sha256": "5ecd41493c74cc20e66dfae2bcaedfb2c26be2c769df005f19df52a0a8a4245d",
+        "sha256_in_prefix": "5ecd41493c74cc20e66dfae2bcaedfb2c26be2c769df005f19df52a0a8a4245d",
+        "size_in_bytes": 10988
+      },
+      {
+        "_path": "share/locale/wa/LC_MESSAGES/atk10.mo",
+        "path_type": "hardlink",
+        "sha256": "ab40779161d2e59a8fecc15cf6b0610bba710bbf8700d2baca1ad39876f43df5",
+        "sha256_in_prefix": "ab40779161d2e59a8fecc15cf6b0610bba710bbf8700d2baca1ad39876f43df5",
+        "size_in_bytes": 3803
+      },
+      {
+        "_path": "share/locale/xh/LC_MESSAGES/atk10.mo",
+        "path_type": "hardlink",
+        "sha256": "2721b9c77346bf4c83ab23ac8b12a82ee0eec94b9a5e5b93d5db218acfca3b6a",
+        "sha256_in_prefix": "2721b9c77346bf4c83ab23ac8b12a82ee0eec94b9a5e5b93d5db218acfca3b6a",
+        "size_in_bytes": 8380
+      },
+      {
+        "_path": "share/locale/yi/LC_MESSAGES/atk10.mo",
+        "path_type": "hardlink",
+        "sha256": "e4320b46655278f41b2d3dece7e4e547c192f139cee5910c22b3e16062aaafa9",
+        "sha256_in_prefix": "e4320b46655278f41b2d3dece7e4e547c192f139cee5910c22b3e16062aaafa9",
+        "size_in_bytes": 1753
+      },
+      {
+        "_path": "share/locale/zh_CN/LC_MESSAGES/atk10.mo",
+        "path_type": "hardlink",
+        "sha256": "66f551e7692d58df3af4958ddd7fdaf475f422ec3a673440575e230264a87922",
+        "sha256_in_prefix": "66f551e7692d58df3af4958ddd7fdaf475f422ec3a673440575e230264a87922",
+        "size_in_bytes": 9533
+      },
+      {
+        "_path": "share/locale/zh_HK/LC_MESSAGES/atk10.mo",
+        "path_type": "hardlink",
+        "sha256": "406c937404a2dd84e9a3863418fdaa393da63da37f293431ed4c1abca3862c6e",
+        "sha256_in_prefix": "406c937404a2dd84e9a3863418fdaa393da63da37f293431ed4c1abca3862c6e",
+        "size_in_bytes": 9656
+      },
+      {
+        "_path": "share/locale/zh_TW/LC_MESSAGES/atk10.mo",
+        "path_type": "hardlink",
+        "sha256": "17d74cf1748830996e60397af5396a035ae97d1725daee9f9b66cc861f02594e",
+        "sha256_in_prefix": "17d74cf1748830996e60397af5396a035ae97d1725daee9f9b66cc861f02594e",
+        "size_in_bytes": 9664
+      },
+      {
+        "_path": "share/locale/zu/LC_MESSAGES/atk10.mo",
+        "path_type": "hardlink",
+        "sha256": "24190f205e32307c4b1fc6b597cd84a9b4d52504209e2638e8afe14df78f4a96",
+        "sha256_in_prefix": "24190f205e32307c4b1fc6b597cd84a9b4d52504209e2638e8afe14df78f4a96",
+        "size_in_bytes": 6039
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "dde04e006d330e42165c49778546c466aa5ae03499f20cdd2bcbc7f0306f896d",
+  "size": 573789,
+  "subdir": "linux-64",
+  "timestamp": 1607444444932,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/atk-1.0-2.36.0-h3371d22_4.tar.bz2",
+  "version": "2.36.0"
+}

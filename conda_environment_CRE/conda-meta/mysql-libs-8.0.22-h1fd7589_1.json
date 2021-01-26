@@ -1,0 +1,63 @@
+{
+  "build": "h1fd7589_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=7.5.0",
+    "libstdcxx-ng >=7.5.0",
+    "mysql-common 8.0.22 ha770c72_1",
+    "openssl >=1.1.1h,<1.1.2a",
+    "zlib >=1.2.11,<1.3.0a0",
+    "zstd >=1.4.5,<1.5.0a0"
+  ],
+  "extracted_package_dir": "/home/devel/jgomez/.conda/pkgs/mysql-libs-8.0.22-h1fd7589_1",
+  "features": "",
+  "files": [
+    "lib/libmysqlclient.so",
+    "lib/libmysqlclient.so.21",
+    "lib/libmysqlclient.so.21.1.22"
+  ],
+  "fn": "mysql-libs-8.0.22-h1fd7589_1.tar.bz2",
+  "link": {
+    "source": "/home/devel/jgomez/.conda/pkgs/mysql-libs-8.0.22-h1fd7589_1",
+    "type": 1
+  },
+  "md5": "2392d8422a2233772d65be6104c52f64",
+  "name": "mysql-libs",
+  "package_tarball_full_path": "/home/devel/jgomez/.conda/pkgs/mysql-libs-8.0.22-h1fd7589_1.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/libmysqlclient.so",
+        "path_type": "softlink",
+        "sha256": "b1258d5374b1989dfc3d1f6c3d231a5cac7162633b856ce086c4fe328589dc6c",
+        "size_in_bytes": 6965624
+      },
+      {
+        "_path": "lib/libmysqlclient.so.21",
+        "path_type": "softlink",
+        "sha256": "b1258d5374b1989dfc3d1f6c3d231a5cac7162633b856ce086c4fe328589dc6c",
+        "size_in_bytes": 6965624
+      },
+      {
+        "_path": "lib/libmysqlclient.so.21.1.22",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/mysql-suite_1606463380630/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+        "sha256": "b1258d5374b1989dfc3d1f6c3d231a5cac7162633b856ce086c4fe328589dc6c",
+        "sha256_in_prefix": "0c40e806b7ade7f6cf7d04eabacd062ccaebaf635eeeeb791134ba3bdfdb98bd",
+        "size_in_bytes": 6965624
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "9708b1610790b1fc99844e50ba9ff17a0d7eb9c7db99ae00f0709085e1fe04f1",
+  "size": 1822420,
+  "subdir": "linux-64",
+  "timestamp": 1606466202833,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/mysql-libs-8.0.22-h1fd7589_1.tar.bz2",
+  "version": "8.0.22"
+}

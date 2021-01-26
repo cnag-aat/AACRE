@@ -1,0 +1,7 @@
+/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE/lib/site_perl/5.26.2/x86_64-linux-thread-multi/IO/Pty.pm relocate_as=../../../IO/Pty.pm
+/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE/lib/site_perl/5.26.2/x86_64-linux-thread-multi/IO/Tty.pm relocate_as=../../../IO/Tty.pm
+/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE/lib/site_perl/5.26.2/x86_64-linux-thread-multi/IO/Tty/Constant.pm relocate_as=../../../IO/Tty/Constant.pm
+/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE/lib/site_perl/5.26.2/x86_64-linux-thread-multi/auto/IO/Tty/Tty.so relocate_as=Tty.so
+/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE/man/man3/IO::Pty.3 relocate_as=../../../../../../../man/man3/IO::Pty.3
+/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE/man/man3/IO::Tty.3 relocate_as=../../../../../../../man/man3/IO::Tty.3
+/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE/man/man3/IO::Tty::Constant.3 relocate_as=../../../../../../../man/man3/IO::Tty::Constant.3

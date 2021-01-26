@@ -1,0 +1,287 @@
+{
+  "build": "haf93ef1_3",
+  "build_number": 3,
+  "channel": "https://conda.anaconda.org/bioconda/linux-64",
+  "constrains": [],
+  "depends": [
+    "glib >=2.58.3,<3.0a0",
+    "libgcc-ng >=7.3.0",
+    "pcre >=8.43,<9.0a0"
+  ],
+  "extracted_package_dir": "/home/devel/jgomez/.conda/pkgs/exonerate-2.4.0-haf93ef1_3",
+  "features": "",
+  "files": [
+    "bin/esd2esi",
+    "bin/exonerate",
+    "bin/exonerate-server",
+    "bin/fasta2esd",
+    "bin/fastaannotatecdna",
+    "bin/fastachecksum",
+    "bin/fastaclean",
+    "bin/fastaclip",
+    "bin/fastacomposition",
+    "bin/fastadiff",
+    "bin/fastaexplode",
+    "bin/fastafetch",
+    "bin/fastahardmask",
+    "bin/fastaindex",
+    "bin/fastalength",
+    "bin/fastanrdb",
+    "bin/fastaoverlap",
+    "bin/fastareformat",
+    "bin/fastaremove",
+    "bin/fastarevcomp",
+    "bin/fastasoftmask",
+    "bin/fastasort",
+    "bin/fastasplit",
+    "bin/fastasubseq",
+    "bin/fastatranslate",
+    "bin/fastavalidcds",
+    "bin/ipcress",
+    "share/man/man1/exonerate-server.1",
+    "share/man/man1/exonerate.1",
+    "share/man/man1/fastautils.1",
+    "share/man/man1/ipcress.1"
+  ],
+  "fn": "exonerate-2.4.0-haf93ef1_3.tar.bz2",
+  "license": "GPL-3.0",
+  "link": {
+    "source": "/home/devel/jgomez/.conda/pkgs/exonerate-2.4.0-haf93ef1_3",
+    "type": 1
+  },
+  "md5": "1a0177feb0e56168fe80af8e0369b402",
+  "name": "exonerate",
+  "package_tarball_full_path": "/home/devel/jgomez/.conda/pkgs/exonerate-2.4.0-haf93ef1_3.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/esd2esi",
+        "path_type": "hardlink",
+        "sha256": "1cacd5ca76ea711c1846c22ca07d65a69cb25c4fcb6bdcf87d04ff611dac6e3d",
+        "sha256_in_prefix": "1cacd5ca76ea711c1846c22ca07d65a69cb25c4fcb6bdcf87d04ff611dac6e3d",
+        "size_in_bytes": 268696
+      },
+      {
+        "_path": "bin/exonerate",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/exonerate_1572112979617/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "a53602a27a4d63a4db4a1f92a9d331fddf83da1ce96b9fd22deae08da13fd95b",
+        "sha256_in_prefix": "aaf0386a9bcd10f385db2c27a9014bfe11ea0f28790ec0e07c2a88b1e2a28fe4",
+        "size_in_bytes": 5278744
+      },
+      {
+        "_path": "bin/exonerate-server",
+        "path_type": "hardlink",
+        "sha256": "f589ce0d4cbd8ed3071f49dd55b081373a79cf13203c0e77c0e56a88115f4030",
+        "sha256_in_prefix": "f589ce0d4cbd8ed3071f49dd55b081373a79cf13203c0e77c0e56a88115f4030",
+        "size_in_bytes": 287040
+      },
+      {
+        "_path": "bin/fasta2esd",
+        "path_type": "hardlink",
+        "sha256": "8544f258fbc7ab7826c5f754de3032262c04e9c92a89202dbad42c2098fa0824",
+        "sha256_in_prefix": "8544f258fbc7ab7826c5f754de3032262c04e9c92a89202dbad42c2098fa0824",
+        "size_in_bytes": 149512
+      },
+      {
+        "_path": "bin/fastaannotatecdna",
+        "path_type": "hardlink",
+        "sha256": "f2d14abbae7e87c075e53f4bb070b409c15c227e6ba5944b83e03973d5afa962",
+        "sha256_in_prefix": "f2d14abbae7e87c075e53f4bb070b409c15c227e6ba5944b83e03973d5afa962",
+        "size_in_bytes": 139960
+      },
+      {
+        "_path": "bin/fastachecksum",
+        "path_type": "hardlink",
+        "sha256": "72e0fb209cf03b3b77a553edbcb17e7617525c29e9c11f3258439ed2177a7535",
+        "sha256_in_prefix": "72e0fb209cf03b3b77a553edbcb17e7617525c29e9c11f3258439ed2177a7535",
+        "size_in_bytes": 139968
+      },
+      {
+        "_path": "bin/fastaclean",
+        "path_type": "hardlink",
+        "sha256": "fc3b965688d73994dc52d64e46d291249b2c61d1f0a18fb51e76aa69d085cb3a",
+        "sha256_in_prefix": "fc3b965688d73994dc52d64e46d291249b2c61d1f0a18fb51e76aa69d085cb3a",
+        "size_in_bytes": 140008
+      },
+      {
+        "_path": "bin/fastaclip",
+        "path_type": "hardlink",
+        "sha256": "d7613fe3921f087ca89f8425368a9110f626fcf302ef410da0b131dff92fa21a",
+        "sha256_in_prefix": "d7613fe3921f087ca89f8425368a9110f626fcf302ef410da0b131dff92fa21a",
+        "size_in_bytes": 140008
+      },
+      {
+        "_path": "bin/fastacomposition",
+        "path_type": "hardlink",
+        "sha256": "1b68b29b23fcfd2a0a9637c98de255f810668796a46a7c81246130067cd551bb",
+        "sha256_in_prefix": "1b68b29b23fcfd2a0a9637c98de255f810668796a46a7c81246130067cd551bb",
+        "size_in_bytes": 140024
+      },
+      {
+        "_path": "bin/fastadiff",
+        "path_type": "hardlink",
+        "sha256": "a35b2292e44d538986a190686950ad405852f47b85e4f0e1ad495aa2b5069ae8",
+        "sha256_in_prefix": "a35b2292e44d538986a190686950ad405852f47b85e4f0e1ad495aa2b5069ae8",
+        "size_in_bytes": 139968
+      },
+      {
+        "_path": "bin/fastaexplode",
+        "path_type": "hardlink",
+        "sha256": "8d5ee97c8af33bffe9c91d580dfb068d83072ece5f613b863631a35495bb3c89",
+        "sha256_in_prefix": "8d5ee97c8af33bffe9c91d580dfb068d83072ece5f613b863631a35495bb3c89",
+        "size_in_bytes": 140000
+      },
+      {
+        "_path": "bin/fastafetch",
+        "path_type": "hardlink",
+        "sha256": "be32f894e3e6efdd30f1937cb94a0ce5560ab38dfe2fc66270abf89b37365a52",
+        "sha256_in_prefix": "be32f894e3e6efdd30f1937cb94a0ce5560ab38dfe2fc66270abf89b37365a52",
+        "size_in_bytes": 140136
+      },
+      {
+        "_path": "bin/fastahardmask",
+        "path_type": "hardlink",
+        "sha256": "104dc5022b8f95221f2d0f20f311d2615ea370f0b24c8355e06f706f84e7cf35",
+        "sha256_in_prefix": "104dc5022b8f95221f2d0f20f311d2615ea370f0b24c8355e06f706f84e7cf35",
+        "size_in_bytes": 140016
+      },
+      {
+        "_path": "bin/fastaindex",
+        "path_type": "hardlink",
+        "sha256": "72cd88dcea8837426e2eda6642914a8b2bafa804f1e98257ee0ac2897b705495",
+        "sha256_in_prefix": "72cd88dcea8837426e2eda6642914a8b2bafa804f1e98257ee0ac2897b705495",
+        "size_in_bytes": 139960
+      },
+      {
+        "_path": "bin/fastalength",
+        "path_type": "hardlink",
+        "sha256": "e0c85dc0baa3174d4f1b706efd80bd5eb4b5165a51252e4e76966881152184ab",
+        "sha256_in_prefix": "e0c85dc0baa3174d4f1b706efd80bd5eb4b5165a51252e4e76966881152184ab",
+        "size_in_bytes": 139968
+      },
+      {
+        "_path": "bin/fastanrdb",
+        "path_type": "hardlink",
+        "sha256": "2e13e47760e41db81257be3b1df1067d46d5ab93d34e9b7ba929674286784056",
+        "sha256_in_prefix": "2e13e47760e41db81257be3b1df1067d46d5ab93d34e9b7ba929674286784056",
+        "size_in_bytes": 140072
+      },
+      {
+        "_path": "bin/fastaoverlap",
+        "path_type": "hardlink",
+        "sha256": "6cd2f4fa98f285ec9170bf613db3c2503bfb020c81dde36d09c7c00e90f015e1",
+        "sha256_in_prefix": "6cd2f4fa98f285ec9170bf613db3c2503bfb020c81dde36d09c7c00e90f015e1",
+        "size_in_bytes": 140008
+      },
+      {
+        "_path": "bin/fastareformat",
+        "path_type": "hardlink",
+        "sha256": "00b4a785f09dc4118a4c97edf621e98302c7def26d111887dc15076e5816a118",
+        "sha256_in_prefix": "00b4a785f09dc4118a4c97edf621e98302c7def26d111887dc15076e5816a118",
+        "size_in_bytes": 140016
+      },
+      {
+        "_path": "bin/fastaremove",
+        "path_type": "hardlink",
+        "sha256": "74e9eea9a960e44e6cc7bf1405256722eab7077421a12bd1e7020eadc5e941c4",
+        "sha256_in_prefix": "74e9eea9a960e44e6cc7bf1405256722eab7077421a12bd1e7020eadc5e941c4",
+        "size_in_bytes": 140224
+      },
+      {
+        "_path": "bin/fastarevcomp",
+        "path_type": "hardlink",
+        "sha256": "ca3d47fa5042b2c3616a242717643c50e19a3e4cca566abd2f32cc8fb4fa1823",
+        "sha256_in_prefix": "ca3d47fa5042b2c3616a242717643c50e19a3e4cca566abd2f32cc8fb4fa1823",
+        "size_in_bytes": 140008
+      },
+      {
+        "_path": "bin/fastasoftmask",
+        "path_type": "hardlink",
+        "sha256": "de85ca09397a4d85b0918a58a075b7384b8e11034b3cdb8f3b8c595b659fa69f",
+        "sha256_in_prefix": "de85ca09397a4d85b0918a58a075b7384b8e11034b3cdb8f3b8c595b659fa69f",
+        "size_in_bytes": 139960
+      },
+      {
+        "_path": "bin/fastasort",
+        "path_type": "hardlink",
+        "sha256": "c16620ab07b7049224be9e7a054fe85f3ebd3d83efe108ad6874ddf17404dc8c",
+        "sha256_in_prefix": "c16620ab07b7049224be9e7a054fe85f3ebd3d83efe108ad6874ddf17404dc8c",
+        "size_in_bytes": 144480
+      },
+      {
+        "_path": "bin/fastasplit",
+        "path_type": "hardlink",
+        "sha256": "381864e06fe8b777b67b3ed0aa39ddc99ebf1c7b7e2ed956dc12f9938b0a4067",
+        "sha256_in_prefix": "381864e06fe8b777b67b3ed0aa39ddc99ebf1c7b7e2ed956dc12f9938b0a4067",
+        "size_in_bytes": 140040
+      },
+      {
+        "_path": "bin/fastasubseq",
+        "path_type": "hardlink",
+        "sha256": "78c48b2c801604e090e091c64544bf06d562e98cafedfe1790593a7fa683bf5e",
+        "sha256_in_prefix": "78c48b2c801604e090e091c64544bf06d562e98cafedfe1790593a7fa683bf5e",
+        "size_in_bytes": 139960
+      },
+      {
+        "_path": "bin/fastatranslate",
+        "path_type": "hardlink",
+        "sha256": "7ceb3562826bcecff328d1882c3227101eaa4adf4697bf669676ea077e61868e",
+        "sha256_in_prefix": "7ceb3562826bcecff328d1882c3227101eaa4adf4697bf669676ea077e61868e",
+        "size_in_bytes": 139992
+      },
+      {
+        "_path": "bin/fastavalidcds",
+        "path_type": "hardlink",
+        "sha256": "9fd920422b1e56f5405b5239568bb5840829fb04c1a1d2e73f4c681ce2bee34d",
+        "sha256_in_prefix": "9fd920422b1e56f5405b5239568bb5840829fb04c1a1d2e73f4c681ce2bee34d",
+        "size_in_bytes": 140016
+      },
+      {
+        "_path": "bin/ipcress",
+        "path_type": "hardlink",
+        "sha256": "9cd3b5551fbbb97dbd2da913b9ceac3c66b91e83323b9f69cee6ffdb4da4d31f",
+        "sha256_in_prefix": "9cd3b5551fbbb97dbd2da913b9ceac3c66b91e83323b9f69cee6ffdb4da4d31f",
+        "size_in_bytes": 203352
+      },
+      {
+        "_path": "share/man/man1/exonerate-server.1",
+        "path_type": "hardlink",
+        "sha256": "78bbc3bd8abb1cbeb83e9458333dfb2d925987f662a64c4eb80a56ed3693362f",
+        "sha256_in_prefix": "78bbc3bd8abb1cbeb83e9458333dfb2d925987f662a64c4eb80a56ed3693362f",
+        "size_in_bytes": 10181
+      },
+      {
+        "_path": "share/man/man1/exonerate.1",
+        "path_type": "hardlink",
+        "sha256": "5257adb06672fa68921510c611958c0afd3f4c107dda840fb1fab9edaed37734",
+        "sha256_in_prefix": "5257adb06672fa68921510c611958c0afd3f4c107dda840fb1fab9edaed37734",
+        "size_in_bytes": 37677
+      },
+      {
+        "_path": "share/man/man1/fastautils.1",
+        "path_type": "hardlink",
+        "sha256": "66c9d7dbe296bebd20868875b48a7e4ceda4de076f38859545bb5fc85e9af7e7",
+        "sha256_in_prefix": "66c9d7dbe296bebd20868875b48a7e4ceda4de076f38859545bb5fc85e9af7e7",
+        "size_in_bytes": 1526
+      },
+      {
+        "_path": "share/man/man1/ipcress.1",
+        "path_type": "hardlink",
+        "sha256": "417ad0e0041663e1e1996ef0e690ff3cef85de419f7e2c60c51e74c0ca576ff4",
+        "sha256_in_prefix": "417ad0e0041663e1e1996ef0e690ff3cef85de419f7e2c60c51e74c0ca576ff4",
+        "size_in_bytes": 6090
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "exonerate",
+  "sha256": "98b2ea4f218bae80d32e07ffab833f1b10421d67bea5d7f485ccaf026a7ddce9",
+  "size": 2376965,
+  "subdir": "linux-64",
+  "timestamp": 1572113709496,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/linux-64/exonerate-2.4.0-haf93ef1_3.tar.bz2",
+  "version": "2.4.0"
+}

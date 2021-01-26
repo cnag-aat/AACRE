@@ -1,0 +1,9 @@
+prefix=/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+ 
+Name: XExtProto
+Description: XExt extension headers
+Version: 7.3.0
+Cflags: -I${includedir}

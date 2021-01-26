@@ -1,0 +1,60 @@
+{
+  "build": "default_ha53f305_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [
+    "clang 11.0.1.*",
+    "clang-tools 11.0.1.*",
+    "llvm 11.0.1.*",
+    "llvm-tools 11.0.1.*",
+    "llvmdev 11.0.1.*"
+  ],
+  "depends": [
+    "libgcc-ng >=9.3.0",
+    "libllvm11 >=11.0.1,<11.1.0a0",
+    "libstdcxx-ng >=9.3.0"
+  ],
+  "extracted_package_dir": "/home/devel/jgomez/.conda/pkgs/libclang-11.0.1-default_ha53f305_1",
+  "features": "",
+  "files": [
+    "lib/libclang.so",
+    "lib/libclang.so.11"
+  ],
+  "fn": "libclang-11.0.1-default_ha53f305_1.tar.bz2",
+  "license": "Apache-2.0 WITH LLVM-exception",
+  "license_family": "Apache",
+  "link": {
+    "source": "/home/devel/jgomez/.conda/pkgs/libclang-11.0.1-default_ha53f305_1",
+    "type": 1
+  },
+  "md5": "8310b95b07c2316d7b30b65b7fdf2f1f",
+  "name": "libclang",
+  "package_tarball_full_path": "/home/devel/jgomez/.conda/pkgs/libclang-11.0.1-default_ha53f305_1.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/libclang.so",
+        "path_type": "hardlink",
+        "sha256": "a505de21eb6f06a4add39e7e0cba9361ff21e3205bfded11b990604bd30e7ad5",
+        "sha256_in_prefix": "a505de21eb6f06a4add39e7e0cba9361ff21e3205bfded11b990604bd30e7ad5",
+        "size_in_bytes": 35233816
+      },
+      {
+        "_path": "lib/libclang.so.11",
+        "path_type": "hardlink",
+        "sha256": "a505de21eb6f06a4add39e7e0cba9361ff21e3205bfded11b990604bd30e7ad5",
+        "sha256_in_prefix": "a505de21eb6f06a4add39e7e0cba9361ff21e3205bfded11b990604bd30e7ad5",
+        "size_in_bytes": 35233816
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "333be14bc314a2dd45dd8d6dc39f16b0de8912d74532dbfbe16cc34333535012",
+  "size": 20162579,
+  "subdir": "linux-64",
+  "timestamp": 1610741999275,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/libclang-11.0.1-default_ha53f305_1.tar.bz2",
+  "version": "11.0.1"
+}

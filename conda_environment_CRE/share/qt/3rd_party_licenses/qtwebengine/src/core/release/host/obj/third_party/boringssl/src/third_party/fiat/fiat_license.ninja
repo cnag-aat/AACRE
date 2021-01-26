@@ -1,0 +1,8 @@
+defines = -DV8_DEPRECATION_WARNINGS -DUSE_UDEV -DUSE_AURA=1 -DUSE_NSS_CERTS=1 -DUSE_OZONE=1 -DNO_TCMALLOC -DFULL_SAFE_BROWSING -DSAFE_BROWSING_CSD -DSAFE_BROWSING_DB_LOCAL -DOFFICIAL_BUILD -DCHROMIUM_BUILD -DFIELDTRIAL_TESTING_ENABLED -DTOOLKIT_QT -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -DNDEBUG -DNVALGRIND -DDYNAMIC_ANNOTATIONS_ENABLED=0
+include_dirs = -Ihost/gen -I../../3rdparty/chromium
+label_name = fiat_license
+target_out_dir = host/obj/third_party/boringssl/src/third_party/fiat
+target_output_name = fiat_license
+
+
+build host/obj/third_party/boringssl/src/third_party/fiat/fiat_license.stamp: host_stamp

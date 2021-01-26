@@ -1,0 +1,81 @@
+{
+  "build": "pl526h516909a_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/bioconda/linux-64",
+  "constrains": [],
+  "depends": [
+    "libdb >=6.2.32,<6.3.0a0",
+    "libgcc-ng >=7.5.0",
+    "perl >=5.26.2,<5.26.3.0a0"
+  ],
+  "extracted_package_dir": "/home/devel/jgomez/.conda/pkgs/perl-db-file-1.855-pl526h516909a_0",
+  "features": "",
+  "files": [
+    "lib/5.26.2/x86_64-linux-thread-multi/perllocal.pod",
+    "lib/site_perl/5.26.2/x86_64-linux-thread-multi/DB_File.pm",
+    "lib/site_perl/5.26.2/x86_64-linux-thread-multi/auto/DB_File/.packlist",
+    "lib/site_perl/5.26.2/x86_64-linux-thread-multi/auto/DB_File/DB_File.so",
+    "man/man3/DB_File.3"
+  ],
+  "fn": "perl-db-file-1.855-pl526h516909a_0.tar.bz2",
+  "license": "perl_5",
+  "link": {
+    "source": "/home/devel/jgomez/.conda/pkgs/perl-db-file-1.855-pl526h516909a_0",
+    "type": 1
+  },
+  "md5": "a234abd4c1aa57ef1f52f9b2d9be9b2c",
+  "name": "perl-db-file",
+  "package_tarball_full_path": "/home/devel/jgomez/.conda/pkgs/perl-db-file-1.855-pl526h516909a_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/5.26.2/x86_64-linux-thread-multi/perllocal.pod",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/perl-db-file_1603289872248/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+        "sha256": "beb0311579f2bbd525f1f8f2c30e391bbdea5786641ed131cd38ab2edf1f4364",
+        "sha256_in_prefix": "3ea003e83f9ac1c0bfdb36e2fbb2574e4724b228a81f5622d02afd35f3a710d3",
+        "size_in_bytes": 469
+      },
+      {
+        "_path": "lib/site_perl/5.26.2/x86_64-linux-thread-multi/DB_File.pm",
+        "path_type": "hardlink",
+        "sha256": "b681bce67fb2510714b400eaa89c3443531c8fe5b3c78a25b97b1399950c320c",
+        "sha256_in_prefix": "b681bce67fb2510714b400eaa89c3443531c8fe5b3c78a25b97b1399950c320c",
+        "size_in_bytes": 67004
+      },
+      {
+        "_path": "lib/site_perl/5.26.2/x86_64-linux-thread-multi/auto/DB_File/.packlist",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/perl-db-file_1603289872248/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+        "sha256": "94d33c6fac31b9b035f7d221ced6e260ae352c4cf984e51c3933f2fd3a7038ae",
+        "sha256_in_prefix": "18afa2ff51cca4033d8e0d2d69ef60705bf05584174934ef238938fa85db1e05",
+        "size_in_bytes": 1017
+      },
+      {
+        "_path": "lib/site_perl/5.26.2/x86_64-linux-thread-multi/auto/DB_File/DB_File.so",
+        "path_type": "hardlink",
+        "sha256": "5d1021f232d6e5a99395d75fdebe02e59c9c691e0890157c0d883442e8c0bb03",
+        "sha256_in_prefix": "5d1021f232d6e5a99395d75fdebe02e59c9c691e0890157c0d883442e8c0bb03",
+        "size_in_bytes": 60552
+      },
+      {
+        "_path": "man/man3/DB_File.3",
+        "path_type": "hardlink",
+        "sha256": "86cf24f03283173c14428c8487d41d0f02e10b016583e37a9b1ebf9c12b43962",
+        "sha256_in_prefix": "86cf24f03283173c14428c8487d41d0f02e10b016583e37a9b1ebf9c12b43962",
+        "size_in_bytes": 64316
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "71092a6cfef01913c203206865d04bdd1578bfd2d4a7eba233dda4c586ea396a",
+  "size": 54778,
+  "subdir": "linux-64",
+  "timestamp": 1603290066630,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/linux-64/perl-db-file-1.855-pl526h516909a_0.tar.bz2",
+  "version": "1.855"
+}

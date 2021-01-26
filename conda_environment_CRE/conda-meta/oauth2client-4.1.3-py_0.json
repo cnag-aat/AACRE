@@ -1,0 +1,520 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "httplib2 >=0.9.1",
+    "pyasn1 >=0.1.7",
+    "pyasn1-modules >=0.0.5",
+    "python",
+    "rsa >=3.1.4",
+    "six >=1.6.1"
+  ],
+  "extracted_package_dir": "/home/devel/jgomez/.conda/pkgs/oauth2client-4.1.3-py_0",
+  "features": "",
+  "files": [
+    "lib/python3.6/site-packages/oauth2client-4.1.3.dist-info/INSTALLER",
+    "lib/python3.6/site-packages/oauth2client-4.1.3.dist-info/LICENSE",
+    "lib/python3.6/site-packages/oauth2client-4.1.3.dist-info/METADATA",
+    "lib/python3.6/site-packages/oauth2client-4.1.3.dist-info/RECORD",
+    "lib/python3.6/site-packages/oauth2client-4.1.3.dist-info/WHEEL",
+    "lib/python3.6/site-packages/oauth2client-4.1.3.dist-info/top_level.txt",
+    "lib/python3.6/site-packages/oauth2client/__init__.py",
+    "lib/python3.6/site-packages/oauth2client/_helpers.py",
+    "lib/python3.6/site-packages/oauth2client/_openssl_crypt.py",
+    "lib/python3.6/site-packages/oauth2client/_pkce.py",
+    "lib/python3.6/site-packages/oauth2client/_pure_python_crypt.py",
+    "lib/python3.6/site-packages/oauth2client/_pycrypto_crypt.py",
+    "lib/python3.6/site-packages/oauth2client/client.py",
+    "lib/python3.6/site-packages/oauth2client/clientsecrets.py",
+    "lib/python3.6/site-packages/oauth2client/contrib/__init__.py",
+    "lib/python3.6/site-packages/oauth2client/contrib/_appengine_ndb.py",
+    "lib/python3.6/site-packages/oauth2client/contrib/_metadata.py",
+    "lib/python3.6/site-packages/oauth2client/contrib/appengine.py",
+    "lib/python3.6/site-packages/oauth2client/contrib/devshell.py",
+    "lib/python3.6/site-packages/oauth2client/contrib/dictionary_storage.py",
+    "lib/python3.6/site-packages/oauth2client/contrib/django_util/__init__.py",
+    "lib/python3.6/site-packages/oauth2client/contrib/django_util/apps.py",
+    "lib/python3.6/site-packages/oauth2client/contrib/django_util/decorators.py",
+    "lib/python3.6/site-packages/oauth2client/contrib/django_util/models.py",
+    "lib/python3.6/site-packages/oauth2client/contrib/django_util/signals.py",
+    "lib/python3.6/site-packages/oauth2client/contrib/django_util/site.py",
+    "lib/python3.6/site-packages/oauth2client/contrib/django_util/storage.py",
+    "lib/python3.6/site-packages/oauth2client/contrib/django_util/views.py",
+    "lib/python3.6/site-packages/oauth2client/contrib/flask_util.py",
+    "lib/python3.6/site-packages/oauth2client/contrib/gce.py",
+    "lib/python3.6/site-packages/oauth2client/contrib/keyring_storage.py",
+    "lib/python3.6/site-packages/oauth2client/contrib/multiprocess_file_storage.py",
+    "lib/python3.6/site-packages/oauth2client/contrib/sqlalchemy.py",
+    "lib/python3.6/site-packages/oauth2client/contrib/xsrfutil.py",
+    "lib/python3.6/site-packages/oauth2client/crypt.py",
+    "lib/python3.6/site-packages/oauth2client/file.py",
+    "lib/python3.6/site-packages/oauth2client/service_account.py",
+    "lib/python3.6/site-packages/oauth2client/tools.py",
+    "lib/python3.6/site-packages/oauth2client/transport.py",
+    "lib/python3.6/site-packages/oauth2client/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/oauth2client/__pycache__/_helpers.cpython-36.pyc",
+    "lib/python3.6/site-packages/oauth2client/__pycache__/_openssl_crypt.cpython-36.pyc",
+    "lib/python3.6/site-packages/oauth2client/__pycache__/_pkce.cpython-36.pyc",
+    "lib/python3.6/site-packages/oauth2client/__pycache__/_pure_python_crypt.cpython-36.pyc",
+    "lib/python3.6/site-packages/oauth2client/__pycache__/_pycrypto_crypt.cpython-36.pyc",
+    "lib/python3.6/site-packages/oauth2client/__pycache__/client.cpython-36.pyc",
+    "lib/python3.6/site-packages/oauth2client/__pycache__/clientsecrets.cpython-36.pyc",
+    "lib/python3.6/site-packages/oauth2client/contrib/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/oauth2client/contrib/__pycache__/_appengine_ndb.cpython-36.pyc",
+    "lib/python3.6/site-packages/oauth2client/contrib/__pycache__/_metadata.cpython-36.pyc",
+    "lib/python3.6/site-packages/oauth2client/contrib/__pycache__/appengine.cpython-36.pyc",
+    "lib/python3.6/site-packages/oauth2client/contrib/__pycache__/devshell.cpython-36.pyc",
+    "lib/python3.6/site-packages/oauth2client/contrib/__pycache__/dictionary_storage.cpython-36.pyc",
+    "lib/python3.6/site-packages/oauth2client/contrib/django_util/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/oauth2client/contrib/django_util/__pycache__/apps.cpython-36.pyc",
+    "lib/python3.6/site-packages/oauth2client/contrib/django_util/__pycache__/decorators.cpython-36.pyc",
+    "lib/python3.6/site-packages/oauth2client/contrib/django_util/__pycache__/models.cpython-36.pyc",
+    "lib/python3.6/site-packages/oauth2client/contrib/django_util/__pycache__/signals.cpython-36.pyc",
+    "lib/python3.6/site-packages/oauth2client/contrib/django_util/__pycache__/site.cpython-36.pyc",
+    "lib/python3.6/site-packages/oauth2client/contrib/django_util/__pycache__/storage.cpython-36.pyc",
+    "lib/python3.6/site-packages/oauth2client/contrib/django_util/__pycache__/views.cpython-36.pyc",
+    "lib/python3.6/site-packages/oauth2client/contrib/__pycache__/flask_util.cpython-36.pyc",
+    "lib/python3.6/site-packages/oauth2client/contrib/__pycache__/gce.cpython-36.pyc",
+    "lib/python3.6/site-packages/oauth2client/contrib/__pycache__/keyring_storage.cpython-36.pyc",
+    "lib/python3.6/site-packages/oauth2client/contrib/__pycache__/multiprocess_file_storage.cpython-36.pyc",
+    "lib/python3.6/site-packages/oauth2client/contrib/__pycache__/sqlalchemy.cpython-36.pyc",
+    "lib/python3.6/site-packages/oauth2client/contrib/__pycache__/xsrfutil.cpython-36.pyc",
+    "lib/python3.6/site-packages/oauth2client/__pycache__/crypt.cpython-36.pyc",
+    "lib/python3.6/site-packages/oauth2client/__pycache__/file.cpython-36.pyc",
+    "lib/python3.6/site-packages/oauth2client/__pycache__/service_account.cpython-36.pyc",
+    "lib/python3.6/site-packages/oauth2client/__pycache__/tools.cpython-36.pyc",
+    "lib/python3.6/site-packages/oauth2client/__pycache__/transport.cpython-36.pyc"
+  ],
+  "fn": "oauth2client-4.1.3-py_0.tar.bz2",
+  "license": "Apache 2.0",
+  "license_family": "Apache",
+  "link": {
+    "source": "/home/devel/jgomez/.conda/pkgs/oauth2client-4.1.3-py_0",
+    "type": 1
+  },
+  "md5": "aafb86ecdbfea40c909719e3a6c72a04",
+  "name": "oauth2client",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/devel/jgomez/.conda/pkgs/oauth2client-4.1.3-py_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/oauth2client-4.1.3.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+        "sha256_in_prefix": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+        "size_in_bytes": 4
+      },
+      {
+        "_path": "site-packages/oauth2client-4.1.3.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "d6a43f0bae029b0cea5bd0fffd87f05659dc599a763886027614ad210be1ba3d",
+        "sha256_in_prefix": "d6a43f0bae029b0cea5bd0fffd87f05659dc599a763886027614ad210be1ba3d",
+        "size_in_bytes": 11507
+      },
+      {
+        "_path": "site-packages/oauth2client-4.1.3.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "2595991015c985194560c1e67a9f8775a791b18d63583df926258f633486745e",
+        "sha256_in_prefix": "2595991015c985194560c1e67a9f8775a791b18d63583df926258f633486745e",
+        "size_in_bytes": 1247
+      },
+      {
+        "_path": "site-packages/oauth2client-4.1.3.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "bf962d61c8a332aada782b2c755774a84392998ea79eb796e895be5ab3c2647b",
+        "sha256_in_prefix": "bf962d61c8a332aada782b2c755774a84392998ea79eb796e895be5ab3c2647b",
+        "size_in_bytes": 4790
+      },
+      {
+        "_path": "site-packages/oauth2client-4.1.3.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "ff024574e624ee2df1c53f0494e91426f39d3af7cd19b47d83e6dfe94413eac5",
+        "sha256_in_prefix": "ff024574e624ee2df1c53f0494e91426f39d3af7cd19b47d83e6dfe94413eac5",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "site-packages/oauth2client-4.1.3.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "a261cf952373dacb8d0715e0b48ae362684419498d4d801f3d0e65c10ebd3657",
+        "sha256_in_prefix": "a261cf952373dacb8d0715e0b48ae362684419498d4d801f3d0e65c10ebd3657",
+        "size_in_bytes": 13
+      },
+      {
+        "_path": "site-packages/oauth2client/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "4c16b5db427d686f4672eeadd8f6586a2b64b9aeccde4fefce479d2bc001240d",
+        "sha256_in_prefix": "4c16b5db427d686f4672eeadd8f6586a2b64b9aeccde4fefce479d2bc001240d",
+        "size_in_bytes": 1002
+      },
+      {
+        "_path": "site-packages/oauth2client/_helpers.py",
+        "path_type": "hardlink",
+        "sha256": "49a998928025f40245a57e150d216cdfa5faf6d7549aacccc10016b91f8a86bf",
+        "sha256_in_prefix": "49a998928025f40245a57e150d216cdfa5faf6d7549aacccc10016b91f8a86bf",
+        "size_in_bytes": 10852
+      },
+      {
+        "_path": "site-packages/oauth2client/_openssl_crypt.py",
+        "path_type": "hardlink",
+        "sha256": "4ac74bad8137e929094698323e5ef471ff67402dbe1f204725c1184ac1bfb65f",
+        "sha256_in_prefix": "4ac74bad8137e929094698323e5ef471ff67402dbe1f204725c1184ac1bfb65f",
+        "size_in_bytes": 4556
+      },
+      {
+        "_path": "site-packages/oauth2client/_pkce.py",
+        "path_type": "hardlink",
+        "sha256": "5c96882d4099993108f303c11d03113e8f0d7a73addaa606e0bec3aab9f9ec12",
+        "sha256_in_prefix": "5c96882d4099993108f303c11d03113e8f0d7a73addaa606e0bec3aab9f9ec12",
+        "size_in_bytes": 2198
+      },
+      {
+        "_path": "site-packages/oauth2client/_pure_python_crypt.py",
+        "path_type": "hardlink",
+        "sha256": "5a595a53a147360aaff4bfdc19599f7196ef82b9d79faf0ee5bbaebd4ad9c7fc",
+        "sha256_in_prefix": "5a595a53a147360aaff4bfdc19599f7196ef82b9d79faf0ee5bbaebd4ad9c7fc",
+        "size_in_bytes": 6367
+      },
+      {
+        "_path": "site-packages/oauth2client/_pycrypto_crypt.py",
+        "path_type": "hardlink",
+        "sha256": "84362060c7341a1dab440df90ba62c435eab607ff18496960441322677ecbd1a",
+        "sha256_in_prefix": "84362060c7341a1dab440df90ba62c435eab607ff18496960441322677ecbd1a",
+        "size_in_bytes": 4118
+      },
+      {
+        "_path": "site-packages/oauth2client/client.py",
+        "path_type": "hardlink",
+        "sha256": "be0b804bcd3b6a679dad8c5c757684dd8dc58ae5fd2dd05701abe18e4405d631",
+        "sha256_in_prefix": "be0b804bcd3b6a679dad8c5c757684dd8dc58ae5fd2dd05701abe18e4405d631",
+        "size_in_bytes": 83289
+      },
+      {
+        "_path": "site-packages/oauth2client/clientsecrets.py",
+        "path_type": "hardlink",
+        "sha256": "6a130f5d1b9c59f1dbb7b05d6729d0ae28fff475f2fed3c111f29f08a82395df",
+        "sha256_in_prefix": "6a130f5d1b9c59f1dbb7b05d6729d0ae28fff475f2fed3c111f29f08a82395df",
+        "size_in_bytes": 5281
+      },
+      {
+        "_path": "site-packages/oauth2client/contrib/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "4604bceef1f528984c50502b2b5f9b2022da6cd07a91cc0cfcbc7f98490ee39a",
+        "sha256_in_prefix": "4604bceef1f528984c50502b2b5f9b2022da6cd07a91cc0cfcbc7f98490ee39a",
+        "size_in_bytes": 220
+      },
+      {
+        "_path": "site-packages/oauth2client/contrib/_appengine_ndb.py",
+        "path_type": "hardlink",
+        "sha256": "f25e1eaf19a0b5d2b9991ac3bbf34969a5b253fa3f7f2be317208e3c496f36d4",
+        "sha256_in_prefix": "f25e1eaf19a0b5d2b9991ac3bbf34969a5b253fa3f7f2be317208e3c496f36d4",
+        "size_in_bytes": 5381
+      },
+      {
+        "_path": "site-packages/oauth2client/contrib/_metadata.py",
+        "path_type": "hardlink",
+        "sha256": "63e4f09c8b6c39bd68d806edd5bdfec8fe5ca26dd5aeb526c0478bf81dea50db",
+        "sha256_in_prefix": "63e4f09c8b6c39bd68d806edd5bdfec8fe5ca26dd5aeb526c0478bf81dea50db",
+        "size_in_bytes": 4181
+      },
+      {
+        "_path": "site-packages/oauth2client/contrib/appengine.py",
+        "path_type": "hardlink",
+        "sha256": "6cf57ba98f066caef7a9555b397563ba6008f8aea29a0f82f9da2f5b2f2c8bd4",
+        "sha256_in_prefix": "6cf57ba98f066caef7a9555b397563ba6008f8aea29a0f82f9da2f5b2f2c8bd4",
+        "size_in_bytes": 33941
+      },
+      {
+        "_path": "site-packages/oauth2client/contrib/devshell.py",
+        "path_type": "hardlink",
+        "sha256": "05d337797ea7bd1e09d1c5dbfa73f1f958eb12a850465bcd1f5675e11f206207",
+        "sha256_in_prefix": "05d337797ea7bd1e09d1c5dbfa73f1f958eb12a850465bcd1f5675e11f206207",
+        "size_in_bytes": 4991
+      },
+      {
+        "_path": "site-packages/oauth2client/contrib/dictionary_storage.py",
+        "path_type": "hardlink",
+        "sha256": "4d1c678950f95734140f48144367f3cb394902d32c684a1838c91b65f92582a5",
+        "sha256_in_prefix": "4d1c678950f95734140f48144367f3cb394902d32c684a1838c91b65f92582a5",
+        "size_in_bytes": 2278
+      },
+      {
+        "_path": "site-packages/oauth2client/contrib/django_util/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "1d2b96e475bad0eb72e6e8af9d0d4aa11503e20f3c350085b3260f3b03a7b4dc",
+        "sha256_in_prefix": "1d2b96e475bad0eb72e6e8af9d0d4aa11503e20f3c350085b3260f3b03a7b4dc",
+        "size_in_bytes": 18152
+      },
+      {
+        "_path": "site-packages/oauth2client/contrib/django_util/apps.py",
+        "path_type": "hardlink",
+        "sha256": "4bcc04fc5f01264ca5d0c2997dd075c3222adfd65fe3ead9c3008e8594779371",
+        "sha256_in_prefix": "4bcc04fc5f01264ca5d0c2997dd075c3222adfd65fe3ead9c3008e8594779371",
+        "size_in_bytes": 1213
+      },
+      {
+        "_path": "site-packages/oauth2client/contrib/django_util/decorators.py",
+        "path_type": "hardlink",
+        "sha256": "e9c69448ae23bd9cf5e6313618bd175c2da8df3b91428a84baea7929fbdd440c",
+        "sha256_in_prefix": "e9c69448ae23bd9cf5e6313618bd175c2da8df3b91428a84baea7929fbdd440c",
+        "size_in_bytes": 5564
+      },
+      {
+        "_path": "site-packages/oauth2client/contrib/django_util/models.py",
+        "path_type": "hardlink",
+        "sha256": "43f6e9fff18764d276b63218f27b84e19e1b0c4eced89a80c2266d28b1d9ceb0",
+        "sha256_in_prefix": "43f6e9fff18764d276b63218f27b84e19e1b0c4eced89a80c2266d28b1d9ceb0",
+        "size_in_bytes": 2742
+      },
+      {
+        "_path": "site-packages/oauth2client/contrib/django_util/signals.py",
+        "path_type": "hardlink",
+        "sha256": "f115e60a059773d03949ef842d0fa7cb6baf0a49c1750c41e1f4a9168d327bbd",
+        "sha256_in_prefix": "f115e60a059773d03949ef842d0fa7cb6baf0a49c1750c41e1f4a9168d327bbd",
+        "size_in_bytes": 1050
+      },
+      {
+        "_path": "site-packages/oauth2client/contrib/django_util/site.py",
+        "path_type": "hardlink",
+        "sha256": "cb09e2b7b73a31737e3148400744f72202e0d316bbe5d9ab506aa47bdcdf256f",
+        "sha256_in_prefix": "cb09e2b7b73a31737e3148400744f72202e0d316bbe5d9ab506aa47bdcdf256f",
+        "size_in_bytes": 960
+      },
+      {
+        "_path": "site-packages/oauth2client/contrib/django_util/storage.py",
+        "path_type": "hardlink",
+        "sha256": "ed79f2c631f276a133050518849446cdbd1baa99934b76fa8b2174c103830c25",
+        "sha256_in_prefix": "ed79f2c631f276a133050518849446cdbd1baa99934b76fa8b2174c103830c25",
+        "size_in_bytes": 3070
+      },
+      {
+        "_path": "site-packages/oauth2client/contrib/django_util/views.py",
+        "path_type": "hardlink",
+        "sha256": "94c94b936c84e9cb3f3be38288cc63c801a976b02d9e86a3b3a6b50545cdf94e",
+        "sha256_in_prefix": "94c94b936c84e9cb3f3be38288cc63c801a976b02d9e86a3b3a6b50545cdf94e",
+        "size_in_bytes": 6785
+      },
+      {
+        "_path": "site-packages/oauth2client/contrib/flask_util.py",
+        "path_type": "hardlink",
+        "sha256": "37d3612ce0fbbb865eac9d683a16bc9e3f2e559fe73657aa9a77684d2be07743",
+        "sha256_in_prefix": "37d3612ce0fbbb865eac9d683a16bc9e3f2e559fe73657aa9a77684d2be07743",
+        "size_in_bytes": 19413
+      },
+      {
+        "_path": "site-packages/oauth2client/contrib/gce.py",
+        "path_type": "hardlink",
+        "sha256": "96671eb155d0ba2464f0b5a0f7093d52c36957f6b86e6bf545553743ce8c8caf",
+        "sha256_in_prefix": "96671eb155d0ba2464f0b5a0f7093d52c36957f6b86e6bf545553743ce8c8caf",
+        "size_in_bytes": 5431
+      },
+      {
+        "_path": "site-packages/oauth2client/contrib/keyring_storage.py",
+        "path_type": "hardlink",
+        "sha256": "178afdea768e6c03da270ad3fe864a097bbf6f818a051012ab6d4d0f9e448eb6",
+        "sha256_in_prefix": "178afdea768e6c03da270ad3fe864a097bbf6f818a051012ab6d4d0f9e448eb6",
+        "size_in_bytes": 3091
+      },
+      {
+        "_path": "site-packages/oauth2client/contrib/multiprocess_file_storage.py",
+        "path_type": "hardlink",
+        "sha256": "048a2d6aa2f6aebaee18825b8af653d491bc43fbe22f6e91a45c4be9bfa87142",
+        "sha256_in_prefix": "048a2d6aa2f6aebaee18825b8af653d491bc43fbe22f6e91a45c4be9bfa87142",
+        "size_in_bytes": 11679
+      },
+      {
+        "_path": "site-packages/oauth2client/contrib/sqlalchemy.py",
+        "path_type": "hardlink",
+        "sha256": "9d41c5dfaf40143b61ddad06d0c868bcad584b2ec9d444cd8a866bbd529bc3f4",
+        "sha256_in_prefix": "9d41c5dfaf40143b61ddad06d0c868bcad584b2ec9d444cd8a866bbd529bc3f4",
+        "size_in_bytes": 5246
+      },
+      {
+        "_path": "site-packages/oauth2client/contrib/xsrfutil.py",
+        "path_type": "hardlink",
+        "sha256": "284426436f6b91491995dc156774057da5fdd69ac93992e3bd93ff3e8ca03015",
+        "sha256_in_prefix": "284426436f6b91491995dc156774057da5fdd69ac93992e3bd93ff3e8ca03015",
+        "size_in_bytes": 3470
+      },
+      {
+        "_path": "site-packages/oauth2client/crypt.py",
+        "path_type": "hardlink",
+        "sha256": "ec38c577334ae1a790d458577f0cac7ff895e8a54b9ef56f315233ea17248e82",
+        "sha256_in_prefix": "ec38c577334ae1a790d458577f0cac7ff895e8a54b9ef56f315233ea17248e82",
+        "size_in_bytes": 8447
+      },
+      {
+        "_path": "site-packages/oauth2client/file.py",
+        "path_type": "hardlink",
+        "sha256": "626229f54b780155c708acd9333468407764eae9f20a37d0721b7ff1badde0a5",
+        "sha256_in_prefix": "626229f54b780155c708acd9333468407764eae9f20a37d0721b7ff1badde0a5",
+        "size_in_bytes": 2730
+      },
+      {
+        "_path": "site-packages/oauth2client/service_account.py",
+        "path_type": "hardlink",
+        "sha256": "df983579ab192a4c7c90c71cec426d46f478e89033e56c7260907b8cd9384dcd",
+        "sha256_in_prefix": "df983579ab192a4c7c90c71cec426d46f478e89033e56c7260907b8cd9384dcd",
+        "size_in_bytes": 28195
+      },
+      {
+        "_path": "site-packages/oauth2client/tools.py",
+        "path_type": "hardlink",
+        "sha256": "f0ecb98d29ef90b771b3cf179287bb36fcbdf39dfa03b9342588436c4d32b8d7",
+        "sha256_in_prefix": "f0ecb98d29ef90b771b3cf179287bb36fcbdf39dfa03b9342588436c4d32b8d7",
+        "size_in_bytes": 9069
+      },
+      {
+        "_path": "site-packages/oauth2client/transport.py",
+        "path_type": "hardlink",
+        "sha256": "f91ae4c021b512d0fa57af23324fd1856d983089a341798f611a09de280a7216",
+        "sha256_in_prefix": "f91ae4c021b512d0fa57af23324fd1856d983089a341798f611a09de280a7216",
+        "size_in_bytes": 10367
+      },
+      {
+        "_path": "lib/python3.6/site-packages/oauth2client/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/oauth2client/__pycache__/_helpers.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/oauth2client/__pycache__/_openssl_crypt.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/oauth2client/__pycache__/_pkce.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/oauth2client/__pycache__/_pure_python_crypt.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/oauth2client/__pycache__/_pycrypto_crypt.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/oauth2client/__pycache__/client.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/oauth2client/__pycache__/clientsecrets.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/oauth2client/contrib/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/oauth2client/contrib/__pycache__/_appengine_ndb.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/oauth2client/contrib/__pycache__/_metadata.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/oauth2client/contrib/__pycache__/appengine.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/oauth2client/contrib/__pycache__/devshell.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/oauth2client/contrib/__pycache__/dictionary_storage.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/oauth2client/contrib/django_util/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/oauth2client/contrib/django_util/__pycache__/apps.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/oauth2client/contrib/django_util/__pycache__/decorators.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/oauth2client/contrib/django_util/__pycache__/models.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/oauth2client/contrib/django_util/__pycache__/signals.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/oauth2client/contrib/django_util/__pycache__/site.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/oauth2client/contrib/django_util/__pycache__/storage.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/oauth2client/contrib/django_util/__pycache__/views.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/oauth2client/contrib/__pycache__/flask_util.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/oauth2client/contrib/__pycache__/gce.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/oauth2client/contrib/__pycache__/keyring_storage.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/oauth2client/contrib/__pycache__/multiprocess_file_storage.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/oauth2client/contrib/__pycache__/sqlalchemy.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/oauth2client/contrib/__pycache__/xsrfutil.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/oauth2client/__pycache__/crypt.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/oauth2client/__pycache__/file.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/oauth2client/__pycache__/service_account.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/oauth2client/__pycache__/tools.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/oauth2client/__pycache__/transport.cpython-36.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "ed079fbccfe181b989a20d02988bd47284af777387ed8020bb021705ff7c0956",
+  "size": 67499,
+  "subdir": "noarch",
+  "timestamp": 1549161773242,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/oauth2client-4.1.3-py_0.tar.bz2",
+  "version": "4.1.3"
+}

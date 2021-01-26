@@ -1,0 +1,104 @@
+{
+  "build": "h671e170_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/bioconda/linux-64",
+  "constrains": [],
+  "depends": [
+    "blast >=2.9",
+    "curl",
+    "hmmer >=3.2",
+    "libcurl >=7.71.1,<8.0a0",
+    "libgcc-ng >=7.5.0",
+    "libstdcxx-ng >=7.5.0"
+  ],
+  "extracted_package_dir": "/home/devel/jgomez/.conda/pkgs/ncbi-amrfinderplus-3.9.8-h671e170_0",
+  "features": "",
+  "files": [
+    "bin/amr_report",
+    "bin/amrfinder",
+    "bin/amrfinder_update",
+    "bin/dna_mutation",
+    "bin/fasta2parts",
+    "bin/fasta_check",
+    "bin/fasta_extract",
+    "bin/gff_check"
+  ],
+  "fn": "ncbi-amrfinderplus-3.9.8-h671e170_0.tar.bz2",
+  "license": "Public Domain",
+  "link": {
+    "source": "/home/devel/jgomez/.conda/pkgs/ncbi-amrfinderplus-3.9.8-h671e170_0",
+    "type": 1
+  },
+  "md5": "683d52f479b88caa82ad67cb8c122323",
+  "name": "ncbi-amrfinderplus",
+  "package_tarball_full_path": "/home/devel/jgomez/.conda/pkgs/ncbi-amrfinderplus-3.9.8-h671e170_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/amr_report",
+        "path_type": "hardlink",
+        "sha256": "c1d1f341f6e67e27f34c08713c63241c83354857e32caaedd74cf4a5dd6dc205",
+        "sha256_in_prefix": "c1d1f341f6e67e27f34c08713c63241c83354857e32caaedd74cf4a5dd6dc205",
+        "size_in_bytes": 496656
+      },
+      {
+        "_path": "bin/amrfinder",
+        "path_type": "hardlink",
+        "sha256": "1be8fb6134fd7bd8ba09008b0a3ec9a31555006012bef4157bcce11d4bd6f4cb",
+        "sha256_in_prefix": "1be8fb6134fd7bd8ba09008b0a3ec9a31555006012bef4157bcce11d4bd6f4cb",
+        "size_in_bytes": 359512
+      },
+      {
+        "_path": "bin/amrfinder_update",
+        "path_type": "hardlink",
+        "sha256": "a56d3f5b50bc346204c636610a930de57f2c9355825e5a27051b4a48a79c2d4c",
+        "sha256_in_prefix": "a56d3f5b50bc346204c636610a930de57f2c9355825e5a27051b4a48a79c2d4c",
+        "size_in_bytes": 237456
+      },
+      {
+        "_path": "bin/dna_mutation",
+        "path_type": "hardlink",
+        "sha256": "b3b050b7a7123573872187ab5aa8a81740b1d112cc12efb739276c9be0a53cf2",
+        "sha256_in_prefix": "b3b050b7a7123573872187ab5aa8a81740b1d112cc12efb739276c9be0a53cf2",
+        "size_in_bytes": 327144
+      },
+      {
+        "_path": "bin/fasta2parts",
+        "path_type": "hardlink",
+        "sha256": "a4b02ec9efd7d15209f3729c8efb6af7046a965ba17dc91e40a74e7d4ba25bac",
+        "sha256_in_prefix": "a4b02ec9efd7d15209f3729c8efb6af7046a965ba17dc91e40a74e7d4ba25bac",
+        "size_in_bytes": 168760
+      },
+      {
+        "_path": "bin/fasta_check",
+        "path_type": "hardlink",
+        "sha256": "ea48534246ab9500a79cb4689df60304918ec7af2516160fe4595972cff3c6f1",
+        "sha256_in_prefix": "ea48534246ab9500a79cb4689df60304918ec7af2516160fe4595972cff3c6f1",
+        "size_in_bytes": 177536
+      },
+      {
+        "_path": "bin/fasta_extract",
+        "path_type": "hardlink",
+        "sha256": "d87057a2d9113bcd7ec879ab6f67a0ea0bf10a3b945c0506f322dc41f0774800",
+        "sha256_in_prefix": "d87057a2d9113bcd7ec879ab6f67a0ea0bf10a3b945c0506f322dc41f0774800",
+        "size_in_bytes": 182560
+      },
+      {
+        "_path": "bin/gff_check",
+        "path_type": "hardlink",
+        "sha256": "233fe79830cc2ee4fd157548461e9cda234d689f7e2312a0a4871222a9cef109",
+        "sha256_in_prefix": "233fe79830cc2ee4fd157548461e9cda234d689f7e2312a0a4871222a9cef109",
+        "size_in_bytes": 228744
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "ncbi-amrfinderplus",
+  "sha256": "2ca8a8bcf7571a546f59150a35c0d8b270a84cf64895f1853491cfa72c71e6de",
+  "size": 673044,
+  "subdir": "linux-64",
+  "timestamp": 1610037901826,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/linux-64/ncbi-amrfinderplus-3.9.8-h671e170_0.tar.bz2",
+  "version": "3.9.8"
+}

@@ -1,0 +1,142 @@
+{
+  "build": "pyh3252c3a_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/bioconda/noarch",
+  "constrains": [],
+  "depends": [
+    "python",
+    "six"
+  ],
+  "extracted_package_dir": "/home/devel/jgomez/.conda/pkgs/pyfaidx-0.5.9.2-pyh3252c3a_0",
+  "features": "",
+  "files": [
+    "lib/python3.6/site-packages/pyfaidx-0.5.9.1.dist-info/INSTALLER",
+    "lib/python3.6/site-packages/pyfaidx-0.5.9.1.dist-info/LICENSE",
+    "lib/python3.6/site-packages/pyfaidx-0.5.9.1.dist-info/METADATA",
+    "lib/python3.6/site-packages/pyfaidx-0.5.9.1.dist-info/RECORD",
+    "lib/python3.6/site-packages/pyfaidx-0.5.9.1.dist-info/REQUESTED",
+    "lib/python3.6/site-packages/pyfaidx-0.5.9.1.dist-info/WHEEL",
+    "lib/python3.6/site-packages/pyfaidx-0.5.9.1.dist-info/direct_url.json",
+    "lib/python3.6/site-packages/pyfaidx-0.5.9.1.dist-info/entry_points.txt",
+    "lib/python3.6/site-packages/pyfaidx-0.5.9.1.dist-info/top_level.txt",
+    "lib/python3.6/site-packages/pyfaidx/__init__.py",
+    "lib/python3.6/site-packages/pyfaidx/cli.py",
+    "lib/python3.6/site-packages/pyfaidx/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/pyfaidx/__pycache__/cli.cpython-36.pyc",
+    "bin/faidx"
+  ],
+  "fn": "pyfaidx-0.5.9.2-pyh3252c3a_0.tar.bz2",
+  "license": "BSD License",
+  "license_family": "BSD",
+  "link": {
+    "source": "/home/devel/jgomez/.conda/pkgs/pyfaidx-0.5.9.2-pyh3252c3a_0",
+    "type": 1
+  },
+  "md5": "d9ae642472b6619b2e4f3390592ae9db",
+  "name": "pyfaidx",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/devel/jgomez/.conda/pkgs/pyfaidx-0.5.9.2-pyh3252c3a_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/pyfaidx-0.5.9.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/pyfaidx-0.5.9.1.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "682c5e69e42f297b30d083d602c18b0403696beeaf714ff714f3f0da96a96534",
+        "sha256_in_prefix": "682c5e69e42f297b30d083d602c18b0403696beeaf714ff714f3f0da96a96534",
+        "size_in_bytes": 1770
+      },
+      {
+        "_path": "site-packages/pyfaidx-0.5.9.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "55af5dca7137c17873fde5e8aa95282841a031cc77c5d089711a7454b1ef6b5d",
+        "sha256_in_prefix": "55af5dca7137c17873fde5e8aa95282841a031cc77c5d089711a7454b1ef6b5d",
+        "size_in_bytes": 24087
+      },
+      {
+        "_path": "site-packages/pyfaidx-0.5.9.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "dbf9de44ee2e1bca605b63930b1c35c5a1398aa83fe010aeb67154c932ac0da8",
+        "sha256_in_prefix": "dbf9de44ee2e1bca605b63930b1c35c5a1398aa83fe010aeb67154c932ac0da8",
+        "size_in_bytes": 1091
+      },
+      {
+        "_path": "site-packages/pyfaidx-0.5.9.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/pyfaidx-0.5.9.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "4bacde3c36d4023ccc9a960e8367070f1b98156c3b5a2397b7aa2033a8480794",
+        "sha256_in_prefix": "4bacde3c36d4023ccc9a960e8367070f1b98156c3b5a2397b7aa2033a8480794",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/pyfaidx-0.5.9.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "803fe299a4a0724e7a52ab56cd0e58b3419ca9680b833f65c4c63736cae8c1f1",
+        "sha256_in_prefix": "803fe299a4a0724e7a52ab56cd0e58b3419ca9680b833f65c4c63736cae8c1f1",
+        "size_in_bytes": 81
+      },
+      {
+        "_path": "site-packages/pyfaidx-0.5.9.1.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "35fc606d66dc8145b4815fcab949cf04cf4d197e05daffa3c69b3b54e07d29a3",
+        "sha256_in_prefix": "35fc606d66dc8145b4815fcab949cf04cf4d197e05daffa3c69b3b54e07d29a3",
+        "size_in_bytes": 44
+      },
+      {
+        "_path": "site-packages/pyfaidx-0.5.9.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "8953205b9f1896db2dd92bf9afe40e5bef4d75dbdebaed86b3cd7feaf1cfa5f2",
+        "sha256_in_prefix": "8953205b9f1896db2dd92bf9afe40e5bef4d75dbdebaed86b3cd7feaf1cfa5f2",
+        "size_in_bytes": 8
+      },
+      {
+        "_path": "site-packages/pyfaidx/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "3a709884ae900187f745127fbd383d4a60d6bfbc0bcac8d97dd85f2883340112",
+        "sha256_in_prefix": "3a709884ae900187f745127fbd383d4a60d6bfbc0bcac8d97dd85f2883340112",
+        "size_in_bytes": 48251
+      },
+      {
+        "_path": "site-packages/pyfaidx/cli.py",
+        "path_type": "hardlink",
+        "sha256": "944fde912713e7cdf31cce817a46b7380387298e524ee91c122543cee4174796",
+        "sha256_in_prefix": "944fde912713e7cdf31cce817a46b7380387298e524ee91c122543cee4174796",
+        "size_in_bytes": 16200
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pyfaidx/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pyfaidx/__pycache__/cli.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "bin/faidx",
+        "path_type": "unix_python_entry_point"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "00c5175f9b6564ab83098ab230ae46b3ce0c0f10266f0905b5bd2706cfa2945f",
+  "size": 29462,
+  "subdir": "noarch",
+  "timestamp": 1607437086282,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/noarch/pyfaidx-0.5.9.2-pyh3252c3a_0.tar.bz2",
+  "version": "0.5.9.2"
+}

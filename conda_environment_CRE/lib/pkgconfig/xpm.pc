@@ -1,0 +1,12 @@
+prefix=/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: Xpm
+Description: X Pixmap Library
+Version: 3.5.13
+Requires: x11
+Requires.private: x11
+Cflags: -I${includedir}
+Libs: -L${libdir} -lXpm

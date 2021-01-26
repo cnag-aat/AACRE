@@ -1,0 +1,1 @@
+{"pathname":"K/KR/KRYDE/Test-Weaken-3.022000.tar.gz","name":"Test::Weaken","dist":"Test-Weaken-3.022000","provides":{"Test::Weaken":{"file":"lib/Test/Weaken.pm","version":"3.022000"},"Test::Weaken::Internal":{"file":"lib/Test/Weaken.pm","version":"3.022000"}},"version":"3.022000","target":"Test::Weaken"}

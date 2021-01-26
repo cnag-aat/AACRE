@@ -1,0 +1,12 @@
+prefix=/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: Xtst
+Description: The Xtst Library
+Version: 1.2.3
+Requires: recordproto
+Requires.private: x11 xext xextproto xi
+Cflags: -I${includedir}
+Libs: -L${libdir} -lXtst

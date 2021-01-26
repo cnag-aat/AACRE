@@ -1,0 +1,315 @@
+{
+  "build": "pyhd3deb0d_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "google-api-core >=1.18.0,<2dev",
+    "google-auth >=1.16.0",
+    "google-auth-httplib2 >=0.0.3",
+    "httplib2 >=0.9.2,<1dev",
+    "python",
+    "six >=1.6.1,<2dev",
+    "uritemplate >=3.0.0,<4dev"
+  ],
+  "extracted_package_dir": "/home/devel/jgomez/.conda/pkgs/google-api-python-client-1.12.8-pyhd3deb0d_0",
+  "features": "",
+  "files": [
+    "lib/python3.6/site-packages/apiclient/__init__.py",
+    "lib/python3.6/site-packages/google_api_python_client-1.12.8.dist-info/INSTALLER",
+    "lib/python3.6/site-packages/google_api_python_client-1.12.8.dist-info/LICENSE",
+    "lib/python3.6/site-packages/google_api_python_client-1.12.8.dist-info/METADATA",
+    "lib/python3.6/site-packages/google_api_python_client-1.12.8.dist-info/RECORD",
+    "lib/python3.6/site-packages/google_api_python_client-1.12.8.dist-info/REQUESTED",
+    "lib/python3.6/site-packages/google_api_python_client-1.12.8.dist-info/WHEEL",
+    "lib/python3.6/site-packages/google_api_python_client-1.12.8.dist-info/direct_url.json",
+    "lib/python3.6/site-packages/google_api_python_client-1.12.8.dist-info/top_level.txt",
+    "lib/python3.6/site-packages/googleapiclient/__init__.py",
+    "lib/python3.6/site-packages/googleapiclient/_auth.py",
+    "lib/python3.6/site-packages/googleapiclient/_helpers.py",
+    "lib/python3.6/site-packages/googleapiclient/channel.py",
+    "lib/python3.6/site-packages/googleapiclient/discovery.py",
+    "lib/python3.6/site-packages/googleapiclient/discovery_cache/__init__.py",
+    "lib/python3.6/site-packages/googleapiclient/discovery_cache/appengine_memcache.py",
+    "lib/python3.6/site-packages/googleapiclient/discovery_cache/base.py",
+    "lib/python3.6/site-packages/googleapiclient/discovery_cache/file_cache.py",
+    "lib/python3.6/site-packages/googleapiclient/errors.py",
+    "lib/python3.6/site-packages/googleapiclient/http.py",
+    "lib/python3.6/site-packages/googleapiclient/mimeparse.py",
+    "lib/python3.6/site-packages/googleapiclient/model.py",
+    "lib/python3.6/site-packages/googleapiclient/sample_tools.py",
+    "lib/python3.6/site-packages/googleapiclient/schema.py",
+    "lib/python3.6/site-packages/apiclient/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/googleapiclient/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/googleapiclient/__pycache__/_auth.cpython-36.pyc",
+    "lib/python3.6/site-packages/googleapiclient/__pycache__/_helpers.cpython-36.pyc",
+    "lib/python3.6/site-packages/googleapiclient/__pycache__/channel.cpython-36.pyc",
+    "lib/python3.6/site-packages/googleapiclient/__pycache__/discovery.cpython-36.pyc",
+    "lib/python3.6/site-packages/googleapiclient/discovery_cache/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/googleapiclient/discovery_cache/__pycache__/appengine_memcache.cpython-36.pyc",
+    "lib/python3.6/site-packages/googleapiclient/discovery_cache/__pycache__/base.cpython-36.pyc",
+    "lib/python3.6/site-packages/googleapiclient/discovery_cache/__pycache__/file_cache.cpython-36.pyc",
+    "lib/python3.6/site-packages/googleapiclient/__pycache__/errors.cpython-36.pyc",
+    "lib/python3.6/site-packages/googleapiclient/__pycache__/http.cpython-36.pyc",
+    "lib/python3.6/site-packages/googleapiclient/__pycache__/mimeparse.cpython-36.pyc",
+    "lib/python3.6/site-packages/googleapiclient/__pycache__/model.cpython-36.pyc",
+    "lib/python3.6/site-packages/googleapiclient/__pycache__/sample_tools.cpython-36.pyc",
+    "lib/python3.6/site-packages/googleapiclient/__pycache__/schema.cpython-36.pyc"
+  ],
+  "fn": "google-api-python-client-1.12.8-pyhd3deb0d_0.tar.bz2",
+  "license": "Apache-2.0 and MIT",
+  "link": {
+    "source": "/home/devel/jgomez/.conda/pkgs/google-api-python-client-1.12.8-pyhd3deb0d_0",
+    "type": 1
+  },
+  "md5": "553b2759b4715d2794db4d17f46a635f",
+  "name": "google-api-python-client",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/devel/jgomez/.conda/pkgs/google-api-python-client-1.12.8-pyhd3deb0d_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/apiclient/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "a8eb63c8adbfb601198a3af9a284e7ba54ee0c9089805ba36e18f571dfaaa4b3",
+        "sha256_in_prefix": "a8eb63c8adbfb601198a3af9a284e7ba54ee0c9089805ba36e18f571dfaaa4b3",
+        "size_in_bytes": 935
+      },
+      {
+        "_path": "site-packages/google_api_python_client-1.12.8.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/google_api_python_client-1.12.8.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "3d0e3d178675046db71fca9a0ee61e59acb4e76a15f934e408e75dfb93758a24",
+        "sha256_in_prefix": "3d0e3d178675046db71fca9a0ee61e59acb4e76a15f934e408e75dfb93758a24",
+        "size_in_bytes": 767
+      },
+      {
+        "_path": "site-packages/google_api_python_client-1.12.8.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "7d68152a5e7a8f3809b622591cce99337fc8a3504d7bd020843266dfbefda033",
+        "sha256_in_prefix": "7d68152a5e7a8f3809b622591cce99337fc8a3504d7bd020843266dfbefda033",
+        "size_in_bytes": 3901
+      },
+      {
+        "_path": "site-packages/google_api_python_client-1.12.8.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "1d3f8ea5474be9d5287226beeb0b1b258a2e116e782362d94d2a09dcbc60d1c5",
+        "sha256_in_prefix": "1d3f8ea5474be9d5287226beeb0b1b258a2e116e782362d94d2a09dcbc60d1c5",
+        "size_in_bytes": 3164
+      },
+      {
+        "_path": "site-packages/google_api_python_client-1.12.8.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/google_api_python_client-1.12.8.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "00329ec9a1b2285e43c01344d2c444e69bd6f9b4a414c25f06e873677adc78fe",
+        "sha256_in_prefix": "00329ec9a1b2285e43c01344d2c444e69bd6f9b4a414c25f06e873677adc78fe",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "site-packages/google_api_python_client-1.12.8.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "8bd636aff6618074e960825e02436375ac4057b8bfcb4ed413169f36680ed61f",
+        "sha256_in_prefix": "8bd636aff6618074e960825e02436375ac4057b8bfcb4ed413169f36680ed61f",
+        "size_in_bytes": 120
+      },
+      {
+        "_path": "site-packages/google_api_python_client-1.12.8.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "95b5a0743c10de8c30d2e6f4a666777e621800e4c77f5f13c28e14f42c51967c",
+        "sha256_in_prefix": "95b5a0743c10de8c30d2e6f4a666777e621800e4c77f5f13c28e14f42c51967c",
+        "size_in_bytes": 58
+      },
+      {
+        "_path": "site-packages/googleapiclient/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "9055b12928496a56e7ac2b95d2494bee68d96a25df3e98e5aa6c8ac88f327d35",
+        "sha256_in_prefix": "9055b12928496a56e7ac2b95d2494bee68d96a25df3e98e5aa6c8ac88f327d35",
+        "size_in_bytes": 904
+      },
+      {
+        "_path": "site-packages/googleapiclient/_auth.py",
+        "path_type": "hardlink",
+        "sha256": "ed12ed121e50b6a80fd465e4987eea48baf1214766fb889ef771868a74199b25",
+        "sha256_in_prefix": "ed12ed121e50b6a80fd465e4987eea48baf1214766fb889ef771868a74199b25",
+        "size_in_bytes": 5679
+      },
+      {
+        "_path": "site-packages/googleapiclient/_helpers.py",
+        "path_type": "hardlink",
+        "sha256": "6d3c2e435b0934f65acb25a865cc6dff65ff86b39c63129a55ac05cc47ce30f5",
+        "sha256_in_prefix": "6d3c2e435b0934f65acb25a865cc6dff65ff86b39c63129a55ac05cc47ce30f5",
+        "size_in_bytes": 6780
+      },
+      {
+        "_path": "site-packages/googleapiclient/channel.py",
+        "path_type": "hardlink",
+        "sha256": "19fde950771f2e99974ec4c9eb549dbe944f160cd0d227dbe0c02dc891042b98",
+        "sha256_in_prefix": "19fde950771f2e99974ec4c9eb549dbe944f160cd0d227dbe0c02dc891042b98",
+        "size_in_bytes": 10858
+      },
+      {
+        "_path": "site-packages/googleapiclient/discovery.py",
+        "path_type": "hardlink",
+        "sha256": "0a78140d340d5b9bdc8a998cbb6cb21d5d4f3133b7a20da0c89c082e6c337da0",
+        "sha256_in_prefix": "0a78140d340d5b9bdc8a998cbb6cb21d5d4f3133b7a20da0c89c082e6c337da0",
+        "size_in_bytes": 59078
+      },
+      {
+        "_path": "site-packages/googleapiclient/discovery_cache/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "28f0ed1df0d915628818c8c796eee7ef3993425e3cf67ec9dbbfe6ed5f41fff8",
+        "sha256_in_prefix": "28f0ed1df0d915628818c8c796eee7ef3993425e3cf67ec9dbbfe6ed5f41fff8",
+        "size_in_bytes": 1449
+      },
+      {
+        "_path": "site-packages/googleapiclient/discovery_cache/appengine_memcache.py",
+        "path_type": "hardlink",
+        "sha256": "a530f861810dda48cb5a6a1947d4ae1cddbf8a5b5da4b7cee60ad2893ab07c8f",
+        "sha256_in_prefix": "a530f861810dda48cb5a6a1947d4ae1cddbf8a5b5da4b7cee60ad2893ab07c8f",
+        "size_in_bytes": 1652
+      },
+      {
+        "_path": "site-packages/googleapiclient/discovery_cache/base.py",
+        "path_type": "hardlink",
+        "sha256": "575510714da532f02aff0c9bbaacbe1776fde10d63dc7d641585bf6fb8772f87",
+        "sha256_in_prefix": "575510714da532f02aff0c9bbaacbe1776fde10d63dc7d641585bf6fb8772f87",
+        "size_in_bytes": 1349
+      },
+      {
+        "_path": "site-packages/googleapiclient/discovery_cache/file_cache.py",
+        "path_type": "hardlink",
+        "sha256": "d630af307712f3f3eb0c7f4b60c594ea29e312b90c5ca92fdf56e4768c7881a3",
+        "sha256_in_prefix": "d630af307712f3f3eb0c7f4b60c594ea29e312b90c5ca92fdf56e4768c7881a3",
+        "size_in_bytes": 4796
+      },
+      {
+        "_path": "site-packages/googleapiclient/errors.py",
+        "path_type": "hardlink",
+        "sha256": "1f02afda51e20851918fc06b5058d3605869a3a5004ca8c2867a76db5afbd3e6",
+        "sha256_in_prefix": "1f02afda51e20851918fc06b5058d3605869a3a5004ca8c2867a76db5afbd3e6",
+        "size_in_bytes": 4951
+      },
+      {
+        "_path": "site-packages/googleapiclient/http.py",
+        "path_type": "hardlink",
+        "sha256": "48ed85164148d9613c395d2117b4f00b0f335d2556cae20700295b6ece9ebaa3",
+        "sha256_in_prefix": "48ed85164148d9613c395d2117b4f00b0f335d2556cae20700295b6ece9ebaa3",
+        "size_in_bytes": 65448
+      },
+      {
+        "_path": "site-packages/googleapiclient/mimeparse.py",
+        "path_type": "hardlink",
+        "sha256": "57876b4d1ae8803eb23942769632ecc12175633fc19fb7bee1feda21bcd0d58c",
+        "sha256_in_prefix": "57876b4d1ae8803eb23942769632ecc12175633fc19fb7bee1feda21bcd0d58c",
+        "size_in_bytes": 6550
+      },
+      {
+        "_path": "site-packages/googleapiclient/model.py",
+        "path_type": "hardlink",
+        "sha256": "53883c5edee83130ae315ed353268743f6cb36a5ba04d2444b189bf205b23570",
+        "sha256_in_prefix": "53883c5edee83130ae315ed353268743f6cb36a5ba04d2444b189bf205b23570",
+        "size_in_bytes": 12948
+      },
+      {
+        "_path": "site-packages/googleapiclient/sample_tools.py",
+        "path_type": "hardlink",
+        "sha256": "e892a09f54b87ddefbc70cee05a251b21e3fc98b728f6f920cbf568a4c89bc39",
+        "sha256_in_prefix": "e892a09f54b87ddefbc70cee05a251b21e3fc98b728f6f920cbf568a4c89bc39",
+        "size_in_bytes": 4341
+      },
+      {
+        "_path": "site-packages/googleapiclient/schema.py",
+        "path_type": "hardlink",
+        "sha256": "ff3f28e47b1f0c9e130a45e188c319c0b2ac9c6c19e59708cc226131a75a39d0",
+        "sha256_in_prefix": "ff3f28e47b1f0c9e130a45e188c319c0b2ac9c6c19e59708cc226131a75a39d0",
+        "size_in_bytes": 10026
+      },
+      {
+        "_path": "lib/python3.6/site-packages/apiclient/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/googleapiclient/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/googleapiclient/__pycache__/_auth.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/googleapiclient/__pycache__/_helpers.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/googleapiclient/__pycache__/channel.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/googleapiclient/__pycache__/discovery.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/googleapiclient/discovery_cache/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/googleapiclient/discovery_cache/__pycache__/appengine_memcache.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/googleapiclient/discovery_cache/__pycache__/base.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/googleapiclient/discovery_cache/__pycache__/file_cache.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/googleapiclient/__pycache__/errors.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/googleapiclient/__pycache__/http.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/googleapiclient/__pycache__/mimeparse.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/googleapiclient/__pycache__/model.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/googleapiclient/__pycache__/sample_tools.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/googleapiclient/__pycache__/schema.cpython-36.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "99a349e3725d5ff1160f6aa3a33d8a5c6431d7c6768e26752fb625c6c1bcc522",
+  "size": 48829,
+  "subdir": "noarch",
+  "timestamp": 1605727489520,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/google-api-python-client-1.12.8-pyhd3deb0d_0.tar.bz2",
+  "version": "1.12.8"
+}

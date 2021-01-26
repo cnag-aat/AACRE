@@ -1,0 +1,44 @@
+{
+  "build": "pl526_11",
+  "build_number": 11,
+  "channel": "https://conda.anaconda.org/bioconda/noarch",
+  "constrains": [],
+  "depends": [
+    "perl >=5.26.2,<5.26.3.0a0",
+    "perl-bio-asn1-entrezgene",
+    "perl-bio-coordinate",
+    "perl-bio-featureio",
+    "perl-bio-samtools",
+    "perl-bio-tools-phylo-paml",
+    "perl-bio-tools-run-alignment-clustalw",
+    "perl-bio-tools-run-alignment-tcoffee",
+    "perl-bioperl-core 1.007002",
+    "perl-bioperl-run"
+  ],
+  "extracted_package_dir": "/home/devel/jgomez/.conda/pkgs/perl-bioperl-1.7.2-pl526_11",
+  "features": "",
+  "files": [],
+  "fn": "perl-bioperl-1.7.2-pl526_11.tar.bz2",
+  "license": "perl_5",
+  "link": {
+    "source": "/home/devel/jgomez/.conda/pkgs/perl-bioperl-1.7.2-pl526_11",
+    "type": 1
+  },
+  "md5": "2fe21b69efb39401d28f27f398f7d26e",
+  "name": "perl-bioperl",
+  "noarch": "generic",
+  "package_tarball_full_path": "/home/devel/jgomez/.conda/pkgs/perl-bioperl-1.7.2-pl526_11.tar.bz2",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "4f6ff753bafc586316e0db66c2967673b9b789009378a6e0410737ac073cd1fd",
+  "size": 13275,
+  "subdir": "noarch",
+  "timestamp": 1572260946817,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/noarch/perl-bioperl-1.7.2-pl526_11.tar.bz2",
+  "version": "1.7.2"
+}

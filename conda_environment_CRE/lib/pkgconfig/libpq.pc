@@ -1,0 +1,9 @@
+Name: libpq
+Description: PostgreSQL libpq library
+Url: http://www.postgresql.org/
+Version: 12.3
+Requires: 
+Requires.private: 
+Cflags: -I/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE/include
+Libs: -L/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE/lib -lpq
+Libs.private: -L/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE/lib -lssl -lcrypto -lgssapi_krb5 -lcrypt -lm

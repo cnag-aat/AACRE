@@ -1,0 +1,4 @@
+/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE3/lib/site_perl/5.26.2/XML/Simple.pm relocate_as=../../../../XML/Simple.pm
+/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE3/lib/site_perl/5.26.2/XML/Simple/FAQ.pod relocate_as=../../../../XML/Simple/FAQ.pod
+/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE3/man/man3/XML::Simple.3 relocate_as=../../../../../../../man/man3/XML::Simple.3
+/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE3/man/man3/XML::Simple::FAQ.3 relocate_as=../../../../../../../man/man3/XML::Simple::FAQ.3

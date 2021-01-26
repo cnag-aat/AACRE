@@ -1,0 +1,4 @@
+/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE/bin/pod2usage relocate_as=../../../../../../../bin/pod2usage
+/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE/lib/site_perl/5.26.2/Pod/Usage.pm relocate_as=../../../../Pod/Usage.pm
+/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE/man/man1/pod2usage.1 relocate_as=../../../../../../../man/man1/pod2usage.1
+/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE/man/man3/Pod::Usage.3 relocate_as=../../../../../../../man/man3/Pod::Usage.3
