@@ -1,6 +1,7 @@
 # AACRE
 The AACRE pipeline (Assembly and Annotation of Carbapenem-Resistant Enterobacteriaceae) is a Snakemake-based workflow that was developed to automatically process, assemble and annotate Carbapenem-Resistant enterobactericiae that have been sequenced with Illumina and ONT (Oxford Nanopore Technologies). It takes as input fastq files and takes care of pre-processing the reads, performing the hybrid assembly and annotating the assemblñed genomes with special attention on genes involved in conferring resistance to antiobiotics. 
 All the needed software has been installed under conda environments. It should be launched with the "conda_environment_CRE" environment loaded. Only two steps use any of the other environments and the pipeline itself loads the correct one during the process. 
+
 After cloning the repository, it will be needed to uncompress some files. Do:
 ```bash
   cd AACRE/conda_environment_CRE/db/hmm
