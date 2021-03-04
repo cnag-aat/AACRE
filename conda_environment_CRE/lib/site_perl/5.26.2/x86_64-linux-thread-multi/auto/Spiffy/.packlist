@@ -1,4 +1,0 @@
-/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE/lib/site_perl/5.26.2/Spiffy.pm relocate_as=../../../Spiffy.pm
-/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE/lib/site_perl/5.26.2/Spiffy.pod relocate_as=../../../Spiffy.pod
-/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE/lib/site_perl/5.26.2/Spiffy/mixin.pm relocate_as=../../../Spiffy/mixin.pm
-/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE/man/man3/Spiffy.3 relocate_as=../../../../../../man/man3/Spiffy.3

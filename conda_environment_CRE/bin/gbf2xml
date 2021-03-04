@@ -1,3 +1,0 @@
-#!/bin/sh
-
-xtract -g2x "$@"

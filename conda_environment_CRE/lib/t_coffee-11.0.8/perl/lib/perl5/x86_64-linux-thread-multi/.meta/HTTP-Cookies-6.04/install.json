@@ -1,1 +1,0 @@
-{"name":"HTTP::Cookies","provides":{"HTTP::Cookies::Netscape":{"file":"HTTP/Cookies/Netscape.pm","version":"6.04"},"HTTP::Cookies":{"file":"HTTP/Cookies.pm","version":"6.04"},"HTTP::Cookies::Microsoft":{"version":"6.04","file":"HTTP/Cookies/Microsoft.pm"}},"dist":"HTTP-Cookies-6.04","pathname":"O/OA/OALDERS/HTTP-Cookies-6.04.tar.gz","target":"HTTP::Cookies","version":"6.04"}

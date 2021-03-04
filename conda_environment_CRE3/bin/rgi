@@ -1,4 +1,0 @@
-#!/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE3/bin/python
-from app.MainBase import MainBase
-
-MainBase()

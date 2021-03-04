@@ -1,4 +1,0 @@
-/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE/lib/site_perl/5.26.2/base.pm relocate_as=../../../base.pm
-/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE/lib/site_perl/5.26.2/fields.pm relocate_as=../../../fields.pm
-/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE/man/man3/base.3 relocate_as=../../../../../../man/man3/base.3
-/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE/man/man3/fields.3 relocate_as=../../../../../../man/man3/fields.3

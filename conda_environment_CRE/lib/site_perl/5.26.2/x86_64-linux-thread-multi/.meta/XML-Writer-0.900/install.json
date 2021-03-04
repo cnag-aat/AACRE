@@ -1,1 +1,0 @@
-{"name":"XML::Writer","pathname":"J/JO/JOSEPHW/XML-Writer-0.900.tar.gz","dist":"XML-Writer-0.900","provides":{"XML::Writer::_String":{"version":"0.900","file":"Writer.pm"},"XML::Writer":{"version":"0.900","file":"Writer.pm"},"XML::Writer::_PrintChecker":{"version":"0.900","file":"Writer.pm"}},"version":"0.900","target":"XML::Writer"}

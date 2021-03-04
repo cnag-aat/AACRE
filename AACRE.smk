@@ -371,13 +371,14 @@ rule resfinder:
     pheno = config["ResFinder"]["dir"] + "pheno_table.txt"
   params:
     resfinder_dir = config["ResFinder"]["dir"],
+    path = config["ResFinder"]["path"],
     score = config["ResFinder"]["score"]
   log:
     logs_dir + str(date) + ".resfinder.out"
   threads: 1
   shell: 
     "mkdir -p {params.resfinder_dir};"
-    "export PATH=" + scripts_dir + "../resfinder:$PATH;"
+    "export PATH={params.path}:$PATH;"
     "run_resfinder.py -ifa {input.assembly} -o {params.resfinder_dir} -db_res {input.db} -t {params.score} -acq;"
     "parse_resfinder_output.pl {params.resfinder_dir}/resfinder_blast/tmp > {output.gff};"
 

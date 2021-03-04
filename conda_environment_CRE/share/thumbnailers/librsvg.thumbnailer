@@ -1,4 +1,0 @@
-[Thumbnailer Entry]
-TryExec=/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE/bin/gdk-pixbuf-thumbnailer
-Exec=/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE/bin/gdk-pixbuf-thumbnailer -s %s %u %o
-MimeType=image/svg+xml;image/svg+xml-compressed;

@@ -84,6 +84,7 @@ class CreateConfigurationFile(object):
         self.IS_cores = 8                                                                         #Default number of threads for the annotation step
 
         #RESFINDER PARAMETERS
+        self.resfinder_path = os.path.dirname(sys.argv[0])+ "/resfinder"
         self.resfinder_db = os.path.dirname(sys.argv[0])+ "/databases/resfinder_db/"              #Location of the database to run resfinder
         self.resfinder_score = 0.8
         self.resfinder_dir = None                                                                 #Directory to run resfinder
@@ -258,6 +259,7 @@ class CreateConfigurationFile(object):
         """
         ResFinder_group = parser.add_argument_group('Resfinder')
         ResFinder_group.add_argument('--resfinder-score', dest="resfinder_score", metavar="resfinder_score", type=float, default=self.resfinder_score, help='Number of threads needed to run the Resfinder step. Default %s' % self.resfinder_score)
+        ResFinder_group.add_argument('--resfinder-path', dest="resfinder_path", metavar="resfinder_path", default=self.resfinder_path, help='Database for resfinder step. Default %s' % self.resfinder_path)
         ResFinder_group.add_argument('--resfinder-db', dest="resfinder_db", metavar="resfinder_db", default=self.resfinder_db, help='Database for resfinder step. Default %s' % self.resfinder_db)
         ResFinder_group.add_argument('--resfinder-dir', dest="resfinder_dir", metavar="resfinder_dir", default=self.resfinder_dir, help='Directory to run the resfinder step. Default %s' % self.resfinder_dir)
 
@@ -416,6 +418,12 @@ class CreateConfigurationFile(object):
             args.resfinder_dir = os.path.abspath(args.resfinder_dir)
         else:
             args.resfinder_dir = args.annotation_dir + "resfinder/"
+
+        if args.resfinder_path:
+            args.resfinder_path = os.path.abspath(args.resfinder_path)
+
+        if args.resfinder_db:
+            args.resfinder_db = os.path.abspath(args.resfinder_db)
 
         ##Checking general parameters
         if args.metadata_species==None:
@@ -583,6 +591,7 @@ class CreateConfigurationFile(object):
         args -- set of parsed arguments
         """
         self.ResFinderParameters["score"] = args.resfinder_score
+        self.ResFinderParameters["path"] = args.resfinder_path
         self.ResFinderParameters["db"] = args.resfinder_db
         self.ResFinderParameters["dir"] = args.resfinder_dir
         self.allParameters ["ResFinder"] = self.ResFinderParameters

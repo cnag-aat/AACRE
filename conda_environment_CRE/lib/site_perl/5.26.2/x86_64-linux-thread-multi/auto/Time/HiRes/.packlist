@@ -1,3 +1,0 @@
-/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE/lib/site_perl/5.26.2/x86_64-linux-thread-multi/Time/HiRes.pm relocate_as=../../../Time/HiRes.pm
-/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE/lib/site_perl/5.26.2/x86_64-linux-thread-multi/auto/Time/HiRes/HiRes.so relocate_as=HiRes.so
-/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE/man/man3/Time::HiRes.3 relocate_as=../../../../../../../man/man3/Time::HiRes.3

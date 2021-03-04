@@ -1,4 +1,0 @@
-/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE/lib/site_perl/5.26.2/x86_64-linux-thread-multi/Math/CDF.pm relocate_as=../../../Math/CDF.pm
-/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE/lib/site_perl/5.26.2/x86_64-linux-thread-multi/auto/Math/CDF/CDF.so relocate_as=CDF.so
-/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE/lib/site_perl/5.26.2/x86_64-linux-thread-multi/auto/Math/CDF/autosplit.ix relocate_as=autosplit.ix
-/home/devel/jgomez/AACRE_pipeline.V01/conda_environment_CRE/man/man3/Math::CDF.3 relocate_as=../../../../../../../man/man3/Math::CDF.3
