@@ -6,7 +6,9 @@ All the needed software has been installed under conda environments. To install:
 
 2- Install the non-provided databases:
 
--- Bacteria centrifuge database (https://ccb.jhu.edu/software/centrifuge/manual.shtml#custom-database),
+-- Bacteria centrifuge database (https://ccb.jhu.edu/software/centrifuge/manual.shtml#custom-database)
+
+
 -- Resfinder database with the following command from the location where you want to place it:
 ```bash
   git clone https://git@bitbucket.org/genomicepidemiology/resfinder_db.git db_resfinder
@@ -21,7 +23,7 @@ All the needed software has been installed under conda environments. To install:
   snakemake --snakefile bin/AACRE.smk  --configfile AH0325.config.json --is --use-conda --use-envmodules  -np  ##np means "dry-run" it's useful to first check the commands that will be run, remove the -np when you're sure that you want to run them
 
   ##Example of a run in a lustre cluster:
-snakemake  --notemp -j 999 --snakefile AACRE.smk --cluster "python3 sbatch.py {dependencies}" --configfile AH0325.config.json  --cluster-config AACRE_pipeline.spec --use-conda --use-envmodules --is -np
+  snakemake  --notemp -j 999 --snakefile bin/AACRE.smk --cluster "python3 sbatch.py {dependencies}" --configfile AH0325.config.json  --cluster-config AACRE_pipeline.spec --use-conda --use-envmodules --is -np
 ```
 
 5- The first time you run the pipeline, after the AMRFinder conda environment has been created, you will need to download the amrfinder database. With the amrfinder loaded, please do:
