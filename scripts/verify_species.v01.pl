@@ -1,4 +1,4 @@
-#! /usr/bin/perl
+#! /usr/bin/env perl
 
 # Program to compare the most abundant species detected in the illumina and nanopore reads with the LIMS record for rthe specified sample
 # Information from the reads is in one-line format species1:abundance1;....;speciesN:abundanceN;  
@@ -47,8 +47,8 @@ if ( ($illumina eq "") || ($nanopore eq "") || ($lims_species eq "") ) {
        die print "provide bracken abundance for illumina and nanopore/ONT reads! Also requires the value of lims species as parameter \n\tUSAGE: verify_species.v01.pl \-i illumina.bracken_abundance.tophits \-n ONT.bracken_abundance.tophits \-l \"lims_species\"\n\t\t\tNote that double tilde matters...\n"; 
 }
 
-my ($illumina_name,$Ipath,$Iext) = fileparse($illumina,qw(\.illumina\.bracken_abundance\.tophits));
-my ($nanopore_name,$Npath,$Next) = fileparse($nanopore,qw(\.ont\.bracken_abundance\.tophits));
+my ($illumina_name,$Ipath,$Iext) = fileparse($illumina,qw(\.illumina\.bracken_abundance\.tophits.txt));
+my ($nanopore_name,$Npath,$Next) = fileparse($nanopore,qw(\.ont\.bracken_abundance\.tophits.txt));
 
 if ($illumina_name eq $nanopore_name){
     $seq_sample=$illumina_name;

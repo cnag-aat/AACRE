@@ -1,4 +1,4 @@
-#! /usr/bin/perl
+#! /usr/bin/env perl
 
 # Takes Unicycler format and produces a table (CRE project)
 #       includes the depth (inferred Stoichiometry) as a decimal numer
@@ -123,13 +123,3 @@ close (NEWFASTA) or die "print cannot close $sample\.$pipeversion\.assembly\.fas
 close (TABLE_SCF) or die "print cannot close $sample\.$pipeversion\.scaffolds\.tbl\n";
 
 close (TABLE_ASM) or die "print cannot close $sample\.$pipeversion\.assembly\.tbl\n";
-
-
-
-exit;
-
-
-
-
-
-

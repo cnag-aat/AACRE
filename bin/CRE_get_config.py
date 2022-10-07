@@ -16,18 +16,18 @@ class CreateConfigurationFile(object):
     def __init__(self):
         """Class constructor"""
         #GENERAL PARAMETERS
-        self.version = 1                                                                          #Pipeline run version
+        self.version = 2                                                                          #Pipeline run version
         self.sample = None                                                                        #Sample barcode 
         self.configFile = None                                                                    #Name of the json configuration file to be created.
         self.basedir = None                                                                       #Base directory for the pipeline run
         self.logs_dir = "logs/"                                                                   #Directory to keep all the log files
         self.metadata_species = None                                                              #Species listed in the metadata
         self.Qcat_cores = 4                                                                       #Number of threads to run the QCAT step
-        self.Concat_ONT_cores = 4                                                                 #Number of threads to run the concat ONT step
+        self.Concat_cores = 4                                                                     #Number of threads to run the concat reads step
         self.nanostat_cores = 2                                                                   #Number of threads to tun the nanostats step
 
         #INPUT PARAMETERS
-        self.scripts_dir = os.path.dirname(sys.argv[0]) + "/bin/"                                 #Directory with the different scripts for the pipeline
+        self.scripts_dir = os.path.dirname(sys.argv[0]) + "/../scripts/"                          #Directory with the different scripts for the pipeline
         self.ILLUMINA_reads = None                                                                #Directory where the illumina fastqs are stored
         self.ONT_reads = None                                                                     #Directory where the ont fastqs are stored     
 
@@ -36,12 +36,11 @@ class CreateConfigurationFile(object):
         self.ILLUMINA_trim = self.preprocessing_dir + "illumina/trim/"                            #Base directory of the illumina trimming step
         self.ILLUMINA_cat = self.preprocessing_dir + "illumina/out/"                              #Out directory of the illumina trimming step
         self.ILLUMINA_qc = self.preprocessing_dir + "illumina/qc/"                                #Base directory of the illumina qc step
-        self.ILLUMINA_bracken = self.preprocessing_dir + "illumina/qc/bracken/"                   #Directory for the Bracken step of the illumina reads
+        self.bracken = self.preprocessing_dir + "bracken/"                                        #Directory for the Bracken step of the reads
         self.ONT_trim = self.preprocessing_dir + "ont/trim/"                                      #Base directory of the ont trimming step
         self.ONT_cat = self.preprocessing_dir + "ont/out/"                                        #Out directory of the ont trimming step
         self.ONT_qc =  self.preprocessing_dir + "ont/qc/"                                         #Base directory of the ont qc step
         self.nanostats_dir = self.preprocessing_dir + "ont/nanostats/"                            #Base directory for the nanostats step
-        self.ONT_bracken = self.preprocessing_dir + "ont/qc/bracken/"                             #Directory for the Bracken step of the ONT reads
         self.assembly_dir = "02_Assembly/"                                                        #Base directory of the assembly step
         self.annotation_dir = "03_Annotation/"                                                    #Base directory of the annotation step
         self.prokka_outdir = self.annotation_dir + "prokka/"                                      #Directory to store the prokka outputs
@@ -56,23 +55,20 @@ class CreateConfigurationFile(object):
         self.ONT_fastqs = None                                                                    #List with basename of the ONT fastqs
 
         #TRIMGALORE PARAMETERS
-        self.quality_threshold = 10
-        self.illumina_RL = 100
+        self.trim_galore_opts = "--gzip -q 10 --paired --retain_unpaired"
         self.Trim_Illumina_cores = 4                                                              #Number of threads to run the trim Illumina step
-        self.Concat_Illumina_cores = 4                                                            #Number of threads to run the concat Illumina step
 
         #BRACKEN PARAMETERS
-        self.brackenIlluminaCores = 4                                                             #Number of threads to run the bracken step with the Illumina reads 
-        self.brackenONTCores = 4                                                                  #Number of threads to run the bracken step with the Illumina reads 
-        self.brackenDB = os.path.dirname(sys.argv[0]) + "/databases/minikraken2_v1_8GB" #Database to run Bracken
+        self.brackenCores = 4                                                                     #Number of threads to run the bracken step 
+        self.brackenDB = os.path.dirname(sys.argv[0]) + "/../databases/minikraken2_v1_8GB"           #Database to run Bracken
         self.brackenKmers = self.brackenDB + "/database200mers.kmer_distrib"                      #Kmer distribution to run Bracken
+        self.additional_kraken2_opts = ""
 
         #ASSEMBLY PARAMETERS
-        self.assemblyCores = 4                                                                    #Number of threads needed to run the assembly step
-        self.pilon_path = self.scripts_dir + "../conda_environment_CRE/share/pilon-1.23-0/pilon-1.23.jar"        #Path to the Pilon installation
+        self.assemblyCores = 16                                                                    #Number of threads needed to run the assembly step
 
         #CENTRIFUGE PARAMETERS
-        self.centrifugeCores = 4                                                                  #Number of threads needed to run the centrifuge step
+        self.centrifugeCores = 12                                                                  #Number of threads needed to run the centrifuge step
         self.centrifuge_db ="/scratch/devel/jgomez/centrifuge_cre_database/bacteria/bact"         #Database to run centrifuge, CHANGE THIS LINE accordingly to the location of your db
         self.centrifuge_k = 5                                                                     #Centrifuge: report upto <int> distinct, primary assignments for each read or pair
 
@@ -80,12 +76,11 @@ class CreateConfigurationFile(object):
         self.annotCores = 4                                                                       #Default number of threads for the annotation step
 
         #ISFINDER PARAMETERS
-        self.IS_db = os.path.dirname(sys.argv[0])+"/databases/ISFinder/ISfinder_genes.fasta"      #Database to run ISFinder
+        self.IS_db = os.path.dirname(sys.argv[0])+ "/../databases/ISFinder/ISfinder_genes.fasta"      #Database to run ISFinder
         self.IS_cores = 8                                                                         #Default number of threads for the annotation step
 
         #RESFINDER PARAMETERS
-        self.resfinder_path = os.path.dirname(sys.argv[0])+ "/resfinder"
-        self.resfinder_db = os.path.dirname(sys.argv[0])+ "/databases/resfinder_db/"              #Location of the database to run resfinder
+        self.resfinder_db = os.path.dirname(sys.argv[0])+ "/../databases/resfinder_db/"              #Location of the database to run resfinder
         self.resfinder_score = 0.8
         self.resfinder_dir = None                                                                 #Directory to run resfinder
 ###
@@ -137,7 +132,7 @@ class CreateConfigurationFile(object):
         general_group.add_argument('--logs-dir', dest="logs_dir", metavar="logs_dir", help='Directory to keep all the log files. Default %s' % self.logs_dir)
         general_group.add_argument('--sp', dest="metadata_species", metavar="metadata_species", help='Species listed in the metadata. Default %s' % self.metadata_species)
         general_group.add_argument('--qcat-cores', type = int, dest="Qcat_cores", metavar="QCAT_cores", default=self.Qcat_cores, help='Number of threads to run the QCAT ONT step. Default %s' % self.Qcat_cores)
-        general_group.add_argument('--cat-ONT-cores', type = int, dest="Concat_ONT_cores", metavar="Concat_ONT_cores", default=self.Concat_ONT_cores, help='Number of threads to run the concat ONT step. Default %s' % self.Concat_ONT_cores)
+        general_group.add_argument('--cat-cores', type = int, dest="Concat_cores", metavar="Concat_cores", default=self.Concat_cores, help='Number of threads to run the concat reads step. Default %s' % self.Concat_cores)
         general_group.add_argument('--nanostat-cores', type = int, dest="nanostat_cores", metavar="nanostat_cores", default=self.nanostat_cores, help='Number of threads to run the nanostat step. Default %s' % self.nanostat_cores)
 
     def register_input(self, parser):
@@ -162,11 +157,10 @@ class CreateConfigurationFile(object):
         output_group.add_argument('--illumina-trim', dest="ILLUMINA_trim", help='Base directory of the illumina trimming step. Default %s' % self.ILLUMINA_trim)
         output_group.add_argument('--illumina-cat', dest="ILLUMINA_cat", help='Out directory of the illumina trimming step. Default %s' % self.ILLUMINA_cat)
         output_group.add_argument('--illumina-qc', dest="ILLUMINA_qc", help='Base directory of the illumina qc step. Default %s' % self.ILLUMINA_qc)
-        output_group.add_argument('--illumina-bracken', dest="ILLUMINA_bracken", help='Directory for the Bracken step of the illumina reads. Default %s' % self.ILLUMINA_bracken)
+        output_group.add_argument('--bracken-dir', dest="bracken", help='Directory for the Bracken step of the reads. Default %s' % self.bracken)
         output_group.add_argument('--ont-trim', dest="ONT_trim", help='Base directory of the ONT trimming step. Default %s' % self.ONT_trim)
         output_group.add_argument('--ont-cat', dest="ONT_cat", help='Out directory of the ONT trimming step. Default %s' % self.ONT_cat)
         output_group.add_argument('--ont-qc', dest="ONT_qc", help='Base directory of the ONT qc step. Default %s' % self.ONT_qc)
-        output_group.add_argument('--ont-bracken', dest="ONT_bracken", help='Directory for the Bracken step of the ONT reads. Default %s' % self.ONT_bracken)
         output_group.add_argument('--nanostats-dir', dest="nanostats_dir", help='Base directory of the nanostats step. Default %s' % self.nanostats_dir)
         output_group.add_argument('--assembly-dir', dest="assembly_dir", help='Base directory of the assembly step. Default %s' % self.assembly_dir)
         output_group.add_argument('-g', dest="assembly", help='Assembly file (It will be given through the pipeline once it is complete). Default %s' % self.assembly)
@@ -194,10 +188,8 @@ class CreateConfigurationFile(object):
         parser -- the argparse parser
         """
         trimgalore_group = parser.add_argument_group('Trim_Galore')
-        trimgalore_group.add_argument('--quality-threshold', dest="quality_threshold", metavar="quality_threshold", type = int, default=self.quality_threshold, help='Default %s' % self.quality_threshold)
-        trimgalore_group.add_argument('--illumina-RL', dest="illumina_RL", metavar="illumina_RL", type = int, default=self.illumina_RL, help='Default %s' % self.illumina_RL)
+        trimgalore_group.add_argument('--trim-galore-opts', dest="trim_galore_opts", metavar="trim_galore_opts", default=self.trim_galore_opts, help='Optional parameters for the rule trim_galore. Default %s' % self.trim_galore_opts)
         trimgalore_group.add_argument('--trim-Illumina-cores', type = int, dest="Trim_Illumina_cores", metavar="Trim_Illumina_cores", default=self.Trim_Illumina_cores, help='Number of threads to run the Illumina trimming step. Default %s' % self.Trim_Illumina_cores)
-        trimgalore_group.add_argument('--cat-Illumina-cores', type = int, dest="Concat_Illumina_cores", metavar="Concat_Illumina_cores", default=self.Concat_Illumina_cores, help='Number of threads to run the concat Illumina step. Default %s' % self.Concat_Illumina_cores)
 
     def register_bracken(self, parser):
         """Register all Bracken parameters with the given
@@ -206,11 +198,11 @@ class CreateConfigurationFile(object):
         parser -- the argparse parser
         """
         bracken_group = parser.add_argument_group('Bracken')
-        bracken_group.add_argument('--brackenIlluminaCores', dest="brackenIlluminaCores", metavar="brackenIlluminaCores", type=int, default=self.brackenIlluminaCores, help='Number of threads to run the bracken step with the Illumina reads . Default %s' % self.brackenIlluminaCores)
-        bracken_group.add_argument('--brackenONTCores', dest="brackenONTCores", metavar="brackenONTCores", type=int, default=self.brackenONTCores, help='Number of threads to run the bracken step with the ONT reads . Default %s' % self.brackenONTCores)
+        bracken_group.add_argument('--brackenCores', dest="brackenCores", metavar="brackenCores", type=int, default=self.brackenCores, help='Number of threads to run the bracken step with the  reads . Default %s' % self.brackenCores)
         bracken_group.add_argument('--brackenDB', dest="brackenDB", metavar="brackenDB", default=self.brackenDB, help='Database to run Bracken. Default %s' % self.brackenDB)
         bracken_group.add_argument('--brackenKmers', dest="brackenKmers", metavar="brackenKmers", default=self.brackenKmers, help='Kmer distribution to run Bracken. Default %s' % self.brackenKmers)
-
+        bracken_group.add_argument('--kraken2-opts', dest="additional_kraken2_opts", metavar="additional_kraken2_opts", default=self.additional_kraken2_opts, help='Optional parameters for the rule Kraken2. Default %s' % self.additional_kraken2_opts)
+       
     def register_assembly(self, parser):
         """Register all assembly parameters with the given
         argparse parser
@@ -219,7 +211,6 @@ class CreateConfigurationFile(object):
         """
         assembly_group = parser.add_argument_group('Assembly')
         assembly_group.add_argument('--assemblyCores', dest="assemblyCores", metavar="assemblyCores", type=int, default=self.assemblyCores, help='Number of threads needed to run the assembly step. Default %s' % self.assemblyCores)
-        assembly_group.add_argument('--pilon_path', dest="pilon_path", metavar="pilon_path", default=self.pilon_path, help=' Default %s' % self.pilon_path)
 
     def register_centrifuge(self, parser):
         """Register all centrifuge parameters with the given
@@ -259,7 +250,6 @@ class CreateConfigurationFile(object):
         """
         ResFinder_group = parser.add_argument_group('Resfinder')
         ResFinder_group.add_argument('--resfinder-score', dest="resfinder_score", metavar="resfinder_score", type=float, default=self.resfinder_score, help='Number of threads needed to run the Resfinder step. Default %s' % self.resfinder_score)
-        ResFinder_group.add_argument('--resfinder-path', dest="resfinder_path", metavar="resfinder_path", default=self.resfinder_path, help='Database for resfinder step. Default %s' % self.resfinder_path)
         ResFinder_group.add_argument('--resfinder-db', dest="resfinder_db", metavar="resfinder_db", default=self.resfinder_db, help='Database for resfinder step. Default %s' % self.resfinder_db)
         ResFinder_group.add_argument('--resfinder-dir', dest="resfinder_dir", metavar="resfinder_dir", default=self.resfinder_dir, help='Directory to run the resfinder step. Default %s' % self.resfinder_dir)
 
@@ -335,10 +325,10 @@ class CreateConfigurationFile(object):
         else:
             args.ILLUMINA_qc = args.basedir+ self.ILLUMINA_qc 
 
-        if args.ILLUMINA_bracken:
-            args.ILLUMINA_bracken = os.path.abspath(args.ILLUMINA_bracken) 
+        if args.bracken:
+            args.bracken = os.path.abspath(args.bracken) 
         else:
-            args.ILLUMINA_bracken =args.basedir + self.ILLUMINA_bracken
+            args.bracken =args.basedir + self.bracken
 
         if args.ONT_trim:
             args.ONT_trim = os.path.abspath(args.ONT_trim) 
@@ -354,11 +344,6 @@ class CreateConfigurationFile(object):
             args.ONT_qc = os.path.abspath(args.ONT_qc) + "/"
         else:
             args.ONT_qc = args.basedir +  self.ONT_qc 
-
-        if args.ONT_bracken:
-            args.ONT_bracken = os.path.abspath(args.ONT_bracken) + "/"
-        else:
-            args.ONT_bracken = args.basedir + self.ONT_bracken
 
         if args.nanostats_dir:
             args.nanostats_dir = os.path.abspath(args.nanostats_dir) + "/"
@@ -396,9 +381,6 @@ class CreateConfigurationFile(object):
         if args.brackenKmers:
             args.brackenKmers = os.path.abspath(args.brackenKmers) 
 
-        if args.pilon_path:
-            args.pilon_path = os.path.abspath(args.pilon_path) 
-
         if args.assembly:
             args.assembly = os.path.abspath(args.assembly) 
         else:
@@ -418,9 +400,6 @@ class CreateConfigurationFile(object):
             args.resfinder_dir = os.path.abspath(args.resfinder_dir)
         else:
             args.resfinder_dir = args.annotation_dir + "resfinder/"
-
-        if args.resfinder_path:
-            args.resfinder_path = os.path.abspath(args.resfinder_path)
 
         if args.resfinder_db:
             args.resfinder_db = os.path.abspath(args.resfinder_db)
@@ -443,8 +422,8 @@ class CreateConfigurationFile(object):
         if args.ONT_fastqs == None:
             for r, d, f in os.walk(args.ONT_reads):
                 for file in f:
-                    if re.search('.1.fastq.gz', file):
-                        a = file.replace('.1.fastq.gz','')
+                    if re.search('.fastq.gz', file):
+                        a = file.replace('.fastq.gz','')
                         ont_barcodes.append(a)
                         if args.ONT_fastqs == None:
                             args.ONT_fastqs = a
@@ -468,7 +447,7 @@ class CreateConfigurationFile(object):
         self.generalParameters["sample"] = args.sample
         self.generalParameters["metadata_species"] = args.metadata_species
         self.generalParameters["QCAT_cores"] = args.Qcat_cores
-        self.generalParameters["Concat_ONT_cores"] = args.Concat_ONT_cores
+        self.generalParameters["Concat_cores"] = args.Concat_cores
         self.generalParameters["nanostat_cores"] = args.nanostat_cores
         self.allParameters["Parameters"] = self.generalParameters
 
@@ -491,11 +470,10 @@ class CreateConfigurationFile(object):
         self.outputParameters["ILLUMINA_trim"] = args.ILLUMINA_trim
         self.outputParameters["ILLUMINA_cat"] = args.ILLUMINA_cat
         self.outputParameters["ILLUMINA_qc"] = args.ILLUMINA_qc
-        self.outputParameters["ILLUMINA_bracken"] = args.ILLUMINA_bracken
+        self.outputParameters["bracken"] = args.bracken
         self.outputParameters["ONT_trim"] = args.ONT_trim
         self.outputParameters["ONT_cat"] = args.ONT_cat
         self.outputParameters["ONT_qc"] = args.ONT_qc
-        self.outputParameters["ONT_bracken"] = args.ONT_bracken
         self.outputParameters["nanostats_dir"] = args.nanostats_dir
         self.outputParameters["assembly_dir"] = args.assembly_dir
         self.outputParameters["centrifuge_dir"] = args.centrifuge_dir
@@ -521,10 +499,8 @@ class CreateConfigurationFile(object):
 
         args -- set of parsed arguments
         """
-        self.trimgaloreParameters["quality_threshold"] = args.quality_threshold
-        self.trimgaloreParameters["illumina_RL"] = args.illumina_RL
-        self.trimgaloreParameters["Trim_Illumina_cores"] = args.Concat_Illumina_cores
-        self.trimgaloreParameters["Concat_Illumina_cores"] = args.Concat_Illumina_cores
+        self.trimgaloreParameters["options"] = args.trim_galore_opts
+        self.trimgaloreParameters["Trim_Illumina_cores"] = args.Trim_Illumina_cores
         self.allParameters ["Trim_Galore"] = self.trimgaloreParameters
 
     def storeQcatParameters(self,args):
@@ -534,8 +510,12 @@ class CreateConfigurationFile(object):
         """
         for l in ont_barcodes:
           p = l.split('.')
-          b = p[1].replace('NB','')
-          self.qcatParameters[l] = b
+          if len(p) > 1:
+            b = p[1].replace('NB','')
+            self.qcatParameters[l] = b
+          else:
+            b = l
+            self.qcatParameters[l] = ""
         self.allParameters ["ONT_Barcodes"] = self.qcatParameters
 
     def storeBrackenParameters(self,args):
@@ -543,10 +523,10 @@ class CreateConfigurationFile(object):
 
         args -- set of parsed arguments
         """
-        self.brackenParameters["brackenIlluminaCores"] = args.brackenIlluminaCores
-        self.brackenParameters["brackenONTCores"] = args.brackenONTCores
+        self.brackenParameters["brackenCores"] = args.brackenCores
         self.brackenParameters["kraken_db"] = args.brackenDB
         self.brackenParameters["kraken_kmers"] = args.brackenKmers
+        self.brackenParameters["additional_opts"] = args.additional_kraken2_opts
         self.allParameters ["Bracken"] = self.brackenParameters
 
     def storeAssemblyParameters(self,args):
@@ -555,7 +535,6 @@ class CreateConfigurationFile(object):
         args -- set of parsed arguments
         """
         self.assemblyParameters["assemblyCores"] = args.assemblyCores
-        self.assemblyParameters["pilon_path"] = args.pilon_path
         self.allParameters ["Assembly"] = self.assemblyParameters
 
     def storeCentrifugeParameters(self,args):
@@ -591,7 +570,6 @@ class CreateConfigurationFile(object):
         args -- set of parsed arguments
         """
         self.ResFinderParameters["score"] = args.resfinder_score
-        self.ResFinderParameters["path"] = args.resfinder_path
         self.ResFinderParameters["db"] = args.resfinder_db
         self.ResFinderParameters["dir"] = args.resfinder_dir
         self.allParameters ["ResFinder"] = self.ResFinderParameters

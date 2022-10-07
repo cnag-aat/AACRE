@@ -5,8 +5,13 @@
 use strict;
 use warnings;
 use Getopt::Long;
+use Cwd 'abs_path';
+use File::Basename;
 
 my ($prokka, $rgi, $pref, $pep);
+
+my $script = abs_path($0);
+my $dir = dirname($script);
 
 GetOptions(
            'prokka:s'        => \$prokka,
@@ -16,7 +21,7 @@ GetOptions(
            );
 
 my %proteins;
-my @file = split /\n/, `FastaToTbl $pep`; 
+my @file = split /\n/, `$dir/FastaToTbl $pep`; 
 my $len = scalar @file;
 my $n = 0;
 while ($n < $len){
