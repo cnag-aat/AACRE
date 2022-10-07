@@ -2,77 +2,99 @@
   "all":{
     "name": "{rule}.{sample}.{pipeline_version}",
     "time": "0:05:00",
-    "queue": "genB,main"
+    "queue": "genD",
+    "qos": "test"
   },
-  "Trim_Galore":{
+  "trim_galore":{
     "name": "{rule}.{wildcards.file}.{pipeline_version}",
-    "time": "3:00:00"
+    "time": "3:00:00",
+    "queue": "genD",
+    "qos": "short"
   },
-  "Concat_Illumina":{
+  "concat_reads":{
     "name": "{rule}.{sample}.{pipeline_version}",
-    "time": "3:00:00"
+    "time": "3:00:00",
+    "queue": "genD",
+    "qos": "short"
   },
-  "Bracken_Illumina":{
+  "Kraken2":{
     "name": "{rule}.{sample}.{pipeline_version}",
-    "time": "00:05:00"
+    "time": "00:15:00",
+    "queue":"genD",
+    "qos": "vshort"
   },
   "Trim_ONT_qcat":{
     "name": "{rule}.{wildcards.ontfile}.{pipeline_version}",
-    "time": "3:00:00"
+    "time": "3:00:00",
+    "queue": "genD",
+    "qos": "short"
   },
-  "Concat_ONT":{
+  "nanoplot":{
     "name": "{rule}.{sample}.{pipeline_version}",
-    "time": "3:00:00"
-  },
-  "NanoStats_ONT":{
-    "name": "{rule}.{sample}.{pipeline_version}",
-    "time": "00:10:00",
-    "queue": "genB,main"
+    "time": "00:30:00",
+    "queue": "genD",
+    "qos": "vshort",
+    "mem" : "500"
   },  
-  "Bracken_ONT":{
-    "name": "{rule}.{sample}.{pipeline_version}",
-    "time": "00:05:00"
-  },
   "Verify_Species":{
     "name": "{rule}.{sample}.{pipeline_version}",
-    "time": "00:01:00",
-    "queue": "genB,main"
+    "time": "00:05:00",
+    "queue": "genD",
+    "qos": "test"
   },
-  "Assembly":{
+  "unicycler":{
     "name": "{rule}.{sample}.{pipeline_version}",
     "time": "22:00:00",
-    "qos" : "normal",
-    "queue": "main",
+    "qos" : "long",
+    "queue": "genD",
+    "mem": 1024
+  },
+  "produce_final_assembly":{
+    "name": "{rule}.{sample}.{pipeline_version}",
+    "time": "00:10:00",
+    "queue": "genD",
+    "qos": "vshort"
   },
   "MLST":{
     "name": "{rule}.{sample}.{pipeline_version}",
-    "queue": "genB,main",
-    "time": "0:05:00" 
+    "queue": "genD",
+    "time": "0:05:00",
+    "qos": "test"
   },
   "centrifuge":{
     "name": "{rule}.{sample}.{pipeline_version}",
-    "queue": "genB,main",
+    "queue": "genD",
     "time": "3:00:00",
     "qos": "normal"
   },
-  "Annotation":{
+  "Prokka":{
     "name": "{rule}.{sample}.{pipeline_version}",
     "time": "1:00:00",
-    "queue": "genB,main"
+    "queue": "genD",
+    "qos": "vshort"
+  },
+  "RGI":{
+    "name": "{rule}.{sample}.{pipeline_version}",
+    "time": "1:00:00",
+    "queue": "genD",
+    "qos": "vshort"
   },
   "AMRFinder":{
     "name": "{rule}.{sample}.{pipeline_version}",
     "time": "1:00:00",
-    "queue": "genB,main"
+    "queue": "genD",
+    "qos": "vshort"
   },
   "resfinder":{
     "name": "{rule}.{sample}.{pipeline_version}",
     "time": "1:00:00",
-    "queue": "genB,main"
+    "queue": "genD",
+    "qos": "vshort"
   },
   "IS_Finder":{
     "name": "{rule}.{sample}.{pipeline_version}",
     "time": "1:00:00",
-    "queue": "genB,main"
+    "queue": "genD",
+    "qos": "vshort"
   }
 }

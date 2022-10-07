@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/bin/env perl
 
 #Author: Jessica Gomez-Garrido, CNAG-CRG.
 #Contact email: jessica.gomez@cnag.crg.eu

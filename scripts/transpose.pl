@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
 
-#Author: Tyler Alioto
 while(<>){
         $_=~ tr/\n//d;
         @arr=split("\t",$_);

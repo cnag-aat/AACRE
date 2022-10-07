@@ -1,8 +1,12 @@
 #!/usr/bin/env perl
-
-##Author: Tyler Alioto
 use strict;
 use Getopt::Long;
+use Cwd 'abs_path';
+use File::Basename;
+
+my $script = abs_path($0);
+my $dir = dirname($script);
+
 my $genome_size = 0; 
 my $ass = '';
 my $std = 0;
@@ -25,7 +29,7 @@ my $smallest = 0;
 my $assembly_size = 0;
 my $cov = 0;
 my $ps = 0;
-open OUT,"|transpose.pl";
+open OUT,"|$dir/transpose.pl";
 #open OUT,*STDOUT;
 if ($fosmid_sim) {
   $ass=~/p(\d+)_(\d+)/;
